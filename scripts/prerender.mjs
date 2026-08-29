@@ -42,6 +42,11 @@ function headDegistir(sablon, { title, description, canonical, image, jsonLd = [
     `<meta name="description" content="${kacis(description)}" />`,
   )
 
+  // Sablondaki canonical SILINIR. Yoksa asagida eklenen sayfaya ozel canonical'in
+  // yaninda ikinci bir canonical kalir ve arama motoru ilkini (ana sayfayi) secer:
+  // her sayfa ana sayfaya kanoniklenir. Bu, canonical hic olmamasindan KOTUDUR.
+  html = html.replace(/<link\s+rel="canonical"[^>]*>\s*/gi, '')
+
   const ekEtiketler = [
     `<link rel="canonical" href="${kacis(canonical)}" />`,
     `<meta name="robots" content="${noindex ? 'noindex, follow' : 'index, follow'}" />`,
