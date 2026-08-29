@@ -58,7 +58,18 @@ function headDegistir(sablon, { title, description, canonical, image, jsonLd = [
     `<meta name="twitter:card" content="summary_large_image" />`,
     `<meta name="twitter:title" content="${kacis(title)}" />`,
     `<meta name="twitter:description" content="${kacis(description)}" />`,
-    ...jsonLd.map((o) => `<script type="application/ld+json">${jsonLdYaz(o)}</script>`),
+    // ID'ler useSeo.js'teki setJsonLd() ile AYNI olmali. Aksi halde React hidrasyonda
+    // bloklari bulamaz ve YENISINI ekler; sayfada iki FAQPage, iki Service ve iki
+    // BreadcrumbList olusur. Ayni id kullanildiginda useSeo mevcut blogu gunceller.
+    // (Ayni sinif hata canonical'da da yasandi: sablondaki etiket silinmeyince ikilendi.)
+    ...jsonLd.map((o, i) => {
+      const tipler = []
+      for (const n of o['@graph'] || [o]) {
+        if (n && n['@type']) tipler.push(...[].concat(n['@type']))
+      }
+      const id = tipler.includes('BreadcrumbList') ? 'ld-breadcrumb' : i === 0 ? 'ld-page' : `ld-ek-${i}`
+      return `<script type="application/ld+json" id="${id}">${jsonLdYaz(o)}</script>`
+    }),
   ]
     .filter(Boolean)
     .join('\n    ')
