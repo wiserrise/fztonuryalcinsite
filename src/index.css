@@ -195,3 +195,21 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 
 /* Nav'dan bölüme kaydırırken sabit navbar'ın altında kalmasın diye offset */
 section[id] { scroll-margin-top: 90px; }
+
+/* ===== Reklam hizmet sayfaları (LandingPage) ===== */
+/* Mobil öncelikli: tek sütun. Masaüstünde form ilk ekranda metnin yanına gelir. */
+.landing-hero-grid { display: grid; grid-template-columns: 1fr; gap: 2.5rem; }
+.landing-kapanis { display: grid; grid-template-columns: 1fr; gap: 2.5rem; }
+
+@media (min-width: 992px) {
+  .landing-hero-grid { grid-template-columns: 1.15fr 0.85fr; gap: 3.5rem; align-items: start; }
+  .landing-kapanis { grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+}
+
+/* Dar ekranlarda sabit butonlar sayfanın sonundaki içeriği kapatmasın */
+@media (max-width: 991px) {
+  .landing-hero-form { margin-top: 0.5rem; }
+}
+
+/* Sabit CTA butonlarının altına denk gelen son bölüm için pay */
+main + .floating-container { pointer-events: auto; }

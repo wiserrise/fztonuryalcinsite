@@ -73,7 +73,7 @@ Vücudunuzu ağrısız ve güvenli bir şekilde güçlendirmek istiyorsanız sea
 
 📲 [**WhatsApp üzerinden iletişime geçebilirsiniz**](https://wa.me/905072949900?text=Merhaba,%20klinik%20pilates%20için%20bilgi%20almak%20istiyorum.)
 
-*Kadıköy klinik pilates ve Kozyatağı fizyoterapi arayışlarınızda, profesyonel eğitmenlerimizle yanınızdayız.*
+Değerlendirmenin nasıl ilerlediğini, kimler için uygun olduğunu ve seans akışını [Kadıköy klinik pilates sayfasında](/klinik-pilates-kadikoy) ayrıntılı olarak anlattık.
         `},{id:"serebral-palsi-rehabilitasyonu",title:"Serebral Palsi'de (SP) Güvenilir Fizyoterapi Yaklaşımı",category:"Nörolojik Rehabilitasyon",date:"Güncel Makale",excerpt:"Çocuklarımızın motor becerilerini ve bağımsızlığını destekleyen özel fizyoterapi uygulamaları.",content:`
 **Çocuğunuzun Gelişim Sürecinde Profesyonel Desteğe İhtiyacınız Var mı?**
 
@@ -145,7 +145,7 @@ Mahremiyetinize saygı duyan profesyonel pelvik taban değerlendirmesi için biz
 
 📲 [**WhatsApp üzerinden iletişime geçebilirsiniz**](https://wa.me/905072949900?text=Merhaba,%20Pelvik%20taban%20fizyoterapisi%20için%20bilgi%20almak%20istiyorum.)
 
-*Kadıköy pelvik taban fizyoterapisti arayışınızda, Kozyatağı merkezimizde mahremiyetinize saygılı çözümler sunuyoruz.*
+Değerlendirmenin nasıl ilerlediğini, mahremiyet ve onam konusunda izlenen yolu ve sık sorulanları [Kadıköy pelvik taban fizyoterapisi sayfasında](/pelvik-taban-kadikoy) ayrıntılı olarak anlattık.
         `},{id:"schroth-metodu-skolyoz",title:"Schroth Metodu İle Skolyozda 3 Boyutlu Düzeltme",category:"Eğitim & Egzersiz",date:"Güncel Makale",excerpt:"Omurga eğriliği (Skolyoz) kaderiniz değil. Kanıta dayalı Schroth egzersizleriyle duruşunuzu düzeltin.",content:`
 **Skolyozun İlerlemesinden veya Asimetrik Duruşunuzdan Endişeli misiniz?**
 
@@ -169,7 +169,7 @@ Detaylı postür analizi ve Schroth tedavisi sürecinizi planlamak için bize ul
 
 📲 [**WhatsApp üzerinden iletişime geçebilirsiniz**](https://wa.me/905072949900?text=Merhaba,%20Schroth%20skolyoz%20tedavisi%20için%20bilgi%20almak%20istiyorum.)
 
-*Kadıköy skolyoz tedavisi ve Kozyatağı Schroth metodu uzmanlığımızla omurga sağlığınız için yanınızdayız.*
+Değerlendirme süreci, çocuk ve yetişkinlerde hedef farkı, korse ile birlikte çalışma ve sık sorulanlar için [Kadıköy skolyoz fizyoterapisi sayfasına](/skolyoz-schroth-kadikoy) bakabilirsiniz.
         `},{id:"cene-eklemi-tme-tedavisi",title:"Çene Eklemi (TME) ve Diş Sıkma Tedavisi",category:"Fizyoterapi Uzmanlığı",date:"Güncel Makale",excerpt:"Gece diş sıkma, çeneden gelen klik sesi ve baş ağrılarına manuel terapi ile kalıcı çözüm.",content:`
 **Çenede Kilitlenme ve Baş Ağrısı Yaşıyor musunuz?**
 

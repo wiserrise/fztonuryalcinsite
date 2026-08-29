@@ -1,6 +1,9 @@
 import { useEffect } from 'react'
+import { SITE_URL } from '../config/site.js'
 
-export const SITE_URL = 'https://fztonuryalcin.com'
+// Adres tek yerde tanımlıdır (config/site.js); buradan yeniden dışa aktarılmasının
+// nedeni sayfaların halihazırda useSeo üzerinden içe aktarıyor olmasıdır.
+export { SITE_URL }
 export const DEFAULT_IMAGE = `${SITE_URL}/assets/onur-yalcin-portrait-Pdhc5rvj.jpg`
 
 // Ana sayfa (landing) SEO metni — index.html'deki statik değerlerle aynı tutulur,
@@ -71,11 +74,14 @@ function buildBreadcrumb(crumbs) {
  * JSON-LD etiketlerini günceller. SPA olduğu için her sayfa kendi SEO değerlerini set eder.
  * breadcrumbs: [{ name, url }] — url mutlak veya '/...' göreli olabilir.
  */
-export function useSeo({ title, description, canonical, ogType = 'website', image = DEFAULT_IMAGE, breadcrumbs, jsonLd }) {
+export function useSeo({ title, description, canonical, ogType = 'website', image = DEFAULT_IMAGE, breadcrumbs, jsonLd, noindex = false }) {
   const crumbsKey = breadcrumbs ? JSON.stringify(breadcrumbs) : ''
   const ldKey = jsonLd ? JSON.stringify(jsonLd) : ''
   useEffect(() => {
     if (title) document.title = title
+    // Teşekkür sayfası gibi arama sonuçlarında görünmemesi gereken sayfalar için.
+    // SPA olduğundan etiket, dizine girmesi gereken sayfaya geçilince geri alınır.
+    setMetaTag('name', 'robots', noindex ? 'noindex, follow' : 'index, follow')
     setMetaTag('name', 'description', description)
     setMetaTag('property', 'og:title', title)
     setMetaTag('property', 'og:description', description)
@@ -89,5 +95,5 @@ export function useSeo({ title, description, canonical, ogType = 'website', imag
     setCanonical(canonical)
     setJsonLd('ld-breadcrumb', buildBreadcrumb(breadcrumbs))
     setJsonLd('ld-page', jsonLd || null)
-  }, [title, description, canonical, ogType, image, crumbsKey, ldKey])
+  }, [title, description, canonical, ogType, image, crumbsKey, ldKey, noindex])
 }

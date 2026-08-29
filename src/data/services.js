@@ -1,5 +1,7 @@
 // Tedavi yaklaşımları — GBP işletme kategorilerine göre gruplu (hub-and-spoke).
-// Her kategorinin kendi sayfası: /tedavi-yaklasimlarimiz/<slug>. `blog` alanı ilgili yazıya linkler.
+// Her kategorinin kendi sayfası: /tedavi-yaklasimlarimiz/<slug>.
+// `sayfa` alanı varsa hizmetin kendi derin sayfasına, yoksa `blog` alanı ilgili yazıya linkler.
+// `sayfa` önceliklidir: derin hizmet sayfası, kısa blog yazısından daha iyi bir hedeftir.
 export const serviceCategories = [
   {
     "name": "Fizik Tedavi Kliniği",
@@ -13,12 +15,12 @@ export const serviceCategories = [
       {
         "name": "Schroth Metodu (3 Boyutlu Skolyoz Rehabilitasyonu)",
         "description": "Sertifikalı Schroth yöntemiyle omurga eğriliğine özel egzersiz, solunum ve postür programı.",
-        "blog": "schroth-metodu-skolyoz"
+        "sayfa": "/skolyoz-schroth-kadikoy"
       },
       {
         "name": "Skolyoz Egzersiz Programı",
         "description": "Omurga eğriliğine yönelik kişiye özel egzersiz, solunum ve postür çalışmaları.",
-        "blog": "schroth-metodu-skolyoz"
+        "sayfa": "/skolyoz-schroth-kadikoy"
       },
       {
         "name": "TME (Çene Eklemi) Disfonksiyonları ve Diş Sıkma",
@@ -158,17 +160,17 @@ export const serviceCategories = [
       {
         "name": "İleri Düzey Pelvik Taban Rehabilitasyonu",
         "description": "İdrar kaçırma, doğum sonrası dönem ve pelvik ağrıya yönelik biofeedback destekli fizyoterapi.",
-        "blog": "kadin-erkek-pelvik-taban"
+        "sayfa": "/pelvik-taban-kadikoy"
       },
       {
         "name": "Doğum Sonrası Fizyoterapi",
         "description": "Diastasis recti, pelvik taban ve postür toparlanmasına yönelik program.",
-        "blog": "kadin-erkek-pelvik-taban"
+        "sayfa": "/pelvik-taban-kadikoy"
       },
       {
         "name": "İdrar Kaçırma (İnkontinans) Fizyoterapisi",
         "description": "Pelvik taban kaslarına yönelik egzersiz ve biofeedback destekli çalışma.",
-        "blog": "kadin-erkek-pelvik-taban"
+        "sayfa": "/pelvik-taban-kadikoy"
       },
       {
         "name": "Lenfödem ve Manuel Lenf Drenajı",
@@ -251,12 +253,12 @@ export const serviceCategories = [
       {
         "name": "Klinik Pilates",
         "description": "Ağrı, yaralanma sonrası ve postür sorunlarında fizyoterapist kontrolünde kişiye özel pilates programı.",
-        "blog": "klinik-pilates"
+        "sayfa": "/klinik-pilates-kadikoy"
       },
       {
         "name": "Klinik Reformer Pilates",
         "description": "Fizyoterapist eşliğinde, değerlendirme sonrası kişiye özel reformer programı. Postür düzeltme ve core kuvvetlendirme.",
-        "blog": "klinik-pilates"
+        "sayfa": "/klinik-pilates-kadikoy"
       },
       {
         "name": "Mat Pilates",

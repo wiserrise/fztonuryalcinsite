@@ -6,6 +6,9 @@ import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { getCategoryBySlug, serviceCategories } from '../data/services.js'
 import { LOCATION, BRAND } from '../config/site.js'
 
+// Hizmetin gideceği yer: varsa kendi derin sayfası, yoksa ilgili blog yazısı.
+const hizmetYolu = (s) => s.sayfa || (s.blog ? `/blog/${s.blog}` : null)
+
 export default function KategoriPage() {
   const { slug } = useParams()
   const cat = getCategoryBySlug(slug)
@@ -25,7 +28,7 @@ export default function KategoriPage() {
             description: s.description,
             provider: { '@id': `${SITE_URL}/#clinic` },
             areaServed: LOCATION.district,
-            ...(s.blog ? { url: `${SITE_URL}/blog/${s.blog}` } : {}),
+            ...(hizmetYolu(s) ? { url: `${SITE_URL}${hizmetYolu(s)}` } : {}),
           },
         })),
       }
@@ -122,9 +125,9 @@ export default function KategoriPage() {
                   <p style={{ color: 'var(--text-light)', fontSize: '0.95rem', lineHeight: 1.65, flexGrow: 1 }}>
                     {s.description}
                   </p>
-                  {s.blog && (
+                  {hizmetYolu(s) && (
                     <Link
-                      to={`/blog/${s.blog}`}
+                      to={hizmetYolu(s)}
                       style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '0.9rem', marginTop: '1rem' }}
                     >
                       Detaylı bilgi →

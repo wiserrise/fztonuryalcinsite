@@ -6,6 +6,7 @@
 // rota (App.jsx) ve sitemap girdisi bu listeden otomatik üretilir.
 
 import { klinikPilatesIcerik, skolyozSchrothIcerik, pelvikTabanIcerik } from './landingContent.js'
+import { kozyatagiIcerik, sahrayiceditIcerik, erenkoyIcerik, suadiyeIcerik, bostanciIcerik } from './bolgeContent.js'
 import { belFitigiIcerik, boyunFitigiIcerik, norolojikRehabilitasyonIcerik, ameliyatSonrasiRehabilitasyonIcerik, dogumSonrasiFizyoterapiIcerik, ceneEklemiTmeIcerik, sporYaralanmalariIcerik, ofisCalisanlariFizyoterapiIcerik } from './hizmetContent.js'
 
 export const landings = [
@@ -29,6 +30,7 @@ export const landings = [
     konumMetni:
       'Klinik, Kadıköy Kozyatağı’nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Çalışmalar randevu ile planlanır.',
     ilgiliBaglantilar: [
+      { to: '/kozyatagi-fizyoterapist', label: 'Kozyatağı fizyoterapist' },
       { to: '/tedavi-yaklasimlarimiz/pilates-salonu', label: 'Pilates hizmetlerinin tamamı' },
       { to: '/blog/klinik-pilates', label: 'Klinik pilates yazısı' },
       { to: '/skolyoz-schroth-kadikoy', label: 'Skolyoz fizyoterapisi' },
@@ -54,6 +56,7 @@ export const landings = [
     konumMetni:
       'Klinik, Kadıköy Kozyatağı’nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Skolyoz programları düzenli takip gerektirdiği için seanslar randevu ile planlanır.',
     ilgiliBaglantilar: [
+      { to: '/sahrayicedit-fizyoterapist', label: 'Sahrayıcedit fizyoterapist' },
       { to: '/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi', label: 'Fizik tedavi hizmetleri' },
       { to: '/blog/schroth-metodu-skolyoz', label: 'Schroth metodu yazısı' },
       { to: '/klinik-pilates-kadikoy', label: 'Klinik pilates' },
@@ -81,6 +84,7 @@ export const landings = [
     konumMetni:
       'Klinik, Kadıköy Kozyatağı’nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır, bekleme salonunda yoğunluk oluşmayacak şekilde planlanır.',
     ilgiliBaglantilar: [
+      { to: '/sahrayicedit-fizyoterapist', label: 'Sahrayıcedit fizyoterapist' },
       { to: '/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi', label: 'Rehabilitasyon hizmetleri' },
       { to: '/blog/kadin-erkek-pelvik-taban', label: 'Pelvik taban yazısı' },
       { to: '/klinik-pilates-kadikoy', label: 'Klinik pilates' },
@@ -127,6 +131,11 @@ export const landings = [
             "to": "/tedavi-yaklasimlarimiz",
             "label": "Tedavi yaklaşımları"
         },
+    {
+        "to": "/kozyatagi-fizyoterapist",
+        "label": "Kozyatağı fizyoterapist"
+      },
+    
         {
             "to": "/iletisim",
             "label": "İletişim ve randevu"
@@ -172,6 +181,11 @@ export const landings = [
             "to": "/tedavi-yaklasimlarimiz",
             "label": "Tedavi yaklaşımlarımız"
         },
+    {
+        "to": "/erenkoy-fizyoterapist",
+        "label": "Erenköy fizyoterapist"
+      },
+    
         {
             "to": "/iletisim",
             "label": "Randevu ve iletişim"
@@ -218,6 +232,11 @@ export const landings = [
             "to": "/blog/serebral-palsi-rehabilitasyonu",
             "label": "Serebral palsi rehabilitasyonu"
         },
+    {
+        "to": "/bostanci-fizyoterapist",
+        "label": "Bostancı fizyoterapist"
+      },
+    
         {
             "to": "/iletisim",
             "label": "Randevu ve iletişim"
@@ -263,6 +282,11 @@ export const landings = [
             "to": "/tedavi-yaklasimlarimiz",
             "label": "Tedavi yaklaşımlarımız"
         },
+    {
+        "to": "/bostanci-fizyoterapist",
+        "label": "Bostancı fizyoterapist"
+      },
+    
         {
             "to": "/iletisim",
             "label": "Randevu ve iletişim"
@@ -310,6 +334,11 @@ export const landings = [
             "to": "/tedavi-yaklasimlarimiz",
             "label": "Tedavi yaklaşımlarımız"
         },
+    {
+        "to": "/sahrayicedit-fizyoterapist",
+        "label": "Sahrayıcedit fizyoterapist"
+      },
+    
         {
             "to": "/iletisim",
             "label": "Randevu ve iletişim"
@@ -352,6 +381,11 @@ export const landings = [
             "to": "/tedavi-yaklasimlarimiz",
             "label": "Tedavi yaklaşımlarımız"
         },
+    {
+        "to": "/erenkoy-fizyoterapist",
+        "label": "Erenköy fizyoterapist"
+      },
+    
         {
             "to": "/iletisim",
             "label": "İletişim ve randevu"
@@ -402,6 +436,11 @@ export const landings = [
             "to": "/tedavi-yaklasimlarimiz",
             "label": "Tedavi yaklaşımlarımız"
         },
+    {
+        "to": "/suadiye-fizyoterapist",
+        "label": "Suadiye fizyoterapist"
+      },
+    
         {
             "to": "/iletisim",
             "label": "İletişim ve randevu"
@@ -448,6 +487,11 @@ export const landings = [
             "to": "/tedavi-yaklasimlarimiz",
             "label": "Tedavi yaklaşımlarımız"
         },
+    {
+        "to": "/kozyatagi-fizyoterapist",
+        "label": "Kozyatağı fizyoterapist"
+      },
+    
         {
             "to": "/iletisim",
             "label": "İletişim ve randevu"
@@ -455,6 +499,256 @@ export const landings = [
     ],
     icerik: ofisCalisanlariFizyoterapiIcerik,
   },
+  {
+    "slug": "kozyatagi-fizyoterapist",
+    "servisAdi": "Kozyatağı Fizyoterapist",
+    "breadcrumbAdi": "Kozyatağı",
+    "odakKelime": "Kozyatağı fizyoterapist",
+    "gorsel": "/assets/service_spine_1777414148222-DHpcF96f.png",
+    "waMesaj": "Merhaba, Kozyatağı'nda değerlendirme randevusu almak istiyorum.",
+    "guvenMaddeleri": [
+      "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+      "Sertifikalı Schroth uygulayıcısı",
+      "Manuel terapi, klinik reformer pilates, pelvik taban rehabilitasyonu ve fasyal manipülasyon uygulamaları",
+      "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+      "Gülbahar Sokak, Ege Yıldız Sitesi No:15; Kozyatağı metrosuna yürüme mesafesi",
+      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+    ],
+    "araCtaBaslik": "Kozyatağı'ndaki klinikte değerlendirme randevusu",
+    "araCtaMetin": "Şikâyetinizin nereden geldiğini anlamak için bir değerlendirme görüşmesiyle başlayabilirsiniz. Program bu görüşmenin sonucuna göre kurulur; hazır bir egzersiz listesi üzerinden ilerlenmez.",
+    "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+    "ilgiliBaglantilar": [
+      {
+        "to": "/ofis-calisanlari-fizyoterapi-kadikoy",
+        "label": "Ofis çalışanları için fizyoterapi"
+      },
+      {
+        "to": "/bel-fitigi-kadikoy",
+        "label": "Bel fıtığı fizyoterapisi"
+      },
+      {
+        "to": "/boyun-fitigi-kadikoy",
+        "label": "Boyun fıtığı fizyoterapisi"
+      },
+      {
+        "to": "/klinik-pilates-kadikoy",
+        "label": "Klinik pilates"
+      },
+      {
+        "to": "/skolyoz-schroth-kadikoy",
+        "label": "Skolyoz fizyoterapisi"
+      },
+      {
+        "to": "/tedavi-yaklasimlarimiz",
+        "label": "Tedavi yaklaşımlarımız"
+      },
+      {
+        "to": "/iletisim",
+        "label": "İletişim ve randevu"
+      }
+    ],
+    icerik: kozyatagiIcerik,
+  },
+  {
+    "slug": "sahrayicedit-fizyoterapist",
+    "servisAdi": "Sahrayıcedit Fizyoterapist",
+    "breadcrumbAdi": "Sahrayıcedit",
+    "odakKelime": "Sahrayıcedit fizyoterapist",
+    "gorsel": "/assets/service_pelvis_1777414135511-D9MgfMHe.png",
+    "waMesaj": "Merhaba, Sahrayıcedit'ten değerlendirme randevusu almak istiyorum.",
+    "guvenMaddeleri": [
+      "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+      "Sertifikalı Schroth uygulayıcısı",
+      "Manuel terapi, klinik reformer pilates, pelvik taban rehabilitasyonu ve fasyal manipülasyon uygulamaları",
+      "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+      "Komşu mahalle Kozyatağı'nda klinik; Pazartesi-Cumartesi 09:00-21:00 randevu",
+      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+    ],
+    "araCtaBaslik": "Sahrayıcedit'ten kısa mesafede değerlendirme randevusu",
+    "araCtaMetin": "Çocuğunuzun duruşu, doğum sonrası dönem ya da ev içi yüklenmelere bağlı şikâyetler için değerlendirme görüşmesiyle başlayabilirsiniz. Program bu görüşmenin sonucuna göre kurulur.",
+    "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Sahrayıcedit'ten kısa mesafede, Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+    "ilgiliBaglantilar": [
+      {
+        "to": "/skolyoz-schroth-kadikoy",
+        "label": "Skolyoz fizyoterapisi"
+      },
+      {
+        "to": "/dogum-sonrasi-fizyoterapi-kadikoy",
+        "label": "Doğum sonrası fizyoterapi"
+      },
+      {
+        "to": "/pelvik-taban-kadikoy",
+        "label": "Pelvik taban rehabilitasyonu"
+      },
+      {
+        "to": "/norolojik-rehabilitasyon-kadikoy",
+        "label": "Nörolojik rehabilitasyon"
+      },
+      {
+        "to": "/kozyatagi-fizyoterapist",
+        "label": "Kozyatağı fizyoterapist"
+      },
+      {
+        "to": "/tedavi-yaklasimlarimiz",
+        "label": "Tedavi yaklaşımlarımız"
+      },
+      {
+        "to": "/iletisim",
+        "label": "İletişim ve randevu"
+      }
+    ],
+    icerik: sahrayiceditIcerik,
+  },
+  {
+    "slug": "erenkoy-fizyoterapist",
+    "servisAdi": "Erenköy Fizyoterapist",
+    "breadcrumbAdi": "Erenköy",
+    "odakKelime": "Erenköy fizyoterapist",
+    "gorsel": "/assets/service_jaw_1777414124523-DJBOEdbX.png",
+    "waMesaj": "Merhaba, Erenköy'den değerlendirme randevusu almak istiyorum.",
+    "guvenMaddeleri": [
+      "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+      "Manuel terapi ve fasyal manipülasyon uygulamaları",
+      "Klinik reformer pilates ve gövde kontrolü çalışmaları",
+      "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+      "Kozyatağı'ndaki klinik, metroya yürüme mesafesinde; Pazartesi-Cumartesi 09:00-21:00",
+      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+    ],
+    "araCtaBaslik": "Boyun, bel veya çene şikâyetiniz için değerlendirme",
+    "araCtaMetin": "Şikâyetinizin nereden geldiğini anlamak için bir değerlendirme görüşmesiyle başlayabilirsiniz. Program bu görüşmenin sonucuna göre kurulur; hazır bir egzersiz listesi üzerinden ilerlenmez.",
+    "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+    "ilgiliBaglantilar": [
+      {
+        "to": "/boyun-fitigi-kadikoy",
+        "label": "Boyun fıtığı fizyoterapisi"
+      },
+      {
+        "to": "/cene-eklemi-tme-kadikoy",
+        "label": "Çene eklemi fizyoterapisi"
+      },
+      {
+        "to": "/bel-fitigi-kadikoy",
+        "label": "Bel fıtığı fizyoterapisi"
+      },
+      {
+        "to": "/ofis-calisanlari-fizyoterapi-kadikoy",
+        "label": "Ofis çalışanları için fizyoterapi"
+      },
+      {
+        "to": "/kozyatagi-fizyoterapist",
+        "label": "Kozyatağı fizyoterapist"
+      },
+      {
+        "to": "/tedavi-yaklasimlarimiz",
+        "label": "Tedavi yaklaşımlarımız"
+      },
+      {
+        "to": "/iletisim",
+        "label": "İletişim ve randevu"
+      }
+    ],
+    icerik: erenkoyIcerik,
+  },
+  {
+    "slug": "suadiye-fizyoterapist",
+    "servisAdi": "Suadiye Fizyoterapist",
+    "breadcrumbAdi": "Suadiye",
+    "odakKelime": "Suadiye fizyoterapist",
+    "gorsel": "/assets/service_massage_1777414214813--M4NVrRI.png",
+    "waMesaj": "Merhaba, Suadiye'den spor kaynaklı bir şikâyet için değerlendirme randevusu almak istiyorum.",
+    "guvenMaddeleri": [
+      "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+      "Manuel terapi ve fasyal manipülasyon uygulamaları",
+      "Spora kademeli dönüş planı ölçütlerle ilerler, takvimle değil",
+      "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+      "Kozyatağı'ndaki klinik, metroya yürüme mesafesinde; Pazartesi-Cumartesi 09:00-21:00",
+      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+    ],
+    "araCtaBaslik": "Spor kaynaklı şikâyetiniz için değerlendirme",
+    "araCtaMetin": "Koşu, yürüyüş, tenis ya da salon çalışması sırasında ortaya çıkan bir şikâyet için değerlendirme görüşmesiyle başlayabilirsiniz. Dönüş planı ölçütlerle kurulur.",
+    "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+    "ilgiliBaglantilar": [
+      {
+        "to": "/spor-yaralanmalari-kadikoy",
+        "label": "Spor yaralanmaları rehabilitasyonu"
+      },
+      {
+        "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy",
+        "label": "Ameliyat sonrası rehabilitasyon"
+      },
+      {
+        "to": "/klinik-pilates-kadikoy",
+        "label": "Klinik pilates"
+      },
+      {
+        "to": "/bel-fitigi-kadikoy",
+        "label": "Bel fıtığı fizyoterapisi"
+      },
+      {
+        "to": "/kozyatagi-fizyoterapist",
+        "label": "Kozyatağı fizyoterapist"
+      },
+      {
+        "to": "/tedavi-yaklasimlarimiz",
+        "label": "Tedavi yaklaşımlarımız"
+      },
+      {
+        "to": "/iletisim",
+        "label": "İletişim ve randevu"
+      }
+    ],
+    icerik: suadiyeIcerik,
+  },
+  {
+    "slug": "bostanci-fizyoterapist",
+    "servisAdi": "Bostancı Fizyoterapist",
+    "breadcrumbAdi": "Bostancı",
+    "odakKelime": "Bostancı fizyoterapist",
+    "gorsel": "/assets/service_brain_1777414172516-CgYWeAD_.png",
+    "waMesaj": "Merhaba, Bostancı'dan değerlendirme randevusu almak istiyorum.",
+    "guvenMaddeleri": [
+      "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+      "Nörolojik ve ortopedik rehabilitasyon uygulamaları",
+      "Ameliyat sonrası programlar cerrahın protokolü çerçevesinde yürütülür",
+      "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+      "Kozyatağı'ndaki klinik, metroya yürüme mesafesinde; Pazartesi-Cumartesi 09:00-21:00",
+      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+    ],
+    "araCtaBaslik": "Uzun soluklu bir program için değerlendirme",
+    "araCtaMetin": "Nörolojik rehabilitasyon ya da ameliyat sonrası dönem için değerlendirme görüşmesiyle başlayabilirsiniz. Hedefler günlük yaşamdaki somut hareketler üzerinden konur.",
+    "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+    "ilgiliBaglantilar": [
+      {
+        "to": "/norolojik-rehabilitasyon-kadikoy",
+        "label": "Nörolojik rehabilitasyon"
+      },
+      {
+        "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy",
+        "label": "Ameliyat sonrası rehabilitasyon"
+      },
+      {
+        "to": "/klinik-pilates-kadikoy",
+        "label": "Klinik pilates"
+      },
+      {
+        "to": "/spor-yaralanmalari-kadikoy",
+        "label": "Spor yaralanmaları rehabilitasyonu"
+      },
+      {
+        "to": "/kozyatagi-fizyoterapist",
+        "label": "Kozyatağı fizyoterapist"
+      },
+      {
+        "to": "/tedavi-yaklasimlarimiz",
+        "label": "Tedavi yaklaşımlarımız"
+      },
+      {
+        "to": "/iletisim",
+        "label": "İletişim ve randevu"
+      }
+    ],
+    icerik: bostanciIcerik,
+  }
 ]
 
 export const getLandingBySlug = (slug) => landings.find((l) => l.slug === slug)

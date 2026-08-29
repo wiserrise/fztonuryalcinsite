@@ -7,16 +7,23 @@ import { dirname, resolve } from 'node:path'
 import { SITE_URL } from '../src/config/site.js'
 import { blogPosts } from '../src/data/blogPosts.js'
 import { serviceCategories } from '../src/data/services.js'
+import { landings } from '../src/data/landings.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
+// /randevu-talebiniz-alindi bilinçli olarak dışarıda: form gönderimi sonrası
+// gelinen teşekkür sayfası dizine girmemeli (noindex).
 const routes = [
   { path: '/', priority: '1.0' },
+  // Reklam trafiğinin düştüğü hizmet sayfaları, organik olarak da hedeflendiği için
+  // ana sayfadan sonraki en yüksek önceliğe sahip.
+  ...landings.map((l) => ({ path: `/${l.slug}`, priority: '0.9' })),
   { path: '/tedavi-yaklasimlarimiz', priority: '0.8' },
   { path: '/hakkimda', priority: '0.8' },
   { path: '/iletisim', priority: '0.8' },
   ...serviceCategories.map((c) => ({ path: `/tedavi-yaklasimlarimiz/${c.slug}`, priority: '0.7' })),
   ...blogPosts.map((p) => ({ path: `/blog/${p.id}`, priority: '0.6' })),
+  { path: '/gizlilik-politikasi', priority: '0.3' },
 ]
 
 const urls = routes

@@ -3,6 +3,12 @@ import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { serviceCategories } from '../data/services.js'
+import { landings } from '../data/landings.js'
+
+// Hub listeleri landings.js'ten TURETILIR; elle senkron tutulmaz.
+// Bolge sayfalari slug'i '-fizyoterapist' ile biter, hizmet sayfalari bitmez.
+const bolgeSayfalari = landings.filter((l) => l.slug.endsWith('-fizyoterapist'))
+const hizmetSayfalari = landings.filter((l) => !l.slug.endsWith('-fizyoterapist'))
 
 export default function TedaviYaklasimlari() {
   useSeo({
@@ -72,6 +78,57 @@ export default function TedaviYaklasimlari() {
                   <span style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '0.95rem', marginTop: '1.25rem' }}>
                     İncele →
                   </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="section" style={{ backgroundColor: 'var(--surface)', padding: '4rem 0' }}>
+          <div className="container">
+            <h2 className="section-title">Hizmet Sayfalarımız</h2>
+            <p style={{ textAlign: 'center', color: 'var(--text-light)', maxWidth: 760, margin: '0 auto 3rem' }}>
+              Her başlık için değerlendirmenin nasıl ilerlediğini, hangi yaklaşımların kullanıldığını ve
+              sık sorulanları ayrıntılı olarak anlattığımız sayfalar.
+            </p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem' }}>
+              {hizmetSayfalari.map((l) => (
+                <Link
+                  key={l.slug}
+                  to={`/${l.slug}`}
+                  style={{
+                    display: 'block', padding: '1.25rem 1.5rem', borderRadius: 'var(--radius)',
+                    backgroundColor: 'var(--background)', boxShadow: 'var(--shadow)',
+                    color: 'var(--primary)', fontWeight: 600, transition: 'var(--transition)',
+                  }}
+                >
+                  {l.servisAdi}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="section" style={{ padding: '4rem 0' }}>
+          <div className="container">
+            <h2 className="section-title">Hizmet Verdiğimiz Bölgeler</h2>
+            <p style={{ textAlign: 'center', color: 'var(--text-light)', maxWidth: 760, margin: '0 auto 3rem' }}>
+              Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresinde ve
+              Kozyatağı metro istasyonuna yürüme mesafesinde. Aşağıdaki sayfalarda her bölgeden ulaşım ve
+              o bölgede öne çıkan başlıklar anlatılıyor.
+            </p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem' }}>
+              {bolgeSayfalari.map((l) => (
+                <Link
+                  key={l.slug}
+                  to={`/${l.slug}`}
+                  style={{
+                    display: 'block', padding: '1.25rem 1.5rem', borderRadius: 'var(--radius)',
+                    backgroundColor: 'var(--surface)', boxShadow: 'var(--shadow)',
+                    color: 'var(--primary)', fontWeight: 600, transition: 'var(--transition)',
+                  }}
+                >
+                  {l.breadcrumbAdi} Fizyoterapist
                 </Link>
               ))}
             </div>
