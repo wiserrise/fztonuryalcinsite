@@ -189,6 +189,24 @@ export default function LandingPage({ slug: slugProp }) {
         {/* Gövde bölümleri */}
         <section className="section" style={{ padding: '4rem 0 1rem' }}>
           <div className="container" style={{ maxWidth: 860 }}>
+            {/*
+              Sayfa kapak kartı (w7-gorsel). `gorsel` aynı zamanda og:image'dir; kart 1200x630
+              olduğu için ikisi tek dosyadan beslenir. width/height CLS için sabit; alt metin
+              kartı gerçekten tarif eder (görsel bir fotoğraf değil, bilgi kartıdır).
+            */}
+            {landing.gorsel && (
+              <figure style={{ margin: '0 0 3rem' }}>
+                <img
+                  src={landing.gorsel}
+                  alt={landing.gorselAlt || `${landing.breadcrumbAdi}, ${BRAND}`}
+                  width="1200"
+                  height="630"
+                  loading="eager"
+                  fetchPriority="high"
+                  style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow-lg)' }}
+                />
+              </figure>
+            )}
             {icerik.bolumler.map((b, i) => (
               <div key={b.h2} style={{ marginBottom: '3rem' }}>
                 <h2 style={{ fontSize: 'clamp(1.35rem, 2.5vw, 1.7rem)', marginBottom: '1.1rem', lineHeight: 1.3 }}>{b.h2}</h2>

@@ -17,7 +17,8 @@ export const landings = [
     // scripts/seo-check.mjs bu kelimenin URL, title, meta, H1 ve ilk cümlede
     // birebir geçtiğini doğrular.
     odakKelime: 'Kadıköy klinik pilates',
-    gorsel: '/assets/service_pilates_1777414185694-D-Q3Xu1l.png',
+    gorsel: '/assets/kart-klinik-pilates-kadikoy.jpg',
+    gorselAlt: 'Kadıköy Klinik Pilates bilgi kartı: klinik pilates, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın',
     waMesaj: 'Merhaba, Kadıköy klinik pilates için randevu ve bilgi almak istiyorum.',
     guvenMaddeleri: [
       'Dersi fizyoterapist yönetir, program değerlendirme sonrası kurulur',
@@ -43,7 +44,8 @@ export const landings = [
     servisAdi: 'Skolyoz Fizyoterapisi (Schroth Metodu)',
     breadcrumbAdi: 'Kadıköy Skolyoz Fizyoterapisi',
     odakKelime: 'Kadıköy skolyoz fizyoterapisi',
-    gorsel: '/assets/service_spine_1777414148222-DHpcF96f.png',
+    gorsel: '/assets/kart-skolyoz-schroth-kadikoy.jpg',
+    gorselAlt: 'Kadıköy Skolyoz Fizyoterapisi bilgi kartı: skolyoz fizyoterapisi (schroth metodu), Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın',
     waMesaj: 'Merhaba, Kadıköy skolyoz fizyoterapisi ve Schroth metodu için bilgi almak istiyorum.',
     guvenMaddeleri: [
       'Sertifikalı Schroth yaklaşımıyla eğrilik tipine göre kurgulanan program',
@@ -69,7 +71,8 @@ export const landings = [
     servisAdi: 'Pelvik Taban Fizyoterapisi',
     breadcrumbAdi: 'Kadıköy Pelvik Taban Fizyoterapisi',
     odakKelime: 'Kadıköy pelvik taban fizyoterapisi',
-    gorsel: '/assets/service_pelvis_1777414135511-D9MgfMHe.png',
+    gorsel: '/assets/kart-pelvik-taban-kadikoy.jpg',
+    gorselAlt: 'Kadıköy Pelvik Taban Fizyoterapisi bilgi kartı: pelvik taban fizyoterapisi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın',
     waMesaj: 'Merhaba, Kadıköy pelvik taban fizyoterapisi için bilgi almak istiyorum.',
     // Bu sayfaya gelen kişinin ilk tereddüdü mahremiyet. Güven maddeleri bu yüzden
     // hizmet özelliği değil, sürecin nasıl yürüdüğü üzerine kuruldu.
@@ -97,7 +100,8 @@ export const landings = [
     "servisAdi": "Bel Fıtığı Fizyoterapisi",
     "breadcrumbAdi": "Bel Fıtığı Fizyoterapisi",
     "odakKelime": "Kadıköy bel fıtığı fizyoterapisi",
-    "gorsel": "/assets/service_spine_1777414148222-DHpcF96f.png",
+    "gorsel": "/assets/kart-bel-fitigi-kadikoy.jpg",
+    "gorselAlt": "Bel Fıtığı Fizyoterapisi bilgi kartı: bel fıtığı fizyoterapisi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, bele ve bacağa vuran ağrım için Kadıköy Kozyatağı'ndaki klinikte randevu almak istiyorum.",
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın",
@@ -148,7 +152,8 @@ export const landings = [
     "servisAdi": "Boyun Fıtığı Fizyoterapisi",
     "breadcrumbAdi": "Boyun Fıtığı Fizyoterapisi",
     "odakKelime": "Kadıköy boyun fıtığı fizyoterapisi",
-    "gorsel": "/assets/service_fascia_1777414111074-DajpwbWj.png",
+    "gorsel": "/assets/kart-boyun-fitigi-kadikoy.jpg",
+    "gorselAlt": "Boyun Fıtığı Fizyoterapisi bilgi kartı: boyun fıtığı fizyoterapisi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Kadıköy boyun fıtığı fizyoterapisi için randevu almak istiyorum. Boynumdan koluma yayılan bir şikâyetim var, uygun gün ve saatleri öğrenebilir miyim?",
     "guvenMaddeleri": [
         "Süreç, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın tarafından yürütülür.",
@@ -198,7 +203,8 @@ export const landings = [
     "servisAdi": "Nörolojik Rehabilitasyon",
     "breadcrumbAdi": "Nörolojik Rehabilitasyon",
     "odakKelime": "Kadıköy nörolojik rehabilitasyon",
-    "gorsel": "/assets/service_brain_1777414172516-CgYWeAD_.png",
+    "gorsel": "/assets/kart-norolojik-rehabilitasyon-kadikoy.jpg",
+    "gorselAlt": "Nörolojik Rehabilitasyon bilgi kartı: nörolojik rehabilitasyon, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Kadıköy nörolojik rehabilitasyon hakkında bilgi almak ve değerlendirme randevusu oluşturmak istiyorum.",
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
@@ -249,7 +255,8 @@ export const landings = [
     "servisAdi": "Ameliyat Sonrası Rehabilitasyon",
     "breadcrumbAdi": "Ameliyat Sonrası Rehabilitasyon",
     "odakKelime": "Kadıköy ameliyat sonrası rehabilitasyon",
-    "gorsel": "/assets/service_massage_1777414214813--M4NVrRI.png",
+    "gorsel": "/assets/kart-ameliyat-sonrasi-rehabilitasyon-kadikoy.jpg",
+    "gorselAlt": "Ameliyat Sonrası Rehabilitasyon bilgi kartı: ameliyat sonrası rehabilitasyon, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, ameliyat sonrası rehabilitasyon için randevu almak istiyorum.",
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın tarafından yürütülür",
@@ -299,7 +306,8 @@ export const landings = [
     "servisAdi": "Doğum Sonrası Fizyoterapi",
     "breadcrumbAdi": "Doğum Sonrası Fizyoterapi",
     "odakKelime": "Kadıköy doğum sonrası fizyoterapi",
-    "gorsel": "/assets/service_pelvis_1777414135511-D9MgfMHe.png",
+    "gorsel": "/assets/kart-dogum-sonrasi-fizyoterapi-kadikoy.jpg",
+    "gorselAlt": "Doğum Sonrası Fizyoterapi bilgi kartı: doğum sonrası fizyoterapi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Kadıköy doğum sonrası fizyoterapi hakkında bilgi almak ve randevu oluşturmak istiyorum.",
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
@@ -351,7 +359,8 @@ export const landings = [
     "servisAdi": "Çene Eklemi (TME) Fizyoterapisi",
     "breadcrumbAdi": "Çene Eklemi (TME) Fizyoterapisi",
     "odakKelime": "Kadıköy çene eklemi fizyoterapisi",
-    "gorsel": "/assets/service_jaw_1777414124523-DJBOEdbX.png",
+    "gorsel": "/assets/kart-cene-eklemi-tme-kadikoy.jpg",
+    "gorselAlt": "Çene Eklemi (TME) Fizyoterapisi bilgi kartı: çene eklemi (tme) fizyoterapisi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, çene eklemi (TME) şikâyetim için Kadıköy Kozyatağı'ndaki klinikte randevu almak istiyorum.",
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın tarafından yürütülür.",
@@ -398,7 +407,8 @@ export const landings = [
     "servisAdi": "Spor Yaralanmaları Rehabilitasyonu",
     "breadcrumbAdi": "Spor Yaralanmaları Rehabilitasyonu",
     "odakKelime": "Kadıköy spor yaralanmaları rehabilitasyonu",
-    "gorsel": "/assets/service_lungs_1777414161253-Bzd3vuv0.png",
+    "gorsel": "/assets/kart-spor-yaralanmalari-kadikoy.jpg",
+    "gorselAlt": "Spor Yaralanmaları Rehabilitasyonu bilgi kartı: spor yaralanmaları rehabilitasyonu, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Kadıköy spor yaralanmaları rehabilitasyonu hakkında bilgi almak ve randevu için uygun bir saat öğrenmek istiyorum.",
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
@@ -453,7 +463,8 @@ export const landings = [
     "servisAdi": "Ofis Çalışanları için Fizyoterapi",
     "breadcrumbAdi": "Ofis Çalışanları için Fizyoterapi",
     "odakKelime": "Kadıköy ofis çalışanları fizyoterapisi",
-    "gorsel": "/assets/bright_spine_pelvis_bg_1777499565222-BelRaMM7.png",
+    "gorsel": "/assets/kart-ofis-calisanlari-fizyoterapi-kadikoy.jpg",
+    "gorselAlt": "Ofis Çalışanları için Fizyoterapi bilgi kartı: ofis çalışanları için fizyoterapi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, masa başı çalışmaya bağlı boyun, omuz ve bel şikâyetlerim için değerlendirme randevusu almak istiyorum.",
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
@@ -504,7 +515,8 @@ export const landings = [
     "servisAdi": "Kozyatağı Fizyoterapist",
     "breadcrumbAdi": "Kozyatağı",
     "odakKelime": "Kozyatağı fizyoterapist",
-    "gorsel": "/assets/service_spine_1777414148222-DHpcF96f.png",
+    "gorsel": "/assets/kart-kozyatagi-fizyoterapist.jpg",
+    "gorselAlt": "Kozyatağı fizyoterapist sayfa kartı: Kozyatağı Kadıköy'deki klinikten hizmet, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Kozyatağı'nda değerlendirme randevusu almak istiyorum.",
     "guvenMaddeleri": [
       "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
@@ -554,7 +566,8 @@ export const landings = [
     "servisAdi": "Sahrayıcedit Fizyoterapist",
     "breadcrumbAdi": "Sahrayıcedit",
     "odakKelime": "Sahrayıcedit fizyoterapist",
-    "gorsel": "/assets/service_pelvis_1777414135511-D9MgfMHe.png",
+    "gorsel": "/assets/kart-sahrayicedit-fizyoterapist.jpg",
+    "gorselAlt": "Sahrayıcedit fizyoterapist sayfa kartı: Kozyatağı Kadıköy'deki klinikten hizmet, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Sahrayıcedit'ten değerlendirme randevusu almak istiyorum.",
     "guvenMaddeleri": [
       "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
@@ -604,7 +617,8 @@ export const landings = [
     "servisAdi": "Erenköy Fizyoterapist",
     "breadcrumbAdi": "Erenköy",
     "odakKelime": "Erenköy fizyoterapist",
-    "gorsel": "/assets/service_jaw_1777414124523-DJBOEdbX.png",
+    "gorsel": "/assets/kart-erenkoy-fizyoterapist.jpg",
+    "gorselAlt": "Erenköy fizyoterapist sayfa kartı: Kozyatağı Kadıköy'deki klinikten hizmet, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Erenköy'den değerlendirme randevusu almak istiyorum.",
     "guvenMaddeleri": [
       "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
@@ -654,7 +668,8 @@ export const landings = [
     "servisAdi": "Suadiye Fizyoterapist",
     "breadcrumbAdi": "Suadiye",
     "odakKelime": "Suadiye fizyoterapist",
-    "gorsel": "/assets/service_massage_1777414214813--M4NVrRI.png",
+    "gorsel": "/assets/kart-suadiye-fizyoterapist.jpg",
+    "gorselAlt": "Suadiye fizyoterapist sayfa kartı: Kozyatağı Kadıköy'deki klinikten hizmet, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Suadiye'den spor kaynaklı bir şikâyet için değerlendirme randevusu almak istiyorum.",
     "guvenMaddeleri": [
       "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
@@ -704,7 +719,8 @@ export const landings = [
     "servisAdi": "Bostancı Fizyoterapist",
     "breadcrumbAdi": "Bostancı",
     "odakKelime": "Bostancı fizyoterapist",
-    "gorsel": "/assets/service_brain_1777414172516-CgYWeAD_.png",
+    "gorsel": "/assets/kart-bostanci-fizyoterapist.jpg",
+    "gorselAlt": "Bostancı fizyoterapist sayfa kartı: Kozyatağı Kadıköy'deki klinikten hizmet, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Bostancı'dan değerlendirme randevusu almak istiyorum.",
     "guvenMaddeleri": [
       "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
