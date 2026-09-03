@@ -512,6 +512,7 @@ export const landings = [
   },
   {
     "slug": "kozyatagi-fizyoterapist",
+    "semt": "Kozyatağı",
     "servisAdi": "Kozyatağı Fizyoterapist",
     "breadcrumbAdi": "Kozyatağı",
     "odakKelime": "Kozyatağı fizyoterapist",
@@ -563,6 +564,7 @@ export const landings = [
   },
   {
     "slug": "sahrayicedit-fizyoterapist",
+    "semt": "Sahrayıcedit",
     "servisAdi": "Sahrayıcedit Fizyoterapist",
     "breadcrumbAdi": "Sahrayıcedit",
     "odakKelime": "Sahrayıcedit fizyoterapist",
@@ -614,6 +616,7 @@ export const landings = [
   },
   {
     "slug": "erenkoy-fizyoterapist",
+    "semt": "Erenköy",
     "servisAdi": "Erenköy Fizyoterapist",
     "breadcrumbAdi": "Erenköy",
     "odakKelime": "Erenköy fizyoterapist",
@@ -665,6 +668,7 @@ export const landings = [
   },
   {
     "slug": "suadiye-fizyoterapist",
+    "semt": "Suadiye",
     "servisAdi": "Suadiye Fizyoterapist",
     "breadcrumbAdi": "Suadiye",
     "odakKelime": "Suadiye fizyoterapist",
@@ -716,6 +720,7 @@ export const landings = [
   },
   {
     "slug": "bostanci-fizyoterapist",
+    "semt": "Bostancı",
     "servisAdi": "Bostancı Fizyoterapist",
     "breadcrumbAdi": "Bostancı",
     "odakKelime": "Bostancı fizyoterapist",

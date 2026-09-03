@@ -32,11 +32,23 @@ export function landingJsonLd(landing) {
         description: icerik.metaDescription,
         serviceType: landing.servisAdi,
         provider: { '@id': `${SITE_URL}/#clinic` },
-        areaServed: {
-          '@type': 'AdministrativeArea',
-          name: LOCATION.district,
-          containedInPlace: { '@type': 'City', name: LOCATION.city },
-        },
+        // Bölge sayfasında hizmet alanı semttir (w8-schema); ilçe ve il zincirde kalır.
+        // Hizmet sayfalarında ilçe. Tek klinik entity'si (#clinic) değişmez.
+        areaServed: landing.semt
+          ? {
+              '@type': 'Place',
+              name: landing.semt,
+              containedInPlace: {
+                '@type': 'AdministrativeArea',
+                name: LOCATION.district,
+                containedInPlace: { '@type': 'City', name: LOCATION.city },
+              },
+            }
+          : {
+              '@type': 'AdministrativeArea',
+              name: LOCATION.district,
+              containedInPlace: { '@type': 'City', name: LOCATION.city },
+            },
         url,
       },
       {
