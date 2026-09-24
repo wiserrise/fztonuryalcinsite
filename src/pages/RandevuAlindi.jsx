@@ -11,11 +11,11 @@ import FloatingCta from '../components/Cta.jsx'
 import { PhoneButton, WhatsAppButton } from '../components/Cta.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { trackFormSubmit } from '../lib/tracking.js'
-import { BRAND, CALISMA_SAATLERI } from '../config/site.js'
+import { BRAND, BRAND_KISA, CALISMA_SAATLERI } from '../config/site.js'
 
 export default function RandevuAlindi() {
   useSeo({
-    title: `Randevu Talebiniz Alındı | ${BRAND}`,
+    title: `Randevu Talebiniz Alındı | ${BRAND_KISA}`,
     description: 'Randevu talebiniz kliniğimize ulaştı. En kısa sürede sizinle iletişime geçeceğiz.',
     canonical: `${SITE_URL}/randevu-talebiniz-alindi`,
     noindex: true,

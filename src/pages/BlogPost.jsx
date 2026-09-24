@@ -6,7 +6,20 @@ import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { getPostById, blogPosts } from '../data/blogPosts.js'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
+import { BRAND_KISA } from '../config/site.js'
 import { useSectionNav } from '../hooks/useSectionNav.js'
+
+// Yazı gövdesindeki site içi bağlantılar tam sayfa yenilemesi yapmasın diye
+// router bağlantısına çevrilir. Dış bağlantılar (WhatsApp, kurum siteleri)
+// olduğu gibi kalır ve yeni sekmede açılır.
+const markdownBilesenleri = {
+  a: ({ href = '', children, ...rest }) => {
+    if (href.startsWith('/')) {
+      return <Link to={href} {...rest}>{children}</Link>
+    }
+    return <a href={href} target="_blank" rel="noopener noreferrer" {...rest}>{children}</a>
+  },
+}
 
 export default function BlogPost() {
   const { id } = useParams()
@@ -15,8 +28,8 @@ export default function BlogPost() {
 
   useSeo({
     title: post
-      ? `${post.title} | Fizyoterapist Onur Yalçın – Kadıköy Kozyatağı`
-      : 'Yazı bulunamadı | Fizyoterapist Onur Yalçın',
+      ? `${post.title} | ${BRAND_KISA}`
+      : `Yazı bulunamadı | ${BRAND_KISA}`,
     description: post
       ? `${post.excerpt} Kadıköy Kozyatağı fizyoterapist Onur Yalçın.`
       : 'Aradığınız blog yazısı bulunamadı.',
@@ -49,7 +62,14 @@ export default function BlogPost() {
     )
   }
 
-  const related = blogPosts.filter((p) => p.id !== post.id).slice(0, 3)
+  // Yazının kendi belirttiği kardeş yazılar varsa onlar gösterilir; yoksa eski
+  // davranış korunur (listenin başındaki üç yazı).
+  const secilmis = (post.ilgili || [])
+    .map((pid) => blogPosts.find((p) => p.id === pid))
+    .filter((p) => p && p.id !== post.id)
+  const related = secilmis.length > 0
+    ? secilmis
+    : blogPosts.filter((p) => p.id !== post.id).slice(0, 3)
 
   return (
     <>
@@ -93,7 +113,7 @@ export default function BlogPost() {
       {/* İçerik */}
       <div className="container" style={{ maxWidth: 820, padding: '4rem 1.5rem' }}>
         <div className="blog-content">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownBilesenleri}>{post.content}</ReactMarkdown>
         </div>
 
         <div
@@ -106,7 +126,7 @@ export default function BlogPost() {
             textAlign: 'center',
           }}
         >
-          <h3 style={{ marginBottom: '1rem' }}>Randevu ve Bilgi İçin</h3>
+          <h2 style={{ fontSize: '1.17rem', marginBottom: '1rem' }}>Randevu ve Bilgi İçin</h2>
           <a
             href="https://wa.me/905072949900?text=Merhaba,%20web%20sitenizden%20ulaşıyorum.%20Randevu/bilgi%20almak%20istiyorum."
             className="btn btn-primary"
@@ -120,7 +140,7 @@ export default function BlogPost() {
         {/* İlgili yazılar */}
         {related.length > 0 && (
           <div style={{ marginTop: '4rem' }}>
-            <h3 style={{ marginBottom: '1.5rem' }}>Diğer Yazılar</h3>
+            <h2 style={{ fontSize: '1.17rem', marginBottom: '1.5rem' }}>Diğer Yazılar</h2>
             <div style={{ display: 'grid', gap: '1rem' }}>
               {related.map((p) => (
                 <Link

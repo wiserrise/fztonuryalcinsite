@@ -13,15 +13,18 @@
 
 export const GOOGLE_ADS_ID = 'AW-18117600871'
 
-// Panelde iki ayrı dönüşüm işlemi tanımlı, ikisi de "Kişi" hedefine bağlı:
-//   "Site - Telefon ve WhatsApp Tiklamasi"  -> telefon + WhatsApp (tek etiket)
-//   "Site - Randevu Formu"                  -> form gönderimi (ayrı etiket)
-// Böylece raporda kanallar ayrı görünür, teklif optimizasyonu birleşik sinyalle çalışır.
+// 2026-09-09 GÜNCELLEME: panelde telefon ve WhatsApp AYRI dönüşüm işlemleri olarak
+// yeniden tanımlandı (ikisi de "Kişi" hedefi altında BİRİNCİL). Önceki kurulumda ikisi
+// tek etiketi paylaşıyordu; artık ayrı etiketleri var, böylece raporda hangi kanalın
+// dönüştürdüğü görünüyor. Kaynak: Google Ads hesabı 356-711-5672.
+//   "WhatsApp Tıklaması"  -> a4AdCKqhw_EcEOfMkr9D
+//   "Telefon Tıklaması"   -> KIAbCK2hw_EcEOfMkr9D
+//   "Site - Randevu Formu" -> vOuoCMm79uYcEOfMkr9D (değişmedi)
 export const CONVERSION_LABELS = {
   // WhatsApp butonuna tıklama (birincil dönüşüm)
-  whatsapp_click: 'S3qhCIG0wuUcEOfMkr9D',
+  whatsapp_click: 'a4AdCKqhw_EcEOfMkr9D',
   // Telefon numarasına tıklama (mobilde arama başlatır)
-  phone_click: 'S3qhCIG0wuUcEOfMkr9D',
+  phone_click: 'KIAbCK2hw_EcEOfMkr9D',
   // İletişim / randevu formunun gönderilmesi.
   // Formlar formsubmit.co'ya POST edip `_next` ile /randevu-talebiniz-alindi
   // sayfasına döner; dönüşüm o sayfada (RandevuAlindi.jsx) bildirilir.

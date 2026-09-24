@@ -7,7 +7,7 @@ import { dirname, resolve } from 'node:path'
 import { SITE_URL } from '../src/config/site.js'
 import { blogPosts } from '../src/data/blogPosts.js'
 import { serviceCategories } from '../src/data/services.js'
-import { landings } from '../src/data/landings.js'
+import { landings } from '../src/data/landingsTam.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 

@@ -5,10 +5,14 @@
 // ölçülür ve aynı tıklama iki kez sayılmaz. Buradaki data-cta-source niteliği
 // dönüşümün hangi bölümden geldiğini bildirir.
 
-import { PHONE } from '../config/site.js'
+import { PHONE, NAP } from '../config/site.js'
 
 export const PHONE_HREF = 'tel:+905072949900'
 const WA_BASE = 'https://wa.me/905072949900'
+
+// Google Haritalar yol tarifi: koordinat değil, işletme adı + tam adres verilir ki
+// harita profili kaydın kendisine (GBP) eşlesin, yalnızca bir noktaya değil.
+export const YOL_TARIFI_HREF = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${NAP.isim}, ${NAP.adres}`)}`
 
 /** Verilen mesajla WhatsApp bağlantısı üretir. */
 export function waHref(mesaj) {
@@ -69,10 +73,10 @@ export function PhoneButton({ source, children, className = 'btn btn-outline', s
  * Görünümü ana sayfadaki özgün haliyle birebir aynıdır; ayrı bileşene alınmasının
  * nedeni reklam sayfalarında da kullanılabilmesidir.
  */
-export default function FloatingCta({ source = 'sabit-buton', mesaj }) {
+export default function FloatingCta({ source = 'sabit-buton', mesaj, className = '' }) {
   return (
     <div
-      className="floating-container"
+      className={`floating-container ${className}`.trim()}
       data-cta-source={source}
       style={{ position: 'fixed', bottom: '30px', right: '30px', display: 'flex', gap: '15px', alignItems: 'center', zIndex: '9999' }}
     >
@@ -94,6 +98,28 @@ export default function FloatingCta({ source = 'sabit-buton', mesaj }) {
         style={{ backgroundColor: 'rgb(37, 211, 102)', color: 'white', width: '65px', height: '65px', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', transition: '0.3s', cursor: 'pointer' }}
       >
         <WhatsAppIcon size={36} />
+      </a>
+    </div>
+  )
+}
+
+/**
+ * Reklam sayfalarında mobil ekranın altına yapışan iki buton: Hemen Ara + WhatsApp.
+ * Yalnızca dar ekranda görünür (index.css .mobil-alt-cubuk); masaüstünde render edilir
+ * ama CSS ile gizlidir, böylece pencere daraltılınca da çalışır. Tıklamalar
+ * installLinkTracking tarafından data-cta-source ile ölçülür; ayrıca onClick gerekmez.
+ * Gövdeye pay bırakma işi sayfanın <main class="reklam-sayfa"> sınıfındadır (CLS yok).
+ */
+export function MobilAltCubuk({ mesaj, source = 'mobil-cubuk' }) {
+  return (
+    <div className="mobil-alt-cubuk" data-cta-source={source} role="region" aria-label="Hızlı iletişim">
+      <a href={PHONE_HREF} className="mobil-alt-cubuk-btn mobil-alt-cubuk-ara">
+        <PhoneIcon size={22} />
+        Hemen Ara
+      </a>
+      <a href={waHref(mesaj)} target="_blank" rel="noopener noreferrer" className="mobil-alt-cubuk-btn mobil-alt-cubuk-wa">
+        <WhatsAppIcon size={22} />
+        WhatsApp
       </a>
     </div>
   )

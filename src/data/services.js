@@ -25,17 +25,20 @@ export const serviceCategories = [
       {
         "name": "TME (Çene Eklemi) Disfonksiyonları ve Diş Sıkma",
         "description": "Çene ağrısı, kilitlenme ve buna bağlı baş ağrısına yönelik manuel terapi ve egzersiz.",
-        "blog": "cene-eklemi-tme-tedavisi"
+        "blog": "cene-eklemi-tme-tedavisi",
+        "sayfa": "/cene-eklemi-tme-kadikoy"
       },
       {
         "name": "Bel Fıtığı Fizyoterapisi",
         "description": "Ağrı ve bacak yayılımına yönelik manuel terapi ve stabilizasyon egzersizleri.",
-        "blog": "bel-agrisi-ve-bel-fitigi"
+        "blog": "bel-agrisi-ve-bel-fitigi",
+        "sayfa": "/bel-fitigi-kadikoy"
       },
       {
         "name": "Boyun Fıtığı Fizyoterapisi",
         "description": "Boyun ağrısı, kola yayılan uyuşma ve hareket kısıtlılığına yönelik manuel terapi ve egzersiz.",
-        "blog": "boyun-fitigi-boyun-duzlesmesi-ve-kurek-kemigi-agrisi"
+        "blog": "boyun-fitigi-boyun-duzlesmesi-ve-kurek-kemigi-agrisi",
+        "sayfa": "/boyun-fitigi-kadikoy"
       },
       {
         "name": "Bel Ağrısı Fizyoterapisi",
@@ -86,11 +89,13 @@ export const serviceCategories = [
       },
       {
         "name": "Hamilelik Dönemi Fizyoterapisi",
-        "description": "Gebelikte bel ağrısı, postür ve pelvik taban için güvenli egzersiz programı."
+        "description": "Gebelikte bel ağrısı, postür ve pelvik taban için güvenli egzersiz programı.",
+        "sayfa": "/hamilelik-fizyoterapisi-kadikoy"
       },
       {
         "name": "Ofis Çalışanları için Fizyoterapi",
-        "description": "Masa başı postürü, boyun-omuz gerginliği ve ergonomi önerileri."
+        "description": "Masa başı postürü, boyun-omuz gerginliği ve ergonomi önerileri.",
+        "sayfa": "/ofis-calisanlari-fizyoterapi-kadikoy"
       }
     ]
   },
@@ -102,7 +107,8 @@ export const serviceCategories = [
       {
         "name": "Ameliyat Sonrası Rehabilitasyon",
         "description": "Diz, omuz, kalça ve omurga ameliyatları sonrası hareket ve kuvvet kazanımına yönelik program.",
-        "blog": "ameliyat-sonrasi-fizik-tedavi"
+        "blog": "ameliyat-sonrasi-fizik-tedavi",
+        "sayfa": "/ameliyat-sonrasi-rehabilitasyon-kadikoy"
       },
       {
         "name": "Ortopedik Rehabilitasyon",
@@ -111,12 +117,14 @@ export const serviceCategories = [
       {
         "name": "Nörolojik Rehabilitasyon",
         "description": "Denge, yürüme ve fonksiyonel bağımsızlığı hedefleyen kişiye özel nörofizyoterapi programı.",
-        "blog": "ms-multipl-skleroz-fizyoterapi"
+        "blog": "ms-multipl-skleroz-fizyoterapi",
+        "sayfa": "/norolojik-rehabilitasyon-kadikoy"
       },
       {
         "name": "Spor Yaralanmaları Rehabilitasyonu",
         "description": "Kas, bağ ve eklem yaralanmalarında spora dönüş odaklı kademeli rehabilitasyon.",
-        "blog": "on-capraz-bag-ocb-sporcu-yaralanmalari"
+        "blog": "on-capraz-bag-ocb-sporcu-yaralanmalari",
+        "sayfa": "/spor-yaralanmalari-kadikoy"
       },
       {
         "name": "İnme (Felç) Sonrası Rehabilitasyon",
@@ -165,12 +173,17 @@ export const serviceCategories = [
       {
         "name": "Doğum Sonrası Fizyoterapi",
         "description": "Diastasis recti, pelvik taban ve postür toparlanmasına yönelik program.",
-        "sayfa": "/pelvik-taban-kadikoy"
+        "sayfa": "/dogum-sonrasi-fizyoterapi-kadikoy"
+      },
+      {
+        "name": "Erkeklerde Pelvik Taban Rehabilitasyonu",
+        "description": "Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıklarında hekim tanısı sonrası planlanan program.",
+        "sayfa": "/erkek-pelvik-taban-kadikoy"
       },
       {
         "name": "İdrar Kaçırma (İnkontinans) Fizyoterapisi",
         "description": "Pelvik taban kaslarına yönelik egzersiz ve biofeedback destekli çalışma.",
-        "sayfa": "/pelvik-taban-kadikoy"
+        "sayfa": "/idrar-kacirma-kadikoy"
       },
       {
         "name": "Lenfödem ve Manuel Lenf Drenajı",

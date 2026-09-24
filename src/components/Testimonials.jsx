@@ -48,7 +48,7 @@ export default function Testimonials() {
               {'"'}{item.text}{'"'}
             </p>
             <div>
-              <h4 style={{ fontWeight: 700, fontSize: '1.1rem', color: 'var(--primary)' }}>{item.name}</h4>
+              <h3 style={{ fontWeight: 700, fontSize: '1.1rem', color: 'var(--primary)' }}>{item.name}</h3>
               <p style={{ color: 'var(--secondary)', fontSize: '0.9rem', fontWeight: 600 }}>{item.problem}</p>
             </div>
           </div>

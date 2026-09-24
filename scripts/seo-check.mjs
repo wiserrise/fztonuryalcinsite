@@ -8,7 +8,7 @@
 // Kullanım: node scripts/seo-check.mjs
 // Çıkış kodu 1 ise en az bir sayfa denetimden geçememiştir.
 
-import { landings } from '../src/data/landings.js'
+import { landings } from '../src/data/landingsTam.js'
 import { blogPosts } from '../src/data/blogPosts.js'
 import { serviceCategories } from '../src/data/services.js'
 
@@ -114,6 +114,14 @@ function denetle(landing) {
   const kirik = baglar.filter((b) => !gecerliRotalar.has(b.to))
   ekle(baglar.length >= 2 && kirik.length === 0, 'İç bağlantılar geçerli',
     `${baglar.length} bağlantı${kirik.length ? ', KIRIK: ' + kirik.map((k) => k.to).join(', ') : ''}`)
+
+  // 6b. Gövde bölümlerinden çıkan bağlantılar da geçerli rotaya gitmeli.
+  // Bunlar ilgiliBaglantilar'dan ayrıdır: bölüm metninin altında duran
+  // "ayrıntılı yazı" bağlantılarıdır ve 404'e düşerlerse okur kaybolur.
+  const bolumBaglari = c.bolumler.flatMap((b) => b.baglantilar || [])
+  const bolumKirik = bolumBaglari.filter((b) => !gecerliRotalar.has(b.yol))
+  ekle(bolumKirik.length === 0, 'Bölüm içi bağlantılar geçerli',
+    `${bolumBaglari.length} bağlantı${bolumKirik.length ? ', KIRIK: ' + bolumKirik.map((k) => k.yol).join(', ') : ''}`)
 
   // 7. Görsel ve alt metin
   ekle(Boolean(landing.gorsel), 'Sayfa görseli tanımlı', landing.gorsel || 'yok')

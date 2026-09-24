@@ -73,11 +73,15 @@ function buildBreadcrumb(crumbs) {
  * Sayfa başına <title>, meta description, canonical, Open Graph ve (varsa) breadcrumb
  * JSON-LD etiketlerini günceller. SPA olduğu için her sayfa kendi SEO değerlerini set eder.
  * breadcrumbs: [{ name, url }] — url mutlak veya '/...' göreli olabilir.
+ * beklemede: true iken hiçbir etikete dokunulmaz. Sayfa metni tembel yüklenirken
+ *   (LandingPage) prerender'dan gelen doğru başlık ve JSON-LD yerinde kalır; aksi halde
+ *   içerik gelene kadar ld-page silinip yeniden yazılıyordu.
  */
-export function useSeo({ title, description, canonical, ogType = 'website', image = DEFAULT_IMAGE, breadcrumbs, jsonLd, noindex = false }) {
+export function useSeo({ title, description, canonical, ogType = 'website', image = DEFAULT_IMAGE, breadcrumbs, jsonLd, noindex = false, beklemede = false }) {
   const crumbsKey = breadcrumbs ? JSON.stringify(breadcrumbs) : ''
   const ldKey = jsonLd ? JSON.stringify(jsonLd) : ''
   useEffect(() => {
+    if (beklemede) return
     if (title) document.title = title
     // Teşekkür sayfası gibi arama sonuçlarında görünmemesi gereken sayfalar için.
     // SPA olduğundan etiket, dizine girmesi gereken sayfaya geçilince geri alınır.
@@ -95,5 +99,5 @@ export function useSeo({ title, description, canonical, ogType = 'website', imag
     setCanonical(canonical)
     setJsonLd('ld-breadcrumb', buildBreadcrumb(breadcrumbs))
     setJsonLd('ld-page', jsonLd || null)
-  }, [title, description, canonical, ogType, image, crumbsKey, ldKey, noindex])
+  }, [title, description, canonical, ogType, image, crumbsKey, ldKey, noindex, beklemede])
 }

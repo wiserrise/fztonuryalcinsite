@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { getCategoryBySlug, serviceCategories } from '../data/services.js'
-import { LOCATION, BRAND } from '../config/site.js'
+import { LOCATION, BRAND_KISA } from '../config/site.js'
 
 // Hizmetin gideceği yer: varsa kendi derin sayfası, yoksa ilgili blog yazısı.
 const hizmetYolu = (s) => s.sayfa || (s.blog ? `/blog/${s.blog}` : null)
@@ -36,8 +36,8 @@ export default function KategoriPage() {
 
   useSeo({
     title: cat
-      ? `${LOCATION.district} ${cat.name} | ${LOCATION.neighborhood} – ${BRAND}`
-      : 'Kategori bulunamadı | Fizyoterapist Onur Yalçın',
+      ? `${LOCATION.district} ${cat.name} | ${BRAND_KISA}`
+      : `Kategori bulunamadı | ${BRAND_KISA}`,
     description: cat ? cat.intro : 'Aradığınız hizmet kategorisi bulunamadı.',
     canonical: `${SITE_URL}/tedavi-yaklasimlarimiz/${slug}`,
     breadcrumbs: cat

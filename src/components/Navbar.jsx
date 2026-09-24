@@ -71,7 +71,7 @@ export default function Navbar() {
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <a href="/" style={{ fontSize: '1.3rem', fontWeight: 700, color: 'var(--secondary)', whiteSpace: 'nowrap', marginRight: '2rem' }} onClick={(e) => { goToSection('hero', e); close() }}>
-          Fizyoterapist Onur Yalçın
+          Kadıköy Fizyoterapist Onur Yalçın
         </a>
 
         <div className="nav-desktop" style={{ display: 'none' }}>

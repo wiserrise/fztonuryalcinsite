@@ -1,17 +1,24 @@
 // Google Ads reklamlarının düştüğü hizmet sayfalarının yapılandırması.
 //
-// Sayfa metinleri landingContent.js dosyasındadır; burada yalnızca sayfayı
-// çevreleyen sabitler (görsel, WhatsApp mesajı, iç bağlantılar, güven maddeleri)
-// tutulur. Yeni bir reklam sayfası açmak için buraya bir kayıt eklemek yeterlidir:
-// rota (App.jsx) ve sitemap girdisi bu listeden otomatik üretilir.
-
-import { klinikPilatesIcerik, skolyozSchrothIcerik, pelvikTabanIcerik } from './landingContent.js'
-import { kozyatagiIcerik, sahrayiceditIcerik, erenkoyIcerik, suadiyeIcerik, bostanciIcerik } from './bolgeContent.js'
-import { belFitigiIcerik, boyunFitigiIcerik, norolojikRehabilitasyonIcerik, ameliyatSonrasiRehabilitasyonIcerik, dogumSonrasiFizyoterapiIcerik, ceneEklemiTmeIcerik, sporYaralanmalariIcerik, ofisCalisanlariFizyoterapiIcerik } from './hizmetContent.js'
+// Sayfa metinleri landingContent.js / hizmetContent.js / bolgeContent.js dosyalarındadır;
+// burada yalnızca sayfayı çevreleyen sabitler (görsel, WhatsApp mesajı, iç bağlantılar,
+// güven maddeleri) tutulur. Yeni bir reklam sayfası açmak için buraya bir kayıt eklemek
+// yeterlidir: rota (App.jsx) ve sitemap girdisi bu listeden otomatik üretilir.
+//
+// Metinler bu dosyadan STATİK olarak içe aktarılmaz. Önceden 16 sayfanın tüm gövdesi
+// (yaklaşık 390 KB) ana pakete giriyor ve reklam sayfasının ilk boyaması bunun
+// indirilmesini bekliyordu. Artık her kayıt yalnızca hangi modüldeki hangi dışa
+// aktarımın kendisine ait olduğunu söyler (icerikModul + icerikAdi); tarayıcı
+// yalnızca açılan sayfanın modülünü indirir (landingIcerikYukle). Node betikleri
+// (prerender, sitemap, seo-check) eşzamanlı tam listeyi landingsTam.js'ten alır.
+//
+// `reklam: true` olan kayıtlar Google Ads'in düştüğü sayfalardır; mobil alt çubuk,
+// mini form ve güven bloğu yalnızca bu sayfalarda açılır. Diğerleri organik sayfadır.
 
 export const landings = [
   {
     slug: 'klinik-pilates-kadikoy',
+    reklam: true,
     servisAdi: 'Klinik Pilates',
     breadcrumbAdi: 'Kadıköy Klinik Pilates',
     // scripts/seo-check.mjs bu kelimenin URL, title, meta, H1 ve ilk cümlede
@@ -20,6 +27,13 @@ export const landings = [
     gorsel: '/assets/kart-klinik-pilates-kadikoy.jpg',
     gorselAlt: 'Kadıköy Klinik Pilates bilgi kartı: klinik pilates, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın',
     waMesaj: 'Merhaba, Kadıköy klinik pilates için randevu ve bilgi almak istiyorum.',
+    // Hero'daki üç satırlık teklif (kim için / hangi ihtiyaç / ne yapılır). Reklam
+    // metniyle aynı dili kullanır; vaat değil, sürecin tarifidir.
+    teklif: {
+      kimIcin: 'Gün içinde uzun süre oturan yetişkinler, egzersize nereden başlayacağını bilmeyenler ve geçmiş bir yaralanma sonrası kontrollü çalışmak isteyenler',
+      neIcin: 'Bel, boyun ve sırt bölgesinde zorlanma; gövde kuvveti ve hareket kontrolü ihtiyacı',
+      neYapilir: 'Fizyoterapist değerlendirmesi sonrası reformer ve mat çalışmalarıyla kişiye özel program',
+    },
     guvenMaddeleri: [
       'Dersi fizyoterapist yönetir, program değerlendirme sonrası kurulur',
       'Reformer ve mat çalışmaları aynı klinikte',
@@ -37,16 +51,23 @@ export const landings = [
       { to: '/skolyoz-schroth-kadikoy', label: 'Skolyoz fizyoterapisi' },
       { to: '/hakkimda', label: 'Fizyoterapist hakkında' },
     ],
-    icerik: klinikPilatesIcerik,
+    icerikModul: 'landingContent',
+    icerikAdi: 'klinikPilatesIcerik',
   },
   {
     slug: 'skolyoz-schroth-kadikoy',
+    reklam: true,
     servisAdi: 'Skolyoz Fizyoterapisi (Schroth Metodu)',
     breadcrumbAdi: 'Kadıköy Skolyoz Fizyoterapisi',
     odakKelime: 'Kadıköy skolyoz fizyoterapisi',
     gorsel: '/assets/kart-skolyoz-schroth-kadikoy.jpg',
     gorselAlt: 'Kadıköy Skolyoz Fizyoterapisi bilgi kartı: skolyoz fizyoterapisi (schroth metodu), Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın',
     waMesaj: 'Merhaba, Kadıköy skolyoz fizyoterapisi ve Schroth metodu için bilgi almak istiyorum.',
+    teklif: {
+      kimIcin: 'Skolyoz tanısı konmuş çocuk, ergen ve yetişkinler ile omuz ya da bel simetrisinde farklılık fark eden aileler',
+      neIcin: 'Eğriliğin takibi, duruş ve solunum farkındalığı, sırt ağrısı ve korse dönemi desteği',
+      neYapilir: 'Değerlendirme ve ölçüm sonrası eğrilik tipine göre planlanan Schroth temelli egzersiz programı; evde uygulanacak biçimde öğretilir',
+    },
     guvenMaddeleri: [
       'Sertifikalı Schroth yaklaşımıyla eğrilik tipine göre kurgulanan program',
       'Hekim tanısı ve radyolojik takiple birlikte yürütülür',
@@ -64,16 +85,23 @@ export const landings = [
       { to: '/klinik-pilates-kadikoy', label: 'Klinik pilates' },
       { to: '/hakkimda', label: 'Fizyoterapist hakkında' },
     ],
-    icerik: skolyozSchrothIcerik,
+    icerikModul: 'landingContent',
+    icerikAdi: 'skolyozSchrothIcerik',
   },
   {
     slug: 'pelvik-taban-kadikoy',
+    reklam: true,
     servisAdi: 'Pelvik Taban Fizyoterapisi',
     breadcrumbAdi: 'Kadıköy Pelvik Taban Fizyoterapisi',
     odakKelime: 'Kadıköy pelvik taban fizyoterapisi',
     gorsel: '/assets/kart-pelvik-taban-kadikoy.jpg',
     gorselAlt: 'Kadıköy Pelvik Taban Fizyoterapisi bilgi kartı: pelvik taban fizyoterapisi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın',
     waMesaj: 'Merhaba, Kadıköy pelvik taban fizyoterapisi için bilgi almak istiyorum.',
+    teklif: {
+      kimIcin: 'Hekim yönlendirmesiyle gelen kadın ve erkekler; doğum sonrası ve gebelik dönemindeki kişiler',
+      neIcin: 'İdrar kaçırma, pelvik bölgede ağrı ve doğum sonrası gövde kontrolü gibi başlıklar',
+      neYapilir: 'Onayınızla yürütülen değerlendirme sonrası, hekim tanısı çerçevesinde planlanan kişiye özel program',
+    },
     // Bu sayfaya gelen kişinin ilk tereddüdü mahremiyet. Güven maddeleri bu yüzden
     // hizmet özelliği değil, sürecin nasıl yürüdüğü üzerine kuruldu.
     guvenMaddeleri: [
@@ -87,13 +115,16 @@ export const landings = [
     konumMetni:
       'Klinik, Kadıköy Kozyatağı’nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır, bekleme salonunda yoğunluk oluşmayacak şekilde planlanır.',
     ilgiliBaglantilar: [
-      { to: '/sahrayicedit-fizyoterapist', label: 'Sahrayıcedit fizyoterapist' },
+      { to: '/erkek-pelvik-taban-kadikoy', label: 'Erkeklerde pelvik taban' },
+      { to: '/idrar-kacirma-kadikoy', label: 'İdrar kaçırma fizyoterapisi' },
+      { to: '/hamilelik-fizyoterapisi-kadikoy', label: 'Hamilelik fizyoterapisi' },
+      { to: '/dogum-sonrasi-fizyoterapi-kadikoy', label: 'Doğum sonrası fizyoterapi' },
+      { to: '/klinik-pilates-kadikoy', label: 'Klinik pilates' },
       { to: '/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi', label: 'Rehabilitasyon hizmetleri' },
       { to: '/blog/kadin-erkek-pelvik-taban', label: 'Pelvik taban yazısı' },
-      { to: '/klinik-pilates-kadikoy', label: 'Klinik pilates' },
-      { to: '/hakkimda', label: 'Fizyoterapist hakkında' },
     ],
-    icerik: pelvikTabanIcerik,
+    icerikModul: 'landingContent',
+    icerikAdi: 'pelvikTabanIcerik',
   },
   {
     "slug": "bel-fitigi-kadikoy",
@@ -145,7 +176,8 @@ export const landings = [
             "label": "İletişim ve randevu"
         }
     ],
-    icerik: belFitigiIcerik,
+    icerikModul: 'hizmetContent',
+    icerikAdi: 'belFitigiIcerik',
   },
   {
     "slug": "boyun-fitigi-kadikoy",
@@ -196,7 +228,8 @@ export const landings = [
             "label": "Randevu ve iletişim"
         }
     ],
-    icerik: boyunFitigiIcerik,
+    icerikModul: 'hizmetContent',
+    icerikAdi: 'boyunFitigiIcerik',
   },
   {
     "slug": "norolojik-rehabilitasyon-kadikoy",
@@ -248,7 +281,8 @@ export const landings = [
             "label": "Randevu ve iletişim"
         }
     ],
-    icerik: norolojikRehabilitasyonIcerik,
+    icerikModul: 'hizmetContent',
+    icerikAdi: 'norolojikRehabilitasyonIcerik',
   },
   {
     "slug": "ameliyat-sonrasi-rehabilitasyon-kadikoy",
@@ -299,7 +333,8 @@ export const landings = [
             "label": "Randevu ve iletişim"
         }
     ],
-    icerik: ameliyatSonrasiRehabilitasyonIcerik,
+    icerikModul: 'hizmetContent',
+    icerikAdi: 'ameliyatSonrasiRehabilitasyonIcerik',
   },
   {
     "slug": "dogum-sonrasi-fizyoterapi-kadikoy",
@@ -322,6 +357,14 @@ export const landings = [
     "araCtaMetin": "Karın duvarı, pelvik taban ve bel bölgesindeki şikayetleriniz hekim onayı alındıktan sonra ayrıntılı biçimde değerlendirilir, program doğum biçiminize ve günlük yaşamınıza göre planlanır. Kozyatağı'ndaki klinik Pazartesi ve Cumartesi arası 09:00 ile 21:00 saatleri arasında randevu ile çalışır.",
     "konumMetni": "Kozyatağı, Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kadıköy, İstanbul. Kozyatağı metro durağına yürüme mesafesinde. Randevu: Pazartesi ile Cumartesi arası 09:00 ile 21:00.",
     "ilgiliBaglantilar": [
+        {
+            "to": "/hamilelik-fizyoterapisi-kadikoy",
+            "label": "Hamilelik fizyoterapisi"
+        },
+        {
+            "to": "/idrar-kacirma-kadikoy",
+            "label": "İdrar kaçırma fizyoterapisi"
+        },
         {
             "to": "/pelvik-taban-kadikoy",
             "label": "Pelvik taban rehabilitasyonu"
@@ -352,7 +395,8 @@ export const landings = [
             "label": "Randevu ve iletişim"
         }
     ],
-    icerik: dogumSonrasiFizyoterapiIcerik,
+    icerikModul: 'hizmetContent',
+    icerikAdi: 'dogumSonrasiFizyoterapiIcerik',
   },
   {
     "slug": "cene-eklemi-tme-kadikoy",
@@ -400,7 +444,8 @@ export const landings = [
             "label": "İletişim ve randevu"
         }
     ],
-    icerik: ceneEklemiTmeIcerik,
+    icerikModul: 'hizmetContent',
+    icerikAdi: 'ceneEklemiTmeIcerik',
   },
   {
     "slug": "spor-yaralanmalari-kadikoy",
@@ -456,7 +501,8 @@ export const landings = [
             "label": "İletişim ve randevu"
         }
     ],
-    icerik: sporYaralanmalariIcerik,
+    icerikModul: 'hizmetContent',
+    icerikAdi: 'sporYaralanmalariIcerik',
   },
   {
     "slug": "ofis-calisanlari-fizyoterapi-kadikoy",
@@ -508,7 +554,8 @@ export const landings = [
             "label": "İletişim ve randevu"
         }
     ],
-    icerik: ofisCalisanlariFizyoterapiIcerik,
+    icerikModul: 'hizmetContent',
+    icerikAdi: 'ofisCalisanlariFizyoterapiIcerik',
   },
   {
     "slug": "kozyatagi-fizyoterapist",
@@ -560,7 +607,8 @@ export const landings = [
         "label": "İletişim ve randevu"
       }
     ],
-    icerik: kozyatagiIcerik,
+    icerikModul: 'bolgeContent',
+    icerikAdi: 'kozyatagiIcerik',
   },
   {
     "slug": "sahrayicedit-fizyoterapist",
@@ -612,7 +660,8 @@ export const landings = [
         "label": "İletişim ve randevu"
       }
     ],
-    icerik: sahrayiceditIcerik,
+    icerikModul: 'bolgeContent',
+    icerikAdi: 'sahrayiceditIcerik',
   },
   {
     "slug": "erenkoy-fizyoterapist",
@@ -664,7 +713,8 @@ export const landings = [
         "label": "İletişim ve randevu"
       }
     ],
-    icerik: erenkoyIcerik,
+    icerikModul: 'bolgeContent',
+    icerikAdi: 'erenkoyIcerik',
   },
   {
     "slug": "suadiye-fizyoterapist",
@@ -716,7 +766,8 @@ export const landings = [
         "label": "İletişim ve randevu"
       }
     ],
-    icerik: suadiyeIcerik,
+    icerikModul: 'bolgeContent',
+    icerikAdi: 'suadiyeIcerik',
   },
   {
     "slug": "bostanci-fizyoterapist",
@@ -768,8 +819,115 @@ export const landings = [
         "label": "İletişim ve randevu"
       }
     ],
-    icerik: bostanciIcerik,
-  }
+    icerikModul: 'bolgeContent',
+    icerikAdi: 'bostanciIcerik',
+  },
+  {
+    "slug": "idrar-kacirma-kadikoy",
+    "servisAdi": "İdrar Kaçırma Fizyoterapisi",
+    "breadcrumbAdi": "İdrar Kaçırma Fizyoterapisi",
+    "odakKelime": "Kadıköy idrar kaçırma fizyoterapisi",
+    "gorsel": "/assets/kart-idrar-kacirma-kadikoy.jpg",
+    "gorselAlt": "Kadıköy İdrar Kaçırma Fizyoterapisi bilgi kartı: pelvik taban değerlendirmesi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+    "waMesaj": "Merhaba, Kadıköy idrar kaçırma fizyoterapisi için bilgi almak istiyorum.",
+    "teklif": {
+      "kimIcin": "Hekim yönlendirmesiyle gelen, idrar kaçırma şikayeti olan kadın ve erkekler",
+      "neIcin": "Zorlanma tipi, ani sıkışma tipi ve karışık tip kaçırma ile pelvik taban işlev bozuklukları",
+      "neYapilir": "Onayınızla yürütülen değerlendirme sonrası, hekim tanısı çerçevesinde planlanan kişiye özel program"
+    },
+    "guvenMaddeleri": [
+      "Değerlendirmede ne yapılacağı önceden anlatılır, onayınız alınır",
+      "Görüşmeye yanınızda bir yakınınızla gelebilirsiniz",
+      "Program hekim tanısı ve yönlendirmesi çerçevesinde planlanır"
+    ],
+    "araCtaBaslik": "Sorularınızı randevu almadan da sorabilirsiniz",
+    "araCtaMetin": "Sürecin nasıl ilerlediğini ve size uygun olup olmadığını konuşmak için önce yazabilirsiniz. Ayrıntı paylaşmak zorunda değilsiniz.",
+    "konumMetni": "Klinik, Kadıköy Kozyatağı\u2019nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır.",
+    "ilgiliBaglantilar": [
+      { "to": "/pelvik-taban-kadikoy", "label": "Pelvik taban fizyoterapisi" },
+      { "to": "/erkek-pelvik-taban-kadikoy", "label": "Erkeklerde pelvik taban" },
+      { "to": "/dogum-sonrasi-fizyoterapi-kadikoy", "label": "Doğum sonrası fizyoterapi" },
+      { "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi", "label": "Rehabilitasyon hizmetleri" },
+      { "to": "/blog/kadin-erkek-pelvik-taban", "label": "Pelvik taban yazısı" }
+    ],
+    "icerikModul": "hizmetContent",
+    "icerikAdi": "idrarKacirmaIcerik"
+  },
+  {
+    "slug": "hamilelik-fizyoterapisi-kadikoy",
+    "servisAdi": "Hamilelik Fizyoterapisi",
+    "breadcrumbAdi": "Hamilelik Fizyoterapisi",
+    "odakKelime": "Kadıköy hamilelik fizyoterapisi",
+    "gorsel": "/assets/kart-hamilelik-fizyoterapisi-kadikoy.jpg",
+    "gorselAlt": "Kadıköy Hamilelik Fizyoterapisi bilgi kartı: gebelik dönemi egzersiz programı, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+    "waMesaj": "Merhaba, Kadıköy hamilelik fizyoterapisi için bilgi almak istiyorum.",
+    "teklif": {
+      "kimIcin": "Takibi yürüten hekiminin onayını almış, gebeliğin herhangi bir döneminde olan kişiler",
+      "neIcin": "Gebelikte bel ve kasık ağrısı, duruş zorlanmaları, pelvik taban farkındalığı ve doğuma hazırlık",
+      "neYapilir": "Hekim onayı çerçevesinde, gebelik haftasına göre uyarlanan değerlendirme ve kişiye özel program"
+    },
+    "guvenMaddeleri": [
+      "Çalışma, takibi yürüten hekimin onayı alındıktan sonra başlar",
+      "Değerlendirmede ne yapılacağı önceden anlatılır, onayınız alınır",
+      "Görüşmeye yanınızda bir yakınınızla gelebilirsiniz"
+    ],
+    "araCtaBaslik": "Sorularınızı randevu almadan da sorabilirsiniz",
+    "araCtaMetin": "Gebelik haftanıza uygun olup olmadığını ve sürecin nasıl ilerlediğini konuşmak için önce yazabilirsiniz.",
+    "konumMetni": "Klinik, Kadıköy Kozyata\u011f\u0131'nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır.",
+    "ilgiliBaglantilar": [
+      { "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi", "label": "Fizik tedavi kliniği hizmetleri" },
+      { "to": "/pelvik-taban-kadikoy", "label": "Pelvik taban fizyoterapisi" },
+      { "to": "/dogum-sonrasi-fizyoterapi-kadikoy", "label": "Doğum sonrası fizyoterapi" },
+      { "to": "/idrar-kacirma-kadikoy", "label": "İdrar kaçırma fizyoterapisi" }
+    ],
+    "icerikModul": "hizmetContent",
+    "icerikAdi": "hamilelikFizyoterapisiIcerik"
+  },
+  {
+    "slug": "erkek-pelvik-taban-kadikoy",
+    "servisAdi": "Erkeklerde Pelvik Taban Rehabilitasyonu",
+    "breadcrumbAdi": "Erkeklerde Pelvik Taban Rehabilitasyonu",
+    "odakKelime": "Kadıköy erkek pelvik taban fizyoterapisi",
+    "gorsel": "/assets/kart-erkek-pelvik-taban-kadikoy.jpg",
+    "gorselAlt": "Kadıköy Erkek Pelvik Taban Fizyoterapisi bilgi kartı: erkeklerde pelvik taban rehabilitasyonu, Kozyatağı Kadıköy, Kadıköy Fizyoterapist Onur Yalçın",
+    "waMesaj": "Merhaba, Kadıköy erkek pelvik taban fizyoterapisi için bilgi almak istiyorum.",
+    "teklif": {
+      "kimIcin": "Hekim tanısı ve yönlendirmesiyle gelen erkek danışanlar",
+      "neIcin": "Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve pelvik taban işlev bozuklukları",
+      "neYapilir": "Onayınızla yürütülen değerlendirme sonrası, hekim tanısı çerçevesinde planlanan kişiye özel program"
+    },
+    "guvenMaddeleri": [
+      "Ne yapılacağı önceden anlatılır, onayınız her aşamada geri alınabilir",
+      "Görüşmeye yanınızda bir yakınınızla gelebilirsiniz",
+      "Program hekim tanısı ve yönlendirmesi çerçevesinde planlanır"
+    ],
+    "araCtaBaslik": "Sorularınızı randevu almadan da sorabilirsiniz",
+    "araCtaMetin": "Sürecin nasıl ilerlediğini ve size uygun olup olmadığını konuşmak için önce yazabilirsiniz. Ayrıntı paylaşmak zorunda değilsiniz.",
+    "konumMetni": "Klinik, Kadıköy Kozyatağı'nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır.",
+    "ilgiliBaglantilar": [
+      { "to": "/pelvik-taban-kadikoy", "label": "Pelvik taban fizyoterapisi" },
+      { "to": "/idrar-kacirma-kadikoy", "label": "İdrar kaçırma fizyoterapisi" },
+      { "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy", "label": "Ameliyat sonrası rehabilitasyon" },
+      { "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi", "label": "Rehabilitasyon hizmetleri" },
+      { "to": "/blog/kadin-erkek-pelvik-taban", "label": "Pelvik taban yazısı" }
+    ],
+    "icerikModul": "hizmetContent",
+    "icerikAdi": "erkekPelvikTabanIcerik"
+  },
 ]
 
 export const getLandingBySlug = (slug) => landings.find((l) => l.slug === slug)
+
+// İçerik modülleri: dinamik import ifadeleri Rollup'ın her modülü ayrı parçaya
+// ayırabilmesi için burada sabit yazılır (değişkenle import edilemez).
+const icerikModulleri = {
+  landingContent: () => import('./landingContent.js'),
+  hizmetContent: () => import('./hizmetContent.js'),
+  bolgeContent: () => import('./bolgeContent.js'),
+}
+
+/** Sayfanın metinlerini (icerik nesnesi) tembel yükler. */
+export async function landingIcerikYukle(landing) {
+  const modul = await icerikModulleri[landing.icerikModul]()
+  return modul[landing.icerikAdi]
+}

@@ -221,7 +221,8 @@ export const klinikPilatesIcerik = {
       "h2": "Kliniğe ulaşım ve randevu düzeni",
       "paragraflar": [
         "Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir. Bu konum, çevredeki iş merkezlerinde çalışan kişilerin mesai öncesi ya da çıkış sonrası saatlerde randevu almasını pratik kılar.",
-        "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında planlanır. Seansın süresi ve sıklığı değerlendirme sonrasında kişiye göre belirlenir; sabit bir paket ya da önceden belirlenmiş bir seans sayısı üzerinden ilerlenmez. Randevu için telefonla arayabilir veya WhatsApp üzerinden yazabilirsiniz."
+        "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında planlanır. Seansın süresi ve sıklığı değerlendirme sonrasında kişiye göre belirlenir; sabit bir paket ya da önceden belirlenmiş bir seans sayısı üzerinden ilerlenmez. Randevu için telefonla arayabilir veya WhatsApp üzerinden yazabilirsiniz.",
+        "Klinik pilates Kadıköy'de farklı biçimlerde sunulabiliyor; bu sayfada anlatılan çalışma fizyoterapist tarafından yürütülür ve program değerlendirme sonrası kurulur. Kozyatağı klinik pilates seansları için Kadıköy merkezin yanı sıra Ataşehir, Bostancı, Erenköy, Suadiye, Göztepe ve Sahrayıcedit çevresinden metro ve minibüs hatlarıyla ulaşım kısa sürer. Kadıköy fizyoterapist eşliğinde pilates arayanların ilk sorusu çoğunlukla reformer mı mat mı olduğudur; Kozyatağı reformer pilates ve mat çalışmaları aynı alanda yapıldığı için bu karar değerlendirmeden sonra verilir. Kadıköy klinik pilates randevu talebinizi telefonla ya da WhatsApp'tan iletebilirsiniz."
       ]
     },
     {
@@ -599,7 +600,8 @@ export const skolyozSchrothIcerik = {
       "h2": "Kliniğe ulaşım ve randevu düzeni",
       "paragraflar": [
         "Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir; Kozyatağı metro istasyonuna yürüme mesafesindedir. Okul çağındaki çocuklar için randevular ders saatleri dışına planlanabilir.",
-        "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında düzenlenir. Görüntüleme sonuçlarınız ve varsa hekim raporunuz ilk görüşmeye getirildiğinde değerlendirme daha eksiksiz yapılır. Randevu için telefonla arayabilir veya WhatsApp üzerinden yazabilirsiniz."
+        "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında düzenlenir. Görüntüleme sonuçlarınız ve varsa hekim raporunuz ilk görüşmeye getirildiğinde değerlendirme daha eksiksiz yapılır. Randevu için telefonla arayabilir veya WhatsApp üzerinden yazabilirsiniz.",
+        "Skolyoz fizyoterapisi Kadıköy'de bu adreste yürütülür; Kozyatağı skolyoz fizyoterapisi için Ataşehir, Bostancı, Erenköy, Suadiye, Göztepe ve Sahrayıcedit çevresinden metro ve minibüs hatlarıyla ulaşım kısa sürer. Skolyoz Schroth egzersizi arayanların bir kısmı Schroth temelli egzersiz Kadıköy'de nerede yapılıyor diye soruyor: çalışma Kozyatağı'ndaki alanda, hekim tanısı ve görüntülemeyle birlikte yürütülür. Skolyoz egzersizi Kadıköy'deki bu alanda birebir öğretilir, grup dersi biçiminde yapılmaz. Skolyoz değerlendirmesi Kadıköy'de bu adreste yapılır; skolyometre ölçümü ve duruş kaydı ilk görüşmenin parçasıdır."
       ]
     }
   ],
@@ -872,20 +874,47 @@ export const pelvikTabanIcerik = {
       ]
     },
     {
-      "h2": "İdrar kaçırma fizyoterapisi: zorlanma tipi ile ani sıkışma tipi",
+      "h2": "Pelvik taban hangi yapılardan oluşur ve nasıl çalışır",
       "paragraflar": [
-        "Zorlanmayla (öksürme, hapşırma, gülme, ağır kaldırma) ortaya çıkan kaçak ile ani sıkışmayla ortaya çıkan kaçak aynı tablo değildir ve aynı yaklaşımı gerektirmez. İdrar kaçırma fizyoterapisi denince tek bir program anlaşılmamalıdır.",
-        "NICE NG123 kılavuzu (2019) kadınlarda zorlanma tipinde ve karışık tipte denetimli pelvik taban kas eğitimini ilk basamak yaklaşım olarak tanımlar; ani sıkışma tipinde ve karışık tipte ise mesane eğitimini ilk basamak olarak önerir. Kılavuzun kapsamı kadınlarla sınırlıdır; erkeklerde alt üriner sistem semptomları ayrı bir kılavuz alanıdır ve buradaki çerçeve erkekler için geçerli sayılamaz.",
-        "Mesane günlüğü, sıvı ve kafein alışkanlıkları ile işeme aralıkları tam da bu ayrımı yapabilmek için istenir. Program içeriği ayrıma göre değişir: bir tabloda yük altında kontrol ve solunumla eşgüdüm öne çıkarken, diğerinde işeme aralığının kademeli düzenlenmesi ve sıkışma anında uygulanabilecek teknikler öne çıkar. İki başlıkta da evde yapılan çalışma programın asıl parçasıdır."
+        "Pelvik taban, leğen kemiğinin tabanını bir hamak gibi kapatan kas ve bağ dokusu katmanlarından oluşur. Önde idrar yolunun, arkada bağırsağın çıkışını çevreler; kadınlarda ayrıca doğum kanalıyla komşudur. Bu yapı organları yerinde tutar, karın içi basınç arttığında refleks olarak kasılır ve boşaltım sırasında gevşer.",
+        "Bu bölge tek başına çalışmaz. Diyafram üstte, karın duvarı önde, derin sırt kasları arkada yer alır ve dördü birlikte bir basınç sistemi kurar. Nefes alırken diyafram aşağı iner, pelvik taban buna uyum sağlar. Bu eşgüdüm bozulduğunda şikayet çoğu zaman tek bir kasta değil, sistemin bütününde aranır.",
+        "Bu nedenle değerlendirme yalnızca kas gücüne bakmakla sınırlı kalmaz. Nefes düzeni, gövde kontrolü, duruş ve günlük yükler birlikte ele alınır. Programın hangi bileşenle başlayacağı da bu bütünsel tabloya göre belirlenir."
       ]
     },
     {
-      "h2": "Doğum sonrası dönem, diastazis rekti ve gebelik",
+      "h2": "Bu alandaki alt başlıklar ve ayrıntılı sayfalar",
       "paragraflar": [
-        "Karın orta hattındaki ayrışma (diastazis rekti) doğum sonrasında görülebilen bir bulgudur. Karında, ameliyat kesisi hattında veya kasıkta ele gelen bir şişlik varsa, özellikle ağrılıysa, sertleşiyorsa ya da içeri itilemiyorsa hekimce değerlendirilmesi gerekir.",
-        "Bu alanda iki başlıkta kesin konuşulamaz. Birincisi mesafedir: kaslar arası mesafe tek başına yeterli bir hedef değildir. İkincisi ilişkidir: ayrışma ile bel ağrısı ve pelvik taban şikâyetleri arasındaki ilişkiyi inceleyen çalışmaların sonuçları tutarlı değildir ve nedensellik kurulamamıştır. Bu nedenle program yalnızca mesafe ölçüsü üzerinden kurulmaz.",
-        "Bu alanda öne çıkan hedef; karın duvarının yük taşıma kapasitesini, gövde kontrolünü ve harekete güvenle dönüşü çalışmaktır. Bebek taşımak, araba koltuğu kaldırmak ve merdiven çıkmak gibi gerçek görevler kademeli olarak ele alınabilir. Başlama zamanı doğumun biçimine, yara iyileşmesine, kanama durumuna ve hekim görüşüne göre değiştiği için sayfada tek bir hafta sayısı verilemez.",
-        "Gebelik döneminde egzersiz düzenlemesi ancak takip eden hekimin uygun görmesiyle gündeme gelir. Bu dönemde sık ele alınan başlıklar solunum düzeni, duruş değişikliğine uyum, bel ve leğen bölgesi ağrısında yük yönetimi ve günlük hareket düzenidir."
+        "Pelvik taban başlığı altında toplanan şikayetler tek bir programla ele alınmaz. Her birinin kendi değerlendirme yolu ve kendi öncelikleri vardır. Bu sayfa alanın genel çerçevesini anlatır; alt başlıklar ayrı sayfalarda ayrıntılandırılmıştır."
+      ],
+      "liste": [
+        {
+          "baslik": "İdrar kaçırma fizyoterapisi",
+          "metin": "Zorlanma tipi, ani sıkışma tipi ve karışık tip arasındaki ayrım, mesane günlüğü ve tipe göre değişen program içeriği ayrı sayfada ele alınmıştır."
+        },
+        {
+          "baslik": "Hamilelik fizyoterapisi",
+          "metin": "Gebelik döneminde hekim onayına bağlı çalışma, trimesterlere göre uyarlama ve doğuma hazırlık başlıkları ayrı sayfada anlatılmıştır."
+        },
+        {
+          "baslik": "Doğum sonrası fizyoterapi",
+          "metin": "Karın kaslarındaki ayrışma, sezaryen sonrası iz bölgesi ve gövde kontrolüne kademeli dönüş ayrı sayfada anlatılmıştır."
+        },
+        {
+          "baslik": "Erkeklerde pelvik taban rehabilitasyonu",
+          "metin": "Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıkları erkek danışanlar için ayrı sayfada ele alınmıştır."
+        },
+        {
+          "baslik": "Klinik pilates",
+          "metin": "Gövde kontrolü ve nefes düzeni üzerine çalışmanın grup dışı, kişiye uyarlanmış biçimi ayrı sayfada ele alınmıştır."
+        }
+      ]
+    },
+    {
+      "h2": "Erkeklerde pelvik taban ve sık atlanan başlıklar",
+      "paragraflar": [
+        "Pelvik taban çoğunlukla doğum ve gebelikle ilişkilendirildiği için erkeklerde gündeme gelmesi gecikir. Oysa bu bölge erkeklerde de aynı işlevleri taşır ve benzer zorlanmalar üretebilir.",
+        "Erkeklerde alt üriner sistem şikayetleri ayrı bir değerlendirme alanıdır; kadınlar için tanımlanan çerçeve doğrudan aktarılamaz. Bu nedenle erkek danışanlarda hekim değerlendirmesi ve tanı, çalışmanın başlangıç koşuludur.",
+        "Değerlendirmenin nasıl ilerlediği, hangi tabloların gündeme geldiği ve mahremiyet çerçevesi ayrı bir sayfada ele alınıyor: erkek pelvik taban fizyoterapisi sayfasına aşağıdaki bağlantılardan ulaşabilirsiniz."
       ]
     },
     {
@@ -940,6 +969,7 @@ export const pelvikTabanIcerik = {
         "Kadıköy pelvik taban fizyoterapisi görüşmeleri Kozyatağı'nda yürütülür. Klinik, Kozyatağı Mah. Gülbahar Sk., Ege Yıldız Sitesi, No:15, Kadıköy, İstanbul, 34742 adresindedir.",
         "Çalışma saatleri pazartesi ile cumartesi arasında 09:00-21:00'dir, pazar günleri kapalıdır. Randevu istemek için WhatsApp'tan tek bir mesaj yeterlidir; 0507 294 99 00 numaralı telefondan arayabilir ya da fztonuryalcin@gmail.com adresine yazabilirsiniz.",
         "İlk temasta ayrıntı paylaşmak gerekmez. Elinizde yönlendirme, epikriz veya ameliyat raporu varsa getirmeniz süreci kolaylaştırır. Ücretlendirme ve geri ödeme koşulları kuruma ve poliçeye göre değiştiği için sayfada rakam paylaşılmaz.",
+        "Pelvik taban fizyoterapisi Kadıköy'de bu adreste, hekim yönlendirmesiyle yürütülür; Kozyatağı pelvik taban fizyoterapisi için Kadıköy'ün yanı sıra Ataşehir, Bostancı, Erenköy ve Suadiye çevresinden metro ve minibüs hatlarıyla ulaşım kısa sürer. İdrar kaçırma fizyoterapisi Kadıköy'de bu adreste hekim yönlendirmesiyle ele alınır; doğum sonrası fizyoterapi Kadıköy'deki aynı çalışma alanında, gebelik dönemi ise hekim onayıyla planlanır. Pelvik taban rehabilitasyonu Kadıköy'de bu çerçevede yürütülür. Kadıköy pelvik taban fizyoterapisi randevu talebinizi ayrıntı vermeden WhatsApp'tan iletebilirsiniz.",
         "Süreci yürüten kişi Fizyoterapist Onur Yalçın'dır; İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunudur. Sayfada anılan kaynak, Birleşik Krallık'ta yayımlanan NICE NG123 kılavuzudur (2019). Kılavuzlar güncellenebildiği için güncel sürümden teyit edilmesi uygun olur. Bu sayfa bilgilendirme amaçlıdır, tıbbi tavsiye yerine geçmez."
       ]
     }

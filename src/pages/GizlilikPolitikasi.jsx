@@ -8,7 +8,7 @@
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
-import { BRAND, NAP } from '../config/site.js'
+import { BRAND, BRAND_KISA, NAP } from '../config/site.js'
 
 const ADRES = NAP.adres
 const EPOSTA = 'fztonuryalcin@gmail.com'
@@ -111,7 +111,7 @@ const bolumler = [
 
 export default function GizlilikPolitikasi() {
   useSeo({
-    title: `Gizlilik Politikası ve KVKK Aydınlatma Metni | ${BRAND}`,
+    title: `Gizlilik Politikası ve KVKK Aydınlatma Metni | ${BRAND_KISA}`,
     description:
       'Fizyoterapist Onur Yalçın internet sitesinde toplanan kişisel verilerin işlenmesi, çerez kullanımı ve KVKK kapsamındaki haklarınıza ilişkin aydınlatma metni.',
     canonical: `${SITE_URL}/gizlilik-politikasi`,

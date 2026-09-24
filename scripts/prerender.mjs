@@ -11,11 +11,11 @@
 //
 // Gövde SPA tarafından render edilmeye devam eder; burada yalnızca <head> değişir.
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
-import { SITE_URL, BRAND, LOCATION } from '../src/config/site.js'
-import { landings } from '../src/data/landings.js'
+import { SITE_URL, BRAND_KISA, LOCATION } from '../src/config/site.js'
+import { landings } from '../src/data/landingsTam.js'
 import { blogPosts } from '../src/data/blogPosts.js'
 import { serviceCategories } from '../src/data/services.js'
 import { landingJsonLd, landingBreadcrumbJsonLd } from '../src/lib/landingSchema.js'
@@ -33,7 +33,7 @@ const jsonLdYaz = (obj) => JSON.stringify(obj).replace(/</g, '\\u003c')
  * Şablondaki başlık ve açıklamayı sayfaya özgü değerlerle değiştirir,
  * kanonik adres, Open Graph ve yapılandırılmış veriyi ekler.
  */
-function headDegistir(sablon, { title, description, canonical, image, jsonLd = [], noindex = false }) {
+function headDegistir(sablon, { title, description, canonical, image, jsonLd = [], noindex = false, onYukle = [] }) {
   let html = sablon
 
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${kacis(title)}</title>`)
@@ -48,6 +48,10 @@ function headDegistir(sablon, { title, description, canonical, image, jsonLd = [
   html = html.replace(/<link\s+rel="canonical"[^>]*>\s*/gi, '')
 
   const ekEtiketler = [
+    // Rota parçaları: tarayıcı bunları ana paketle AYNI ANDA indirir. Aksi halde
+    // ana paket -> sayfa parçası -> içerik modülü zinciri sırayla beklenir ve reklam
+    // sayfasının ilk boyaması her halkada bir gidiş-dönüş daha gecikir.
+    ...onYukle.map((h) => `<link rel="modulepreload" crossorigin href="${kacis(h)}" />`),
     `<link rel="canonical" href="${kacis(canonical)}" />`,
     `<meta name="robots" content="${noindex ? 'noindex, follow' : 'index, follow'}" />`,
     `<meta property="og:type" content="website" />`,
@@ -91,6 +95,30 @@ function yaz(slug, html) {
 
 const sablon = readFileSync(resolve(distDir, 'index.html'), 'utf-8')
 
+// Manifest yalnızca derleme aracıdır; Wrangler .vite/ dizinini yayına almasın.
+writeFileSync(resolve(distDir, '.assetsignore'), '.vite\n', 'utf-8')
+
+// Vite manifest'i (vite.config.js build.manifest): kaynak dosya -> hash'li parça adı.
+// Bir parçanın kendi statik bağımlılıkları (`imports`) da önyüklenir; yoksa parça
+// indikten sonra onlar için yeni bir tur beklenir.
+const manifestYolu = resolve(distDir, '.vite/manifest.json')
+const manifest = existsSync(manifestYolu) ? JSON.parse(readFileSync(manifestYolu, 'utf-8')) : {}
+function parcaDosyalari(kaynak, gorulen = new Set()) {
+  const kayit = manifest[kaynak]
+  if (!kayit || gorulen.has(kaynak)) return []
+  gorulen.add(kaynak)
+  const dosyalar = [`/${kayit.file}`]
+  for (const bagimlilik of kayit.imports || []) dosyalar.push(...parcaDosyalari(bagimlilik, gorulen))
+  return dosyalar
+}
+// Ana giriş zaten HTML'de <script> ve modulepreload olarak var; onu yinelemeyelim.
+const girisParcalari = new Set(parcaDosyalari('index.html'))
+const landingOnYukle = (landing) =>
+  [...new Set([
+    ...parcaDosyalari('src/pages/LandingPage.jsx'),
+    ...parcaDosyalari(`src/data/${landing.icerikModul}.js`),
+  ])].filter((d) => !girisParcalari.has(d))
+
 // Reklam hizmet sayfaları
 for (const landing of landings) {
   const html = headDegistir(sablon, {
@@ -99,6 +127,7 @@ for (const landing of landings) {
     canonical: `${SITE_URL}/${landing.slug}`,
     image: `${SITE_URL}${landing.gorsel}`,
     jsonLd: [landingJsonLd(landing), landingBreadcrumbJsonLd(landing)],
+    onYukle: landingOnYukle(landing),
   })
   yaz(landing.slug, html)
 }
@@ -122,7 +151,7 @@ for (const post of blogPosts) {
   yaz(
     `blog/${post.id}`,
     headDegistir(sablon, {
-      title: `${post.title} | ${BRAND} – ${LOCATION.district} ${LOCATION.neighborhood}`,
+      title: `${post.title} | ${BRAND_KISA}`,
       description: `${post.excerpt} ${LOCATION.district} ${LOCATION.neighborhood} fizyoterapist Onur Yalçın.`,
       canonical: `${SITE_URL}/blog/${post.id}`,
     }),
@@ -135,7 +164,7 @@ for (const cat of serviceCategories) {
   yaz(
     `tedavi-yaklasimlarimiz/${cat.slug}`,
     headDegistir(sablon, {
-      title: `${LOCATION.district} ${cat.name} | ${LOCATION.neighborhood} – ${BRAND}`,
+      title: `${LOCATION.district} ${cat.name} | ${BRAND_KISA}`,
       description: cat.intro,
       canonical: `${SITE_URL}/tedavi-yaklasimlarimiz/${cat.slug}`,
     }),

@@ -67,6 +67,17 @@ export const CONVERSION_LABELS = {
 }
 ```
 
+> ✅ **DOLDURULDU · 2026-09-09.** Etiketler `src/config/ads.js` içinde girili.
+> Google Ads hesabı 356-711-5672; WhatsApp ve Telefon panelde AYRI dönüşüm işlemi
+> olarak tanımlı, ikisi de "Kişi" hedefi altında **birincil**.
+> Ara dönemde ikisi tek etiketi paylaşıyordu; 2026-09-09'da ayrıldı, böylece raporda
+> hangi kanalın dönüştürdüğü görünüyor.
+>
+> ⚠️ `CONVERSION_VALUE` bilinçli olarak **0** bırakıldı. Kurulum notundaki örnek
+> `value: 1.0` gönderiyor; 1 TRY gerçek bir randevu değeri değil ve değer bazlı
+> teklif stratejisini yanıltır. Bir randevunun tahmini değeri belirlenince buraya
+> girilir; o zamana kadar değer gönderilmemesi daha doğru.
+
 Etiketler boş bırakıldığı sürece o dönüşüm Google Ads'e gönderilmez (olay yine de
 dataLayer'a düşer). Yani yanlış veya eksik etiketle hatalı sayım oluşmaz.
 

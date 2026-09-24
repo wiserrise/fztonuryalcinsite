@@ -3,7 +3,10 @@
 // tek tek aramak yerine buradan yönetiyoruz. Yeni ilçe/bölge hedeflerken bu dosyayı
 // ve (gerekirse) areaServed / district sayfalarını güncellemek yeterli olacak şekilde kuruldu.
 
-export const BRAND = 'Fizyoterapist Onur Yalçın'
+export const BRAND = 'Kadıköy Fizyoterapist Onur Yalçın'
+// Sayfa basliklarinda kullanilan kisa bicim: tam marka title'i 60 karakterin
+// uzerine cikardigi icin baslik son ekinde bu kullanilir (varlik adi degismez).
+export const BRAND_KISA = 'Fzt. Onur Yalçın'
 export const SITE_URL = 'https://fztonuryalcin.com'
 export const PHONE = '+90 507 294 99 00'
 
@@ -33,7 +36,7 @@ export const TARGET_DISTRICTS = ['Kadıköy']
 // Makine tarafı ayrı: JSON-LD telefonu ve tel: bağlantısı uluslararası biçimde
 // kalır (PHONE / PHONE_HREF), çünkü orası okuyucuya değil ayrıştırıcıya gider.
 export const NAP = {
-  isim: 'Fizyoterapist Onur Yalçın',
+  isim: 'Kadıköy Fizyoterapist Onur Yalçın',
   adres: 'Kozyatağı Mah. Gülbahar Sk., Ege Yıldız Sitesi, No:15, Kadıköy, İstanbul, 34742',
   telefon: '0507 294 99 00',
 }

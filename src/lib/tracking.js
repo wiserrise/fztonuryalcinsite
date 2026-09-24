@@ -111,7 +111,11 @@ export function installLinkTracking() {
     const href = a.getAttribute('href') || ''
     if (href.startsWith('tel:')) {
       trackPhone(kaynakBul(a))
-    } else if (href.includes('wa.me') || href.includes('api.whatsapp.com')) {
+    } else if (
+      href.includes('wa.me') ||
+      href.includes('api.whatsapp.com') ||
+      href.startsWith('whatsapp://')
+    ) {
       trackWhatsApp(kaynakBul(a))
     }
   }

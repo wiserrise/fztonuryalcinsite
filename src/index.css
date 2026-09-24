@@ -1,7 +1,21 @@
-@import"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap";
+/* Inter, kendi sunucumuzdan.
+   Google Fonts'tan @import ile çekilirken tarayıcı önce index.css'i, sonra onun içindeki
+   fonts.googleapis.com adresini (yeni bağlantı + CSS), sonra fonts.gstatic.com dosyalarını
+   sırayla bekliyordu; bu zincir reklam sayfalarında ilk boyamayı yaklaşık 1,5 sn geciktiriyordu.
+   Dosyalar Google'ın sunduğu değişken (variable) Inter v20 alt kümeleridir: latin + latin-ext
+   (Türkçe ı ş ğ İ karakterleri latin-ext'tedir). Tek dosya 100-900 arası tüm ağırlıkları taşır.
+   font-display: swap ile metin önce sistem fontuyla boyanır, font gelince değişir. */
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:swap;src:url(/assets/fonts/inter-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:swap;src:url(/assets/fonts/inter-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+.site-footer{padding-top:5rem;padding-bottom:2rem}
 :root{--primary: #0a2540;--primary-light: #204066;--secondary: #00d4ff;--accent: #ff4757;--background: #f8fafc;--surface: #ffffff;--text: #1e293b;--text-light: #64748b;--border: #e2e8f0;--shadow-sm: 0 1px 2px 0 rgb(0 0 0 / .05);--shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);--shadow-lg: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);--radius: .75rem;--transition: all .3s cubic-bezier(.4, 0, .2, 1)}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Inter,sans-serif;background-color:var(--background);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+/* Font gelene kadar kullanılan yerel yedek, Inter'in metriklerine göre ölçeklenir
+   (next/font'un Inter için ürettiği Arial değerleri). Böylece swap anında satır
+   uzunlukları ve yükseklikleri neredeyse aynı kalır; hero paragrafında (LCP öğesi)
+   görülen font kaynaklı kayma (CLS 0,015) bant genişliğine dokunmadan sıfırlanır. */
+@font-face{font-family:"Inter Fallback";src:local("Arial");size-adjust:107.4%;ascent-override:90.2%;descent-override:22.48%;line-gap-override:0%}
+body{font-family:Inter,"Inter Fallback",sans-serif;background-color:var(--background);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 h1,h2,h3,h4,h5,h6{color:var(--primary);line-height:1.2}
 a{color:inherit;text-decoration:none}
 ul{list-style:none}
@@ -213,3 +227,61 @@ section[id] { scroll-margin-top: 90px; }
 
 /* Sabit CTA butonlarının altına denk gelen son bölüm için pay */
 main + .floating-container { pointer-events: auto; }
+
+/* ===== Reklam sayfaları (landings.js `reklam: true`) ===== */
+/* Üç satırlık teklif: etiket + metin. Hero koyu zeminde olduğu için renkler sabit. */
+.reklam-teklif { margin: 1.4rem 0 0; display: flex; flex-direction: column; gap: 0.7rem; }
+.reklam-teklif > div { display: grid; grid-template-columns: 8.5rem 1fr; gap: 0.6rem; align-items: baseline; }
+.reklam-teklif dt { color: var(--secondary); font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.4px; }
+.reklam-teklif dd { margin: 0; color: rgba(255, 255, 255, 0.92); line-height: 1.6; font-size: 1.02rem; }
+@media (max-width: 480px) {
+  .reklam-teklif > div { grid-template-columns: 1fr; gap: 0.15rem; }
+}
+
+/* Tek birincil CTA: mobilde arama, masaüstünde forma kaydıran buton. Aynı anda ikisi görünmez. */
+.reklam-cta-mobil { display: none; }
+.reklam-cta-masaustu { display: inline-flex; }
+@media (max-width: 768px) {
+  .reklam-cta-mobil { display: inline-flex; }
+  .reklam-cta-masaustu { display: none !important; }
+}
+
+/* Güven bloğu: 4 kart; masaüstünde iki sütun */
+.reklam-guven-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+@media (min-width: 768px) {
+  .reklam-guven-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* Mini formun açıklaması mobilde tek satır başlık yeter; açıklama masaüstünde kalır */
+@media (max-width: 768px) {
+  .reklam-form-aciklama { display: none; }
+}
+
+/* Mobil alt çubuk: Hemen Ara + WhatsApp. Yalnızca ≤768px; masaüstünde yok.
+   Alt pay main'e değil footer'a verilir: Footer main'in DIŞINDA, kardeş öğe olarak
+   gelir ve sayfanın son öğesidir. Pay main'de kaldığında footer'daki KVKK bağlantısı
+   ile telif satırı çubuğun altında kalıyordu (2026-09-04 inceleme: 390x844'te bağlantı
+   çubuğun 19px altında, dokunulamıyor). Çubuk fixed olduğu için yerleşim kaymaz (CLS 0).
+   Çentikli telefonlarda safe-area-inset-bottom kadar ek pay bırakılır. */
+.mobil-alt-cubuk { display: none; }
+@media (max-width: 768px) {
+  .mobil-alt-cubuk {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 9998;
+    display: flex; gap: 0.6rem;
+    padding: 0.6rem 0.75rem calc(0.6rem + env(safe-area-inset-bottom, 0px));
+    background: rgba(255, 255, 255, 0.96);
+    border-top: 1px solid var(--border);
+    box-shadow: 0 -4px 16px rgb(0 0 0 / .08);
+  }
+  .mobil-alt-cubuk-btn {
+    flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+    min-height: 52px; border-radius: 30px; font-weight: 700; font-size: 1rem; color: #fff;
+  }
+  .mobil-alt-cubuk-ara { background-color: var(--primary); }
+  /* WhatsApp yeşili üstünde beyaz yazı 1,98:1 kalıyordu (AA eşiği 4,5:1); lacivert yazı
+     aynı zemin üzerinde yaklaşık 7,8:1. Simge currentColor ile aynı rengi alır. */
+  .mobil-alt-cubuk-wa { background-color: rgb(37, 211, 102); color: var(--primary); }
+  main.reklam-sayfa ~ footer.site-footer { padding-bottom: calc(2rem + 76px + env(safe-area-inset-bottom, 0px)); }
+  /* Sağ alttaki yüzen butonlar alt çubukla çakışmasın */
+  .floating-container.reklam-yuzen { display: none !important; }
+}

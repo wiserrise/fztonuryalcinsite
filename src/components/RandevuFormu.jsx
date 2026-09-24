@@ -7,6 +7,10 @@
 //
 // Alanlar bilinçli olarak azdır (ad + telefon). Sağlık bilgisi istenmez; KVKK
 // kapsamında özel nitelikli veri olduğu için form bunu toplamak üzere kurulmamıştır.
+//
+// `mini` varyantı (reklam sayfaları): yalnızca ad + telefon, not alanı hiç yoktur.
+// Gönderim akışı, gizli alanlar ve _next yönlendirmesi birebir aynıdır; yalnızca
+// doldurulacak alan sayısı ve buton metni değişir.
 
 import { Link } from 'react-router-dom'
 import { SITE_URL } from '../hooks/useSeo.js'
@@ -23,7 +27,7 @@ const inputStyle = {
 
 const labelStyle = { fontWeight: 500, color: 'var(--text)', fontSize: '0.95rem' }
 
-export default function RandevuFormu({ konu, source = 'form' }) {
+export default function RandevuFormu({ konu, source = 'form', mini = false }) {
   return (
     <form
       action="https://formsubmit.co/fztonuryalcin@gmail.com"
@@ -44,29 +48,31 @@ export default function RandevuFormu({ konu, source = 'form' }) {
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
         <label htmlFor={`ad-${source}`} style={labelStyle}>Adınız Soyadınız</label>
-        <input id={`ad-${source}`} name="name" type="text" required placeholder="Adınız Soyadınız" style={inputStyle} />
+        <input id={`ad-${source}`} name="name" type="text" autoComplete="name" required placeholder="Adınız Soyadınız" style={inputStyle} />
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
         <label htmlFor={`tel-${source}`} style={labelStyle}>Telefon Numaranız</label>
-        <input id={`tel-${source}`} name="phone" type="tel" required placeholder="0 (5__) ___ __ __" style={inputStyle} />
+        <input id={`tel-${source}`} name="phone" type="tel" autoComplete="tel" inputMode="tel" required placeholder="0 (5__) ___ __ __" style={inputStyle} />
       </div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-        <label htmlFor={`not-${source}`} style={labelStyle}>
-          Eklemek istediğiniz not <span style={{ color: 'var(--text-light)', fontWeight: 400 }}>(isteğe bağlı)</span>
-        </label>
-        <textarea
-          id={`not-${source}`}
-          name="message"
-          rows="3"
-          placeholder="Size ne zaman ulaşmamız uygun olur?"
-          style={{ ...inputStyle, resize: 'vertical' }}
-        />
-      </div>
+      {!mini && (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+          <label htmlFor={`not-${source}`} style={labelStyle}>
+            Eklemek istediğiniz not <span style={{ color: 'var(--text-light)', fontWeight: 400 }}>(isteğe bağlı)</span>
+          </label>
+          <textarea
+            id={`not-${source}`}
+            name="message"
+            rows="3"
+            placeholder="Size ne zaman ulaşmamız uygun olur?"
+            style={{ ...inputStyle, resize: 'vertical' }}
+          />
+        </div>
+      )}
 
       <button type="submit" className="btn btn-primary" style={{ marginTop: '0.4rem', width: '100%' }}>
-        Randevu Talebi Gönder
+        {mini ? 'Beni Arayın' : 'Randevu Talebi Gönder'}
       </button>
 
       <p style={{ fontSize: '0.82rem', color: 'var(--text-light)', lineHeight: 1.6, margin: 0 }}>
