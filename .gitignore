@@ -10,3 +10,4 @@ public/sitemap.xml
 # Local Netlify folder
 .netlify
 .vercel
+dist-ssr

@@ -16,13 +16,13 @@ import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { getLandingBySlug, landingIcerikYukle } from '../data/landings.js'
 import { landingJsonLd, landingBreadcrumbs } from '../lib/landingSchema.js'
 import { BRAND, BRAND_KISA, LOCATION, NAP, CALISMA_SAATLERI, GBP_MAP_URL } from '../config/site.js'
+// Bir kez yüklenen içerik burada tutulur: aynı sayfaya geri dönüşte yeniden istek atılmaz
+// ve ilk render'da boş ekran görülmez. Sunucu render'ı ve hidrasyon da aynı önbelleği
+// önceden doldurur (bkz. lib/icerikOnbellek.js).
+import { icerikOnbellek } from '../lib/icerikOnbellek.js'
 
 // İçeriğin en son gözden geçirildiği tarih. Metin güncellendikçe burası da güncellenir.
 const SON_GUNCELLEME = '4 Eylül 2026'
-
-// Bir kez yüklenen içerik burada tutulur: aynı sayfaya geri dönüşte yeniden istek atılmaz
-// ve ilk render'da boş ekran görülmez.
-const icerikOnbellek = {}
 
 /**
  * Sayfanın metinlerini tembel yükler (bkz. landings.js). Reklam sayfalarında bu modül

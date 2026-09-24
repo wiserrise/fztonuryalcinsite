@@ -9,10 +9,13 @@
 // Reklam trafiğinin düştüğü sayfalarda bunun düzeltilmesi doğrudan onay ve
 // tıklama sonrası deneyimle ilgilidir.
 //
-// Gövde SPA tarafından render edilmeye devam eder; burada yalnızca <head> değişir.
+// Gövde de sunucuda render edilir (src/entry-server.jsx) ve <div id="root"> içine yazılır.
+// Önceden yalnız <head> yazılıyordu, gövde boştu: JavaScript çalıştırmayan istemciler
+// sayfada tek başlık ve tek satır metin görmüyordu. Tarayıcıda main.jsx bu gövdeyi
+// hidrate eder; data-rota damgası hangi adres için render edildiğini söyler.
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 import { dirname, resolve } from 'node:path'
 import { SITE_URL, BRAND_KISA, LOCATION } from '../src/config/site.js'
 import { landings } from '../src/data/landingsTam.js'
@@ -22,6 +25,29 @@ import { landingJsonLd, landingBreadcrumbJsonLd } from '../src/lib/landingSchema
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const distDir = resolve(__dirname, '../dist')
+
+// Sunucu render paketi (vite build --ssr src/entry-server.jsx --outDir dist-ssr).
+const ssrYolu = resolve(__dirname, '../dist-ssr/entry-server.js')
+if (!existsSync(ssrYolu)) {
+  throw new Error('dist-ssr/entry-server.js yok. Önce: vite build --ssr src/entry-server.jsx --outDir dist-ssr')
+}
+const { render, icerikOnbellekDoldur } = await import(pathToFileURL(ssrYolu).href)
+
+const KOK_BOS = '<div id="root"></div>'
+let govdeSayisi = 0
+
+/**
+ * Sayfanın gövdesini sunucuda render edip <div id="root"> içine yazar.
+ * Render hata verirse betik DURUR: yarım ya da boş gövdeyle yayına çıkmaktansa
+ * derlemenin kırılması tercih edilir.
+ */
+async function govdeEkle(html, url) {
+  if (!html.includes(KOK_BOS)) throw new Error(`${url}: şablonda ${KOK_BOS} bulunamadı`)
+  const govde = await render(url)
+  if (!govde || govde.length < 200) throw new Error(`${url}: gövde boş ya da çok kısa (${govde.length} karakter)`)
+  govdeSayisi++
+  return html.replace(KOK_BOS, `<div id="root" data-rota="${url}">${govde}</div>`)
+}
 
 const kacis = (s) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
@@ -93,10 +119,23 @@ function yaz(slug, html) {
   writeFileSync(hedef, html, 'utf-8')
 }
 
-const sablon = readFileSync(resolve(distDir, 'index.html'), 'utf-8')
+// index.html hem şablon hem de ana sayfadır; betik sonunda ana sayfanın gövdesi ona
+// yazılır. Betik ikinci kez çalışırsa (vite build yapılmadan) şablon artık boş kök
+// taşımaz ve bütün sayfalar yanlış render edilirdi. Bu yüzden temiz şablon ilk
+// çalışmada saklanır, sonraki çalışmalar onu kullanır.
+const sablonYolu = resolve(distDir, 'index.html')
+const temizKopya = resolve(distDir, '.sablon-index.html')
+let sablon = readFileSync(sablonYolu, 'utf-8')
+if (sablon.includes(KOK_BOS)) {
+  writeFileSync(temizKopya, sablon, 'utf-8')
+} else if (existsSync(temizKopya)) {
+  sablon = readFileSync(temizKopya, 'utf-8')
+} else {
+  throw new Error('dist/index.html zaten render edilmiş ve temiz şablon kopyası yok. Önce: vite build')
+}
 
-// Manifest yalnızca derleme aracıdır; Wrangler .vite/ dizinini yayına almasın.
-writeFileSync(resolve(distDir, '.assetsignore'), '.vite\n', 'utf-8')
+// Manifest ve şablon kopyası yalnızca derleme aracıdır; Wrangler bunları yayına almasın.
+writeFileSync(resolve(distDir, '.assetsignore'), '.vite\n.sablon-index.html\n', 'utf-8')
 
 // Vite manifest'i (vite.config.js build.manifest): kaynak dosya -> hash'li parça adı.
 // Bir parçanın kendi statik bağımlılıkları (`imports`) da önyüklenir; yoksa parça
@@ -129,18 +168,21 @@ for (const landing of landings) {
     jsonLd: [landingJsonLd(landing), landingBreadcrumbJsonLd(landing)],
     onYukle: landingOnYukle(landing),
   })
-  yaz(landing.slug, html)
+  // Metin normalde useEffect içinde yüklenir; sunucuda efekt çalışmadığı için önbellek
+  // önceden doldurulur. landingsTam metni eşzamanlı olarak taşır.
+  icerikOnbellekDoldur(landing.slug, landing.icerik)
+  yaz(landing.slug, await govdeEkle(html, `/${landing.slug}`))
 }
 
 // Gizlilik politikası: reklam incelemesinde doğrudan açılabildiği için o da statik.
 yaz(
   'gizlilik-politikasi',
-  headDegistir(sablon, {
+  await govdeEkle(headDegistir(sablon, {
     title: 'Gizlilik Politikası ve KVKK Aydınlatma Metni | Fizyoterapist Onur Yalçın',
     description:
       'Fizyoterapist Onur Yalçın internet sitesinde toplanan kişisel verilerin işlenmesi, çerez kullanımı ve KVKK kapsamındaki haklarınıza ilişkin aydınlatma metni.',
     canonical: `${SITE_URL}/gizlilik-politikasi`,
-  }),
+  }), '/gizlilik-politikasi'),
 )
 
 // ── Blog yazıları ────────────────────────────────────────────────────────
@@ -150,11 +192,11 @@ yaz(
 for (const post of blogPosts) {
   yaz(
     `blog/${post.id}`,
-    headDegistir(sablon, {
+    await govdeEkle(headDegistir(sablon, {
       title: `${post.title} | ${BRAND_KISA}`,
       description: `${post.excerpt} ${LOCATION.district} ${LOCATION.neighborhood} fizyoterapist Onur Yalçın.`,
       canonical: `${SITE_URL}/blog/${post.id}`,
-    }),
+    }), `/blog/${post.id}`),
   )
 }
 
@@ -163,11 +205,11 @@ for (const post of blogPosts) {
 for (const cat of serviceCategories) {
   yaz(
     `tedavi-yaklasimlarimiz/${cat.slug}`,
-    headDegistir(sablon, {
+    await govdeEkle(headDegistir(sablon, {
       title: `${LOCATION.district} ${cat.name} | ${BRAND_KISA}`,
       description: cat.intro,
       canonical: `${SITE_URL}/tedavi-yaklasimlarimiz/${cat.slug}`,
-    }),
+    }), `/tedavi-yaklasimlarimiz/${cat.slug}`),
   )
 }
 
@@ -195,25 +237,31 @@ const kurumsal = [
   },
 ]
 for (const s of kurumsal) {
-  yaz(s.slug, headDegistir(sablon, { ...s, canonical: `${SITE_URL}/${s.slug}` }))
+  yaz(s.slug, await govdeEkle(headDegistir(sablon, { ...s, canonical: `${SITE_URL}/${s.slug}` }), `/${s.slug}`))
 }
 
 // Teşekkür sayfası dizine girmemeli.
 yaz(
   'randevu-talebiniz-alindi',
-  headDegistir(sablon, {
+  await govdeEkle(headDegistir(sablon, {
     title: 'Randevu Talebiniz Alındı | Fizyoterapist Onur Yalçın',
     description: 'Randevu talebiniz kliniğimize ulaştı. En kısa sürede sizinle iletişime geçeceğiz.',
     canonical: `${SITE_URL}/randevu-talebiniz-alindi`,
     noindex: true,
-  }),
+  }), '/randevu-talebiniz-alindi'),
 )
+
+// Ana sayfa EN SON yazılır: index.html hem ana sayfa hem de yukarıdaki bütün sayfaların
+// şablonudur (sablon betiğin başında okundu). Bilinmeyen adresler de Cloudflare
+// tarafından bu dosyaya düşer; main.jsx data-rota eşleşmediği için onları hidrate
+// etmez, temizleyip sıfırdan çizer.
+writeFileSync(resolve(distDir, 'index.html'), await govdeEkle(sablon, '/'), 'utf-8')
 
 const toplam =
   landings.length + blogPosts.length + serviceCategories.length + kurumsal.length + 2
 
 console.log(
-  `prerender: ${toplam} sayfa için baş etiketleri yazıldı\n` +
+  `prerender: ${toplam} sayfa için baş etiketleri, ${govdeSayisi} sayfa için gövde yazıldı\n` +
     `  reklam açılış : ${landings.length}\n` +
     `  blog          : ${blogPosts.length}\n` +
     `  kategori      : ${serviceCategories.length}\n` +
