@@ -89,44 +89,6 @@ export const landings = [
     icerikAdi: 'skolyozSchrothIcerik',
   },
   {
-    slug: 'pelvik-taban-kadikoy',
-    reklam: true,
-    servisAdi: 'Pelvik Taban Fizyoterapisi',
-    breadcrumbAdi: 'Kadıköy Pelvik Taban Fizyoterapisi',
-    odakKelime: 'Kadıköy pelvik taban fizyoterapisi',
-    gorsel: '/assets/kart-pelvik-taban-kadikoy.jpg',
-    gorselAlt: 'Kadıköy Pelvik Taban Fizyoterapisi bilgi kartı: pelvik taban fizyoterapisi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın',
-    waMesaj: 'Merhaba, Kadıköy pelvik taban fizyoterapisi için bilgi almak istiyorum.',
-    teklif: {
-      kimIcin: 'Hekim yönlendirmesiyle gelen kadın ve erkekler; doğum sonrası ve gebelik dönemindeki kişiler',
-      neIcin: 'İdrar kaçırma, pelvik bölgede ağrı ve doğum sonrası gövde kontrolü gibi başlıklar',
-      neYapilir: 'Onayınızla yürütülen değerlendirme sonrası, hekim tanısı çerçevesinde planlanan kişiye özel program',
-    },
-    // Bu sayfaya gelen kişinin ilk tereddüdü mahremiyet. Güven maddeleri bu yüzden
-    // hizmet özelliği değil, sürecin nasıl yürüdüğü üzerine kuruldu.
-    guvenMaddeleri: [
-      'Değerlendirmede ne yapılacağı önceden anlatılır, onayınız alınır',
-      'Görüşmeye yanınızda bir yakınınızla gelebilirsiniz',
-      'Program hekim tanısı ve yönlendirmesi çerçevesinde planlanır',
-    ],
-    araCtaBaslik: 'Sorularınızı randevu almadan da sorabilirsiniz',
-    araCtaMetin:
-      'Sürecin nasıl ilerlediğini ve size uygun olup olmadığını konuşmak için önce yazabilirsiniz. Ayrıntı paylaşmak zorunda değilsiniz.',
-    konumMetni:
-      'Klinik, Kadıköy Kozyatağı’nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır, bekleme salonunda yoğunluk oluşmayacak şekilde planlanır.',
-    ilgiliBaglantilar: [
-      { to: '/erkek-pelvik-taban-kadikoy', label: 'Erkeklerde pelvik taban' },
-      { to: '/idrar-kacirma-kadikoy', label: 'İdrar kaçırma fizyoterapisi' },
-      { to: '/hamilelik-fizyoterapisi-kadikoy', label: 'Hamilelik fizyoterapisi' },
-      { to: '/dogum-sonrasi-fizyoterapi-kadikoy', label: 'Doğum sonrası fizyoterapi' },
-      { to: '/klinik-pilates-kadikoy', label: 'Klinik pilates' },
-      { to: '/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi', label: 'Rehabilitasyon hizmetleri' },
-      { to: '/blog/kadin-erkek-pelvik-taban', label: 'Pelvik taban yazısı' },
-    ],
-    icerikModul: 'landingContent',
-    icerikAdi: 'pelvikTabanIcerik',
-  },
-  {
     "slug": "bel-fitigi-kadikoy",
     "servisAdi": "Bel Fıtığı Fizyoterapisi",
     "breadcrumbAdi": "Bel Fıtığı Fizyoterapisi",
@@ -191,7 +153,7 @@ export const landings = [
         "Süreç, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın tarafından yürütülür.",
         "Program hazır bir paket olarak değil, öykü alma ve fiziksel değerlendirme sonrası kişiye özel planlanır.",
         "Tanı ve tedavi kararı hekime aittir; hekim değerlendirmesi gerektiren bulgularda yönlendirme yapılır.",
-        "Manuel terapi, klinik reformer pilates, pelvik taban rehabilitasyonu ve fasyal manipülasyon uygulamaları tek noktada yürütülür.",
+        "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları tek noktada yürütülür.",
         "Kadıköy Kozyatağı'nda, metro çıkışına yürüme mesafesinde; Pazartesi'den Cumartesi'ye 09:00-21:00 arasında randevu."
     ],
     "araCtaBaslik": "Şikâyetinizi değerlendirmeyle başlatın",
@@ -347,31 +309,19 @@ export const landings = [
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
         "Sertifikalı Schroth uygulayıcısı",
-        "Manuel terapi, klinik reformer pilates, pelvik taban rehabilitasyonu ve fasyal manipülasyon çalışmaları",
+        "Manuel terapi, klinik reformer pilates ve fasyal manipülasyon çalışmaları",
         "Süreç hekim onayı alındıktan sonra başlar; tanı ve tedavi kararı hekime aittir",
         "Değerlendirme sonrası kişiye özel planlanan, kademeli ilerleyen program",
         "Kozyatağı metro durağına yürüme mesafesinde klinik",
         "Pazartesi ile Cumartesi arası 09:00 ve 21:00 saatleri arasında randevu"
     ],
     "araCtaBaslik": "Değerlendirme için randevu oluşturun",
-    "araCtaMetin": "Karın duvarı, pelvik taban ve bel bölgesindeki şikayetleriniz hekim onayı alındıktan sonra ayrıntılı biçimde değerlendirilir, program doğum biçiminize ve günlük yaşamınıza göre planlanır. Kozyatağı'ndaki klinik Pazartesi ve Cumartesi arası 09:00 ile 21:00 saatleri arasında randevu ile çalışır.",
+    "araCtaMetin": "Karın duvarı ve bel bölgesindeki şikayetleriniz hekim onayı alındıktan sonra ayrıntılı biçimde değerlendirilir, program doğum biçiminize ve günlük yaşamınıza göre planlanır. Kozyatağı'ndaki klinik Pazartesi ve Cumartesi arası 09:00 ile 21:00 saatleri arasında randevu ile çalışır.",
     "konumMetni": "Kozyatağı, Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kadıköy, İstanbul. Kozyatağı metro durağına yürüme mesafesinde. Randevu: Pazartesi ile Cumartesi arası 09:00 ile 21:00.",
     "ilgiliBaglantilar": [
         {
             "to": "/hamilelik-fizyoterapisi-kadikoy",
             "label": "Hamilelik fizyoterapisi"
-        },
-        {
-            "to": "/idrar-kacirma-kadikoy",
-            "label": "İdrar kaçırma fizyoterapisi"
-        },
-        {
-            "to": "/pelvik-taban-kadikoy",
-            "label": "Pelvik taban rehabilitasyonu"
-        },
-        {
-            "to": "/blog/kadin-erkek-pelvik-taban",
-            "label": "Kadın ve erkekte pelvik taban"
         },
         {
             "to": "/klinik-pilates-kadikoy",
@@ -458,7 +408,7 @@ export const landings = [
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
         "Sertifikalı Schroth uygulayıcısı",
-        "Manuel terapi, klinik reformer pilates, pelvik taban rehabilitasyonu ve fasyal manipülasyon alanlarında çalışma",
+        "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon alanlarında çalışma",
         "Değerlendirme sonrası kişiye özel planlanan ve her seansta gözden geçirilen program",
         "Seanslar birebir yürütülür, program yapılan spora göre uyarlanır",
         "Kozyatağı metrosuna yürüme mesafesi, Pazartesi'den Cumartesi'ye 09:00-21:00 randevu"
@@ -515,7 +465,7 @@ export const landings = [
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
         "Sertifikalı Schroth uygulayıcısı",
-        "Manuel terapi, klinik reformer pilates, pelvik taban rehabilitasyonu ve fasyal manipülasyon uygulamaları",
+        "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
         "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
         "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
         "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
@@ -537,8 +487,8 @@ export const landings = [
             "label": "Bel ağrısı ve bel fıtığı"
         },
         {
-            "to": "/pelvik-taban-kadikoy",
-            "label": "Kadıköy pelvik taban rehabilitasyonu"
+            "to": "/erkek-pelvik-taban-kadikoy",
+            "label": "Kadıköy erkek pelvik taban rehabilitasyonu"
         },
         {
             "to": "/tedavi-yaklasimlarimiz",
@@ -558,6 +508,54 @@ export const landings = [
     icerikAdi: 'ofisCalisanlariFizyoterapiIcerik',
   },
   {
+      "slug": "visseral-terapi-kadikoy",
+      "servisAdi": "Visseral Terapi",
+      "breadcrumbAdi": "Mide ve Sindirim Sorunlarında Fizyoterapi (Visseral Terapi)",
+      "odakKelime": "Kadıköy visseral terapi",
+      "gorsel": "/assets/kart-visseral-terapi-kadikoy.jpg",
+      "gorselAlt": "Kadıköy Visseral Terapi bilgi kartı: mide ve sindirim sistemi sorunlarında fizyoterapi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, mide ve sindirim şikayetlerim için visseral terapi hakkında bilgi almak ve randevu oluşturmak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Manuel terapi, fasyal ve visseral manipülasyon uygulamaları",
+          "Süreç hekim teşhisi ve tetkik bulguları üzerine kurulur",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Sindirim şikayetlerinizi birlikte değerlendirelim",
+      "araCtaMetin": "Reflü, mide ağrısı, şişkinlik ya da göbek düşmesi şikayetleriniz geçmiyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, doktor teşhisleriniz ve tetkik bulgularınızın incelenmesiyle başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani",
+              "label": "Manuel terapi ve visseral manipülasyon"
+          },
+          {
+              "to": "/ofis-calisanlari-fizyoterapi-kadikoy",
+              "label": "Ofis çalışanları için fizyoterapi"
+          },
+          {
+              "to": "/klinik-pilates-kadikoy",
+              "label": "Kadıköy klinik pilates"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz",
+              "label": "Tedavi yaklaşımlarımız"
+          },
+          {
+              "to": "/kozyatagi-fizyoterapist",
+              "label": "Kozyatağı fizyoterapist"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          }
+      ],
+    icerikModul: 'hizmetContent',
+    icerikAdi: 'visseralTerapiIcerik',
+  },
+  {
     "slug": "kozyatagi-fizyoterapist",
     "semt": "Kozyatağı",
     "servisAdi": "Kozyatağı Fizyoterapist",
@@ -569,7 +567,7 @@ export const landings = [
     "guvenMaddeleri": [
       "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
       "Sertifikalı Schroth uygulayıcısı",
-      "Manuel terapi, klinik reformer pilates, pelvik taban rehabilitasyonu ve fasyal manipülasyon uygulamaları",
+      "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
       "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
       "Gülbahar Sokak, Ege Yıldız Sitesi No:15; Kozyatağı metrosuna yürüme mesafesi",
       "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
@@ -622,7 +620,7 @@ export const landings = [
     "guvenMaddeleri": [
       "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
       "Sertifikalı Schroth uygulayıcısı",
-      "Manuel terapi, klinik reformer pilates, pelvik taban rehabilitasyonu ve fasyal manipülasyon uygulamaları",
+      "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
       "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
       "Komşu mahalle Kozyatağı'nda klinik; Pazartesi-Cumartesi 09:00-21:00 randevu",
       "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
@@ -640,8 +638,8 @@ export const landings = [
         "label": "Doğum sonrası fizyoterapi"
       },
       {
-        "to": "/pelvik-taban-kadikoy",
-        "label": "Pelvik taban rehabilitasyonu"
+        "to": "/erkek-pelvik-taban-kadikoy",
+        "label": "Erkeklerde pelvik taban rehabilitasyonu"
       },
       {
         "to": "/norolojik-rehabilitasyon-kadikoy",
@@ -831,7 +829,7 @@ export const landings = [
     "gorselAlt": "Kadıköy İdrar Kaçırma Fizyoterapisi bilgi kartı: pelvik taban değerlendirmesi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Kadıköy idrar kaçırma fizyoterapisi için bilgi almak istiyorum.",
     "teklif": {
-      "kimIcin": "Hekim yönlendirmesiyle gelen, idrar kaçırma şikayeti olan kadın ve erkekler",
+      "kimIcin": "Hekim yönlendirmesiyle gelen, idrar kaçırma şikayeti olan erkekler; prostat cerrahisi sonrası dönem dahil",
       "neIcin": "Zorlanma tipi, ani sıkışma tipi ve karışık tip kaçırma ile pelvik taban işlev bozuklukları",
       "neYapilir": "Onayınızla yürütülen değerlendirme sonrası, hekim tanısı çerçevesinde planlanan kişiye özel program"
     },
@@ -844,11 +842,9 @@ export const landings = [
     "araCtaMetin": "Sürecin nasıl ilerlediğini ve size uygun olup olmadığını konuşmak için önce yazabilirsiniz. Ayrıntı paylaşmak zorunda değilsiniz.",
     "konumMetni": "Klinik, Kadıköy Kozyatağı\u2019nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır.",
     "ilgiliBaglantilar": [
-      { "to": "/pelvik-taban-kadikoy", "label": "Pelvik taban fizyoterapisi" },
       { "to": "/erkek-pelvik-taban-kadikoy", "label": "Erkeklerde pelvik taban" },
-      { "to": "/dogum-sonrasi-fizyoterapi-kadikoy", "label": "Doğum sonrası fizyoterapi" },
       { "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi", "label": "Rehabilitasyon hizmetleri" },
-      { "to": "/blog/kadin-erkek-pelvik-taban", "label": "Pelvik taban yazısı" }
+      { "to": "/blog/erkeklerde-pelvik-taban-sorunlari", "label": "Erkeklerde pelvik taban yazısı" }
     ],
     "icerikModul": "hizmetContent",
     "icerikAdi": "idrarKacirmaIcerik"
@@ -863,7 +859,7 @@ export const landings = [
     "waMesaj": "Merhaba, Kadıköy hamilelik fizyoterapisi için bilgi almak istiyorum.",
     "teklif": {
       "kimIcin": "Takibi yürüten hekiminin onayını almış, gebeliğin herhangi bir döneminde olan kişiler",
-      "neIcin": "Gebelikte bel ve kasık ağrısı, duruş zorlanmaları, pelvik taban farkındalığı ve doğuma hazırlık",
+      "neIcin": "Gebelikte bel ve kasık ağrısı, duruş zorlanmaları ve doğuma hazırlık",
       "neYapilir": "Hekim onayı çerçevesinde, gebelik haftasına göre uyarlanan değerlendirme ve kişiye özel program"
     },
     "guvenMaddeleri": [
@@ -876,9 +872,7 @@ export const landings = [
     "konumMetni": "Klinik, Kadıköy Kozyata\u011f\u0131'nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır.",
     "ilgiliBaglantilar": [
       { "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi", "label": "Fizik tedavi kliniği hizmetleri" },
-      { "to": "/pelvik-taban-kadikoy", "label": "Pelvik taban fizyoterapisi" },
-      { "to": "/dogum-sonrasi-fizyoterapi-kadikoy", "label": "Doğum sonrası fizyoterapi" },
-      { "to": "/idrar-kacirma-kadikoy", "label": "İdrar kaçırma fizyoterapisi" }
+      { "to": "/dogum-sonrasi-fizyoterapi-kadikoy", "label": "Doğum sonrası fizyoterapi" }
     ],
     "icerikModul": "hizmetContent",
     "icerikAdi": "hamilelikFizyoterapisiIcerik"
@@ -905,11 +899,10 @@ export const landings = [
     "araCtaMetin": "Sürecin nasıl ilerlediğini ve size uygun olup olmadığını konuşmak için önce yazabilirsiniz. Ayrıntı paylaşmak zorunda değilsiniz.",
     "konumMetni": "Klinik, Kadıköy Kozyatağı'nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır.",
     "ilgiliBaglantilar": [
-      { "to": "/pelvik-taban-kadikoy", "label": "Pelvik taban fizyoterapisi" },
       { "to": "/idrar-kacirma-kadikoy", "label": "İdrar kaçırma fizyoterapisi" },
       { "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy", "label": "Ameliyat sonrası rehabilitasyon" },
       { "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi", "label": "Rehabilitasyon hizmetleri" },
-      { "to": "/blog/kadin-erkek-pelvik-taban", "label": "Pelvik taban yazısı" }
+      { "to": "/blog/erkeklerde-pelvik-taban-sorunlari", "label": "Erkeklerde pelvik taban yazısı" }
     ],
     "icerikModul": "hizmetContent",
     "icerikAdi": "erkekPelvikTabanIcerik"

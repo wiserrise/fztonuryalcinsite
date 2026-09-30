@@ -20,8 +20,14 @@ export const klinikPilatesIcerik = {
     {
       "h2": "Seansları kim yürütüyor?",
       "paragraflar": [
-        "Seansları Fizyoterapist Onur Yalçın bizzat yürütüyor. İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu; manuel terapi, Schroth Metodu ile skolyoz rehabilitasyonu (sertifikalı), klinik reformer pilates ve pelvik taban rehabilitasyonu alanlarında çalışıyor.",
+        "Seansları Fizyoterapist Onur Yalçın bizzat yürütüyor. İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu; erkek pelvik taban rehabilitasyonu, manuel terapi, Schroth Metodu ile skolyoz rehabilitasyonu (sertifikalı) ve klinik reformer pilates alanlarında çalışıyor.",
         "Çalışma alanı Kozyatağı metrosuna yürüme mesafesinde; randevular Pazartesi-Cumartesi 09:00-21:00 arasında planlanıyor. WhatsApp'tan yazabilirsiniz."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy erkek pelvik taban fizyoterapisi",
+          "yol": "/erkek-pelvik-taban-kadikoy"
+        }
       ]
     },
     {
@@ -70,7 +76,7 @@ export const klinikPilatesIcerik = {
         },
         {
           "baslik": "Doğum sonrası dönem",
-          "metin": "Hekim değerlendirmesi ve onayı sonrasında planlanır. İlk görüşmede karın orta hattındaki ayrışma (diastazis rekti) ve pelvik taban belirtileri (idrar ya da gaz kaçırma, aşağı doğru ağırlık hissi) sorgulanır; varsa karın içi basıncı artıran hareketler uyarlanır, gerekiyorsa hekime yönlendirilir."
+          "metin": "Hekim değerlendirmesi ve onayı sonrasında planlanır. İlk görüşmede karın orta hattındaki ayrışma (diastazis rekti) sorgulanır; varsa karın içi basıncı artıran hareketler uyarlanır, gerekiyorsa hekime yönlendirilir."
         },
         {
           "baslik": "Yaralanma sonrası dönüş",
@@ -83,6 +89,12 @@ export const klinikPilatesIcerik = {
         {
           "baslik": "Egzersize yeni başlayanlar",
           "metin": "Hangi egzersizin kendisi için uygun olduğunu bilmeden başlamak istemeyenler."
+        }
+      ],
+      "baglantilar": [
+        {
+          "metin": "Ofis çalışanları için fizyoterapi",
+          "yol": "/ofis-calisanlari-fizyoterapi-kadikoy"
         }
       ]
     },
@@ -165,6 +177,12 @@ export const klinikPilatesIcerik = {
           "baslik": "Travma sonrası şiddetli ağrı",
           "metin": "Düşme, darbe veya kaza sonrasında ortaya çıkan şiddetli ağrı."
         }
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy idrar kaçırma fizyoterapisi",
+          "yol": "/idrar-kacirma-kadikoy"
+        }
       ]
     },
     {
@@ -192,7 +210,7 @@ export const klinikPilatesIcerik = {
     {
       "h2": "Gebelik ve doğum sonrası dönemde çalışmanın sınırları",
       "paragraflar": [
-        "Gebelikte ve doğum sonrası dönemde egzersiz kararı hekim değerlendirmesine bağlıdır; buradaki bilgiler o değerlendirmenin yerine geçmez. Hekim onayı verildiğinde program, karın duvarındaki gerginlik değişimi ve pelvik taban yükü göz önünde tutularak uyarlanır.",
+        "Gebelikte ve doğum sonrası dönemde egzersiz kararı hekim değerlendirmesine bağlıdır; buradaki bilgiler o değerlendirmenin yerine geçmez. Hekim onayı verildiğinde program, karın duvarındaki gerginlik değişimi göz önünde tutularak uyarlanır.",
         "Karın kaslarında ayrışma bulunan bir kişide klasik mekik türü hareketler programın başında yer almaz. Bunun yerine karın içi basıncını kontrollü tutan çalışmalarla başlanır ve yüklenme kişinin toleransına göre kademeli olarak değiştirilir. Ne zaman ilerleneceği takvimle değil, ara değerlendirmelerle belirlenir."
       ]
     },
@@ -268,7 +286,7 @@ export const klinikPilatesIcerik = {
     },
     {
       "soru": "Doğum sonrası dönemde klinik pilatese ne zaman başlanabilir?",
-      "cevap": "Başlama zamanı doğum şekline, iyileşme sürecine ve hekim değerlendirmesine göre değişir; kontrol muayenesi ve hekim onayı olmadan program başlatılmaz. Onay sonrasında karın orta hattındaki ayrışma ve pelvik taban belirtileri sorgulanır, egzersizler kademeli ilerletilir."
+      "cevap": "Başlama zamanı doğum şekline, iyileşme sürecine ve hekim değerlendirmesine göre değişir; kontrol muayenesi ve hekim onayı olmadan program başlatılmaz. Onay sonrasında karın orta hattındaki ayrışma sorgulanır, egzersizler kademeli ilerletilir."
     },
     {
       "soru": "Skolyozda hangi yaklaşım uygulanıyor?",
@@ -587,6 +605,12 @@ export const skolyozSchrothIcerik = {
       "paragraflar": [
         "Genel bir kuvvetlendirme ya da esneme programı gövdeyi bütün olarak çalıştırır ve simetrik bir yüklenme varsayar. Skolyoza özgü çalışma ise eğriliğin yönünü ve dönme bileşenini hesaba katar; aynı hareket gövdenin iki yanına farklı biçimde uygulanabilir.",
         "Klinik pilates bu programın yerine geçmez, yanında yer alabilir. Hangi çalışmanın öne alınacağı değerlendirme sonucuna ve kişinin hedefine göre belirlenir. Karar, görüntüleme ve hekim değerlendirmesiyle birlikte ele alınır."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy klinik pilates",
+          "yol": "/klinik-pilates-kadikoy"
+        }
       ]
     },
     {
@@ -754,397 +778,6 @@ export const skolyozSchrothIcerik = {
       "Kozyatağı'ndaki çalışma alanında değerlendirme sonrası kişiye göre planlanan program.",
       "Skolyoz tanısı konulmuş çocuk, ergen ve yetişkinlere yönelik fizyoterapi bilgisi.",
       "Adres: Kozyatağı, Kadıköy. Pazartesi-Cumartesi 09:00-21:00 arası randevu ile çalışılır."
-    ]
-  }
-}
-
-export const pelvikTabanIcerik = {
-  "title": "Kadıköy Pelvik Taban Fizyoterapisi | Fzt. Onur Yalçın",
-  "metaDescription": "Kadıköy pelvik taban fizyoterapisi sürecinin nasıl işlediği, değerlendirme ve onam başlıkları, çalışma saatleri ve iletişim bilgileri. Kozyatağı.",
-  "h1": "Kadıköy Pelvik Taban Fizyoterapisi: Süreç ve Değerlendirme",
-  "heroAltBaslik": "Kozyatağı'ndaki klinikte yürütülen fizyoterapi süreci hakkında bilmek isteyebileceğiniz başlıklar ve iletişim bilgileri",
-  "heroParagraf": "Kadıköy pelvik taban fizyoterapisi, Kozyatağı'ndaki klinikte yürütülen çalışma alanlarından biridir. Bu sayfada hangi başlıkların ele alındığını, değerlendirmede onam ve mahremiyetin nasıl korunduğunu, kılavuzların bu alanda ne söylediğini ve hangi bulgularda önce hekime başvurmak gerektiğini bulacaksınız. Randevu istemek veya süreç hakkında soru sormak için 0507 294 99 00 numaralı telefondan arayabilir ya da WhatsApp'tan yazabilirsiniz; bunun için ayrıntı paylaşmanız gerekmez.",
-  "primaryCtaMetni": "WhatsApp'tan randevu alın",
-  "bolumler": [
-    {
-      "h2": "Kadıköy pelvik taban fizyoterapisi hangi başlıklarda gündeme gelir?",
-      "paragraflar": [
-        "Kadıköy pelvik taban fizyoterapisi başlığı altında bu sayfada dört çalışma alanı anlatılıyor. Aşağıdaki başlıklar hizmetin kapsamını tarif eder; bir tanı listesi değildir. Sizin durumunuzun bu kapsama girip girmediği, elinizdeki yönlendirmeye göre görüşmede değerlendirilir.",
-        "Pelvik taban, leğen kemiğinin tabanını kapatan kas grubudur ve kadınlarda da erkeklerde de gündeme gelebilen bir alandır. Bu sayfadaki başlıklar aşağıda sıralanan dört alanla sınırlıdır; listede yer almayan bir konu için hangi adımın uygun olacağını telefonla sorabilirsiniz."
-      ],
-      "liste": [
-        {
-          "baslik": "İleri düzey pelvik taban rehabilitasyonu",
-          "metin": "Pelvik taban kaslarının kasılma ve gevşeme becerisi, solunumla eşgüdüm ve gövde kontrolü üzerine yürütülen çalışma alanı."
-        },
-        {
-          "baslik": "İdrar kaçırma fizyoterapisi",
-          "metin": "Zorlanmayla ortaya çıkan kaçak, ani sıkışmayla ortaya çıkan kaçak ve bu ikisinin birlikte görüldüğü karışık tablolar bu başlığın konusudur."
-        },
-        {
-          "baslik": "Doğum sonrası fizyoterapi",
-          "metin": "Toparlanma dönemi, karın orta hattı ayrışması (diastazis rekti) ve günlük hareketlere kademeli dönüş bu başlıkta ele alınan konulardır."
-        },
-        {
-          "baslik": "Hamilelik dönemi fizyoterapisi",
-          "metin": "Bel ve leğen bölgesi ağrısı, duruş değişikliğine uyum ve takip eden hekimin uygun gördüğü egzersiz düzenlemesi bu başlığın kapsamındadır."
-        }
-      ]
-    },
-    {
-      "h2": "Süreç nasıl başlar: hekim teşhisi ve yönlendirmesi",
-      "paragraflar": [
-        "Türkiye'de fizyoterapistin çalışma çerçevesi 1219 sayılı Kanunun ek 13 üncü maddesinde tanımlanmıştır. Maddeye göre hastalık durumlarında fizyoterapi uygulaması; fiziksel tıp ve rehabilitasyon uzmanı tabibin veya uzmanlık eğitimi sırasında fiziksel tıp ve rehabilitasyon rotasyonu yapmış ya da uzmanlık sonrasında ilgili dalın rotasyon süresi kadar fiziksel tıp ve rehabilitasyon eğitimi almış uzman tabiplerin kendi uzmanlık alanlarıyla ilgili teşhisine ve tedavi için yönlendirmesine bağlı olarak yürütülür.",
-        "Bu ayrıntı pelvik taban alanında sık sorulur, çünkü belirleyici olan yönlendirmeyi yazan hekimin bu koşulu taşıyıp taşımadığıdır. Elinizdeki yönlendirme belgesinin bu çerçeveye uygun olup olmadığını randevu öncesinde telefonla sorabilirsiniz.",
-        "Fizyoterapist hekim değildir: tanı koymaz, hekimin tedavi kararını değiştirmez ve reçete yazmaz. Aynı madde, tedavinin gidişi hakkında yönlendiren uzman tabibe bilgi verilmesini de öngörür."
-      ]
-    },
-    {
-      "h2": "Mahremiyet, onam ve haklarınız",
-      "paragraflar": [
-        "En çok merak edilen konu değerlendirmenin nasıl yürüdüğüdür. Genel ilke şudur: onayınız olmadan hiçbir uygulama yapılmaz. Hangi adımların gerekli olduğu ve nasıl ilerleneceği görüşmede size anlatılır, ardından tercihiniz sorulur.",
-        "Randevu sırasında ayrıntı paylaşmak zorunlu değildir. Aşağıdaki başlıklar, görüşme öncesinde bilmek isteyebileceğiniz genel çerçeveyi özetler; kalan sorularınız için 0507 294 99 00 numaralı telefondan arayabilir ya da WhatsApp'tan yazabilirsiniz."
-      ],
-      "liste": [
-        {
-          "baslik": "Bilgilendirme ve onam",
-          "metin": "Bir adıma geçilmeden önce ne yapılacağı anlatılır ve onayınız istenir. Verdiğiniz onayı dilediğiniz zaman geri çekebilirsiniz."
-        },
-        {
-          "baslik": "İstediğiniz an durdurma",
-          "metin": "Herhangi bir aşamada durmak istediğinizi söyleyebilirsiniz; bunun için gerekçe göstermeniz gerekmez."
-        },
-        {
-          "baslik": "Yanınızda bir yakınınız",
-          "metin": "Görüşmede yanınızda bir yakınınızın bulunmasını isterseniz bunu randevu sırasında iletebilirsiniz."
-        },
-        {
-          "baslik": "Giyim ve hazırlık",
-          "metin": "Görüşmeye ne giyerek gelmeniz ve nasıl hazırlanmanız gerektiğini randevu sırasında sorabilirsiniz."
-        },
-        {
-          "baslik": "Uygulayıcı tercihi",
-          "metin": "Klinikte tek fizyoterapist çalışıyor ve erkek. Kadın bir uygulayıcıyla çalışmayı tercih ederseniz bu tamamen sizin kararınızdır ve gerekçe göstermeniz gerekmez."
-        },
-        {
-          "baslik": "Kişisel veriler",
-          "metin": "Kişisel verileriniz ilgili sağlık ve veri koruma mevzuatı kapsamında işlenir; ayrıntılı bilgi için iletişim kanallarından başvurabilirsiniz."
-        }
-      ]
-    },
-    {
-      "h2": "İlk görüşme bu alanda genellikle nasıl ilerler?",
-      "paragraflar": [
-        "Pelvik taban fizyoterapisinde ilk görüşmenin büyük bölümü genellikle konuşarak geçer. Aşağıdaki başlıklar bu alanda ilk görüşmede sık ele alınan konuları anlatır. Sizin görüşmenizin içeriği ve sırası bulgulara göre değişir, görüşmenin başında fizyoterapist tarafından anlatılır."
-      ],
-      "liste": [
-        {
-          "baslik": "Belgelerin gözden geçirilmesi",
-          "metin": "Yönlendirme ile varsa epikriz, tetkik ve ameliyat raporu gibi belgelerin okunması bu alanda ilk görüşmenin olağan başlangıcıdır."
-        },
-        {
-          "baslik": "Öykü alma",
-          "metin": "Tarif edilen tablonun tipi, süresi ve tetikleyicileri ile hekim değerlendirmesi gerektiren bulguların taranması sık ele alınan başlıklardır."
-        },
-        {
-          "baslik": "Mesane ve bağırsak günlüğü",
-          "metin": "Birkaç gün tutulan bir günlük; işeme sıklığını, sıvı alımını ve tetikleyicileri görünür kılabilir. Bu alanda sık kullanılan bir yöntemdir."
-        },
-        {
-          "baslik": "Fizyoterapi değerlendirmesi",
-          "metin": "Duruş, solunum düzeni, karın duvarı ve orta hat, gövde ile kalça çevresi kas kontrolü ve yük altında hareketin gözlenmesi bu alandaki değerlendirmenin bilinen başlıklarıdır."
-        },
-        {
-          "baslik": "Bulguların birlikte konuşulması",
-          "metin": "Ne görüldüğü, hangi bulgunun ne anlama geldiği ve neyin fizyoterapi kapsamı dışında kaldığı sade bir dille konuşulur."
-        },
-        {
-          "baslik": "Ev programı",
-          "metin": "Değerlendirme sonrasında, uygun görülürse ev programının ilk adımları birlikte çalışılabilir; hareket seçimi ve tekrar düzeni bulgulara göre belirlenir."
-        }
-      ]
-    },
-    {
-      "h2": "Kegel herkese uygun mudur? Önce değerlendirme",
-      "paragraflar": [
-        "Pelvik taban, karın ve sırt kaslarıyla ve diyaframla birlikte çalışan bir kas grubudur. İdrar ve dışkı yollarının kapalı kalmasını esas olarak üretra ve anüs çevresindeki sfinkter mekanizmaları sağlar; pelvik taban kasları bu mekanizmayı destekler ve karın içi basınç arttığında refleks olarak kasılır. Aynı kaslar işemenin ve dışkılamanın başında gevşer. Yani sağlıklı işleyiş yalnızca kasılabilmeyi değil, doğru zamanda gevşeyebilmeyi de gerektirir.",
-        "İnternette en sık karşılaşılan öneri, günlük bir kasılma sayısı vermek biçimindedir. Oysa kasın yeterince kasılamaması ile gevşeyememesi ayrı sorunlardır ve aynı kişide birlikte de bulunabilir. Pelvik ağrı, kabızlık ve hekim değerlendirmesi yapılmış, tıkanıklık gibi nedenlerin dışlandığı işeme güçlüğü tablolarında hedef kuvvetlendirme değil; gevşeme, solunumla eşgüdüm ve koordinasyon olabilir. Bu nedenle hedef ancak değerlendirme sonrasında belirlenir.",
-        "Birleşik Krallık'ta yayımlanan NICE NG123 kılavuzu (2019) kadınlarda üriner inkontinans ve pelvik organ prolapsusunu kapsar. Bu kılavuz, denetimli pelvik taban kas eğitimine başlamadan önce kasılmanın gerçekten oluşup oluşmadığının dijital, yani iç değerlendirmeyle doğrulanmasını önerir. Bu bir kılavuz önerisidir ve her uygulama gibi onayınıza bağlıdır: kabul etmek zorunda değilsiniz, kabul etmediğinizde nasıl ilerlenebileceği görüşmede size anlatılır. Sayfada genel bir egzersiz listesi verilmemesinin nedeni de budur; hangi hareketin hangi tekrar düzeniyle ve hangi hedefle yapılacağı ancak değerlendirme sonrasında belirlenebilir.",
-        "Sözel talimat tek başına doğru kasılmayı garanti etmez; bazı kişiler kasmak yerine ıkınabilir. Yaygın bir alışkanlık olan idrar akışını durdurup bırakma da düzenli bir egzersiz yöntemi değildir, işeme sırasında tekrarlanması işeme düzenini bozabileceği için önerilmez. Bu başlıkları görüşme öncesinde sormak isterseniz 0507 294 99 00 numaralı telefondan ulaşabilirsiniz."
-      ]
-    },
-    {
-      "h2": "Pelvik taban hangi yapılardan oluşur ve nasıl çalışır",
-      "paragraflar": [
-        "Pelvik taban, leğen kemiğinin tabanını bir hamak gibi kapatan kas ve bağ dokusu katmanlarından oluşur. Önde idrar yolunun, arkada bağırsağın çıkışını çevreler; kadınlarda ayrıca doğum kanalıyla komşudur. Bu yapı organları yerinde tutar, karın içi basınç arttığında refleks olarak kasılır ve boşaltım sırasında gevşer.",
-        "Bu bölge tek başına çalışmaz. Diyafram üstte, karın duvarı önde, derin sırt kasları arkada yer alır ve dördü birlikte bir basınç sistemi kurar. Nefes alırken diyafram aşağı iner, pelvik taban buna uyum sağlar. Bu eşgüdüm bozulduğunda şikayet çoğu zaman tek bir kasta değil, sistemin bütününde aranır.",
-        "Bu nedenle değerlendirme yalnızca kas gücüne bakmakla sınırlı kalmaz. Nefes düzeni, gövde kontrolü, duruş ve günlük yükler birlikte ele alınır. Programın hangi bileşenle başlayacağı da bu bütünsel tabloya göre belirlenir."
-      ]
-    },
-    {
-      "h2": "Bu alandaki alt başlıklar ve ayrıntılı sayfalar",
-      "paragraflar": [
-        "Pelvik taban başlığı altında toplanan şikayetler tek bir programla ele alınmaz. Her birinin kendi değerlendirme yolu ve kendi öncelikleri vardır. Bu sayfa alanın genel çerçevesini anlatır; alt başlıklar ayrı sayfalarda ayrıntılandırılmıştır."
-      ],
-      "liste": [
-        {
-          "baslik": "İdrar kaçırma fizyoterapisi",
-          "metin": "Zorlanma tipi, ani sıkışma tipi ve karışık tip arasındaki ayrım, mesane günlüğü ve tipe göre değişen program içeriği ayrı sayfada ele alınmıştır."
-        },
-        {
-          "baslik": "Hamilelik fizyoterapisi",
-          "metin": "Gebelik döneminde hekim onayına bağlı çalışma, trimesterlere göre uyarlama ve doğuma hazırlık başlıkları ayrı sayfada anlatılmıştır."
-        },
-        {
-          "baslik": "Doğum sonrası fizyoterapi",
-          "metin": "Karın kaslarındaki ayrışma, sezaryen sonrası iz bölgesi ve gövde kontrolüne kademeli dönüş ayrı sayfada anlatılmıştır."
-        },
-        {
-          "baslik": "Erkeklerde pelvik taban rehabilitasyonu",
-          "metin": "Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıkları erkek danışanlar için ayrı sayfada ele alınmıştır."
-        },
-        {
-          "baslik": "Klinik pilates",
-          "metin": "Gövde kontrolü ve nefes düzeni üzerine çalışmanın grup dışı, kişiye uyarlanmış biçimi ayrı sayfada ele alınmıştır."
-        }
-      ]
-    },
-    {
-      "h2": "Erkeklerde pelvik taban ve sık atlanan başlıklar",
-      "paragraflar": [
-        "Pelvik taban çoğunlukla doğum ve gebelikle ilişkilendirildiği için erkeklerde gündeme gelmesi gecikir. Oysa bu bölge erkeklerde de aynı işlevleri taşır ve benzer zorlanmalar üretebilir.",
-        "Erkeklerde alt üriner sistem şikayetleri ayrı bir değerlendirme alanıdır; kadınlar için tanımlanan çerçeve doğrudan aktarılamaz. Bu nedenle erkek danışanlarda hekim değerlendirmesi ve tanı, çalışmanın başlangıç koşuludur.",
-        "Değerlendirmenin nasıl ilerlediği, hangi tabloların gündeme geldiği ve mahremiyet çerçevesi ayrı bir sayfada ele alınıyor: erkek pelvik taban fizyoterapisi sayfasına aşağıdaki bağlantılardan ulaşabilirsiniz."
-      ]
-    },
-    {
-      "h2": "Ev egzersiz programı ve süre beklentisi",
-      "paragraflar": [
-        "Bu alanda belirleyici olan, klinikte geçen dakikalardan çok evde geçen haftalardır. İlk hedef genellikle doğru kası, doğru solunumla ve uygun şiddette çalışabilmektir. Programın nasıl ilerleyeceği ve görüşme sıklığı değerlendirme sonrasında belirlenir.",
-        "Sürdürülebilirlik için program günlük rutine yerleştirilebilir; sabit bir saate bağlamak yerine var olan bir alışkanlığa iliştirmek kişiye göre daha kolay olabilir. Egzersizin yanında mesane ve bağırsak alışkanlıkları, sıvı düzeni, kabızlığın yönetimi, tuvalette oturma pozisyonu ve ağır kaldırma tekniği de bu alanın başlıklarıdır.",
-        "Süre konusunda NICE NG123 kılavuzunun (2019) kadınlar için tarif ettiği çerçeve beklentiyi kurmaya yardımcı olur: zorlanma ve karışık tipte denetimli programın en az üç ay sürmesi, ani sıkışma ve karışık tipte mesane eğitiminin en az altı hafta uygulanması önerilir. Bu genel bir kılavuz çerçevesidir, kişiye verilecek program değildir.",
-        "Yanıt kişiye göre değişir ve önceden öngörülemez; bu nedenle sayfada sonuç öngörüsü verilmez. Geri bildirim (biofeedback) gibi destekleyici yöntemler ana çalışmanın yerini almaz. Program sırasında ağrınızda ya da belirtilerinizde artış olursa çalışmayı sürdürmeden fizyoterapistinize, gerekiyorsa yönlendiren hekiminize iletmeniz önemlidir. Randevu istemek veya süreç hakkında soru sormak için 0507 294 99 00 numaralı telefondan arayabilir ya da WhatsApp'tan yazabilirsiniz."
-      ]
-    },
-    {
-      "h2": "Hangi durumlarda önce hekime başvurmalı?",
-      "paragraflar": [
-        "Aşağıdaki bulgular fizyoterapi kapsamı dışındadır; bu tablolarda önce hekime, belirtilen durumlarda ise doğrudan acil servise başvurmak gerekir. Liste hem kadın hem erkek okuyucuları kapsar.",
-        "Bunların dışında kalan bazı başlıklar sürecin durması anlamına gelmez: aktif enfeksiyon, yakın zamanda geçirilmiş cerrahi ya da radyoterapi öyküsü, program planlamasında hekim görüşü gerektiren durumlardır. Hekim değerlendirmesinden sonra nasıl ilerleyebileceğinizi konuşmak için 0507 294 99 00 numaralı telefondan ya da WhatsApp'tan ulaşabilirsiniz."
-      ],
-      "liste": [
-        {
-          "baslik": "Yeni başlayan nörolojik belirtiler",
-          "metin": "Oturma bölgesinde uyuşma, bacaklarda güçsüzlük, aniden başlayan idrar veya gaita kontrol kaybı ya da idrar yapamama acil bir durumdur; doğrudan acil servise başvurulmalıdır."
-        },
-        {
-          "baslik": "Karında, kesi hattında veya kasıkta ele gelen şişlik",
-          "metin": "Ağrılı, sertleşen ya da içeri itilemeyen şişlik fıtık açısından acil cerrahi değerlendirme gerektirir; ağrıya bulantı ve kusma eşlik ediyorsa gecikmeden acil servise başvurulmalıdır."
-        },
-        {
-          "baslik": "Gebelikte ve doğum sonrası dönemde acil bulgular",
-          "metin": "Geçmeyen şiddetli baş ağrısı, görme bulanıklığı veya ışık çakması, sağ üst karın ağrısı ve ani ödem; tek taraflı baldır ağrısı ve şişliği, nefes darlığı, göğüs ağrısı; ateşle birlikte kötü kokulu akıntı veya titreme. Bu bulgular doğum sonrasındaki haftalarda da görülebilir ve gecikmeden acil servise başvurulmasını gerektirir."
-        },
-        {
-          "baslik": "Gebelikte kanama, sıvı gelmesi, hareket azalması veya erken doğum belirtileri",
-          "metin": "Beklenmeyen kanama, sıvı gelmesi, bebeğin hareketlerinde azalma ya da düzenli kasılmalar; egzersiz gündeme gelmeden önce takip eden hekim veya ebe tarafından değerlendirilmelidir."
-        },
-        {
-          "baslik": "Görünür kanama ve bağırsak alışkanlığında değişiklik",
-          "metin": "İdrarda veya menide kan, dışkıda kan ya da siyah dışkı, bağırsak alışkanlığında geçmeyen değişiklik ve beklenmeyen vajinal kanama hekim değerlendirmesi gerektirir."
-        },
-        {
-          "baslik": "İşemeye başlamakta güçlük",
-          "metin": "İdrarın tam boşalmadığı hissi veya boşaltım güçlüğünde, tıkanıklık gibi nedenlerin dışlanması için önce hekime başvurulmalıdır."
-        },
-        {
-          "baslik": "Diğer hekim değerlendirmesi gerektiren bulgular",
-          "metin": "Ateş, açıklanamayan kilo kaybı, ele gelen kitle veya belirgin sarkma, geçmeyen mesane ve idrar yolu ağrısı, tekrarlayan idrar yolu enfeksiyonu ile testis veya skrotumda ağrı, şişlik ya da sertlik. Ani başlayan şiddetli testis ağrısı acil bir durumdur."
-        }
-      ]
-    },
-    {
-      "h2": "Kadıköy Kozyatağı'ndaki klinik ve iletişim",
-      "paragraflar": [
-        "Kadıköy pelvik taban fizyoterapisi görüşmeleri Kozyatağı'nda yürütülür. Klinik, Kozyatağı Mah. Gülbahar Sk., Ege Yıldız Sitesi, No:15, Kadıköy, İstanbul, 34742 adresindedir.",
-        "Çalışma saatleri pazartesi ile cumartesi arasında 09:00-21:00'dir, pazar günleri kapalıdır. Randevu istemek için WhatsApp'tan tek bir mesaj yeterlidir; 0507 294 99 00 numaralı telefondan arayabilir ya da fztonuryalcin@gmail.com adresine yazabilirsiniz.",
-        "İlk temasta ayrıntı paylaşmak gerekmez. Elinizde yönlendirme, epikriz veya ameliyat raporu varsa getirmeniz süreci kolaylaştırır. Ücretlendirme ve geri ödeme koşulları kuruma ve poliçeye göre değiştiği için sayfada rakam paylaşılmaz.",
-        "Pelvik taban fizyoterapisi Kadıköy'de bu adreste, hekim yönlendirmesiyle yürütülür; Kozyatağı pelvik taban fizyoterapisi için Kadıköy'ün yanı sıra Ataşehir, Bostancı, Erenköy ve Suadiye çevresinden metro ve minibüs hatlarıyla ulaşım kısa sürer. İdrar kaçırma fizyoterapisi Kadıköy'de bu adreste hekim yönlendirmesiyle ele alınır; doğum sonrası fizyoterapi Kadıköy'deki aynı çalışma alanında, gebelik dönemi ise hekim onayıyla planlanır. Pelvik taban rehabilitasyonu Kadıköy'de bu çerçevede yürütülür. Kadıköy pelvik taban fizyoterapisi randevu talebinizi ayrıntı vermeden WhatsApp'tan iletebilirsiniz.",
-        "Süreci yürüten kişi Fizyoterapist Onur Yalçın'dır; İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunudur. Sayfada anılan kaynak, Birleşik Krallık'ta yayımlanan NICE NG123 kılavuzudur (2019). Kılavuzlar güncellenebildiği için güncel sürümden teyit edilmesi uygun olur. Bu sayfa bilgilendirme amaçlıdır, tıbbi tavsiye yerine geçmez."
-      ]
-    }
-  ],
-  "sss": [
-    {
-      "soru": "Randevu nasıl alınır, ilk temasta ne söylemem gerekir?",
-      "cevap": "0507 294 99 00 numaralı telefondan arayabilir ya da aynı numaraya WhatsApp'tan yazabilirsiniz. İlk temasta ayrıntı paylaşmanız gerekmez; uygun olduğunuz gün ve saat aralığını iletmeniz yeterlidir. Yalnızca sürecin nasıl işlediğini öğrenmek için de yazabilirsiniz."
-    },
-    {
-      "soru": "Görüşmeye hangi belgeleri getirmeliyim?",
-      "cevap": "Elinizde yönlendirme, epikriz, tetkik sonucu veya ameliyat raporu varsa getirmeniz süreci kolaylaştırır. Hangi belgelerin işinize yarayacağından emin değilseniz randevu sırasında telefonla sorabilirsiniz."
-    },
-    {
-      "soru": "Hekim yönlendirmesi gerekli mi, hangi hekimden olmalı?",
-      "cevap": "Hastalık durumlarında fizyoterapi, 1219 sayılı Kanunun ek 13 üncü maddesine göre fiziksel tıp ve rehabilitasyon uzmanı tabibin ya da uzmanlık eğitimi sırasında bu alanda rotasyon yapmış veya uzmanlık sonrasında ilgili dalın rotasyon süresi kadar fiziksel tıp ve rehabilitasyon eğitimi almış uzman tabiplerin kendi uzmanlık alanlarıyla ilgili teşhisine ve tedavi için yönlendirmesine bağlıdır. Elinizdeki belgenin bu çerçeveye uygun olup olmadığını randevu öncesinde telefonla sorabilirsiniz."
-    },
-    {
-      "soru": "İç (vajinal veya rektal) değerlendirme yapılıyor mu?",
-      "cevap": "NICE NG123 kılavuzu (2019) kadınlarda denetimli pelvik taban kas eğitimine başlamadan önce kasılmanın dijital, yani iç değerlendirmeyle doğrulanmasını önerir. Bu bir kılavuz önerisidir; her uygulama gibi onayınıza bağlıdır ve kabul etmek zorunda değilsiniz. Sizin değerlendirmenizin kapsamı görüşmede anlatılır ve tercihiniz sorulur. Konuyu randevu öncesinde 0507 294 99 00 numarasından da sorabilirsiniz."
-    },
-    {
-      "soru": "Fizyoterapistin erkek olması süreci nasıl etkiler?",
-      "cevap": "Klinikte tek fizyoterapist çalışıyor ve erkek. Bu bilgiyi randevu öncesinde bilmek karar vermeyi kolaylaştırdığı için sayfada açıkça yazıyoruz. Onam ve durdurma başlıkları mahremiyet bölümünde anlatılmıştır. Kadın bir uygulayıcıyla çalışmayı tercih ederseniz bu tamamen sizin kararınızdır."
-    },
-    {
-      "soru": "Görüşmeye ne giyerek gelmeliyim, yanımda bir yakınım bulunabilir mi?",
-      "cevap": "Ne giyerek gelmeniz ve nasıl hazırlanmanız gerektiğini randevu sırasında sorabilirsiniz. Görüşmede yanınızda bir yakınınızın bulunmasını isterseniz bunu da randevu sırasında iletebilirsiniz; gerekçe göstermeniz gerekmez."
-    },
-    {
-      "soru": "Program kaç seans sürer, ne sıklıkla gelmek gerekir?",
-      "cevap": "Kesin bir seans sayısı vermek doğru olmaz; süre ve sıklık değerlendirme bulgularına göre belirlenir. NICE NG123 kılavuzunun (2019) kadınlar için tarif ettiği genel çerçeve, denetimli programın zorlanma ve karışık tipte en az üç ay sürmesi yönündedir. Bu bir kılavuz çerçevesidir, kişiye verilecek program değildir."
-    },
-    {
-      "soru": "Evde tek başına Kegel yapmak yeterli olmaz mı?",
-      "cevap": "Her pelvik taban tablosu zayıflıkla ilgili değildir; kasılamama ile gevşeyememe ayrı sorunlardır ve birlikte de bulunabilir. NICE NG123 kılavuzu (2019) kadınlarda programa başlamadan önce kasılmanın doğrulanmasını önerir. Sayfada değerlendirmesiz genel bir egzersiz listesi verilmemesinin nedeni budur."
-    },
-    {
-      "soru": "Doğumdan ne kadar sonra başlanabilir, sezaryen sonrası farklı mı?",
-      "cevap": "Tek bir hafta sayısı vermek doğru olmaz. Başlama zamanı doğumun biçimine, dikiş ve yara iyileşmesine, kanama durumuna ve hekim görüşüne göre değişir; sezaryen sonrasında yara iyileşmesi bu kararda ayrıca ağırlık taşır. İlk dönemde çalışma genellikle solunum, duruş ve günlük hareket düzeni gibi düşük yüklü başlıklardan oluşur."
-    },
-    {
-      "soru": "Gebelikte pelvik taban çalışması yapılabilir mi?",
-      "cevap": "Gebelikte egzersiz düzenlemesi ancak takip eden hekimin uygun görmesiyle gündeme gelir. Kanama, sıvı gelmesi veya riskli gebelik tanımlanan durumlarda önce hekim ya da ebe değerlendirmesi gerekir. İçerik döneme, yüklenme toleransına ve hekim görüşüne göre ayarlanır."
-    },
-    {
-      "soru": "SGK veya özel sigorta karşılıyor mu?",
-      "cevap": "Geri ödeme koşullarını kendi kurumunuzdan veya sigorta şirketinizden teyit etmeniz gerekir; rapor, sevk süreci, seans sınırları ve poliçe içeriği belirleyicidir. Klinik tarafındaki uygulamayı ve belge düzenini 0507 294 99 00 numarasından telefonla sorabilirsiniz."
-    },
-    {
-      "soru": "Randevumu iptal etmem veya ertelemem gerekirse ne yapmalıyım?",
-      "cevap": "Gelemeyeceğinizi fark ettiğinizde mümkün olan en kısa sürede telefonla ya da WhatsApp'tan bildirmeniz yeterlidir. Yeni bir gün ve saat aynı kanaldan planlanabilir."
-    },
-    {
-      "soru": "Kişisel verilerim ve kayıtlar ne oluyor?",
-      "cevap": "Kişisel verileriniz ilgili sağlık ve veri koruma mevzuatı kapsamında işlenir. 1219 sayılı Kanunun ek 13 üncü maddesi gereği tedavinin gidişine ilişkin bilgi yönlendiren uzman tabibe iletilir. Verilerinizin işlenmesine ilişkin ayrıntılı bilgiyi fztonuryalcin@gmail.com adresinden veya 0507 294 99 00 numarasından isteyebilirsiniz."
-    }
-  ],
-  "anahtarKelimeler": [
-    "kadıköy pelvik taban fizyoterapisi",
-    "pelvik taban fizyoterapisi kadıköy",
-    "pelvik taban rehabilitasyonu kadıköy",
-    "kozyatağı pelvik taban fizyoterapisi",
-    "kozyatağı pelvik taban rehabilitasyonu",
-    "idrar kaçırma fizyoterapisi kadıköy",
-    "idrar kaçırma fizyoterapisi kozyatağı",
-    "doğum sonrası fizyoterapi kadıköy",
-    "doğum sonrası pelvik taban kozyatağı",
-    "diastazis rekti fizyoterapi kadıköy",
-    "hamilelik dönemi fizyoterapisi kadıköy",
-    "gebelik dönemi pelvik taban fizyoterapisi kadıköy",
-    "kadıköy fizyoterapist pelvik taban",
-    "pelvik taban fizyoterapisti kadıköy",
-    "pelvik taban egzersizi fizyoterapist kadıköy",
-    "kadıköy pelvik taban fizyoterapisi randevu"
-  ],
-  "negatifAnahtarKelimeler": [
-    "nedir",
-    "neden olur",
-    "belirtileri",
-    "nasıl yapılır",
-    "kegel egzersizi nasıl yapılır",
-    "kegel hareketi videosu",
-    "video",
-    "izle",
-    "youtube",
-    "pdf",
-    "indir",
-    "ücretsiz",
-    "bedava",
-    "fiyat",
-    "ücret",
-    "kampanya",
-    "evde kendi kendine",
-    "mobil uygulama",
-    "uygulama indir",
-    "uygulama önerisi",
-    "app",
-    "program indir",
-    "ilaç",
-    "bitkisel",
-    "kür",
-    "doğal yöntem",
-    "kaç günde geçer",
-    "ekşi",
-    "forum",
-    "şikayetvar",
-    "ödev",
-    "tez",
-    "makale",
-    "sunum",
-    "ppt",
-    "kurs",
-    "sertifika programı",
-    "eğitim programı",
-    "seminer",
-    "fizyoterapist maaş",
-    "iş ilanı",
-    "eleman aranıyor",
-    "bölümü",
-    "üniversite",
-    "taban puanı",
-    "yüksek lisans",
-    "hemşirelik",
-    "ped",
-    "mesane pedi",
-    "alt bezi",
-    "hasta bezi",
-    "kegel topu",
-    "kegel aleti",
-    "kegel cihazı",
-    "vajinal ağırlık satın al",
-    "tvt ameliyatı",
-    "tot ameliyatı",
-    "idrar kaçırma ameliyatı fiyat",
-    "ameliyat fiyatı",
-    "prostat ilacı",
-    "botoks fiyat",
-    "mhrs",
-    "hastane randevu",
-    "devlet hastanesi",
-    "veteriner",
-    "köpek",
-    "kedi"
-  ],
-  "gorselAltMetinleri": [
-    "Kadıköy pelvik taban fizyoterapisi konusunu temsil eden bilgilendirme görseli",
-    "Pelvik tabanın diyafram, karın ve sırt kaslarıyla eşgüdümünü gösteren nötr şematik çizim",
-    "Mesane ve bağırsak günlüğünü temsil eden görsel",
-    "Doğum sonrası dönemde gövde kontrolü çalışmasını temsil eden görsel",
-    "Kliniğin Kadıköy Kozyatağı adresini gösteren harita görseli"
-  ],
-  "reklamMetinleri": {
-    "basliklar": [
-      "Kadıköy Pelvik Taban",
-      "Pelvik Taban Fizyoterapisi",
-      "Pelvik Taban Rehabilitasyonu",
-      "Kozyatağı'nda Fizyoterapi",
-      "Fizyoterapist Onur Yalçın",
-      "İdrar Kaçırma Fizyoterapisi",
-      "Doğum Sonrası Fizyoterapi",
-      "Hamilelik Dönemi Fizyoterapi",
-      "Kadıköy'de Randevu Alın",
-      "WhatsApp'tan Randevu",
-      "Kozyatağı'nda Randevu",
-      "Pazartesi-Cumartesi Açık",
-      "Kadıköy'de Fizyoterapist",
-      "Süreç Hakkında Bilgi Alın",
-      "Kadıköy Kozyatağı"
-    ],
-    "aciklamalar": [
-      "Kozyatağı'nda pelvik taban fizyoterapisi. Randevu için telefonla ulaşabilirsiniz.",
-      "Kadıköy Kozyatağı. Pazartesi-Cumartesi 09:00-21:00. Randevu için arayın.",
-      "Pelvik taban fizyoterapisi süreci hakkında bilgi için WhatsApp'tan yazabilirsiniz.",
-      "Fizyoterapist Onur Yalçın, Kadıköy Kozyatağı. Randevu ve süreç bilgisi için yazın."
     ]
   }
 }

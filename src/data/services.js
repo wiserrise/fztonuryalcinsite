@@ -89,7 +89,7 @@ export const serviceCategories = [
       },
       {
         "name": "Hamilelik Dönemi Fizyoterapisi",
-        "description": "Gebelikte bel ağrısı, postür ve pelvik taban için güvenli egzersiz programı.",
+        "description": "Gebelikte bel ağrısı ve postür için güvenli egzersiz programı.",
         "sayfa": "/hamilelik-fizyoterapisi-kadikoy"
       },
       {
@@ -166,13 +166,8 @@ export const serviceCategories = [
         "description": "Nefes egzersizleri, solunum kasları çalışması ve dayanıklılık programı."
       },
       {
-        "name": "İleri Düzey Pelvik Taban Rehabilitasyonu",
-        "description": "İdrar kaçırma, doğum sonrası dönem ve pelvik ağrıya yönelik biofeedback destekli fizyoterapi.",
-        "sayfa": "/pelvik-taban-kadikoy"
-      },
-      {
         "name": "Doğum Sonrası Fizyoterapi",
-        "description": "Diastasis recti, pelvik taban ve postür toparlanmasına yönelik program.",
+        "description": "Diastasis recti ve postür toparlanmasına yönelik program.",
         "sayfa": "/dogum-sonrasi-fizyoterapi-kadikoy"
       },
       {
@@ -214,7 +209,8 @@ export const serviceCategories = [
       },
       {
         "name": "Visseral Manipülasyon",
-        "description": "İç organ çevresi bağ dokusu kısıtlılıklarına yönelik yumuşak manuel tekniklerle postür ve solunum desteği."
+        "description": "İç organ çevresi bağ dokusu kısıtlılıklarına yönelik yumuşak manuel tekniklerle postür ve solunum desteği.",
+        "sayfa": "/visseral-terapi-kadikoy"
       },
       {
         "name": "Miyofasyal Ağrı ve Tetik Nokta Tedavisi",

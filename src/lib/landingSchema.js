@@ -51,15 +51,18 @@ export function landingJsonLd(landing) {
             },
         url,
       },
-      {
-        '@type': 'FAQPage',
-        '@id': `${url}#faq`,
-        mainEntity: icerik.sss.map((f) => ({
-          '@type': 'Question',
-          name: f.soru,
-          acceptedAnswer: { '@type': 'Answer', text: f.cevap },
-        })),
-      },
+      // Sayfada soru yoksa FAQPage basılmaz (boş mainEntity geçersiz yapılandırılmış veridir).
+      ...(icerik.sss && icerik.sss.length > 0
+        ? [{
+            '@type': 'FAQPage',
+            '@id': `${url}#faq`,
+            mainEntity: icerik.sss.map((f) => ({
+              '@type': 'Question',
+              name: f.soru,
+              acceptedAnswer: { '@type': 'Answer', text: f.cevap },
+            })),
+          }]
+        : []),
     ],
   }
 }

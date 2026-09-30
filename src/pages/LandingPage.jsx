@@ -424,7 +424,7 @@ export default function LandingPage({ slug: slugProp }) {
                 )}
                 {b.baglantilar && b.baglantilar.length > 0 && (
                   <p style={{ marginTop: '1rem', fontSize: '0.97rem', color: 'var(--text-light)', lineHeight: 1.9 }}>
-                    Ayrıntılı yazı:{' '}
+                    {b.baglantilar.every((bl) => bl.yol.startsWith('/blog/')) ? 'Ayrıntılı yazı:' : 'İlgili sayfa:'}{' '}
                     {b.baglantilar.map((bl, k) => (
                       <span key={bl.yol}>
                         {k > 0 && ', '}
@@ -452,7 +452,8 @@ export default function LandingPage({ slug: slugProp }) {
           </div>
         </section>
 
-        {/* Sıkça sorulan sorular */}
+        {/* Sıkça sorulan sorular (sayfada soru yoksa bölüm basılmaz) */}
+        {icerik.sss && icerik.sss.length > 0 && (
         <section className="section" style={{ backgroundColor: 'var(--background)', padding: '4rem 0' }}>
           <div className="container">
             <h2 className="section-title" style={{ fontSize: 'clamp(1.6rem, 3vw, 2.1rem)' }}>Sıkça Sorulan Sorular</h2>
@@ -461,6 +462,7 @@ export default function LandingPage({ slug: slugProp }) {
             </div>
           </div>
         </section>
+        )}
 
         {/* Konum ve kapanış: randevu formu burada tekrar sunulur */}
         <section className="section" style={{ padding: '4rem 0 5rem' }}>

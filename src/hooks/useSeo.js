@@ -10,9 +10,9 @@ export const DEFAULT_IMAGE = `${SITE_URL}/assets/onur-yalcin-portrait-Pdhc5rvj.j
 // blog sayfasından geri dönüldüğünde title/description'ın eski haline dönmesi için.
 export const HOME_SEO = {
   title:
-    'En İyi Fizyoterapist Kadıköy Manuel Terapi yakınımda - Kozyatağı Fizyoterapist yakınımda veya Skolyoz Fizyoterapisti yakınımda mı arıyorsunuz - Fizyoterapist Onur Yalçın tam da aradığınız yer',
+    'En İyi Fizyoterapist Kadıköy Erkek Pelvik Taban Fizyoterapisti yakınımda - Kozyatağı Fizyoterapist yakınımda veya Skolyoz Fizyoterapisti yakınımda mı arıyorsunuz - Fizyoterapist Onur Yalçın tam da aradığınız yer',
   description:
-    "Kadıköy'de manuel terapi, TME (çene eklemi), skolyoz, pelvik taban ve klinik pilates alanlarında fizyoterapi ve rehabilitasyon hizmeti. Fizyoterapist Onur Yalçın – Kadıköy Kozyatağı.",
+    "Kadıköy'de erkek pelvik taban fizyoterapisi, manuel terapi, TME (çene eklemi), skolyoz ve klinik pilates alanlarında fizyoterapi ve rehabilitasyon hizmeti. Fizyoterapist Onur Yalçın – Kadıköy Kozyatağı.",
   canonical: `${SITE_URL}/`,
   ogType: 'website',
 }

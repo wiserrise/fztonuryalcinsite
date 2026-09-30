@@ -52,6 +52,12 @@ export const kozyatagiIcerik = {
         "Kozyatağı, ofis yoğunluğunun yüksek olduğu bir bölge. Gün boyu oturarak çalışan bir kişide kalça önü ve göğüs bölgesi kısalma eğilimi gösterirken, kürek kemikleri arasındaki kaslar ve kalça yan bölgesi az kullanılır. Bu dengesizlik boyun, omuz ve bel bölgesinde gerginlik olarak hissedilir.",
         "Şikâyetin zamanlaması da tabloyu anlatır. Sabah dinlenmiş uyanıp öğleden sonra artan bir boyun gerginliği, gece boyunca süren ve sabah en şiddetli olan bir ağrıdan farklı bir tablodur. İlk görüşmede bu zamanlama ayrıntılı olarak konuşulur.",
         "Böyle bir tabloda program yalnız klinikte kalmaz. Çalışma masasının yüksekliği, ekranın göz hizasına göre konumu, klavye ve farenin uzaklığı ve gün içinde ayağa kalkma sıklığı, seansta kazanılanın korunup korunmadığını belirler. Masa başı düzeni, programın kendisi kadar belirleyicidir."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Ofis çalışanları için fizyoterapi",
+          "yol": "/ofis-calisanlari-fizyoterapi-kadikoy"
+        }
       ]
     },
     {
@@ -60,6 +66,12 @@ export const kozyatagiIcerik = {
         "Manuel terapi, eklem ve yumuşak dokuya elle uygulanan tekniklerden oluşur. Hareket kısıtlılığı belirginse ve kişi ağrı nedeniyle egzersizi doğru kalıpta yapamıyorsa, manuel teknikler egzersize alan açmak için kullanılır. Amaç dokuyu zorlamak değil, hareketin yeniden mümkün hâle gelmesidir.",
         "Manuel terapi tek başına bir program değildir. Elle uygulanan tekniklerle sağlanan rahatlama, egzersizle desteklenmediğinde geçicidir; çünkü kısıtlılığı üreten günlük hareket kalıbı yerinde durmaya devam eder. Bu yüzden seans içinde manuel çalışma ve egzersiz birlikte planlanır.",
         "Fasyal manipülasyon da bu başlık altında değerlendirilir. Ağrının hissedildiği yer ile kaynağının farklı bölgeler olabildiği durumlarda, değerlendirme yalnız ağrıyan bölgeye değil, o bölgeye yük aktaran zincire bakar."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
+        }
       ]
     },
     {
@@ -68,6 +80,12 @@ export const kozyatagiIcerik = {
         "Klinik reformer pilates, gövdenin yük altında kontrolünü sürdürebilmesi üzerine kurulu bir çalışmadır. Yay direnci hareketi zorlaştırmak için değil, hareketin doğru kalıpta kalmasını sağlamak için seçilir; bazı hareketlerde yüksek direnç gövdeyi destekleyerek kalıbı kolaylaştırır, bazılarında düşük direnç kişinin kendi kontrolünü daha çok kullanmasını gerektirir.",
         "Bu çalışma stüdyo grup dersinden farklıdır: program değerlendirme sonrasında kişiye göre kurulur ve seanslar fizyoterapist eşliğinde yürütülür. Hareket seçimi kişinin şikâyetine ve o günkü toleransına göre değişir, sabit bir akış tekrarlanmaz.",
         "İlk seanslarda ağırlık tekrar sayısında değil, kişinin kendi kasılmasını fark etmesindedir. Fark edilemeyen bir kasılma, tekrar artırılsa da doğru kalıba dönüşmez. Gövde merkezi yerleştikçe kol ve bacak hareketleri programa kademeli olarak eklenir."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy klinik pilates",
+          "yol": "/klinik-pilates-kadikoy"
+        }
       ]
     },
     {
@@ -76,14 +94,26 @@ export const kozyatagiIcerik = {
         "Skolyoza özgü çalışma, genel bir kuvvetlendirme programından farklıdır. Genel program gövdeyi bütün olarak çalıştırır ve simetrik bir yüklenme varsayar; skolyoza özgü çalışma ise eğriliğin yönünü ve dönme bileşenini hesaba katar, aynı hareket gövdenin iki yanına farklı biçimde uygulanabilir.",
         "Schroth temelli yaklaşımda nefes bir ısınma hareketi değil, egzersizin kendisidir. Hedeflenen bölgeye yönlendirilen nefes, o bölgedeki genişlemeyi çalışmanın yolu olarak kullanılır. Amaç gövde hareketliliğini korumak ve kişinin kendi duruşunu fark etmesini sağlamaktır.",
         "Okul çağındaki çocuklarda ve ergenlerde randevular ders saatleri dışına planlanabilir. Görüntüleme sonuçları ve varsa hekim raporu ilk görüşmeye getirildiğinde değerlendirme daha eksiksiz yapılır. Tanı ve takip kararı hekime aittir."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy skolyoz ve Schroth",
+          "yol": "/skolyoz-schroth-kadikoy"
+        }
       ]
     },
     {
-      "h2": "Pelvik taban rehabilitasyonu",
+      "h2": "Erkeklerde pelvik taban rehabilitasyonu",
       "paragraflar": [
         "Pelvik taban kasları, karın içi basıncını düzenleyen yapının parçasıdır ve doğrudan gövde kontrolüyle ilişkilidir. Diyafram, karın duvarı, bel bölgesindeki derin kaslar ve pelvik taban birlikte çalıştığında omurga yük altında daha dengeli konumlanır.",
-        "Bu bölgeye yönelik çalışma doğum sonrası dönemde, uzun süreli oturma düzenine bağlı şikâyetlerde ve hekim yönlendirmesiyle gelen durumlarda programın parçası olabilir. Değerlendirme ve program mahremiyete uygun bir düzende yürütülür.",
+        "Bu bölgeye yönelik çalışma, prostat cerrahisi sonrası dönemde, uzun süreli oturma düzenine bağlı şikâyetlerde ve hekim yönlendirmesiyle gelen erkek danışanlarda programın parçası olabilir. Değerlendirme ve program mahremiyete uygun bir düzende yürütülür.",
         "Pelvik taban çalışması yalnızca kasılma egzersizinden ibaret değildir. Gevşemenin de çalışılması gerekir; sürekli kasılı kalan bir pelvik taban, zayıf olan kadar sorun üretebilir. Hangi yönün öncelikli olduğu değerlendirme sonrasında belirlenir."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy erkek pelvik taban fizyoterapisi",
+          "yol": "/erkek-pelvik-taban-kadikoy"
+        }
       ]
     },
     {
@@ -92,6 +122,12 @@ export const kozyatagiIcerik = {
         "Nörolojik rehabilitasyonda denge, yürüme ve günlük yaşam hareketleri üzerine çalışılır. Süreç kişiye göre değişir ve genellikle uzun soluklu ilerler; hedefler günlük yaşamdaki somut hareketler üzerinden konur, soyut bir iyileşme tarifi üzerinden değil.",
         "Ortopedik tarafta ameliyat sonrası dönem, spor yaralanmaları ve aşırı kullanım kaynaklı şikâyetler gündeme gelir. Ameliyat sonrası programlarda çerçeveyi cerrahınızın protokolü belirler; hangi hareketin ne zaman başlayabileceği bu protokole ve ara değerlendirmelere göre planlanır.",
         "Her iki başlıkta da sabit bir takvim verilmez. İlerleme, gözlenebilir değişimlerle izlenir: hareket genişliği, kalıp bozulmadan yapılabilen tekrar aralığı ve günlük yaşamda zorlanılan hareketlerdeki değişim."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy spor yaralanmaları fizyoterapisi",
+          "yol": "/spor-yaralanmalari-kadikoy"
+        }
       ]
     },
     {
@@ -224,6 +260,12 @@ export const sahrayiceditIcerik = {
         "Sahrayıcedit ağırlıklı olarak yerleşik bir konut dokusuna sahip. Bu tür bir mahallede gündeme gelen başlıklar iş merkezi çevresinden farklılaşır: okul çağındaki çocuklarda duruş ve skolyoz takibi, doğum sonrası dönem, ev içi yüklenmelere bağlı bel ve omuz şikâyetleri ile ileri yaşta denge ve yürüme konuları öne çıkar.",
         "Bu başlıkların ortak yanı, programın aile düzeniyle birlikte planlanmasını gerektirmesidir. Bir ergene verilen ev programı, ailenin gün içindeki akışına oturmadığında uygulanmadan kalır; ileri yaştaki bir kişiye verilen denge programı da ev içindeki düzenleme yapılmadan eksik kalır.",
         "Bu yüzden ilk görüşmede yalnız şikâyet değil, günün nasıl geçtiği de konuşulur: kim ne zaman evde, hangi saatlerde egzersiz için yer açılabilir ve programı kim hatırlatacak."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy skolyoz ve Schroth",
+          "yol": "/skolyoz-schroth-kadikoy"
+        }
       ]
     },
     {
@@ -253,9 +295,8 @@ export const sahrayiceditIcerik = {
     {
       "h2": "Doğum sonrası dönemde program nasıl kuruluyor",
       "paragraflar": [
-        "Doğum sonrası dönemde egzersize başlama kararı hekim değerlendirmesine bağlıdır ve kişiye göre değişir. Onay verildiğinde program, karın duvarındaki gerginlik değişimi ve pelvik taban yükü göz önünde tutularak uyarlanır.",
-        "Karın kaslarında ayrışma bulunan bir kişide klasik mekik türü hareketler programın başında yer almaz. Bunun yerine karın içi basıncını kontrollü tutan çalışmalarla başlanır; yüklenme kişinin toleransına göre kademeli olarak değiştirilir. Ne zaman ilerleneceği takvimle değil ara değerlendirmelerle belirlenir.",
-        "Pelvik taban çalışması yalnızca kasılma egzersizinden ibaret değildir. Gevşemenin de çalışılması gerekir; sürekli kasılı kalan bir pelvik taban, zayıf olan kadar sorun üretebilir. Hangi yönün öncelikli olduğu değerlendirme sonrasında belirlenir."
+        "Doğum sonrası dönemde egzersize başlama kararı hekim değerlendirmesine bağlıdır ve kişiye göre değişir. Onay verildiğinde program, karın duvarındaki gerginlik değişimi göz önünde tutularak uyarlanır.",
+        "Karın kaslarında ayrışma bulunan bir kişide klasik mekik türü hareketler programın başında yer almaz. Bunun yerine karın içi basıncını kontrollü tutan çalışmalarla başlanır; yüklenme kişinin toleransına göre kademeli olarak değiştirilir. Ne zaman ilerleneceği takvimle değil ara değerlendirmelerle belirlenir."
       ]
     },
     {
@@ -280,6 +321,12 @@ export const sahrayiceditIcerik = {
         "Ev içindeki işler çoğu zaman tek seferde ağır olmadıkları için hafife alınır. Oysa öne eğilerek yapılan uzun süreli işler, baş üstünde çalışma ve tek taraflı taşıma, tekrarlandıkça bel ve omuz bölgesinde yüklenme üretir.",
         "Bu tabloda önce şikâyetin nereden geldiği anlaşılır. Aynı adı taşıyan iki tablo farklı nedenlerden kaynaklanabilir; bu ayrım yapılmadan verilen bir egzersiz listesi çoğu zaman etkisiz kalır.",
         "Hareket kısıtlılığı belirginse manuel terapi egzersize alan açmak için kullanılır. Elle uygulanan tekniklerle sağlanan rahatlama egzersizle desteklenmediğinde kalıcı olmaz; bu yüzden ikisi birlikte planlanır."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
+        }
       ]
     },
     {
@@ -336,6 +383,12 @@ export const sahrayiceditIcerik = {
         "Klinik reformer pilates, gövdenin yük altında kontrolünü sürdürebilmesi üzerine kurulu bir çalışmadır ve bu sayfadaki başlıkların çoğuyla kesişir. Doğum sonrası dönemde, ev içi yüklenmelere bağlı bel şikâyetlerinde ve duruş çalışmalarında programın parçası olabilir.",
         "Bu çalışma stüdyo grup dersinden farklıdır: program değerlendirme sonrasında kişiye göre kurulur ve seanslar fizyoterapist eşliğinde yürütülür. Yay direnci hareketi zorlaştırmak için değil, hareketin doğru kalıpta kalmasını sağlamak için seçilir.",
         "Skolyozda ise klinik pilates skolyoza özgü çalışmanın yerine geçmez, yanında yer alabilir. Hangi çalışmanın öne alınacağı değerlendirme sonucuna ve kişinin hedefine göre belirlenir; karar görüntüleme ve hekim değerlendirmesiyle birlikte ele alınır."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy klinik pilates",
+          "yol": "/klinik-pilates-kadikoy"
+        }
       ]
     }
   ],
@@ -354,7 +407,7 @@ export const sahrayiceditIcerik = {
     },
     {
       "soru": "Doğum sonrası egzersize ne zaman başlayabilirim?",
-      "cevap": "Başlama zamanı hekim değerlendirmesine bağlıdır ve kişiye göre değişir. Onay verildikten sonra program karın duvarı ve pelvik taban yükü göz önünde tutularak uyarlanır."
+      "cevap": "Başlama zamanı hekim değerlendirmesine bağlıdır ve kişiye göre değişir. Onay verildikten sonra program karın duvarındaki değişim göz önünde tutularak uyarlanır."
     },
     {
       "soru": "Karın kaslarımda ayrışma olduğu söylendi, egzersiz yapabilir miyim?",
@@ -384,7 +437,7 @@ export const sahrayiceditIcerik = {
   "gorselAltMetinleri": [
     "Sahrayıcedit fizyoterapist değerlendirmesinde duruş analizi",
     "Okul çağında skolyoza özgü egzersiz çalışması",
-    "Doğum sonrası dönemde pelvik taban ve gövde çalışması",
+    "Doğum sonrası dönemde gövde çalışması",
     "İleri yaşta denge ve yürüme çalışması"
   ]
 }
@@ -412,6 +465,12 @@ export const erenkoyIcerik = {
         "Erenköy, günün önemli bir bölümünü yolda geçiren kişilerin yaşadığı bir bölge. Toplu taşımada ya da araçta geçirilen süre, masa başındaki süreye eklendiğinde toplam oturma zamanı beklenenden uzun olur.",
         "Araçta ya da vagonda oturma pozisyonu çoğu zaman masadakinden daha kötüdür: baş öne eğik, kollar telefonda, sırt destekten kopmuş. Bu pozisyonda geçen zaman, boyun ve kürek arası bölgede gerginlik olarak birikir.",
         "Program bu toplamı hesaba katarak kurulur. Yalnız masa düzeni değil, yolda geçen sürede pozisyon değiştirme aralıkları ve telefon kullanım yüksekliği de konuşulur."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Ofis çalışanları için fizyoterapi",
+          "yol": "/ofis-calisanlari-fizyoterapi-kadikoy"
+        }
       ]
     },
     {
@@ -436,6 +495,12 @@ export const erenkoyIcerik = {
         "Çene eklemi ile boyun bölgesi birbirinden bağımsız değildir. Baş öne eğik geçirilen uzun süreler çene ekleminin çalışma açısını değiştirebilir; benzer biçimde çene bölgesindeki gerginlik boyun kaslarına yansıyabilir.",
         "Şikâyetler ağız açarken ses gelmesi, çiğnerken zorlanma, kulak çevresinde ya da şakakta hissedilen ağrı biçiminde ortaya çıkar. Sabah uyanınca çenede yorgunluk hissi de sık bildirilen bir tablodur.",
         "Değerlendirmede ağız açıklığı, çenenin açılırken izlediği yol, çiğneme kaslarındaki hassasiyet ve boyun bölgesinin katkısı birlikte ele alınır."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy çene eklemi (TME) fizyoterapisi",
+          "yol": "/cene-eklemi-tme-kadikoy"
+        }
       ]
     },
     {
@@ -452,6 +517,12 @@ export const erenkoyIcerik = {
         "Manuel terapi, eklem ve yumuşak dokuya elle uygulanan tekniklerden oluşur. Hareket kısıtlılığı belirginse ve kişi ağrı nedeniyle egzersizi doğru kalıpta yapamıyorsa, manuel teknikler egzersize alan açmak için kullanılır.",
         "Fasyal manipülasyon ise ağrının hissedildiği yer ile kaynağının farklı bölgeler olabildiği durumlarda gündeme gelir. Değerlendirme yalnız ağrıyan bölgeye değil, o bölgeye yük aktaran zincire bakar.",
         "İkisi de tek başına bir program değildir. Elle uygulanan tekniklerle sağlanan rahatlama, egzersizle desteklenmediğinde kalıcı olmaz; çünkü kısıtlılığı üreten günlük hareket kalıbı yerinde kalır."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
+        }
       ]
     },
     {
@@ -468,6 +539,12 @@ export const erenkoyIcerik = {
         "Klinik reformer pilates, gövdenin yük altında kontrolünü sürdürebilmesi üzerine kurulu bir çalışmadır. Yay direnci hareketi zorlaştırmak için değil, hareketin doğru kalıpta kalmasını sağlamak için seçilir.",
         "Boyun ve bel şikâyetlerinde bu çalışma, gövdenin yükü daha dengeli dağıtmasını hedefler. Program değerlendirme sonrasında kişiye göre kurulur ve seanslar fizyoterapist eşliğinde yürütülür.",
         "İlk seanslarda ağırlık tekrar sayısında değil, kişinin kendi kasılmasını fark etmesindedir. Gövde merkezi yerleştikçe kol ve bacak hareketleri programa kademeli olarak eklenir."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy klinik pilates",
+          "yol": "/klinik-pilates-kadikoy"
+        }
       ]
     },
     {
@@ -680,6 +757,12 @@ export const suadiyeIcerik = {
         "Spor kaynaklı şikâyetlerin bir bölümünde sorun, zorlanan bölgenin kendisinde değil gövdenin yükü dağıtma biçimindedir. Gövde kontrolü zayıf olduğunda diz, kalça ve ayak bileği beklenenden fazla yük taşır.",
         "Klinik reformer pilates bu noktada programın parçası olabilir. Yay direnci hareketi zorlaştırmak için değil, hareketin doğru kalıpta kalmasını sağlamak için seçilir; program değerlendirme sonrasında kişiye göre kurulur.",
         "Bu çalışma sporun yerine geçmez, sporu sürdürebilmeyi hedefler. Hangi hareketlerin programa gireceği spor dalına ve değerlendirmede çıkan bulgulara göre belirlenir."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy klinik pilates",
+          "yol": "/klinik-pilates-kadikoy"
+        }
       ]
     },
     {
@@ -688,6 +771,12 @@ export const suadiyeIcerik = {
         "Manuel terapi, eklem ve yumuşak dokuya elle uygulanan tekniklerden oluşur. Hareket kısıtlılığı belirginse ve kişi ağrı nedeniyle egzersizi doğru kalıpta yapamıyorsa, manuel teknikler egzersize alan açmak için kullanılır.",
         "Spor kaynaklı tablolarda manuel çalışma genellikle sürecin erken döneminde daha çok yer tutar; yüklenme kademesi ilerledikçe ağırlık egzersize kayar.",
         "Manuel terapi tek başına bir program değildir. Elle sağlanan rahatlama, egzersizle desteklenmediğinde kalıcı olmaz; çünkü zorlanmayı üreten hareket biçimi yerinde kalır."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
+        }
       ]
     },
     {
@@ -828,6 +917,12 @@ export const bostanciIcerik = {
         "Nörolojik rehabilitasyon ve ameliyat sonrası programlar tek seferlik işler değildir; haftalar süren ve düzenli tekrar gerektiren süreçlerdir. Böyle bir programda en büyük risk yanlış egzersiz değil, devamlılığın kopmasıdır.",
         "Bostancı fizyoterapist arayan bir kişi için önemli olan, kliniğe ulaşımın hafta içi düzenle çakışmadan tekrarlanabilmesidir. Bostancı, Anadolu yakasının ulaşım bağlantılarının yoğunlaştığı bir noktada; bu, düzenli gidiş gelişi öngörülebilir kılar.",
         "Randevuların Pazartesi ile Cumartesi arası 09:00-21:00 aralığında planlanabilmesi de aynı amaca hizmet eder. Refakatçiyle gelen kişilerde saat seçiminin esnek olması, programın sürdürülebilmesinde belirleyici olur."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy nörolojik rehabilitasyon",
+          "yol": "/norolojik-rehabilitasyon-kadikoy"
+        }
       ]
     },
     {
@@ -876,6 +971,12 @@ export const bostanciIcerik = {
         "Ameliyat sonrası programlarda çerçeveyi cerrahınızın protokolü belirler. Hangi hareketin ne zaman başlayabileceği, ne kadar yük verilebileceği ve hangi pozisyonlardan kaçınılacağı bu protokolde tanımlıdır.",
         "Fizyoterapi bu çerçevenin içinde çalışır. Protokolde tanımlı olmayan bir hareketin programa alınması için hekim onayı gerekir; bu, süreci yavaşlatmak değil güvenli tutmaktır.",
         "İlk görüşmeye ameliyat raporunuzu ve varsa cerrahınızın verdiği protokolü getirmeniz, programın doğru kurulması için önemlidir."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy ameliyat sonrası rehabilitasyon",
+          "yol": "/ameliyat-sonrasi-rehabilitasyon-kadikoy"
+        }
       ]
     },
     {
@@ -940,6 +1041,12 @@ export const bostanciIcerik = {
         "Denge ve yürüme çalışmalarının bir bölümünde gövde kontrolü belirleyicidir. Gövde yükü dengeli dağıtamadığında, denge çalışmaları beklenen katkıyı vermez.",
         "Klinik reformer pilates bu noktada programın parçası olabilir. Yay direnci hareketi zorlaştırmak için değil, hareketin doğru kalıpta kalmasını sağlamak için seçilir; destekli bir ortamda çalışmayı mümkün kılar.",
         "Uygun olup olmadığı değerlendirme sonrasında belirlenir. Nörolojik tablolarda bu karar hekim değerlendirmesiyle birlikte ele alınır."
+      ],
+      "baglantilar": [
+        {
+          "metin": "Kadıköy klinik pilates",
+          "yol": "/klinik-pilates-kadikoy"
+        }
       ]
     },
     {

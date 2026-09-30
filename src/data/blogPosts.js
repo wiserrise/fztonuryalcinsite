@@ -3,7 +3,7 @@
 export const blogPosts = [{id:"bel-agrisi-ve-bel-fitigi",title:"Bel Ağrısı ve Fıtığında Ameliyatsız Çözüm",category:"Omurga Sağlığı",date:"Güncel Makale",excerpt:"Bacağa vuran ağrılar ve kilitlenen beliniz için manuel terapi destekli kalıcı çözümler.",content:`
 **Belinize Vuran Ağrı Hareket Etmenizi Engelliyor mu?**
 
-Geçmeyen bel ağrıları ve fıtık kaynaklı hareket kısıtlılıklarında, ağrının kaynağına yönelik manuel terapi ve egzersiz uyguluyoruz. Danışanlarımızın günlük yaşam konforunu artırmak önceliğimizdir.
+Geçmeyen bel ağrıları ve fıtık kaynaklı hareket kısıtlılıklarında, ağrının kaynağına yönelik [manuel terapi](/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani) ve egzersiz uyguluyoruz. Danışanlarımızın günlük yaşam konforunu artırmak önceliğimizdir.
 
 ✔️ Manuel terapi ile sinir ve kas rahatlatma  
 ✔️ Fıtıklaşmaya yönelik dekompresyon teknikleri  
@@ -13,7 +13,7 @@ Geçmeyen bel ağrıları ve fıtık kaynaklı hareket kısıtlılıklarında, a
 
 ---
 
-Bel fıtığı her zaman ameliyat gerektirmez. Doğru mekanik düzenlemelerle ağrısız eski hareketliliğinize dönebilirsiniz.
+[Bel fıtığı](/bel-fitigi-kadikoy) her zaman ameliyat gerektirmez. Doğru mekanik düzenlemelerle ağrısız eski hareketliliğinize dönebilirsiniz.
 
 📲 [**WhatsApp üzerinden iletişime geçebilirsiniz**](https://wa.me/905072949900?text=Merhaba,%20Bel%20ağrısı%20tedavisi%20için%20bilgi%20almak%20istiyorum.)
 
@@ -27,9 +27,9 @@ Bel ağrınız günlük yaşamınızı zorlaştırıyorsa profesyonel bir değer
         `},{id:"boyun-fitigi-boyun-duzlesmesi-ve-kurek-kemigi-agrisi",title:"Boyundan Omuza Vuran Ağrı Neden Olur?",category:"Omurga Sağlığı",date:"Güncel Makale",excerpt:"Kollara vuran uyuşma, boyun düzleşmesi ve kürek kemiği arkasındaki kulunç ağrıları günlük hayatınızı kabusa çevirmesin. Doğru teşhis ve manuel terapi ile tanışın.",content:`
 **Boyun Ağrınız Günlük Hayatınızı Etkiliyor mu?**
 
-Boyundan omuza yayılan ağrı, masa başında artan tutulma veya sürekli tekrarlayan boyun problemleri için kişiye özel fizyoterapi yaklaşımı uygulanmaktadır. Danışanlarımızın ağrısız bir yaşam sürmesi için yanındayız.
+Boyundan omuza yayılan ağrı, [masa başı](/ofis-calisanlari-fizyoterapi-kadikoy)nda artan tutulma veya sürekli tekrarlayan boyun problemleri için kişiye özel fizyoterapi yaklaşımı uygulanmaktadır. Danışanlarımızın ağrısız bir yaşam sürmesi için yanındayız.
 
-✔️ Manuel terapi  
+✔️ [Manuel terapi](/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani)  
 ✔️ Egzersiz planlaması  
 ✔️ Hareket ve postür değerlendirmesi
 
@@ -49,7 +49,7 @@ Boyun ağrınız günlük yaşamınızı etkiliyorsa profesyonel değerlendirme 
 
 📲 [**WhatsApp üzerinden iletişime geçebilirsiniz**](https://wa.me/905072949900?text=Merhaba,%20boyun%20ağrısı%20için%20bilgi%20almak%20istiyorum.)
 
-*Kadıköy fizyoterapi merkezimizde, Kozyatağı boyun fıtığı ve kulunç tedavilerinde uzman kadromuzla hizmetinizdeyiz.*
+*Kadıköy fizyoterapi merkezimizde, Kozyatağı [boyun fıtığı](/boyun-fitigi-kadikoy) ve kulunç tedavilerinde uzman kadromuzla hizmetinizdeyiz.*
         `},{id:"klinik-pilates",title:"Klinik Pilates ile Ağrısız Güçlenme",category:"Eğitim & Egzersiz",date:"Güncel Makale",excerpt:"Pilates uzmanı eşliğinde güvenle güçlenin, esnekliğinizi artırın ve sakatlıklardan korunun.",content:`
 **Spor Yaparken Ağrı mı Hissediyorsunuz veya Daha Esnek Olmak mı İstiyorsunuz?**
 
@@ -122,10 +122,10 @@ Bedeninizi ve zihninizi rahatlatacak yoga seanslarına katılmak için iletişim
 📲 [**WhatsApp üzerinden iletişime geçebilirsiniz**](https://wa.me/905072949900?text=Merhaba,%20Yoga%20seansları%20için%20bilgi%20almak%20istiyorum.)
 
 *Kadıköy yoga ve Kozyatağı fizyoterapi destekli medikal yoga seanslarımızla sağlıklı bir bedene kavuşun.*
-        `},{id:"kadin-erkek-pelvik-taban",title:"Pelvik Taban Problemlerinde Özel Yaklaşım",category:"Kadın & Erkek Sağlığı",date:"Güncel Makale",excerpt:"Geçmeyen kasık ağrısı, idrar problemleri ve disfonksiyonlar için kişiye özel pelvik taban fizyoterapisi.",content:`
+        `},{id:"erkeklerde-pelvik-taban-sorunlari",title:"Erkeklerde Pelvik Taban Problemleri",category:"Erkek Pelvik Sağlığı",date:"Güncel Makale",excerpt:"Geçmeyen kasık ağrısı, idrar problemleri ve disfonksiyonlar için kişiye özel pelvik taban fizyoterapisi.",content:`
 **Geçmeyen Kasık ve Alt Karın Ağrıları Yaşam Kalitenizi Düşürüyor mu?**
 
-Kadınlarda ve erkeklerde görülen idrar problemleri veya kronik ağrıların kaynağı pelvik taban kaslarındaki fonksiyon bozuklukları olabilir. Danışanlarımızın mahremiyetine saygılı, güvenilir bir ortamda çözüm üretiyoruz.
+Erkeklerde görülen idrar problemleri veya kronik ağrıların kaynağı pelvik taban kaslarındaki fonksiyon bozuklukları olabilir. Danışanlarımızın mahremiyetine saygılı, güvenilir bir ortamda çözüm üretiyoruz.
 
 ✔️ Pelvik taban kas değerlendirmesi  
 ✔️ Biofeedback ve gevşeme eğitimleri  
@@ -145,7 +145,7 @@ Mahremiyetinize saygı duyan profesyonel pelvik taban değerlendirmesi için biz
 
 📲 [**WhatsApp üzerinden iletişime geçebilirsiniz**](https://wa.me/905072949900?text=Merhaba,%20Pelvik%20taban%20fizyoterapisi%20için%20bilgi%20almak%20istiyorum.)
 
-Değerlendirmenin nasıl ilerlediğini, mahremiyet ve onam konusunda izlenen yolu ve sık sorulanları [Kadıköy pelvik taban fizyoterapisi sayfasında](/pelvik-taban-kadikoy) ayrıntılı olarak anlattık.
+Değerlendirmenin nasıl ilerlediğini, mahremiyet ve onam konusunda izlenen yolu ve sık sorulanları [Kadıköy erkek pelvik taban fizyoterapisi sayfasında](/erkek-pelvik-taban-kadikoy) ayrıntılı olarak anlattık.
         `},{id:"schroth-metodu-skolyoz",title:"Schroth Metodu İle Skolyozda 3 Boyutlu Düzeltme",category:"Eğitim & Egzersiz",date:"Güncel Makale",excerpt:"Omurga eğriliği (Skolyoz) kaderiniz değil. Kanıta dayalı Schroth egzersizleriyle duruşunuzu düzeltin.",content:`
 **Skolyozun İlerlemesinden veya Asimetrik Duruşunuzdan Endişeli misiniz?**
 
@@ -173,9 +173,9 @@ Değerlendirme süreci, çocuk ve yetişkinlerde hedef farkı, korse ile birlikt
         `},{id:"cene-eklemi-tme-tedavisi",title:"Çene Eklemi (TME) ve Diş Sıkma Tedavisi",category:"Fizyoterapi Uzmanlığı",date:"Güncel Makale",excerpt:"Gece diş sıkma, çeneden gelen klik sesi ve baş ağrılarına manuel terapi ile kalıcı çözüm.",content:`
 **Çenede Kilitlenme ve Baş Ağrısı Yaşıyor musunuz?**
 
-Stres, diş sıkma (bruksizm) veya duruş bozukluklarına bağlı gelişen çene eklemi problemlerinde, kasları ağız içinden gevşeterek kalıcı bir çözüm sunuyoruz.
+Stres, [diş sıkma](/cene-eklemi-tme-kadikoy) (bruksizm) veya duruş bozukluklarına bağlı gelişen çene eklemi problemlerinde, kasları ağız içinden gevşeterek kalıcı bir çözüm sunuyoruz.
 
-✔️ Ağız içi (intraoral) manuel terapi  
+✔️ Ağız içi (intraoral) [manuel terapi](/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani)  
 ✔️ Çiğneme kaslarındaki krampların serbest bırakılması  
 ✔️ Boyun ve kafa tabanı entegrasyonu
 
@@ -197,7 +197,7 @@ Gece plağı dişlerinizi korur ama çenedeki asıl problemi çözmez. Doğru ma
         `},{id:"siyatik-ve-sinir-sikismasi",title:"Siyatik ve Sinir Sıkışması Tedavisi",category:"Nöroloji & Omurga",date:"Güncel Makale",excerpt:"Bacağa vuran ağrı ve uyuşmalara yönelik ameliyatsız sinir rahatlatma yöntemleri.",content:`
 **Bacağınıza Vuran Elektriklenme ve Uyuşma Sizi Zorluyor mu?**
 
-Siyatik sinirinin baskı altında kalmasıyla oluşan ağrıları, doğru manuel terapi ve sinir kaydırma teknikleriyle tedavi ediyoruz. Danışanlarımızın eski hareketliliğine kavuşması önceliğimizdir.
+Siyatik sinirinin baskı altında kalmasıyla oluşan ağrıları, doğru [manuel terapi](/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani) ve sinir kaydırma teknikleriyle tedavi ediyoruz. Danışanlarımızın eski hareketliliğine kavuşması önceliğimizdir.
 
 ✔️ Nöral mobilizasyon (Sinir kaydırma)  
 ✔️ Sıkışıklığa neden olan kasların gevşetilmesi  
@@ -289,7 +289,7 @@ Yakınınızın bağımsız hareket edebilmesi ve size özel fizyoterapi planı 
 
 📲 [**WhatsApp üzerinden iletişime geçebilirsiniz**](https://wa.me/905072949900?text=Merhaba,%20Nörolojik%20rehabilitasyon%20için%20bilgi%20almak%20istiyorum.)
 
-*Kadıköy nörolojik rehabilitasyon ve Kozyatağı inme (felç) fizik tedavi süreçlerinde tecrübeli uzmanlarımızla hizmetinizdeyiz.*
+*Kadıköy [nörolojik rehabilitasyon](/norolojik-rehabilitasyon-kadikoy) ve Kozyatağı inme (felç) fizik tedavi süreçlerinde tecrübeli uzmanlarımızla hizmetinizdeyiz.*
         `},{id:"parkinson-ve-denge",title:"Parkinson Hastalığında Denge ve Hareket Eğitimi",category:"Nörolojik Rehabilitasyon",date:"Güncel Makale",excerpt:"Yavaşlayan hareketleri hızlandırın, denge kaybı ve düşme korkusunu uzman desteğiyle yenin.",content:`
 **Yavaşlayan Adımlarınız ve Düşme Korkunuz Yaşam Kalitenizi Mi Etkiliyor?**
 
