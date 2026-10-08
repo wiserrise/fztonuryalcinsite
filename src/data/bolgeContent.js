@@ -240,7 +240,7 @@ export const kozyatagiIcerik = {
 export const sahrayiceditIcerik = {
   "slug": "sahrayicedit-fizyoterapist",
   "title": "Sahrayıcedit fizyoterapist | Fzt. Onur Yalçın",
-  "metaDescription": "Sahrayıcedit fizyoterapist arayanlar için skolyoz takibi, doğum sonrası dönem ve denge çalışmaları. Komşu mahalle Kozyatağı'ndaki klinikte randevu.",
+  "metaDescription": "Sahrayıcedit fizyoterapist arayanlar için skolyoz takibi, bel ve omuz şikâyetleri ve denge çalışmaları. Komşu mahalle Kozyatağı'ndaki klinikte randevu.",
   "h1": "Sahrayıcedit fizyoterapist: komşu mahalledeki klinikte kişiye özel program",
   "heroAltBaslik": "Kozyatağı'ndaki klinik Sahrayıcedit'ten kısa mesafede; Pazartesi-Cumartesi 09:00-21:00",
   "heroParagraf": "Sahrayıcedit fizyoterapist arayışındaysanız klinik komşu mahallede, Kozyatağı Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresinde. Bu yakınlık pratik bir fark yaratır: haftada birden fazla seans gerektiren programlarda ulaşım, sürdürülebilirliğin en belirleyici kalemlerinden biridir. Süreç değerlendirmeyle başlar ve program o değerlendirmenin sonucuna göre kurulur.",
@@ -257,7 +257,7 @@ export const sahrayiceditIcerik = {
     {
       "h2": "Yerleşik bir konut dokusunda hangi başlıklar öne çıkıyor",
       "paragraflar": [
-        "Sahrayıcedit ağırlıklı olarak yerleşik bir konut dokusuna sahip. Bu tür bir mahallede gündeme gelen başlıklar iş merkezi çevresinden farklılaşır: okul çağındaki çocuklarda duruş ve skolyoz takibi, doğum sonrası dönem, ev içi yüklenmelere bağlı bel ve omuz şikâyetleri ile ileri yaşta denge ve yürüme konuları öne çıkar.",
+        "Sahrayıcedit ağırlıklı olarak yerleşik bir konut dokusuna sahip. Bu tür bir mahallede gündeme gelen başlıklar iş merkezi çevresinden farklılaşır: okul çağındaki çocuklarda duruş ve skolyoz takibi, ev içi yüklenmelere bağlı bel ve omuz şikâyetleri ile ileri yaşta denge ve yürüme konuları öne çıkar.",
         "Bu başlıkların ortak yanı, programın aile düzeniyle birlikte planlanmasını gerektirmesidir. Bir ergene verilen ev programı, ailenin gün içindeki akışına oturmadığında uygulanmadan kalır; ileri yaştaki bir kişiye verilen denge programı da ev içindeki düzenleme yapılmadan eksik kalır.",
         "Bu yüzden ilk görüşmede yalnız şikâyet değil, günün nasıl geçtiği de konuşulur: kim ne zaman evde, hangi saatlerde egzersiz için yer açılabilir ve programı kim hatırlatacak."
       ],
@@ -380,7 +380,7 @@ export const sahrayiceditIcerik = {
     {
       "h2": "Klinik pilates bu programların neresinde",
       "paragraflar": [
-        "Klinik reformer pilates, gövdenin yük altında kontrolünü sürdürebilmesi üzerine kurulu bir çalışmadır ve bu sayfadaki başlıkların çoğuyla kesişir. Doğum sonrası dönemde, ev içi yüklenmelere bağlı bel şikâyetlerinde ve duruş çalışmalarında programın parçası olabilir.",
+        "Klinik reformer pilates, gövdenin yük altında kontrolünü sürdürebilmesi üzerine kurulu bir çalışmadır ve bu sayfadaki başlıkların çoğuyla kesişir. Ev içi yüklenmelere bağlı bel şikâyetlerinde ve duruş çalışmalarında programın parçası olabilir.",
         "Bu çalışma stüdyo grup dersinden farklıdır: program değerlendirme sonrasında kişiye göre kurulur ve seanslar fizyoterapist eşliğinde yürütülür. Yay direnci hareketi zorlaştırmak için değil, hareketin doğru kalıpta kalmasını sağlamak için seçilir.",
         "Skolyozda ise klinik pilates skolyoza özgü çalışmanın yerine geçmez, yanında yer alabilir. Hangi çalışmanın öne alınacağı değerlendirme sonucuna ve kişinin hedefine göre belirlenir; karar görüntüleme ve hekim değerlendirmesiyle birlikte ele alınır."
       ],

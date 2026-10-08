@@ -184,11 +184,6 @@ export const serviceCategories = [
         "sayfa": "/solunum-fizyoterapisi-kadikoy"
       },
       {
-        "name": "Doğum Sonrası Fizyoterapi",
-        "description": "Diastasis recti ve postür toparlanmasına yönelik program.",
-        "sayfa": "/dogum-sonrasi-fizyoterapi-kadikoy"
-      },
-      {
         "name": "Erkeklerde Pelvik Taban Rehabilitasyonu",
         "description": "Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıklarında hekim tanısı sonrası planlanan program.",
         "sayfa": "/erkek-pelvik-taban-kadikoy"

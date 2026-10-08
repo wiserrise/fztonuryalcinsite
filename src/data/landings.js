@@ -326,56 +326,6 @@ export const landings = [
     icerikAdi: 'ameliyatSonrasiRehabilitasyonIcerik',
   },
   {
-    "slug": "dogum-sonrasi-fizyoterapi-kadikoy",
-    "servisAdi": "Doğum Sonrası Fizyoterapi",
-    "breadcrumbAdi": "Doğum Sonrası Fizyoterapi",
-    "odakKelime": "Kadıköy doğum sonrası fizyoterapi",
-    "gorsel": "/assets/kart-dogum-sonrasi-fizyoterapi-kadikoy.jpg",
-    "gorselAlt": "Doğum Sonrası Fizyoterapi bilgi kartı: doğum sonrası fizyoterapi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
-    "waMesaj": "Merhaba, Kadıköy doğum sonrası fizyoterapi hakkında bilgi almak ve randevu oluşturmak istiyorum.",
-    "guvenMaddeleri": [
-        "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
-        "Sertifikalı Schroth uygulayıcısı",
-        "Manuel terapi, klinik reformer pilates ve fasyal manipülasyon çalışmaları",
-        "Süreç hekim onayı alındıktan sonra başlar; tanı ve tedavi kararı hekime aittir",
-        "Değerlendirme sonrası kişiye özel planlanan, kademeli ilerleyen program",
-        "Kozyatağı metro durağına yürüme mesafesinde klinik",
-        "Pazartesi ile Cumartesi arası 09:00 ve 21:00 saatleri arasında randevu"
-    ],
-    "araCtaBaslik": "Değerlendirme için randevu oluşturun",
-    "araCtaMetin": "Karın duvarı ve bel bölgesindeki şikayetleriniz hekim onayı alındıktan sonra ayrıntılı biçimde değerlendirilir, program doğum biçiminize ve günlük yaşamınıza göre planlanır. Kozyatağı'ndaki klinik Pazartesi ve Cumartesi arası 09:00 ile 21:00 saatleri arasında randevu ile çalışır.",
-    "konumMetni": "Kozyatağı, Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kadıköy, İstanbul. Kozyatağı metro durağına yürüme mesafesinde. Randevu: Pazartesi ile Cumartesi arası 09:00 ile 21:00.",
-    "ilgiliBaglantilar": [
-        {
-            "to": "/hamilelik-fizyoterapisi-kadikoy",
-            "label": "Hamilelik fizyoterapisi"
-        },
-        {
-            "to": "/klinik-pilates-kadikoy",
-            "label": "Klinik pilates çalışmaları"
-        },
-        {
-            "to": "/blog/bel-agrisi-ve-bel-fitigi",
-            "label": "Bel ağrısı ve bel fıtığı"
-        },
-        {
-            "to": "/tedavi-yaklasimlarimiz",
-            "label": "Tedavi yaklaşımlarımız"
-        },
-    {
-        "to": "/sahrayicedit-fizyoterapist",
-        "label": "Sahrayıcedit fizyoterapist"
-      },
-    
-        {
-            "to": "/iletisim",
-            "label": "Randevu ve iletişim"
-        }
-    ],
-    icerikModul: 'hizmetContent',
-    icerikAdi: 'dogumSonrasiFizyoterapiIcerik',
-  },
-  {
     "slug": "cene-eklemi-tme-kadikoy",
     "servisAdi": "Çene Eklemi (TME) Fizyoterapisi",
     "breadcrumbAdi": "Çene Eklemi (TME) Fizyoterapisi",
@@ -680,10 +630,6 @@ export const landings = [
         "label": "Skolyoz fizyoterapisi"
       },
       {
-        "to": "/dogum-sonrasi-fizyoterapi-kadikoy",
-        "label": "Doğum sonrası fizyoterapi"
-      },
-      {
         "to": "/erkek-pelvik-taban-kadikoy",
         "label": "Erkeklerde pelvik taban rehabilitasyonu"
       },
@@ -917,8 +863,7 @@ export const landings = [
     "araCtaMetin": "Gebelik haftanıza uygun olup olmadığını ve sürecin nasıl ilerlediğini konuşmak için önce yazabilirsiniz.",
     "konumMetni": "Klinik, Kadıköy Kozyata\u011f\u0131'nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır.",
     "ilgiliBaglantilar": [
-      { "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi", "label": "Fizik tedavi kliniği hizmetleri" },
-      { "to": "/dogum-sonrasi-fizyoterapi-kadikoy", "label": "Doğum sonrası fizyoterapi" }
+      { "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi", "label": "Fizik tedavi kliniği hizmetleri" }
     ],
     "icerikModul": "hizmetContent",
     "icerikAdi": "hamilelikFizyoterapisiIcerik"
