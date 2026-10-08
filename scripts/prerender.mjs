@@ -78,12 +78,13 @@ function headDegistir(sablon, { title, description, canonical, image, jsonLd = [
     // ana paket -> sayfa parçası -> içerik modülü zinciri sırayla beklenir ve reklam
     // sayfasının ilk boyaması her halkada bir gidiş-dönüş daha gecikir.
     ...onYukle.map((h) => `<link rel="modulepreload" crossorigin href="${kacis(h)}" />`),
-    `<link rel="canonical" href="${kacis(canonical)}" />`,
+    // 404 sayfasının kanonik adresi yoktur (her bilinmeyen adreste aynı dosya sunulur).
+    canonical ? `<link rel="canonical" href="${kacis(canonical)}" />` : '',
     `<meta name="robots" content="${noindex ? 'noindex, follow' : 'index, follow'}" />`,
     `<meta property="og:type" content="website" />`,
     `<meta property="og:title" content="${kacis(title)}" />`,
     `<meta property="og:description" content="${kacis(description)}" />`,
-    `<meta property="og:url" content="${kacis(canonical)}" />`,
+    canonical ? `<meta property="og:url" content="${kacis(canonical)}" />` : '',
     image ? `<meta property="og:image" content="${kacis(image)}" />` : '',
     `<meta name="twitter:card" content="summary_large_image" />`,
     `<meta name="twitter:title" content="${kacis(title)}" />`,
@@ -251,14 +252,25 @@ yaz(
   }), '/randevu-talebiniz-alindi'),
 )
 
+// Bulunamadı sayfası: Cloudflare bilinmeyen adreslerde bu dosyayı 404 koduyla sunar
+// (wrangler.jsonc not_found_handling: 404-page). Gövde, hiçbir rotayla eşleşmeyen bir
+// adres için render edilir; App'teki yakalayıcı rota SayfaBulunamadi'yı çizer. Tarayıcıda
+// data-rota gerçek adresle eşleşmediği için main.jsx gövdeyi temizleyip yeniden çizer.
+yaz(
+  '404',
+  await govdeEkle(headDegistir(sablon, {
+    title: `Sayfa bulunamadı | ${BRAND_KISA}`,
+    description: 'Aradığınız sayfa bulunamadı. Ana sayfadan ya da tedavi yaklaşımlarımızdan devam edebilirsiniz.',
+    noindex: true,
+  }), '/__sayfa-bulunamadi'),
+)
+
 // Ana sayfa EN SON yazılır: index.html hem ana sayfa hem de yukarıdaki bütün sayfaların
-// şablonudur (sablon betiğin başında okundu). Bilinmeyen adresler de Cloudflare
-// tarafından bu dosyaya düşer; main.jsx data-rota eşleşmediği için onları hidrate
-// etmez, temizleyip sıfırdan çizer.
+// şablonudur (sablon betiğin başında okundu).
 writeFileSync(resolve(distDir, 'index.html'), await govdeEkle(sablon, '/'), 'utf-8')
 
 const toplam =
-  landings.length + blogPosts.length + serviceCategories.length + kurumsal.length + 2
+  landings.length + blogPosts.length + serviceCategories.length + kurumsal.length + 3
 
 console.log(
   `prerender: ${toplam} sayfa için baş etiketleri, ${govdeSayisi} sayfa için gövde yazıldı\n` +
@@ -266,5 +278,5 @@ console.log(
     `  blog          : ${blogPosts.length}\n` +
     `  kategori      : ${serviceCategories.length}\n` +
     `  kurumsal      : ${kurumsal.length}\n` +
-    `  diğer         : gizlilik-politikasi, randevu-talebiniz-alindi`,
+    `  diğer         : gizlilik-politikasi, randevu-talebiniz-alindi, 404`,
 )

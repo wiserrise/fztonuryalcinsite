@@ -11,3 +11,6 @@ public/sitemap.xml
 .netlify
 .vercel
 dist-ssr
+
+# wrangler dev geçici dosyaları
+.wrangler/

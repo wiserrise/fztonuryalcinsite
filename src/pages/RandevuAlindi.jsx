@@ -1,7 +1,9 @@
-// Form gönderiminden sonra gelinen teşekkür sayfası.
-// Google Ads form dönüşümü burada bildirilir: sayfanın yüklenmiş olması, formun
-// gerçekten gönderildiğinin güvenilir kanıtıdır. Sayfa arama sonuçlarında
+// Form gönderiminden sonra gelinen teşekkür sayfası. Sayfa arama sonuçlarında
 // görünmemeli, bu yüzden noindex.
+//
+// Google Ads form dönüşümü normalde formda, arka plan gönderimi kesinleşince bildirilir
+// (RandevuFormu.jsx). Burada YALNIZ form klasik yolla gönderildiyse (arka plan gönderimi
+// başarısız olduğunda) bildirilir. Sayfayı doğrudan açan ziyaretçi dönüşüm sayılmaz.
 
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
@@ -10,7 +12,7 @@ import Footer from '../components/Footer.jsx'
 import FloatingCta from '../components/Cta.jsx'
 import { PhoneButton, WhatsAppButton } from '../components/Cta.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
-import { trackFormSubmit } from '../lib/tracking.js'
+import { formDonusumuBildir, klasikGonderimAl } from '../lib/tracking.js'
 import { BRAND, BRAND_KISA, CALISMA_SAATLERI } from '../config/site.js'
 
 export default function RandevuAlindi() {
@@ -22,7 +24,7 @@ export default function RandevuAlindi() {
   })
 
   useEffect(() => {
-    trackFormSubmit('randevu-formu')
+    if (klasikGonderimAl()) formDonusumuBildir('randevu-formu-klasik')
     window.scrollTo(0, 0)
   }, [])
 

@@ -1,7 +1,7 @@
 import { useEffect, lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { usePageView } from './hooks/usePageView.js'
-import { installLinkTracking } from './lib/tracking.js'
+import { installLinkTracking, installAnalytics } from './lib/tracking.js'
 import { landings } from './data/landings.js'
 
 // Rota bazlı kod bölme.
@@ -21,6 +21,7 @@ const KategoriPage = lazy(() => import('./pages/KategoriPage.jsx'))
 const LandingPage = lazy(() => import('./pages/LandingPage.jsx'))
 const GizlilikPolitikasi = lazy(() => import('./pages/GizlilikPolitikasi.jsx'))
 const RandevuAlindi = lazy(() => import('./pages/RandevuAlindi.jsx'))
+const SayfaBulunamadi = lazy(() => import('./pages/SayfaBulunamadi.jsx'))
 
 // Parça yüklenirken sayfanın zıplamaması için yer tutucu.
 const Yukleniyor = () => <div style={{ minHeight: '100vh' }} aria-hidden="true" />
@@ -31,6 +32,9 @@ export default function App() {
 
   // Sitedeki tüm tel: ve WhatsApp bağlantılarının tıklanmasını dönüşüm olarak ölçer.
   useEffect(() => installLinkTracking(), [])
+
+  // GA4 ölçüm kimliği girilmişse Analytics'i başlatır (config/ads.js).
+  useEffect(() => installAnalytics(), [])
 
   return (
     <Suspense fallback={<Yukleniyor />}>
@@ -50,6 +54,8 @@ export default function App() {
         ))}
         <Route path="/gizlilik-politikasi" element={<GizlilikPolitikasi />} />
         <Route path="/randevu-talebiniz-alindi" element={<RandevuAlindi />} />
+        {/* Eşleşmeyen her adres: önceden boş sayfa açılıyordu */}
+        <Route path="*" element={<SayfaBulunamadi />} />
       </Routes>
     </Suspense>
   )

@@ -21,7 +21,9 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'AW-18117600871');
+      // allow_enhanced_conversions: formdaki telefon (user_data) dönüşüme karma değer olarak
+      // eklenir; Google Ads hesabında gelişmiş dönüşümler açık değilse kullanılmaz.
+      gtag('config', 'AW-18117600871', { allow_enhanced_conversions: true });
     </script>
     <!-- LocalBusiness / MedicalBusiness structured data (yerel SEO) -->
     <script type="application/ld+json">

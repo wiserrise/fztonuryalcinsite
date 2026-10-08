@@ -11,6 +11,7 @@
 
 import {
   GOOGLE_ADS_ID,
+  GA4_OLCUM_KIMLIGI,
   CONVERSION_LABELS,
   CONVERSION_VALUE,
   CONVERSION_CURRENCY,
@@ -40,10 +41,10 @@ export function trackConversion(action, params = {}) {
 
   // Her durumda okunabilir bir olay: Google Ads'te "içe aktarılan" hedef olarak da
   // kullanılabilir, GA4 bağlanırsa oradan da görünür.
-  gtag('event', action, detay)
+  const olayGitti = gtag('event', action, detay)
 
   const label = CONVERSION_LABELS[action]
-  if (!label) return
+  if (!label) return olayGitti
 
   const conversion = {
     send_to: `${GOOGLE_ADS_ID}/${label}`,
@@ -53,7 +54,84 @@ export function trackConversion(action, params = {}) {
     conversion.value = CONVERSION_VALUE
     conversion.currency = CONVERSION_CURRENCY
   }
-  gtag('event', 'conversion', conversion)
+  return gtag('event', 'conversion', conversion)
+}
+
+/**
+ * Telefonu Google Ads gelişmiş dönüşümleri için E.164 biçimine çevirir
+ * (0532 123 45 67 -> +905321234567). Türkiye numarası olarak çözülemezse null döner;
+ * o durumda kullanıcı verisi hiç gönderilmez.
+ */
+export function telefonE164(ham) {
+  const r = String(ham || '').replace(/\D/g, '')
+  if (r.length === 12 && r.startsWith('90')) return `+${r}`
+  if (r.length === 11 && r.startsWith('0')) return `+90${r.slice(1)}`
+  if (r.length === 10 && r.startsWith('5')) return `+90${r}`
+  return null
+}
+
+/**
+ * Form gönderimi kesinleştiğinde dönüşümü bildirir.
+ *
+ * Önceki kurulumda dönüşüm teşekkür sayfasında atılıyordu. Form formsubmit.co'ya gidip
+ * oradan yönlendirildiği için o yönlendirme aksadığında sinyal hiç gelmiyor, teşekkür
+ * sayfasını doğrudan açan herkes ise dönüşüm sayılıyordu. Artık form arka planda
+ * gönderilir ve dönüşüm başarı yanıtı geldiği anda, sayfa değişmeden atılır.
+ *
+ * Gelişmiş dönüşümler: telefon `user_data` olarak etikete verilir; Google etiketi onu
+ * cihazda karma (hash) değere çevirir. Hesapta özellik açık değilse veri kullanılmaz.
+ *
+ * @param {string} source Formun bulunduğu yer (ör. 'hero-form')
+ * @param {string} telefon Formdaki telefon alanı
+ * @param {() => void} [bitince] Gönderim tamamlanınca ya da en geç 1,2 sn sonra BİR kez çağrılır
+ */
+export function formDonusumuBildir(source, telefon, bitince) {
+  let bitti = false
+  const bitir = () => {
+    if (bitti) return
+    bitti = true
+    if (bitince) bitince()
+  }
+  const e164 = telefonE164(telefon)
+  if (e164) gtag('set', 'user_data', { phone_number: e164 })
+  const gitti = trackConversion('form_submit', { source, event_callback: bitir })
+  if (!gitti) bitir()
+  else setTimeout(bitir, 1200)
+}
+
+// Arka plan gönderimi başarısız olursa form klasik yolla (formsubmit.co yönlendirmesiyle)
+// gönderilir. Bu işaret, teşekkür sayfasının yalnız gerçekten form gönderen ziyaretçide
+// dönüşüm bildirmesini sağlar. İçinde kişisel veri tutulmaz, yalnız zaman damgası.
+const KLASIK_GONDERIM_ANAHTARI = 'fzt-form-klasik-gonderim'
+const KLASIK_GONDERIM_OMRU_MS = 30 * 60 * 1000
+
+export function klasikGonderimIsaretle() {
+  try {
+    sessionStorage.setItem(KLASIK_GONDERIM_ANAHTARI, String(Date.now()))
+  } catch {
+    // Depolama kapalıysa teşekkür sayfası dönüşüm bildiremez; gönderim yine olur.
+  }
+}
+
+/** İşaret varsa ve tazeyse true döner; her durumda işareti siler. */
+export function klasikGonderimAl() {
+  try {
+    const t = Number(sessionStorage.getItem(KLASIK_GONDERIM_ANAHTARI))
+    sessionStorage.removeItem(KLASIK_GONDERIM_ANAHTARI)
+    return Boolean(t) && Date.now() - t < KLASIK_GONDERIM_OMRU_MS
+  } catch {
+    return false
+  }
+}
+
+/**
+ * GA4 ölçüm kimliği girilmişse Google Analytics'i başlatır. Aynı gtag.js kitaplığı
+ * kullanılır; ek betik yüklenmez. Rota değişimlerini GA4'ün geliştirilmiş ölçümü
+ * (tarayıcı geçmişi olayları) kendisi yakalar. App bileşeninde bir kez çağrılır.
+ */
+export function installAnalytics() {
+  if (!GA4_OLCUM_KIMLIGI) return
+  gtag('config', GA4_OLCUM_KIMLIGI)
 }
 
 /** WhatsApp bağlantısı tıklandığında çağrılır. */

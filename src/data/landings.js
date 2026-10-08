@@ -19,6 +19,8 @@ export const landings = [
   {
     slug: 'klinik-pilates-kadikoy',
     reklam: true,
+    // Güven bloğundaki Google yorumu alıntıları (src/data/guven.js anahtarları)
+    yorumlar: ['cem', 'victor-p'],
     servisAdi: 'Klinik Pilates',
     breadcrumbAdi: 'Kadıköy Klinik Pilates',
     // scripts/seo-check.mjs bu kelimenin URL, title, meta, H1 ve ilk cümlede
@@ -62,6 +64,7 @@ export const landings = [
   {
     slug: 'skolyoz-schroth-kadikoy',
     reklam: true,
+    yorumlar: ['victor-p', 'cem'],
     servisAdi: 'Skolyoz Fizyoterapisi (Schroth Metodu)',
     breadcrumbAdi: 'Kadıköy Skolyoz Fizyoterapisi',
     odakKelime: 'Kadıköy skolyoz fizyoterapisi',
@@ -922,6 +925,13 @@ export const landings = [
   },
   {
     "slug": "erkek-pelvik-taban-kadikoy",
+    // Google Ads bu sayfaya da düşüyor (Ekim 2026): alt çubuk, ilk ekranda arama butonu,
+    // mini form ve güven bloğu açılır.
+    "reklam": true,
+    "yorumlar": ["hasan-d", "emre-e"],
+    // Şikâyet bölümleri tek tek açılır başlık olur; mobilde sayfa ~6.500 kelimeydi.
+    // Başlık başlangıçlarıyla eşlenir: aradaki bütün bölümler (ikisi dahil) katlanır.
+    "katlanir": { "ilk": "Geçmeyen kasık", "son": "Gaz ve dışkı kaçırma" },
     "servisAdi": "Erkeklerde Pelvik Taban Rehabilitasyonu",
     "breadcrumbAdi": "Erkeklerde Pelvik Taban Rehabilitasyonu",
     "odakKelime": "Kadıköy erkek pelvik taban fizyoterapisi",

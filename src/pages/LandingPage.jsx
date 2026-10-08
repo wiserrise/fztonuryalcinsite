@@ -16,6 +16,7 @@ import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { getLandingBySlug, landingIcerikYukle } from '../data/landings.js'
 import { landingJsonLd, landingBreadcrumbs } from '../lib/landingSchema.js'
 import { BRAND, BRAND_KISA, LOCATION, NAP, CALISMA_SAATLERI, GBP_MAP_URL } from '../config/site.js'
+import { GOOGLE_PUAN, GOOGLE_YORUMLARI, KLINIK_FOTOGRAFLARI } from '../data/guven.js'
 // Bir kez yüklenen içerik burada tutulur: aynı sayfaya geri dönüşte yeniden istek atılmaz
 // ve ilk render'da boş ekran görülmez. Sunucu render'ı ve hidrasyon da aynı önbelleği
 // önceden doldurur (bkz. lib/icerikOnbellek.js).
@@ -95,9 +96,11 @@ const PhoneIcon = () => (
 )
 
 /**
- * Reklam sayfası güven bloğu (hero altı, 4 kart). Kartlardaki her olgu site.js,
- * Hakkımda sayfası ve kunye.json'da zaten yazılı olanlardan alınır; hasta yorumu,
- * yıldız veya puan basılmaz (sağlık tanıtım mevzuatı ve CLAUDE.md §1.2).
+ * Reklam sayfası güven bloğu (hero altı): 4 bilgi kartı, sayfaya ilişkin Google yorumu
+ * alıntıları ve klinikten fotoğraflar. Kartlardaki olgular site.js, Hakkımda sayfası ve
+ * kunye.json'dan; puan, yorum sayısı ve alıntılar Google İşletme Profili'nden birebir
+ * alınır (src/data/guven.js). Meslek reklam kısıtı bu müşteride kapalıdır (kullanıcı,
+ * 24.09.2026); uydurma ya da yuvarlanmış veri yine basılmaz.
  */
 function GuvenBlogu({ landing }) {
   const kartStil = { backgroundColor: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius)', padding: '1.35rem 1.4rem', display: 'flex', gap: '0.9rem', alignItems: 'flex-start' }
@@ -106,6 +109,7 @@ function GuvenBlogu({ landing }) {
   const metinStil = { color: 'var(--text-light)', lineHeight: 1.7, fontSize: '0.95rem', margin: 0 }
   // Beyaz kart üstünde --secondary (#00d4ff) 1,77:1 kalıyordu; lacivert + alt çizgi 14,6:1 ve bağlantı olduğu belli.
   const linkStil = { color: 'var(--primary)', fontWeight: 600, textDecoration: 'underline', textUnderlineOffset: 3, display: 'inline-block', marginTop: '0.45rem' }
+  const yorumlar = (landing.yorumlar || []).map((k) => GOOGLE_YORUMLARI[k]).filter(Boolean)
   return (
     <section aria-label="Klinik hakkında bilgiler" style={{ padding: '2.5rem 0 0' }}>
       <div className="container">
@@ -132,11 +136,12 @@ function GuvenBlogu({ landing }) {
           <div style={kartStil}>
             <span style={ikonStil}><GoogleIcon /></span>
             <div>
-              <h3 style={baslikStil}>Google İşletme Profili</h3>
-              {/* 'Değerlendirmeler' bilinçli olarak anılmaz: reklam sayfasında hasta yorumuna
-                  yönlendirme §1.2 ve sağlık tanıtım yönetmeliği açısından gri alandı. */}
-              <p style={metinStil}>Klinik bilgileri, fotoğraflar ve çalışma saatleri Google İşletme Profili'nde yer alır.</p>
-              <a href={GBP_MAP_URL} target="_blank" rel="noopener noreferrer" style={linkStil}>Google İşletme Profilimiz</a>
+              <h3 style={baslikStil}>Google'da {GOOGLE_PUAN.puan} puan</h3>
+              <p style={metinStil}>
+                <span className="guven-yildiz" aria-hidden="true">★★★★★</span>{' '}
+                {GOOGLE_PUAN.yorumSayisi} değerlendirme
+              </p>
+              <a href={GBP_MAP_URL} target="_blank" rel="noopener noreferrer" style={linkStil}>Google yorumlarını okuyun</a>
             </div>
           </div>
           <div style={kartStil}>
@@ -148,9 +153,77 @@ function GuvenBlogu({ landing }) {
             </div>
           </div>
         </div>
+
+        {yorumlar.length > 0 && (
+          <div className="guven-yorumlar">
+            {yorumlar.map((y) => (
+              <figure key={y.ad} className="guven-yorum">
+                <div className="guven-yildiz" role="img" aria-label="5 üzerinden 5 yıldız">★★★★★</div>
+                <blockquote>“{y.metin}”</blockquote>
+                <figcaption>{y.ad} · Google yorumu, {y.tarih}</figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
+
+        <div className="guven-fotolar">
+          {KLINIK_FOTOGRAFLARI.map((f) => (
+            <figure key={f.src}>
+              <img src={f.src} alt={f.alt} width="800" height="600" loading="lazy" decoding="async" />
+              <figcaption>{f.baslik}</figcaption>
+            </figure>
+          ))}
+        </div>
       </div>
     </section>
   )
+}
+
+/** Bir gövde bölümünün paragrafları, maddeleri ve ilgili bağlantıları. */
+function BolumIcerik({ b }) {
+  return (
+    <>
+      {b.paragraflar.map((p, j) => (
+        <p key={j} style={{ color: 'var(--text-light)', lineHeight: 1.9, marginBottom: '1.1rem', fontSize: '1.03rem' }}>{p}</p>
+      ))}
+      {b.liste && b.liste.length > 0 && (
+        <div style={{ display: 'grid', gap: '0.9rem', marginTop: '1.25rem' }}>
+          {b.liste.map((l) => (
+            <div key={l.baslik} style={{ display: 'flex', gap: '0.8rem', alignItems: 'flex-start', backgroundColor: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius)', padding: '1.1rem 1.25rem' }}>
+              <CheckIcon />
+              <div>
+                <strong style={{ color: 'var(--primary)', display: 'block', marginBottom: '0.25rem' }}>{l.baslik}</strong>
+                <span style={{ color: 'var(--text-light)', lineHeight: 1.75 }}>{l.metin}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+      {b.baglantilar && b.baglantilar.length > 0 && (
+        <p style={{ marginTop: '1rem', fontSize: '0.97rem', color: 'var(--text-light)', lineHeight: 1.9 }}>
+          {b.baglantilar.every((bl) => bl.yol.startsWith('/blog/')) ? 'Ayrıntılı yazı:' : 'İlgili sayfa:'}{' '}
+          {b.baglantilar.map((bl, k) => (
+            <span key={bl.yol}>
+              {k > 0 && ', '}
+              <Link to={bl.yol} style={{ color: 'var(--primary)', fontWeight: 600 }}>{bl.metin}</Link>
+            </span>
+          ))}
+        </p>
+      )}
+    </>
+  )
+}
+
+/**
+ * landings.js `katlanir: { ilk, son }` ayarındaki başlık başlangıçlarını bölüm sırasına
+ * çevirir. Başlıklardan biri bulunamazsa hiçbir bölüm katlanmaz (metin değişse bile sayfa
+ * bozulmaz, yalnızca kısalma kaybolur).
+ */
+function katlanirAralik(bolumler, ayar) {
+  if (!ayar) return null
+  const ilk = bolumler.findIndex((b) => b.h2.startsWith(ayar.ilk))
+  const son = bolumler.findIndex((b) => b.h2.startsWith(ayar.son))
+  return ilk >= 0 && son >= ilk ? [ilk, son] : null
 }
 
 function Sss({ sss }) {
@@ -261,6 +334,10 @@ export default function LandingPage({ slug: slugProp }) {
       </>
     )
   }
+
+  // Uzun sayfalarda bazı bölümler açılır başlık olur (landings.js `katlanir`).
+  const aralik = katlanirAralik(icerik.bolumler, landing.katlanir)
+  const araCtaSira = aralik && aralik[0] >= 2 ? aralik[0] - 2 : Math.floor(icerik.bolumler.length / 2) - 1
 
   return (
     <>
@@ -403,52 +480,41 @@ export default function LandingPage({ slug: slugProp }) {
                 />
               </figure>
             )}
-            {icerik.bolumler.map((b, i) => (
-              <div key={b.h2} style={{ marginBottom: '3rem' }}>
-                <h2 style={{ fontSize: 'clamp(1.35rem, 2.5vw, 1.7rem)', marginBottom: '1.1rem', lineHeight: 1.3 }}>{b.h2}</h2>
-                {b.paragraflar.map((p, j) => (
-                  <p key={j} style={{ color: 'var(--text-light)', lineHeight: 1.9, marginBottom: '1.1rem', fontSize: '1.03rem' }}>{p}</p>
-                ))}
-                {b.liste && b.liste.length > 0 && (
-                  <div style={{ display: 'grid', gap: '0.9rem', marginTop: '1.25rem' }}>
-                    {b.liste.map((l) => (
-                      <div key={l.baslik} style={{ display: 'flex', gap: '0.8rem', alignItems: 'flex-start', backgroundColor: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius)', padding: '1.1rem 1.25rem' }}>
-                        <CheckIcon />
-                        <div>
-                          <strong style={{ color: 'var(--primary)', display: 'block', marginBottom: '0.25rem' }}>{l.baslik}</strong>
-                          <span style={{ color: 'var(--text-light)', lineHeight: 1.75 }}>{l.metin}</span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-                {b.baglantilar && b.baglantilar.length > 0 && (
-                  <p style={{ marginTop: '1rem', fontSize: '0.97rem', color: 'var(--text-light)', lineHeight: 1.9 }}>
-                    {b.baglantilar.every((bl) => bl.yol.startsWith('/blog/')) ? 'Ayrıntılı yazı:' : 'İlgili sayfa:'}{' '}
-                    {b.baglantilar.map((bl, k) => (
-                      <span key={bl.yol}>
-                        {k > 0 && ', '}
-                        <Link to={bl.yol} style={{ color: 'var(--primary)', fontWeight: 600 }}>{bl.metin}</Link>
-                      </span>
-                    ))}
-                  </p>
-                )}
+            {icerik.bolumler.map((b, i) => {
+              const katli = Boolean(aralik) && i >= aralik[0] && i <= aralik[1]
+              const sonKatli = Boolean(aralik) && i === aralik[1]
+              return (
+                <div key={b.h2} style={{ marginBottom: katli && !sonKatli ? '0.85rem' : '3rem' }}>
+                  {katli ? (
+                    // Katlanan bölümün metni belgede kalır (arama motoru okur); yalnızca
+                    // görsel olarak kapalı başlar. <details> JavaScript olmadan da çalışır.
+                    <details className="landing-katlanir">
+                      <summary><h2>{b.h2}</h2></summary>
+                      <div className="landing-katlanir-icerik"><BolumIcerik b={b} /></div>
+                    </details>
+                  ) : (
+                    <>
+                      <h2 style={{ fontSize: 'clamp(1.35rem, 2.5vw, 1.7rem)', marginBottom: '1.1rem', lineHeight: 1.3 }}>{b.h2}</h2>
+                      <BolumIcerik b={b} />
+                    </>
+                  )}
 
-                {/* Sayfanın ortasında tek bir ara eylem çağrısı */}
-                {i === Math.floor(icerik.bolumler.length / 2) - 1 && (
-                  <div style={{ margin: '2.75rem 0 0.5rem' }}>
-                    <CtaBlogu
-                      landing={landing}
-                      icerik={icerik}
-                      reklam={reklam}
-                      source="ara-cta"
-                      baslik={landing.araCtaBaslik}
-                      metin={landing.araCtaMetin}
-                    />
-                  </div>
-                )}
-              </div>
-            ))}
+                  {/* Sayfanın ortasında tek bir ara eylem çağrısı; katlanan bölümler varsa onlardan önce */}
+                  {i === araCtaSira && (
+                    <div style={{ margin: '2.75rem 0 0.5rem' }}>
+                      <CtaBlogu
+                        landing={landing}
+                        icerik={icerik}
+                        reklam={reklam}
+                        source="ara-cta"
+                        baslik={landing.araCtaBaslik}
+                        metin={landing.araCtaMetin}
+                      />
+                    </div>
+                  )}
+                </div>
+              )
+            })}
           </div>
         </section>
 

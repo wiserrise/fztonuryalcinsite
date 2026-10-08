@@ -13,6 +13,10 @@
 
 export const GOOGLE_ADS_ID = 'AW-18117600871'
 
+// Google Analytics 4 ölçüm kimliği (G-XXXXXXXXXX). Boş bırakıldığı sürece GA4 çalışmaz;
+// girildiğinde aynı gtag.js üzerinden başlar (bkz. tracking.js installAnalytics).
+export const GA4_OLCUM_KIMLIGI = ''
+
 // 2026-09-09 GÜNCELLEME: panelde telefon ve WhatsApp AYRI dönüşüm işlemleri olarak
 // yeniden tanımlandı (ikisi de "Kişi" hedefi altında BİRİNCİL). Önceki kurulumda ikisi
 // tek etiketi paylaşıyordu; artık ayrı etiketleri var, böylece raporda hangi kanalın
@@ -26,8 +30,9 @@ export const CONVERSION_LABELS = {
   // Telefon numarasına tıklama (mobilde arama başlatır)
   phone_click: 'KIAbCK2hw_EcEOfMkr9D',
   // İletişim / randevu formunun gönderilmesi.
-  // Formlar formsubmit.co'ya POST edip `_next` ile /randevu-talebiniz-alindi
-  // sayfasına döner; dönüşüm o sayfada (RandevuAlindi.jsx) bildirilir.
+  // Form formsubmit.co'ya arka planda gönderilir; dönüşüm başarı yanıtı geldiği anda
+  // formda bildirilir (RandevuFormu.jsx). Arka plan gönderimi başarısız olursa form
+  // klasik yolla gider ve dönüşümü teşekkür sayfası bildirir (RandevuAlindi.jsx).
   form_submit: 'vOuoCMm79uYcEOfMkr9D',
 }
 

@@ -8,9 +8,11 @@
   "assets": {
     // Vite build çıktısı
     "directory": "./dist",
-    // React Router (SPA): bilinmeyen yollar index.html'e düşer,
-    // /tedavi-yaklasimlarimiz/pilates-salonu gibi derin rotalar 200 döner
-    "not_found_handling": "single-page-application"
+    // Bütün geçerli sayfalar ön render edilip dosya olarak yazılır (scripts/prerender.mjs);
+    // dosyası olmayan adres gerçekten yoktur. Önceki "single-page-application" ayarında
+    // böyle adresler index.html'e düşüp 200 dönüyor ve boş sayfa açıyordu. Artık
+    // dist/404.html 404 durum koduyla sunulur.
+    "not_found_handling": "404-page"
   },
   // Custom domain yerine zone route: proxy'li DNS kaydında origin'e gitmeden
   // devreye girer, bu yüzden DNS kaydı değiştirmeden geçiş yapılabiliyor.
