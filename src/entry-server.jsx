@@ -19,18 +19,23 @@ export { icerikOnbellekDoldur } from './lib/icerikOnbellek.js'
 
 export function render(url) {
   return new Promise((coz, reddet) => {
-    let html = ''
+    const parcalar = []
     const hatalar = []
     const yazici = new Writable({
       write(parca, _kodlama, bitti) {
-        html += parca.toString()
+        parcalar.push(Buffer.from(parca))
         bitti()
       },
     })
     yazici.on('finish', () => {
       // Render sırasında yakalanan hata varsa HTML yarımdır; sessizce yayınlanmasın.
-      if (hatalar.length) reddet(new Error(`${url}: ${hatalar.join(' | ')}`))
-      else coz(html)
+      if (hatalar.length) return reddet(new Error(`${url}: ${hatalar.join(' | ')}`))
+      // Parçalar tek seferde çözülür: çok baytlı bir karakter (ı, ş, ğ) iki parçaya
+      // bölünürse ayrı ayrı çözmek onu bozar. Ayrıca React 18'in akışlı render'ı bu
+      // sınırlarda çıktıya fazladan NUL baytı yazıyor ("ağrıy\0ı"); karakterlerin
+      // kendisi sağlam olduğu için NUL'lar silinince metin aynen düzelir. Silinmezse
+      // tarayıcı "�" gösterir, arama motoru da bozuk kelime okur.
+      coz(Buffer.concat(parcalar).toString('utf8').replace(/\u0000/g, ''))
     })
 
     const { pipe } = renderToPipeableStream(
