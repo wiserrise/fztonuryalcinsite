@@ -50,6 +50,11 @@ export const landings = [
       { to: '/blog/klinik-pilates', label: 'Klinik pilates yazısı' },
       { to: '/skolyoz-schroth-kadikoy', label: 'Skolyoz fizyoterapisi' },
       { to: '/hakkimda', label: 'Fizyoterapist hakkında' },
+      { "to": "/durus-bozuklugu-kifoz-lordoz-kadikoy", "label": "Duruş Bozukluğu, Kifoz ve Lordoz" },
+      { "to": "/egzersiz-terapisi-ev-programi-kadikoy", "label": "Egzersiz Terapisi, Ev Programı ve Online Danışmanlık" },
+      { "to": "/fibromiyalji-kronik-agri-kadikoy", "label": "Fibromiyalji ve Kronik Ağrı Yönetimi" },
+      { "to": "/kalca-agrisi-fizyoterapisi-kadikoy", "label": "Kalça Ağrısı Fizyoterapisi" },
+      { "to": "/mat-pilates-core-kuvvetlendirme-kadikoy", "label": "Mat Pilates ve Core Kuvvetlendirme" }
     ],
     icerikModul: 'landingContent',
     icerikAdi: 'klinikPilatesIcerik',
@@ -84,6 +89,9 @@ export const landings = [
       { to: '/blog/schroth-metodu-skolyoz', label: 'Schroth metodu yazısı' },
       { to: '/klinik-pilates-kadikoy', label: 'Klinik pilates' },
       { to: '/hakkimda', label: 'Fizyoterapist hakkında' },
+      { "to": "/durus-bozuklugu-kifoz-lordoz-kadikoy", "label": "Duruş Bozukluğu, Kifoz ve Lordoz" },
+      { "to": "/pediatrik-fizyoterapi-bobath-kadikoy", "label": "Pediatrik Fizyoterapi, Bobath (NDT) ve Duyu Bütünleme" },
+      { "to": "/solunum-fizyoterapisi-kadikoy", "label": "Solunum Fizyoterapisi" }
     ],
     icerikModul: 'landingContent',
     icerikAdi: 'skolyozSchrothIcerik',
@@ -136,7 +144,10 @@ export const landings = [
         {
             "to": "/iletisim",
             "label": "İletişim ve randevu"
-        }
+        },
+      { "to": "/kalca-agrisi-fizyoterapisi-kadikoy", "label": "Kalça Ağrısı Fizyoterapisi" },
+      { "to": "/manuel-terapi-kadikoy", "label": "Manuel Terapi ve Mobilizasyon" },
+      { "to": "/mat-pilates-core-kuvvetlendirme-kadikoy", "label": "Mat Pilates ve Core Kuvvetlendirme" }
     ],
     icerikModul: 'hizmetContent',
     icerikAdi: 'belFitigiIcerik',
@@ -188,7 +199,11 @@ export const landings = [
         {
             "to": "/iletisim",
             "label": "Randevu ve iletişim"
-        }
+        },
+      { "to": "/bas-agrisi-migren-fizyoterapisi-kadikoy", "label": "Baş Ağrısı ve Migren" },
+      { "to": "/karpal-tunel-tenisci-dirsegi-kadikoy", "label": "Karpal Tünel ve Tenisçi Dirseği" },
+      { "to": "/manuel-terapi-kadikoy", "label": "Manuel Terapi ve Mobilizasyon" },
+      { "to": "/omuz-agrisi-donuk-omuz-kadikoy", "label": "Omuz Ağrısı ve Donuk Omuz" }
     ],
     icerikModul: 'hizmetContent',
     icerikAdi: 'boyunFitigiIcerik',
@@ -241,7 +256,9 @@ export const landings = [
         {
             "to": "/iletisim",
             "label": "Randevu ve iletişim"
-        }
+        },
+      { "to": "/geriatrik-fizyoterapi-osteoporoz-kadikoy", "label": "Geriatrik Fizyoterapi ve Osteoporoz Egzersizi" },
+      { "to": "/pediatrik-fizyoterapi-bobath-kadikoy", "label": "Pediatrik Fizyoterapi, Bobath (NDT) ve Duyu Bütünleme" }
     ],
     icerikModul: 'hizmetContent',
     icerikAdi: 'norolojikRehabilitasyonIcerik',
@@ -293,7 +310,14 @@ export const landings = [
         {
             "to": "/iletisim",
             "label": "Randevu ve iletişim"
-        }
+        },
+      { "to": "/diz-agrisi-rehabilitasyonu-kadikoy", "label": "Diz Ağrısı ve Diz Rehabilitasyonu" },
+      { "to": "/geriatrik-fizyoterapi-osteoporoz-kadikoy", "label": "Geriatrik Fizyoterapi ve Osteoporoz Egzersizi" },
+      { "to": "/kalca-agrisi-fizyoterapisi-kadikoy", "label": "Kalça Ağrısı Fizyoterapisi" },
+      { "to": "/lenfodem-manuel-lenf-drenaji-kadikoy", "label": "Lenfödem ve Manuel Lenf Drenajı" },
+      { "to": "/omuz-agrisi-donuk-omuz-kadikoy", "label": "Omuz Ağrısı ve Donuk Omuz" },
+      { "to": "/ortopedik-rehabilitasyon-kadikoy", "label": "Ortopedik Rehabilitasyon" },
+      { "to": "/solunum-fizyoterapisi-kadikoy", "label": "Solunum Fizyoterapisi" }
     ],
     icerikModul: 'hizmetContent',
     icerikAdi: 'ameliyatSonrasiRehabilitasyonIcerik',
@@ -392,7 +416,9 @@ export const landings = [
         {
             "to": "/iletisim",
             "label": "İletişim ve randevu"
-        }
+        },
+      { "to": "/bas-agrisi-migren-fizyoterapisi-kadikoy", "label": "Baş Ağrısı ve Migren" },
+      { "to": "/manuel-terapi-kadikoy", "label": "Manuel Terapi ve Mobilizasyon" }
     ],
     icerikModul: 'hizmetContent',
     icerikAdi: 'ceneEklemiTmeIcerik',
@@ -449,7 +475,14 @@ export const landings = [
         {
             "to": "/iletisim",
             "label": "İletişim ve randevu"
-        }
+        },
+      { "to": "/ayak-bilegi-burkulmasi-topuk-dikeni-kadikoy", "label": "Ayak Bileği Burkulması ve Topuk Dikeni" },
+      { "to": "/diz-agrisi-rehabilitasyonu-kadikoy", "label": "Diz Ağrısı ve Diz Rehabilitasyonu" },
+      { "to": "/miyofasyal-agri-kinesio-bantlama-kadikoy", "label": "Miyofasyal Ağrı, Tetik Nokta ve Kinesio Bantlama" },
+      { "to": "/omuz-agrisi-donuk-omuz-kadikoy", "label": "Omuz Ağrısı ve Donuk Omuz" },
+      { "to": "/ortopedik-rehabilitasyon-kadikoy", "label": "Ortopedik Rehabilitasyon" },
+      { "to": "/spor-masaji-klinik-masaj-kadikoy", "label": "Spor Masajı ve Klinik Masaj" },
+      { "to": "/sporcu-performans-degerlendirmesi-kadikoy", "label": "Sporcu Performans Değerlendirmesi" }
     ],
     icerikModul: 'hizmetContent',
     icerikAdi: 'sporYaralanmalariIcerik',
@@ -502,7 +535,13 @@ export const landings = [
         {
             "to": "/iletisim",
             "label": "İletişim ve randevu"
-        }
+        },
+      { "to": "/bas-agrisi-migren-fizyoterapisi-kadikoy", "label": "Baş Ağrısı ve Migren" },
+      { "to": "/butuncul-fizyoterapi-degerlendirme-kadikoy", "label": "Bütüncül Fizyoterapi, Değerlendirme ve Muayene" },
+      { "to": "/durus-bozuklugu-kifoz-lordoz-kadikoy", "label": "Duruş Bozukluğu, Kifoz ve Lordoz" },
+      { "to": "/karpal-tunel-tenisci-dirsegi-kadikoy", "label": "Karpal Tünel ve Tenisçi Dirseği" },
+      { "to": "/miyofasyal-agri-kinesio-bantlama-kadikoy", "label": "Miyofasyal Ağrı, Tetik Nokta ve Kinesio Bantlama" },
+      { "to": "/omuz-agrisi-donuk-omuz-kadikoy", "label": "Omuz Ağrısı ve Donuk Omuz" }
     ],
     icerikModul: 'hizmetContent',
     icerikAdi: 'ofisCalisanlariFizyoterapiIcerik',
@@ -550,8 +589,9 @@ export const landings = [
           {
               "to": "/iletisim",
               "label": "İletişim ve randevu"
-          }
-      ],
+          },
+      { "to": "/manuel-terapi-kadikoy", "label": "Manuel Terapi ve Mobilizasyon" }
+    ],
     icerikModul: 'hizmetContent',
     icerikAdi: 'visseralTerapiIcerik',
   },
@@ -603,7 +643,10 @@ export const landings = [
       {
         "to": "/iletisim",
         "label": "İletişim ve randevu"
-      }
+      },
+      { "to": "/butuncul-fizyoterapi-degerlendirme-kadikoy", "label": "Bütüncül Fizyoterapi, Değerlendirme ve Muayene" },
+      { "to": "/pediatrik-fizyoterapi-bobath-kadikoy", "label": "Pediatrik Fizyoterapi, Bobath (NDT) ve Duyu Bütünleme" },
+      { "to": "/sporcu-performans-degerlendirmesi-kadikoy", "label": "Sporcu Performans Değerlendirmesi" }
     ],
     icerikModul: 'bolgeContent',
     icerikAdi: 'kozyatagiIcerik',
@@ -906,6 +949,1067 @@ export const landings = [
     ],
     "icerikModul": "hizmetContent",
     "icerikAdi": "erkekPelvikTabanIcerik"
+  },
+  {
+      "slug": "ayak-bilegi-burkulmasi-topuk-dikeni-kadikoy",
+      "servisAdi": "Ayak Bileği Burkulması ve Topuk Dikeni",
+      "breadcrumbAdi": "Ayak Bileği Burkulması ve Topuk Dikeni",
+      "odakKelime": "Kadıköy ayak bileği burkulması rehabilitasyonu",
+      "gorsel": "/assets/kart-ayak-bilegi-burkulmasi-topuk-dikeni-kadikoy.jpg",
+      "gorselAlt": "Ayak Bileği Burkulması ve Topuk Dikeni bilgi kartı: ayak bileği burkulması ve topuk dikeni, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, ayak bileği burkulması veya topuk ağrım için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Ayak bileği ve topuk şikâyetinizi birlikte değerlendirelim",
+      "araCtaMetin": "Burkulma sonrası eklemine güvenemiyorsanız ya da sabah ilk adımlarda topuğunuz ağrıyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, şikâyetin nasıl başladığını ve ayağın yürürken nasıl çalıştığını anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/blog/duz-tabanlik-ve-ayak-agrilari",
+              "label": "Düz tabanlık ve ayak ağrıları"
+          },
+          {
+              "to": "/spor-yaralanmalari-kadikoy",
+              "label": "Kadıköy spor yaralanmaları fizyoterapisi"
+          },
+          {
+              "to": "/diz-agrisi-rehabilitasyonu-kadikoy",
+              "label": "Kadıköy diz ağrısı fizyoterapisi"
+          },
+          {
+              "to": "/blog/on-capraz-bag-ocb-sporcu-yaralanmalari",
+              "label": "Ön çapraz bağ ve sporcu yaralanmaları"
+          },
+          {
+              "to": "/ortopedik-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ortopedik rehabilitasyon"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi",
+              "label": "Rehabilitasyon merkezi yaklaşımı"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          }
+      ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "ayakBilegiBurkulmasiTopukDikeniIcerik"
+  },
+  {
+      "slug": "bas-agrisi-migren-fizyoterapisi-kadikoy",
+      "servisAdi": "Baş Ağrısı ve Migren",
+      "breadcrumbAdi": "Baş Ağrısı ve Migren",
+      "odakKelime": "Kadıköy baş ağrısı fizyoterapisi",
+      "gorsel": "/assets/kart-bas-agrisi-migren-fizyoterapisi-kadikoy.jpg",
+      "gorselAlt": "Baş Ağrısı ve Migren bilgi kartı: baş ağrısı ve migren, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, baş ağrısı ve boyun gerginliği şikâyetlerim için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Baş ağrınızın boyun ve çene ile ilişkisini birlikte değerlendirelim",
+      "araCtaMetin": "Baş ağrınız ense gerginliği, uzun süreli ekran başı çalışma ya da çene sıkma ile birlikte seyrediyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının nerede başladığını ve hangi hareketle değiştiğini anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/boyun-fitigi-kadikoy",
+              "label": "Kadıköy boyun fıtığı fizyoterapisi"
+          },
+          {
+              "to": "/cene-eklemi-tme-kadikoy",
+              "label": "Kadıköy çene eklemi (TME) fizyoterapisi"
+          },
+          {
+              "to": "/blog/cene-eklemi-tme-tedavisi",
+              "label": "Çene eklemi (TME) tedavisi"
+          },
+          {
+              "to": "/blog/boyun-fitigi-boyun-duzlesmesi-ve-kurek-kemigi-agrisi",
+              "label": "Boyun fıtığı, boyun düzleşmesi ve kürek kemiği ağrısı"
+          },
+          {
+              "to": "/ofis-calisanlari-fizyoterapi-kadikoy",
+              "label": "Kadıköy ofis çalışanları fizyoterapisi"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi",
+              "label": "Fizik tedavi kliniği"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          }
+      ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "basAgrisiMigrenFizyoterapisiIcerik"
+  },
+  {
+      "slug": "butuncul-fizyoterapi-degerlendirme-kadikoy",
+      "servisAdi": "Bütüncül Fizyoterapi, Değerlendirme ve Muayene",
+      "breadcrumbAdi": "Bütüncül Fizyoterapi ve Değerlendirme",
+      "odakKelime": "Kadıköy bütüncül fizyoterapi",
+      "gorsel": "/assets/kart-butuncul-fizyoterapi-degerlendirme-kadikoy.jpg",
+      "gorselAlt": "Bütüncül Fizyoterapi, Değerlendirme ve Muayene bilgi kartı: bütüncül fizyoterapi, değerlendirme ve muayene, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, bütüncül fizyoterapi değerlendirmesi için ilk seans randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Şikâyetinizi bütün olarak değerlendirelim",
+      "araCtaMetin": "Şikâyetiniz birden fazla bölgeye yayılıyorsa ya da nereden başlayacağınızı bilmiyorsanız Kozyatağı'ndaki klinikten ilk seans için randevu alabilirsiniz. Süreç, öykünüzün dinlenmesi ve hareketlerinizin ayrıntılı incelenmesiyle başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/manuel-terapi-kadikoy",
+              "label": "Kadıköy manuel terapi"
+          },
+          {
+              "to": "/egzersiz-terapisi-ev-programi-kadikoy",
+              "label": "Kadıköy egzersiz terapisi ve ev programı"
+          },
+          {
+              "to": "/ofis-calisanlari-fizyoterapi-kadikoy",
+              "label": "Kadıköy ofis çalışanları fizyoterapisi"
+          },
+          {
+              "to": "/kozyatagi-fizyoterapist",
+              "label": "Kozyatağı fizyoterapist"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi",
+              "label": "Fizik tedavi kliniği"
+          },
+          {
+              "to": "/blog/bel-agrisi-ve-bel-fitigi",
+              "label": "Bel ağrısı ve bel fıtığı"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          },
+      { "to": "/fibromiyalji-kronik-agri-kadikoy", "label": "Fibromiyalji ve Kronik Ağrı Yönetimi" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "butunculFizyoterapiDegerlendirmeIcerik"
+  },
+  {
+      "slug": "diz-agrisi-rehabilitasyonu-kadikoy",
+      "servisAdi": "Diz Ağrısı ve Diz Rehabilitasyonu",
+      "breadcrumbAdi": "Diz Ağrısı ve Diz Rehabilitasyonu",
+      "odakKelime": "Kadıköy diz ağrısı fizyoterapisi",
+      "gorsel": "/assets/kart-diz-agrisi-rehabilitasyonu-kadikoy.jpg",
+      "gorselAlt": "Diz Ağrısı ve Diz Rehabilitasyonu bilgi kartı: diz ağrısı ve diz rehabilitasyonu, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, diz ağrım ve diz hareketlerimdeki zorlanma için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Diz şikâyetinizi birlikte değerlendirelim",
+      "araCtaMetin": "Merdiven çıkarken, çömelirken ya da yürürken dizinizde ağrı veya güvensizlik hissediyorsanız Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının hangi hareketle ve dizin hangi bölgesinde ortaya çıktığını anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/spor-yaralanmalari-kadikoy",
+              "label": "Kadıköy spor yaralanmaları fizyoterapisi"
+          },
+          {
+              "to": "/blog/on-capraz-bag-ocb-sporcu-yaralanmalari",
+              "label": "Ön çapraz bağ (ÖÇB) ve sporcu yaralanmaları"
+          },
+          {
+              "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ameliyat sonrası rehabilitasyon"
+          },
+          {
+              "to": "/blog/ameliyat-sonrasi-fizik-tedavi",
+              "label": "Ameliyat sonrası fizik tedavi"
+          },
+          {
+              "to": "/ortopedik-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ortopedik rehabilitasyon"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi",
+              "label": "Rehabilitasyon yaklaşımı"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          },
+      { "to": "/ayak-bilegi-burkulmasi-topuk-dikeni-kadikoy", "label": "Ayak Bileği Burkulması ve Topuk Dikeni" },
+      { "to": "/sporcu-performans-degerlendirmesi-kadikoy", "label": "Sporcu Performans Değerlendirmesi" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "dizAgrisiRehabilitasyonuIcerik"
+  },
+  {
+      "slug": "durus-bozuklugu-kifoz-lordoz-kadikoy",
+      "servisAdi": "Duruş Bozukluğu, Kifoz ve Lordoz",
+      "breadcrumbAdi": "Duruş Bozukluğu, Kifoz ve Lordoz",
+      "odakKelime": "Kadıköy duruş bozukluğu fizyoterapisi",
+      "gorsel": "/assets/kart-durus-bozuklugu-kifoz-lordoz-kadikoy.jpg",
+      "gorselAlt": "Duruş Bozukluğu, Kifoz ve Lordoz bilgi kartı: duruş bozukluğu, kifoz ve lordoz, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, duruş bozukluğu, kifoz veya lordoz şikâyetim için postür değerlendirmesi randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Duruşunuzu birlikte değerlendirelim",
+      "araCtaMetin": "Omuzlarınızın öne düştüğünü, sırtınızın yuvarlaklaştığını ya da bel çukurunun arttığını düşünüyorsanız Kozyatağı'ndaki klinikten postür değerlendirmesi için randevu alabilirsiniz. Süreç, duruşun nedenini anlamak için ayrıntılı bir gözlem ve hareket incelemesiyle başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/skolyoz-schroth-kadikoy",
+              "label": "Kadıköy skolyoz ve Schroth yaklaşımı"
+          },
+          {
+              "to": "/blog/schroth-metodu-skolyoz",
+              "label": "Schroth metodu ve skolyoz"
+          },
+          {
+              "to": "/klinik-pilates-kadikoy",
+              "label": "Kadıköy klinik pilates"
+          },
+          {
+              "to": "/ofis-calisanlari-fizyoterapi-kadikoy",
+              "label": "Kadıköy ofis çalışanları fizyoterapisi"
+          },
+          {
+              "to": "/pediatrik-fizyoterapi-bobath-kadikoy",
+              "label": "Kadıköy pediatrik fizyoterapi"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi",
+              "label": "Fizik tedavi kliniği yaklaşımı"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          },
+      { "to": "/mat-pilates-core-kuvvetlendirme-kadikoy", "label": "Mat Pilates ve Core Kuvvetlendirme" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "durusBozukluguKifozLordozIcerik"
+  },
+  {
+      "slug": "egzersiz-terapisi-ev-programi-kadikoy",
+      "servisAdi": "Egzersiz Terapisi, Ev Programı ve Online Danışmanlık",
+      "breadcrumbAdi": "Egzersiz Terapisi ve Ev Programı",
+      "odakKelime": "Kadıköy egzersiz terapisi",
+      "gorsel": "/assets/kart-egzersiz-terapisi-ev-programi-kadikoy.jpg",
+      "gorselAlt": "Egzersiz Terapisi, Ev Programı ve Online Danışmanlık bilgi kartı: egzersiz terapisi, ev programı ve online danışmanlık, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, kişiye özel egzersiz programı ve ev egzersizleri için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Egzersiz programınızı bulgularınıza göre planlayalım",
+      "araCtaMetin": "Evde ne yapacağınızı bilmiyorsanız ya da internetten bulduğunuz hareketlerden emin değilseniz Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Program, hareketlerinizin ve gününüzün incelenmesinin ardından kişiye göre kurulur.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/klinik-pilates-kadikoy",
+              "label": "Kadıköy klinik pilates"
+          },
+          {
+              "to": "/blog/yoga-terapi",
+              "label": "Yoga terapi"
+          },
+          {
+              "to": "/butuncul-fizyoterapi-degerlendirme-kadikoy",
+              "label": "Kadıköy bütüncül fizyoterapi ve değerlendirme"
+          },
+          {
+              "to": "/fibromiyalji-kronik-agri-kadikoy",
+              "label": "Kadıköy fibromiyalji ve kronik ağrı yönetimi"
+          },
+          {
+              "to": "/blog/bel-agrisi-ve-bel-fitigi",
+              "label": "Bel ağrısı ve bel fıtığı"
+          },
+          {
+              "to": "/mat-pilates-core-kuvvetlendirme-kadikoy",
+              "label": "Kadıköy mat pilates ve core kuvvetlendirme"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi",
+              "label": "Fizik tedavi kliniği yaklaşımı"
+          },
+      { "to": "/geriatrik-fizyoterapi-osteoporoz-kadikoy", "label": "Geriatrik Fizyoterapi ve Osteoporoz Egzersizi" },
+      { "to": "/lenfodem-manuel-lenf-drenaji-kadikoy", "label": "Lenfödem ve Manuel Lenf Drenajı" },
+      { "to": "/manuel-terapi-kadikoy", "label": "Manuel Terapi ve Mobilizasyon" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "egzersizTerapisiEvProgramiIcerik"
+  },
+  {
+      "slug": "fibromiyalji-kronik-agri-kadikoy",
+      "servisAdi": "Fibromiyalji ve Kronik Ağrı Yönetimi",
+      "breadcrumbAdi": "Fibromiyalji ve Kronik Ağrı Yönetimi",
+      "odakKelime": "Kadıköy fibromiyalji fizyoterapisi",
+      "gorsel": "/assets/kart-fibromiyalji-kronik-agri-kadikoy.jpg",
+      "gorselAlt": "Fibromiyalji ve Kronik Ağrı Yönetimi bilgi kartı: fibromiyalji ve kronik ağrı yönetimi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, fibromiyalji ve yaygın kronik ağrı şikâyetlerim için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Yaygın ağrınızı birlikte değerlendirelim",
+      "araCtaMetin": "Vücudun birçok bölgesinde süren ağrı, yorgunluk ve bozulan uyku düzeni günlük hayatı zorluyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının gün içindeki seyrini ve neleri zorlaştırdığını dinlemekle başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/klinik-pilates-kadikoy",
+              "label": "Kadıköy klinik pilates"
+          },
+          {
+              "to": "/blog/yoga-terapi",
+              "label": "Yoga terapi"
+          },
+          {
+              "to": "/egzersiz-terapisi-ev-programi-kadikoy",
+              "label": "Kadıköy egzersiz terapisi ve ev programı"
+          },
+          {
+              "to": "/miyofasyal-agri-kinesio-bantlama-kadikoy",
+              "label": "Kadıköy miyofasyal ağrı tedavisi"
+          },
+          {
+              "to": "/butuncul-fizyoterapi-degerlendirme-kadikoy",
+              "label": "Kadıköy bütüncül fizyoterapi"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi",
+              "label": "Fizik tedavi kliniği yaklaşımı"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          }
+      ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "fibromiyaljiKronikAgriIcerik"
+  },
+  {
+      "slug": "geriatrik-fizyoterapi-osteoporoz-kadikoy",
+      "servisAdi": "Geriatrik Fizyoterapi ve Osteoporoz Egzersizi",
+      "breadcrumbAdi": "Geriatrik Fizyoterapi ve Osteoporoz",
+      "odakKelime": "Kadıköy geriatrik fizyoterapi",
+      "gorsel": "/assets/kart-geriatrik-fizyoterapi-osteoporoz-kadikoy.jpg",
+      "gorselAlt": "Geriatrik Fizyoterapi ve Osteoporoz Egzersizi bilgi kartı: geriatrik fizyoterapi ve osteoporoz egzersizi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, denge, düşme önleme ve osteoporoz egzersizi için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Hareket güvenini birlikte değerlendirelim",
+      "araCtaMetin": "Kendiniz ya da yakınınız için denge, kas gücü veya osteoporoz egzersizi konusunda değerlendirme randevusu alabilirsiniz. Süreç, günlük yaşamda hangi hareketlerin zorlandığını anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/blog/parkinson-ve-denge",
+              "label": "Parkinson ve denge"
+          },
+          {
+              "to": "/norolojik-rehabilitasyon-kadikoy",
+              "label": "Kadıköy nörolojik rehabilitasyon"
+          },
+          {
+              "to": "/blog/felc-inme-rehabilitasyonu",
+              "label": "Felç ve inme rehabilitasyonu"
+          },
+          {
+              "to": "/egzersiz-terapisi-ev-programi-kadikoy",
+              "label": "Kadıköy egzersiz terapisi ve ev programı"
+          },
+          {
+              "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ameliyat sonrası rehabilitasyon"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi",
+              "label": "Rehabilitasyon yaklaşımımız"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          },
+      { "to": "/solunum-fizyoterapisi-kadikoy", "label": "Solunum Fizyoterapisi" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "geriatrikFizyoterapiOsteoporozIcerik"
+  },
+  {
+      "slug": "kalca-agrisi-fizyoterapisi-kadikoy",
+      "servisAdi": "Kalça Ağrısı Fizyoterapisi",
+      "breadcrumbAdi": "Kalça Ağrısı Fizyoterapisi",
+      "odakKelime": "Kadıköy kalça ağrısı fizyoterapisi",
+      "gorsel": "/assets/kart-kalca-agrisi-fizyoterapisi-kadikoy.jpg",
+      "gorselAlt": "Kalça Ağrısı Fizyoterapisi bilgi kartı: kalça ağrısı fizyoterapisi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, kalça ağrım için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Kalça şikâyetinizi birlikte değerlendirelim",
+      "araCtaMetin": "Yürürken, merdiven çıkarken ya da yan yatarken artan kalça ağrısı için Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının hangi hareketle ve hangi bölgede ortaya çıktığını anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/bel-fitigi-kadikoy",
+              "label": "Kadıköy bel fıtığı fizyoterapisi"
+          },
+          {
+              "to": "/blog/siyatik-ve-sinir-sikismasi",
+              "label": "Siyatik ve sinir sıkışması"
+          },
+          {
+              "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ameliyat sonrası rehabilitasyon"
+          },
+          {
+              "to": "/klinik-pilates-kadikoy",
+              "label": "Kadıköy klinik pilates"
+          },
+          {
+              "to": "/ortopedik-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ortopedik rehabilitasyon"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi",
+              "label": "Rehabilitasyon merkezi yaklaşımı"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          }
+      ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "kalcaAgrisiFizyoterapisiIcerik"
+  },
+  {
+      "slug": "karpal-tunel-tenisci-dirsegi-kadikoy",
+      "servisAdi": "Karpal Tünel ve Tenisçi Dirseği",
+      "breadcrumbAdi": "Karpal Tünel ve Tenisçi Dirseği",
+      "odakKelime": "Kadıköy karpal tünel fizyoterapisi",
+      "gorsel": "/assets/kart-karpal-tunel-tenisci-dirsegi-kadikoy.jpg",
+      "gorselAlt": "Karpal Tünel ve Tenisçi Dirseği bilgi kartı: karpal tünel ve tenisçi dirseği, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, el bileği, dirsek ve önkol yakınmalarım için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Bilek ve dirsek yakınmalarınızı birlikte değerlendirelim",
+      "araCtaMetin": "Elinizde uyuşma, bilekte sızı ya da dirsek dış veya iç yüzünde ağrı varsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, yakınmanın hangi hareketle ve günün hangi saatinde belirginleştiğini anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/ofis-calisanlari-fizyoterapi-kadikoy",
+              "label": "Kadıköy ofis çalışanları fizyoterapisi"
+          },
+          {
+              "to": "/boyun-fitigi-kadikoy",
+              "label": "Kadıköy boyun fıtığı fizyoterapisi"
+          },
+          {
+              "to": "/omuz-agrisi-donuk-omuz-kadikoy",
+              "label": "Kadıköy omuz ağrısı fizyoterapisi"
+          },
+          {
+              "to": "/miyofasyal-agri-kinesio-bantlama-kadikoy",
+              "label": "Kadıköy miyofasyal ağrı tedavisi"
+          },
+          {
+              "to": "/blog/siyatik-ve-sinir-sikismasi",
+              "label": "Siyatik ve sinir sıkışması"
+          },
+          {
+              "to": "/blog/boyun-fitigi-boyun-duzlesmesi-ve-kurek-kemigi-agrisi",
+              "label": "Boyun fıtığı, boyun düzleşmesi ve kürek kemiği ağrısı"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi",
+              "label": "Fizik tedavi kliniği yaklaşımı"
+          }
+      ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "karpalTunelTenisciDirsegiIcerik"
+  },
+  {
+      "slug": "lenfodem-manuel-lenf-drenaji-kadikoy",
+      "servisAdi": "Lenfödem ve Manuel Lenf Drenajı",
+      "breadcrumbAdi": "Lenfödem ve Manuel Lenf Drenajı",
+      "odakKelime": "Kadıköy manuel lenf drenajı",
+      "gorsel": "/assets/kart-lenfodem-manuel-lenf-drenaji-kadikoy.jpg",
+      "gorselAlt": "Lenfödem ve Manuel Lenf Drenajı bilgi kartı: lenfödem ve manuel lenf drenajı, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, lenfödem veya ameliyat sonrası şişlik şikâyetim için manuel lenf drenajı değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Şişlik şikâyetinizi birlikte değerlendirelim",
+      "araCtaMetin": "Kolunuzda ya da bacağınızda süren bir şişlik varsa, hekim raporunuzla birlikte Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, şişliğin ne zaman ve hangi olaydan sonra başladığını anlamakla açılır.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ameliyat sonrası rehabilitasyon"
+          },
+          {
+              "to": "/blog/ameliyat-sonrasi-fizik-tedavi",
+              "label": "Ameliyat sonrası fizik tedavi"
+          },
+          {
+              "to": "/manuel-terapi-kadikoy",
+              "label": "Kadıköy manuel terapi"
+          },
+          {
+              "to": "/solunum-fizyoterapisi-kadikoy",
+              "label": "Kadıköy solunum fizyoterapisi"
+          },
+          {
+              "to": "/egzersiz-terapisi-ev-programi-kadikoy",
+              "label": "Kadıköy egzersiz terapisi ve ev programı"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi",
+              "label": "Rehabilitasyon merkezi yaklaşımı"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          }
+      ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "lenfodemManuelLenfDrenajiIcerik"
+  },
+  {
+      "slug": "manuel-terapi-kadikoy",
+      "servisAdi": "Manuel Terapi ve Mobilizasyon",
+      "breadcrumbAdi": "Manuel Terapi ve Mobilizasyon",
+      "odakKelime": "Kadıköy manuel terapi",
+      "gorsel": "/assets/kart-manuel-terapi-kadikoy.jpg",
+      "gorselAlt": "Manuel Terapi ve Mobilizasyon bilgi kartı: manuel terapi ve mobilizasyon, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, eklem sertliği ve hareket kısıtlılığı şikâyetlerim için manuel terapi değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Hareket kısıtlılığınızı birlikte değerlendirelim",
+      "araCtaMetin": "Boyun, bel, omuz ya da çene bölgesinde hareketin sınırlandığını hissediyorsanız Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Elle uygulama kararı, ancak ayrıntılı bir değerlendirmenin ardından verilir.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/bel-fitigi-kadikoy",
+              "label": "Kadıköy bel fıtığı fizyoterapisi"
+          },
+          {
+              "to": "/boyun-fitigi-kadikoy",
+              "label": "Kadıköy boyun fıtığı fizyoterapisi"
+          },
+          {
+              "to": "/cene-eklemi-tme-kadikoy",
+              "label": "Kadıköy çene eklemi (TME) fizyoterapisi"
+          },
+          {
+              "to": "/visseral-terapi-kadikoy",
+              "label": "Kadıköy visseral terapi"
+          },
+          {
+              "to": "/egzersiz-terapisi-ev-programi-kadikoy",
+              "label": "Kadıköy egzersiz terapisi ve ev programı"
+          },
+          {
+              "to": "/blog/bel-agrisi-ve-bel-fitigi",
+              "label": "Bel ağrısı ve bel fıtığı"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani",
+              "label": "Fizik tedavi yaklaşımları kategorisi"
+          },
+      { "to": "/butuncul-fizyoterapi-degerlendirme-kadikoy", "label": "Bütüncül Fizyoterapi, Değerlendirme ve Muayene" },
+      { "to": "/lenfodem-manuel-lenf-drenaji-kadikoy", "label": "Lenfödem ve Manuel Lenf Drenajı" },
+      { "to": "/miyofasyal-agri-kinesio-bantlama-kadikoy", "label": "Miyofasyal Ağrı, Tetik Nokta ve Kinesio Bantlama" },
+      { "to": "/spor-masaji-klinik-masaj-kadikoy", "label": "Spor Masajı ve Klinik Masaj" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "manuelTerapiIcerik"
+  },
+  {
+      "slug": "mat-pilates-core-kuvvetlendirme-kadikoy",
+      "servisAdi": "Mat Pilates ve Core Kuvvetlendirme",
+      "breadcrumbAdi": "Mat Pilates ve Core Kuvvetlendirme",
+      "odakKelime": "Kadıköy mat pilates",
+      "gorsel": "/assets/kart-mat-pilates-core-kuvvetlendirme-kadikoy.jpg",
+      "gorselAlt": "Mat Pilates ve Core Kuvvetlendirme bilgi kartı: mat pilates ve core kuvvetlendirme, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, mat pilates ve core kuvvetlendirme programı için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Gövde kontrolünüzü birlikte değerlendirelim",
+      "araCtaMetin": "Core kuvvetlendirme ve mat pilates programına başlamadan önce Kozyatağı'ndaki klinikte hareket kaliteniz ayrıntılı biçimde değerlendirilebilir. Program, bu değerlendirmenin bulgularına göre kişiye özel planlanır.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/klinik-pilates-kadikoy",
+              "label": "Kadıköy klinik pilates"
+          },
+          {
+              "to": "/blog/klinik-pilates",
+              "label": "Klinik pilates nedir"
+          },
+          {
+              "to": "/bel-fitigi-kadikoy",
+              "label": "Kadıköy bel fıtığı fizyoterapisi"
+          },
+          {
+              "to": "/durus-bozuklugu-kifoz-lordoz-kadikoy",
+              "label": "Kadıköy duruş bozukluğu fizyoterapisi"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/pilates-salonu",
+              "label": "Pilates salonu yaklaşımı"
+          },
+          {
+              "to": "/blog/bel-agrisi-ve-bel-fitigi",
+              "label": "Bel ağrısı ve bel fıtığı"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          },
+      { "to": "/egzersiz-terapisi-ev-programi-kadikoy", "label": "Egzersiz Terapisi, Ev Programı ve Online Danışmanlık" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "matPilatesCoreKuvvetlendirmeIcerik"
+  },
+  {
+      "slug": "miyofasyal-agri-kinesio-bantlama-kadikoy",
+      "servisAdi": "Miyofasyal Ağrı, Tetik Nokta ve Kinesio Bantlama",
+      "breadcrumbAdi": "Miyofasyal Ağrı ve Kinesio Bantlama",
+      "odakKelime": "Kadıköy miyofasyal ağrı tedavisi",
+      "gorsel": "/assets/kart-miyofasyal-agri-kinesio-bantlama-kadikoy.jpg",
+      "gorselAlt": "Miyofasyal Ağrı, Tetik Nokta ve Kinesio Bantlama bilgi kartı: miyofasyal ağrı, tetik nokta ve kinesio bantlama, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, kas ve fasya kaynaklı ağrım, tetik nokta şikâyetim ve kinesio bantlama için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Kas ve fasya kaynaklı ağrınızı birlikte değerlendirelim",
+      "araCtaMetin": "Dokunulduğunda belirli bir noktası sızlayan, hareketle ya da uzun oturmayla artan kas ağrınız varsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının hangi hareketle ve hangi bölgede ortaya çıktığını anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/manuel-terapi-kadikoy",
+              "label": "Kadıköy manuel terapi"
+          },
+          {
+              "to": "/omuz-agrisi-donuk-omuz-kadikoy",
+              "label": "Kadıköy omuz ağrısı fizyoterapisi"
+          },
+          {
+              "to": "/spor-yaralanmalari-kadikoy",
+              "label": "Spor yaralanmaları fizyoterapisi"
+          },
+          {
+              "to": "/ofis-calisanlari-fizyoterapi-kadikoy",
+              "label": "Kadıköy ofis çalışanları fizyoterapisi"
+          },
+          {
+              "to": "/blog/boyun-fitigi-boyun-duzlesmesi-ve-kurek-kemigi-agrisi",
+              "label": "Boyun fıtığı, boyun düzleşmesi ve kürek kemiği ağrısı"
+          },
+          {
+              "to": "/blog/bel-agrisi-ve-bel-fitigi",
+              "label": "Bel ağrısı ve bel fıtığı"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi",
+              "label": "Fizik tedavi kliniği yaklaşımı"
+          },
+      { "to": "/fibromiyalji-kronik-agri-kadikoy", "label": "Fibromiyalji ve Kronik Ağrı Yönetimi" },
+      { "to": "/karpal-tunel-tenisci-dirsegi-kadikoy", "label": "Karpal Tünel ve Tenisçi Dirseği" },
+      { "to": "/spor-masaji-klinik-masaj-kadikoy", "label": "Spor Masajı ve Klinik Masaj" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "miyofasyalAgriKinesioBantlamaIcerik"
+  },
+  {
+      "slug": "omuz-agrisi-donuk-omuz-kadikoy",
+      "servisAdi": "Omuz Ağrısı ve Donuk Omuz",
+      "breadcrumbAdi": "Omuz Ağrısı ve Donuk Omuz",
+      "odakKelime": "Kadıköy omuz ağrısı fizyoterapisi",
+      "gorsel": "/assets/kart-omuz-agrisi-donuk-omuz-kadikoy.jpg",
+      "gorselAlt": "Omuz Ağrısı ve Donuk Omuz bilgi kartı: omuz ağrısı ve donuk omuz, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, omuz ağrısı veya kol kaldırmada kısıtlılık şikâyetim için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Omuz şikâyetinizi birlikte değerlendirelim",
+      "araCtaMetin": "Kolunuzu kaldırırken, saç tararken ya da gece yan yatarken omzunuz zorlanıyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının hangi harekette ve ne zaman ortaya çıktığını anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/boyun-fitigi-kadikoy",
+              "label": "Kadıköy boyun fıtığı fizyoterapisi"
+          },
+          {
+              "to": "/blog/boyun-fitigi-boyun-duzlesmesi-ve-kurek-kemigi-agrisi",
+              "label": "Boyun fıtığı, boyun düzleşmesi ve kürek kemiği ağrısı"
+          },
+          {
+              "to": "/ofis-calisanlari-fizyoterapi-kadikoy",
+              "label": "Kadıköy ofis çalışanları fizyoterapisi"
+          },
+          {
+              "to": "/spor-yaralanmalari-kadikoy",
+              "label": "Kadıköy spor yaralanmaları fizyoterapisi"
+          },
+          {
+              "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ameliyat sonrası rehabilitasyon"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi",
+              "label": "Kadıköy fizik tedavi kliniği"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          },
+      { "to": "/karpal-tunel-tenisci-dirsegi-kadikoy", "label": "Karpal Tünel ve Tenisçi Dirseği" },
+      { "to": "/miyofasyal-agri-kinesio-bantlama-kadikoy", "label": "Miyofasyal Ağrı, Tetik Nokta ve Kinesio Bantlama" },
+      { "to": "/ortopedik-rehabilitasyon-kadikoy", "label": "Ortopedik Rehabilitasyon" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "omuzAgrisiDonukOmuzIcerik"
+  },
+  {
+      "slug": "ortopedik-rehabilitasyon-kadikoy",
+      "servisAdi": "Ortopedik Rehabilitasyon",
+      "breadcrumbAdi": "Ortopedik Rehabilitasyon",
+      "odakKelime": "Kadıköy ortopedik rehabilitasyon",
+      "gorsel": "/assets/kart-ortopedik-rehabilitasyon-kadikoy.jpg",
+      "gorselAlt": "Ortopedik Rehabilitasyon bilgi kartı: ortopedik rehabilitasyon, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, kırık, alçı, eklem protezi ya da bağ ve menisküs işlemi sonrası ortopedik rehabilitasyon için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Ortopedik sürecinizi cerrah protokolüyle birlikte planlayalım",
+      "araCtaMetin": "Kırık, alçı, protez ya da bağ ve menisküs işlemi sonrasında hareketinizi güvenle geri kazanmak için Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Cerrahınızın verdiği kısıtlamalar ve talimatlar, planın başlangıç noktasıdır.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ameliyat sonrası rehabilitasyon"
+          },
+          {
+              "to": "/spor-yaralanmalari-kadikoy",
+              "label": "Kadıköy spor yaralanmaları fizyoterapisi"
+          },
+          {
+              "to": "/diz-agrisi-rehabilitasyonu-kadikoy",
+              "label": "Kadıköy diz ağrısı fizyoterapisi"
+          },
+          {
+              "to": "/kalca-agrisi-fizyoterapisi-kadikoy",
+              "label": "Kadıköy kalça ağrısı fizyoterapisi"
+          },
+          {
+              "to": "/omuz-agrisi-donuk-omuz-kadikoy",
+              "label": "Kadıköy omuz ağrısı fizyoterapisi"
+          },
+          {
+              "to": "/blog/ameliyat-sonrasi-fizik-tedavi",
+              "label": "Ameliyat sonrası fizik tedavi"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi",
+              "label": "Rehabilitasyon yaklaşımımız"
+          },
+      { "to": "/ayak-bilegi-burkulmasi-topuk-dikeni-kadikoy", "label": "Ayak Bileği Burkulması ve Topuk Dikeni" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "ortopedikRehabilitasyonIcerik"
+  },
+  {
+      "slug": "pediatrik-fizyoterapi-bobath-kadikoy",
+      "servisAdi": "Pediatrik Fizyoterapi, Bobath (NDT) ve Duyu Bütünleme",
+      "breadcrumbAdi": "Pediatrik Fizyoterapi ve Bobath (NDT)",
+      "odakKelime": "Kadıköy pediatrik fizyoterapi",
+      "gorsel": "/assets/kart-pediatrik-fizyoterapi-bobath-kadikoy.jpg",
+      "gorselAlt": "Pediatrik Fizyoterapi, Bobath (NDT) ve Duyu Bütünleme bilgi kartı: pediatrik fizyoterapi, bobath (ndt) ve duyu bütünleme, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, çocuğumun motor gelişimi ve hareket becerileri için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Çocuğunuzun hareket gelişimini birlikte değerlendirelim",
+      "araCtaMetin": "Çocuğunuzun oturma, yürüme, denge ya da duruşuyla ilgili bir sorunuz varsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, çocuğun gelişim öyküsünü ve günlük hareketlerini ailesiyle birlikte anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/blog/serebral-palsi-rehabilitasyonu",
+              "label": "Serebral palsi rehabilitasyonu"
+          },
+          {
+              "to": "/norolojik-rehabilitasyon-kadikoy",
+              "label": "Kadıköy nörolojik rehabilitasyon"
+          },
+          {
+              "to": "/durus-bozuklugu-kifoz-lordoz-kadikoy",
+              "label": "Kadıköy duruş bozukluğu fizyoterapisi"
+          },
+          {
+              "to": "/skolyoz-schroth-kadikoy",
+              "label": "Kadıköy skolyoz ve Schroth egzersizleri"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi",
+              "label": "Rehabilitasyon merkezi yaklaşımı"
+          },
+          {
+              "to": "/kozyatagi-fizyoterapist",
+              "label": "Kozyatağı fizyoterapist"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          }
+      ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "pediatrikFizyoterapiBobathIcerik"
+  },
+  {
+      "slug": "solunum-fizyoterapisi-kadikoy",
+      "servisAdi": "Solunum Fizyoterapisi",
+      "breadcrumbAdi": "Solunum Fizyoterapisi",
+      "odakKelime": "Kadıköy solunum fizyoterapisi",
+      "gorsel": "/assets/kart-solunum-fizyoterapisi-kadikoy.jpg",
+      "gorselAlt": "Solunum Fizyoterapisi bilgi kartı: solunum fizyoterapisi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, nefes alma düzenim ve solunum egzersizleri için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Nefes düzeninizi birlikte değerlendirelim",
+      "araCtaMetin": "Nefes alırken zorlanıyor, göğsünüzde sıkışma hissediyor ya da ameliyat sonrası solunum egzersizlerine ihtiyaç duyuyorsanız Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, nefesin nasıl kullanıldığını ve göğüs kafesinin nasıl hareket ettiğini anlamakla başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/skolyoz-schroth-kadikoy",
+              "label": "Kadıköy skolyoz ve Schroth yöntemi"
+          },
+          {
+              "to": "/ameliyat-sonrasi-rehabilitasyon-kadikoy",
+              "label": "Kadıköy ameliyat sonrası rehabilitasyon"
+          },
+          {
+              "to": "/geriatrik-fizyoterapi-osteoporoz-kadikoy",
+              "label": "Kadıköy geriatrik fizyoterapi"
+          },
+          {
+              "to": "/blog/ms-multipl-skleroz-fizyoterapi",
+              "label": "MS ve fizyoterapi"
+          },
+          {
+              "to": "/blog/ameliyat-sonrasi-fizik-tedavi",
+              "label": "Ameliyat sonrası fizik tedavi"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi",
+              "label": "Kadıköy rehabilitasyon merkezi"
+          },
+          {
+              "to": "/iletisim",
+              "label": "İletişim ve randevu"
+          },
+      { "to": "/lenfodem-manuel-lenf-drenaji-kadikoy", "label": "Lenfödem ve Manuel Lenf Drenajı" }
+    ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "solunumFizyoterapisiIcerik"
+  },
+  {
+      "slug": "spor-masaji-klinik-masaj-kadikoy",
+      "servisAdi": "Spor Masajı ve Klinik Masaj",
+      "breadcrumbAdi": "Spor Masajı ve Klinik Masaj",
+      "odakKelime": "Kadıköy spor masajı",
+      "gorsel": "/assets/kart-spor-masaji-klinik-masaj-kadikoy.jpg",
+      "gorselAlt": "Spor Masajı ve Klinik Masaj bilgi kartı: spor masajı ve klinik masaj, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, kas gerginliği ve antrenman sonrası toparlanma için spor masajı ve klinik masaj değerlendirmesi randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Kas gerginliğinizi önce birlikte değerlendirelim",
+      "araCtaMetin": "Antrenman sonrası geçmeyen sertlik ya da belirli bir kasta tekrarlayan gerginlik için Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Masaj, bulgulara göre planlanan programın bir parçası olarak ele alınır.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/spor-yaralanmalari-kadikoy",
+              "label": "Kadıköy spor yaralanmaları fizyoterapisi"
+          },
+          {
+              "to": "/sporcu-performans-degerlendirmesi-kadikoy",
+              "label": "Kadıköy sporcu performans değerlendirmesi"
+          },
+          {
+              "to": "/miyofasyal-agri-kinesio-bantlama-kadikoy",
+              "label": "Kadıköy miyofasyal ağrı tedavisi"
+          },
+          {
+              "to": "/manuel-terapi-kadikoy",
+              "label": "Kadıköy manuel terapi"
+          },
+          {
+              "to": "/blog/on-capraz-bag-ocb-sporcu-yaralanmalari",
+              "label": "Ön çapraz bağ ve sporcu yaralanmaları"
+          },
+          {
+              "to": "/blog/sporcu-kasik-agrisi-osteitis-pubis",
+              "label": "Sporcu kasık ağrısı ve osteitis pubis"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/spor-masaj-terapisti",
+              "label": "Spor masajı yaklaşımı"
+          }
+      ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "sporMasajiKlinikMasajIcerik"
+  },
+  {
+      "slug": "sporcu-performans-degerlendirmesi-kadikoy",
+      "servisAdi": "Sporcu Performans Değerlendirmesi",
+      "breadcrumbAdi": "Sporcu Performans Değerlendirmesi",
+      "odakKelime": "Kadıköy sporcu performans değerlendirmesi",
+      "gorsel": "/assets/kart-sporcu-performans-degerlendirmesi-kadikoy.jpg",
+      "gorselAlt": "Sporcu Performans Değerlendirmesi bilgi kartı: sporcu performans değerlendirmesi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
+      "waMesaj": "Merhaba, spor performansım ve yaralanma riskim için değerlendirme randevusu almak istiyorum.",
+      "guvenMaddeleri": [
+          "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
+          "Sertifikalı Schroth uygulayıcısı",
+          "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
+          "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
+          "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
+          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
+      ],
+      "araCtaBaslik": "Hareketinizi sporunuza göre birlikte değerlendirelim",
+      "araCtaMetin": "Antrenman düzeniniz, geçmiş yaralanmalarınız veya spora dönüş planınız için Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, branşınızın gerektirdiği hareketlerin sağ ve sol tarafta nasıl yapıldığını gözlemlemekle başlar.",
+      "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
+      "ilgiliBaglantilar": [
+          {
+              "to": "/spor-yaralanmalari-kadikoy",
+              "label": "Kadıköy spor yaralanmaları fizyoterapisi"
+          },
+          {
+              "to": "/blog/on-capraz-bag-ocb-sporcu-yaralanmalari",
+              "label": "Ön çapraz bağ (ÖÇB) ve sporcu yaralanmaları"
+          },
+          {
+              "to": "/blog/sporcu-kasik-agrisi-osteitis-pubis",
+              "label": "Sporcu kasık ağrısı ve osteitis pubis"
+          },
+          {
+              "to": "/spor-masaji-klinik-masaj-kadikoy",
+              "label": "Kadıköy spor masajı ve klinik masaj"
+          },
+          {
+              "to": "/diz-agrisi-rehabilitasyonu-kadikoy",
+              "label": "Kadıköy diz ağrısı fizyoterapisi"
+          },
+          {
+              "to": "/tedavi-yaklasimlarimiz/spor-masaj-terapisti",
+              "label": "Spor masaj terapisti ve spor odaklı yaklaşım"
+          },
+          {
+              "to": "/kozyatagi-fizyoterapist",
+              "label": "Kozyatağı fizyoterapist"
+          }
+      ],
+      "icerikModul": "hizmetContent",
+      "icerikAdi": "sporcuPerformansDegerlendirmesiIcerik"
   },
 ]
 

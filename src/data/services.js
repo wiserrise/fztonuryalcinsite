@@ -10,7 +10,8 @@ export const serviceCategories = [
     "services": [
       {
         "name": "Bütüncül Fizyoterapi ve Manuel Terapi",
-        "description": "Boyun ve bel ağrısı, postür bozukluğu ve spor yaralanması sonrası rehabilitasyon için kişiye özel değerlendirme ve tedavi programı."
+        "description": "Boyun ve bel ağrısı, postür bozukluğu ve spor yaralanması sonrası rehabilitasyon için kişiye özel değerlendirme ve tedavi programı.",
+        "sayfa": "/butuncul-fizyoterapi-degerlendirme-kadikoy"
       },
       {
         "name": "Schroth Metodu (3 Boyutlu Skolyoz Rehabilitasyonu)",
@@ -52,40 +53,49 @@ export const serviceCategories = [
       },
       {
         "name": "Postür Analizi ve Duruş Bozukluğu",
-        "description": "Duruş değerlendirmesi sonrası kişiye özel egzersiz ve manuel terapi programı."
+        "description": "Duruş değerlendirmesi sonrası kişiye özel egzersiz ve manuel terapi programı.",
+        "sayfa": "/durus-bozuklugu-kifoz-lordoz-kadikoy"
       },
       {
         "name": "Kifoz ve Lordoz Fizyoterapisi",
-        "description": "Omurga duruş bozukluklarına yönelik egzersiz ve manuel terapi programı."
+        "description": "Omurga duruş bozukluklarına yönelik egzersiz ve manuel terapi programı.",
+        "sayfa": "/durus-bozuklugu-kifoz-lordoz-kadikoy"
       },
       {
         "name": "Omuz Ağrısı ve Donuk Omuz Fizyoterapisi",
-        "description": "Hareket kısıtlılığı ve ağrıya yönelik manuel terapi ve egzersiz."
+        "description": "Hareket kısıtlılığı ve ağrıya yönelik manuel terapi ve egzersiz.",
+        "sayfa": "/omuz-agrisi-donuk-omuz-kadikoy"
       },
       {
         "name": "Kalça Ağrısı Fizyoterapisi",
-        "description": "Kalça eklemi ve çevre kas kaynaklı ağrıda değerlendirme, manuel terapi ve egzersiz."
+        "description": "Kalça eklemi ve çevre kas kaynaklı ağrıda değerlendirme, manuel terapi ve egzersiz.",
+        "sayfa": "/kalca-agrisi-fizyoterapisi-kadikoy"
       },
       {
         "name": "Topuk Dikeni ve Plantar Fasiit Fizyoterapisi",
         "description": "Topuk ağrısına yönelik manuel terapi, germe ve yükleme programı.",
-        "blog": "duz-tabanlik-ve-ayak-agrilari"
+        "blog": "duz-tabanlik-ve-ayak-agrilari",
+        "sayfa": "/ayak-bilegi-burkulmasi-topuk-dikeni-kadikoy"
       },
       {
         "name": "Karpal Tünel Sendromu Fizyoterapisi",
-        "description": "El ve parmaklarda uyuşmaya yönelik sinir mobilizasyonu ve egzersiz."
+        "description": "El ve parmaklarda uyuşmaya yönelik sinir mobilizasyonu ve egzersiz.",
+        "sayfa": "/karpal-tunel-tenisci-dirsegi-kadikoy"
       },
       {
         "name": "Tenisçi ve Golfçü Dirseği Fizyoterapisi",
-        "description": "Dirsek çevresi ağrıda manuel terapi ve yükleme egzersizleri."
+        "description": "Dirsek çevresi ağrıda manuel terapi ve yükleme egzersizleri.",
+        "sayfa": "/karpal-tunel-tenisci-dirsegi-kadikoy"
       },
       {
         "name": "Fibromiyalji Fizyoterapisi",
-        "description": "Yaygın ağrı ve yorgunlukta düzenli egzersiz, gevşeme ve aktivite planlaması."
+        "description": "Yaygın ağrı ve yorgunlukta düzenli egzersiz, gevşeme ve aktivite planlaması.",
+        "sayfa": "/fibromiyalji-kronik-agri-kadikoy"
       },
       {
         "name": "Baş Ağrısı ve Migren Fizyoterapisi",
-        "description": "Boyun ve çene kaynaklı baş ağrısında manuel terapi ve postür çalışması."
+        "description": "Boyun ve çene kaynaklı baş ağrısında manuel terapi ve postür çalışması.",
+        "sayfa": "/bas-agrisi-migren-fizyoterapisi-kadikoy"
       },
       {
         "name": "Hamilelik Dönemi Fizyoterapisi",
@@ -112,7 +122,8 @@ export const serviceCategories = [
       },
       {
         "name": "Ortopedik Rehabilitasyon",
-        "description": "Kas-iskelet sistemi sorunlarında hareket açıklığı, kuvvet ve fonksiyon kazanımı."
+        "description": "Kas-iskelet sistemi sorunlarında hareket açıklığı, kuvvet ve fonksiyon kazanımı.",
+        "sayfa": "/ortopedik-rehabilitasyon-kadikoy"
       },
       {
         "name": "Nörolojik Rehabilitasyon",
@@ -133,7 +144,8 @@ export const serviceCategories = [
       },
       {
         "name": "Nörogelişimsel Tedavi (Bobath / NDT)",
-        "description": "Hareket kalitesi ve fonksiyona yönelik kişiye özel uygulama."
+        "description": "Hareket kalitesi ve fonksiyona yönelik kişiye özel uygulama.",
+        "sayfa": "/pediatrik-fizyoterapi-bobath-kadikoy"
       },
       {
         "name": "Vestibüler ve Denge Rehabilitasyonu",
@@ -142,28 +154,34 @@ export const serviceCategories = [
       },
       {
         "name": "Geriatrik (Yaşlı) Fizyoterapi",
-        "description": "Düşme riskini azaltmaya yönelik denge, yürüme ve kuvvetlendirme çalışmaları."
+        "description": "Düşme riskini azaltmaya yönelik denge, yürüme ve kuvvetlendirme çalışmaları.",
+        "sayfa": "/geriatrik-fizyoterapi-osteoporoz-kadikoy"
       },
       {
         "name": "Pediatrik (Çocuk) Fizyoterapi",
         "description": "Gelişimsel takip, motor beceri ve duruş için yaşa uygun fizyoterapi programı.",
-        "blog": "serebral-palsi-rehabilitasyonu"
+        "blog": "serebral-palsi-rehabilitasyonu",
+        "sayfa": "/pediatrik-fizyoterapi-bobath-kadikoy"
       },
       {
         "name": "Duyu Bütünleme ve Nörosensöriyel Yaklaşım",
-        "description": "Gelişimsel ve nörolojik ihtiyaçlara yönelik denge, koordinasyon ve hareket çalışmaları."
+        "description": "Gelişimsel ve nörolojik ihtiyaçlara yönelik denge, koordinasyon ve hareket çalışmaları.",
+        "sayfa": "/pediatrik-fizyoterapi-bobath-kadikoy"
       },
       {
         "name": "Ayak Bileği Burkulması Rehabilitasyonu",
-        "description": "Ödem kontrolü, denge (propriosepsiyon) ve kuvvetlendirme çalışmaları."
+        "description": "Ödem kontrolü, denge (propriosepsiyon) ve kuvvetlendirme çalışmaları.",
+        "sayfa": "/ayak-bilegi-burkulmasi-topuk-dikeni-kadikoy"
       },
       {
         "name": "Diz Ağrısı ve Diz Rehabilitasyonu",
-        "description": "Menisküs, bağ ve kıkırdak kaynaklı sorunlarda kuvvetlendirme ve fonksiyonel program."
+        "description": "Menisküs, bağ ve kıkırdak kaynaklı sorunlarda kuvvetlendirme ve fonksiyonel program.",
+        "sayfa": "/diz-agrisi-rehabilitasyonu-kadikoy"
       },
       {
         "name": "Solunum Fizyoterapisi",
-        "description": "Nefes egzersizleri, solunum kasları çalışması ve dayanıklılık programı."
+        "description": "Nefes egzersizleri, solunum kasları çalışması ve dayanıklılık programı.",
+        "sayfa": "/solunum-fizyoterapisi-kadikoy"
       },
       {
         "name": "Doğum Sonrası Fizyoterapi",
@@ -182,7 +200,8 @@ export const serviceCategories = [
       },
       {
         "name": "Lenfödem ve Manuel Lenf Drenajı",
-        "description": "Ödem yönetimi, bandajlama ve egzersiz desteği."
+        "description": "Ödem yönetimi, bandajlama ve egzersiz desteği.",
+        "sayfa": "/lenfodem-manuel-lenf-drenaji-kadikoy"
       }
     ]
   },
@@ -193,19 +212,23 @@ export const serviceCategories = [
     "services": [
       {
         "name": "Fizyoterapi Değerlendirme ve Muayene",
-        "description": "Ayrıntılı öykü, hareket analizi ve test sonrası tedavi planı oluşturulur."
+        "description": "Ayrıntılı öykü, hareket analizi ve test sonrası tedavi planı oluşturulur.",
+        "sayfa": "/butuncul-fizyoterapi-degerlendirme-kadikoy"
       },
       {
         "name": "Manuel Terapi",
-        "description": "Eklem mobilizasyonu ve yumuşak doku teknikleriyle ağrı ve hareket kısıtlılığına yönelik çalışma."
+        "description": "Eklem mobilizasyonu ve yumuşak doku teknikleriyle ağrı ve hareket kısıtlılığına yönelik çalışma.",
+        "sayfa": "/manuel-terapi-kadikoy"
       },
       {
         "name": "Mobilizasyon Teknikleri",
-        "description": "Ağrısız hareket kazanımı için eklem mobilizasyon uygulamaları."
+        "description": "Ağrısız hareket kazanımı için eklem mobilizasyon uygulamaları.",
+        "sayfa": "/manuel-terapi-kadikoy"
       },
       {
         "name": "Fasyal Manipülasyon",
-        "description": "Kas-fasya kaynaklı ağrı, hareket kısıtlılığı ve kronik gerginliğe yönelik manuel terapi."
+        "description": "Kas-fasya kaynaklı ağrı, hareket kısıtlılığı ve kronik gerginliğe yönelik manuel terapi.",
+        "sayfa": "/manuel-terapi-kadikoy"
       },
       {
         "name": "Visseral Manipülasyon",
@@ -214,43 +237,53 @@ export const serviceCategories = [
       },
       {
         "name": "Miyofasyal Ağrı ve Tetik Nokta Tedavisi",
-        "description": "Kas düğümlerine yönelik manuel teknikler ve germe."
+        "description": "Kas düğümlerine yönelik manuel teknikler ve germe.",
+        "sayfa": "/miyofasyal-agri-kinesio-bantlama-kadikoy"
       },
       {
         "name": "Kinesio Bantlama",
-        "description": "Ağrı yönetimi, ödem ve kas desteği amaçlı bantlama uygulaması."
+        "description": "Ağrı yönetimi, ödem ve kas desteği amaçlı bantlama uygulaması.",
+        "sayfa": "/miyofasyal-agri-kinesio-bantlama-kadikoy"
       },
       {
         "name": "Egzersiz Terapisi",
-        "description": "Değerlendirme sonrası hedefe yönelik, kademeli ve kişiye özel egzersiz programı."
+        "description": "Değerlendirme sonrası hedefe yönelik, kademeli ve kişiye özel egzersiz programı.",
+        "sayfa": "/egzersiz-terapisi-ev-programi-kadikoy"
       },
       {
         "name": "Ev Egzersiz Programı Hazırlama",
-        "description": "Klinik dışında düzenli uygulanabilecek kişiye özel egzersiz planı ve takibi."
+        "description": "Klinik dışında düzenli uygulanabilecek kişiye özel egzersiz planı ve takibi.",
+        "sayfa": "/egzersiz-terapisi-ev-programi-kadikoy"
       },
       {
         "name": "Online Fizyoterapi Danışmanlığı",
-        "description": "Uzaktan değerlendirme, egzersiz yönlendirmesi ve program takibi."
+        "description": "Uzaktan değerlendirme, egzersiz yönlendirmesi ve program takibi.",
+        "sayfa": "/egzersiz-terapisi-ev-programi-kadikoy"
       },
       {
         "name": "Sporcu Performans Değerlendirmesi",
-        "description": "Hareket analizi, kuvvet-esneklik testleri ve sakatlık riski değerlendirmesi."
+        "description": "Hareket analizi, kuvvet-esneklik testleri ve sakatlık riski değerlendirmesi.",
+        "sayfa": "/sporcu-performans-degerlendirmesi-kadikoy"
       },
       {
         "name": "Ergonomi Değerlendirmesi",
-        "description": "Çalışma düzenine yönelik postür önerileri ve koruyucu egzersizler."
+        "description": "Çalışma düzenine yönelik postür önerileri ve koruyucu egzersizler.",
+        "sayfa": "/ofis-calisanlari-fizyoterapi-kadikoy"
       },
       {
         "name": "Kronik Ağrı Yönetimi",
-        "description": "Eğitim, kademeli yükleme ve yaşam tarzı düzenlemesiyle ağrı kontrolü."
+        "description": "Eğitim, kademeli yükleme ve yaşam tarzı düzenlemesiyle ağrı kontrolü.",
+        "sayfa": "/fibromiyalji-kronik-agri-kadikoy"
       },
       {
         "name": "Osteoporoz Egzersiz Programı",
-        "description": "Kemik sağlığını destekleyen yükleme, denge ve kuvvetlendirme çalışmaları."
+        "description": "Kemik sağlığını destekleyen yükleme, denge ve kuvvetlendirme çalışmaları.",
+        "sayfa": "/geriatrik-fizyoterapi-osteoporoz-kadikoy"
       },
       {
         "name": "Çocuklarda Postür Değerlendirmesi",
-        "description": "Okul çağı duruş alışkanlıklarına yönelik egzersiz önerileri."
+        "description": "Okul çağı duruş alışkanlıklarına yönelik egzersiz önerileri.",
+        "sayfa": "/durus-bozuklugu-kifoz-lordoz-kadikoy"
       }
     ]
   },
@@ -271,11 +304,13 @@ export const serviceCategories = [
       },
       {
         "name": "Mat Pilates",
-        "description": "Fizyoterapist eşliğinde postür, esneklik ve gövde kuvveti odaklı mat çalışmaları."
+        "description": "Fizyoterapist eşliğinde postür, esneklik ve gövde kuvveti odaklı mat çalışmaları.",
+        "sayfa": "/mat-pilates-core-kuvvetlendirme-kadikoy"
       },
       {
         "name": "Core Kuvvetlendirme Programı",
-        "description": "Gövde stabilizasyonu ve bel sağlığı için kademeli egzersizler."
+        "description": "Gövde stabilizasyonu ve bel sağlığı için kademeli egzersizler.",
+        "sayfa": "/mat-pilates-core-kuvvetlendirme-kadikoy"
       }
     ]
   },
@@ -286,15 +321,18 @@ export const serviceCategories = [
     "services": [
       {
         "name": "Spor Masajı",
-        "description": "Antrenman öncesi ve sonrası kas hazırlığı ve toparlanma için uygulama."
+        "description": "Antrenman öncesi ve sonrası kas hazırlığı ve toparlanma için uygulama.",
+        "sayfa": "/spor-masaji-klinik-masaj-kadikoy"
       },
       {
         "name": "Derin Doku Masajı",
-        "description": "Kronik kas gerginliği ve dolgunluğa yönelik derin manuel teknikler."
+        "description": "Kronik kas gerginliği ve dolgunluğa yönelik derin manuel teknikler.",
+        "sayfa": "/spor-masaji-klinik-masaj-kadikoy"
       },
       {
         "name": "Klinik Masaj",
-        "description": "Kas gerginliği, ağrı ve dolaşım sorunlarına yönelik, tedavi planını destekleyen manuel teknikler."
+        "description": "Kas gerginliği, ağrı ve dolaşım sorunlarına yönelik, tedavi planını destekleyen manuel teknikler.",
+        "sayfa": "/spor-masaji-klinik-masaj-kadikoy"
       }
     ]
   },
@@ -310,7 +348,8 @@ export const serviceCategories = [
       },
       {
         "name": "Esneklik ve Germe Programı",
-        "description": "Kas kısalıklarına yönelik kişiye özel germe ve mobilite çalışmaları."
+        "description": "Kas kısalıklarına yönelik kişiye özel germe ve mobilite çalışmaları.",
+        "sayfa": "/egzersiz-terapisi-ev-programi-kadikoy"
       }
     ]
   }
