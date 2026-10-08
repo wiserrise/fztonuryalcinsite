@@ -21,7 +21,8 @@ export function landingJsonLd(landing) {
         name: icerik.title,
         description: icerik.metaDescription,
         inLanguage: 'tr-TR',
-        isPartOf: { '@id': `${SITE_URL}/#clinic` },
+        // isPartOf bir web sitesi (CreativeWork) bekler; işletme düğümü (#clinic) hata veriyordu.
+        isPartOf: { '@id': `${SITE_URL}/#website` },
         about: { '@id': `${url}#service` },
         primaryImageOfPage: `${SITE_URL}${landing.gorsel}`,
       },

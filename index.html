@@ -49,10 +49,16 @@
       "foundingDate": "2025-10-01",
       "currenciesAccepted": "TRY",
       "paymentAccepted": "Nakit, Kredi Kartı, Banka Kartı, Mobil Ödeme (NFC), Visa, Mastercard",
-      "availableLanguage": {
-        "@type": "Language",
-        "name": "Turkish",
-        "alternateName": "tr"
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "reservations",
+        "telephone": "+90 507 294 99 00",
+        "areaServed": "TR",
+        "availableLanguage": {
+          "@type": "Language",
+          "name": "Turkish",
+          "alternateName": "tr"
+        }
       },
       "address": {
         "@type": "PostalAddress",
@@ -171,7 +177,6 @@
       "employee": {
         "@id": "https://fztonuryalcin.com/#onuryalcin"
       },
-      "medicalSpecialty": "PhysicalTherapy",
       "potentialAction": [
         {
           "@type": "ReserveAction",
@@ -699,6 +704,18 @@
           }
         ]
       }
+    }
+    </script>
+    <!-- Site düğümü: sayfa şemaları (MedicalWebPage) isPartOf ile buna bağlanır -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://fztonuryalcin.com/#website",
+      "url": "https://fztonuryalcin.com",
+      "name": "Kadıköy Fizyoterapist Onur Yalçın",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://fztonuryalcin.com/#clinic" }
     }
     </script>
   </head>
