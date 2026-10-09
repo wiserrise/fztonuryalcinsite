@@ -2433,23 +2433,9 @@ export const erkekPelvikTabanIcerik = {
       ]
     },
     {
-      "h2": "Süreç neden hekim tanısıyla başlar",
+      "h2": "Mahremiyet ve konfor",
       "paragraflar": [
-        "Fizyoterapist tanı koymaz. Erkek danışanda bu kural özellikle belirleyicidir, çünkü leğen bölgesindeki şikayetlerin bir bölümü ancak başka nedenler dışlandıktan sonra bu başlığa girer.",
-        "Kılavuzlar bu alanda enfeksiyon, darlık, nörolojik hastalık ve boşaltımı engelleyen tablolar gibi nedenlerin önce değerlendirilmesini ister. Bu değerlendirme yapılmadan başlanan bir egzersiz programı, altta yatan nedeni geciktirebilir.",
-        "Bu yüzden çalışma, takibi yürüten hekimin tanısı ve yönlendirmesi alındıktan sonra başlar. Onay alındıktan sonra bile program sabit kalmaz; hekim takibinde yeni bir durum ortaya çıktıkça yeniden uyarlanır.",
-        "Kadıköy erkek pelvik taban fizyoterapisi kapsamında ilk adım bu nedenle egzersiz değil, elinizdeki tanıyı ve yönlendirmeyi okumaktır. Hekim belirli bir hareketten ya da yüklenmeden kaçınılmasını istediyse, o sınır çalışma boyunca korunur."
-      ]
-    },
-    {
-      "h2": "Mahremiyet, onam ve süreç boyunca haklarınız",
-      "paragraflar": [
-        "Bu alanda erkek danışanların başvurusunu geciktiren en somut engel tıbbi değil, konunun konuşulabilirliğidir. Konunun kadın sağlığına ait sanılması ve bölgenin konuşulmasının zor gelmesi, şikayetin yıllarca taşınmasına yol açabiliyor.",
-        "Bu nedenle süreç, ne yapılacağının önceden anlatılmasıyla başlar. Hangi aşamada ne sorulacağı, hangi değerlendirmenin yapılacağı ve neden yapıldığı görüşmeden önce paylaşılır.",
-        "Görüşme kapalı bir odada ve randevu düzeniyle yapılır; bekleme alanında yoğunluk oluşmayacak biçimde planlanır. Ne anlatmak istediğinize siz karar verirsiniz, sorulan her sorunun yanıtlanması zorunlu değildir.",
-        "Onam her aşamada geri alınabilir. Bir adımı istemediğinizi söylemeniz yeterlidir; program o adım olmadan da planlanabilir. Görüşmeye yanınızda bir yakınınızla gelmeyi tercih edebilirsiniz.",
-        "Değerlendirme rahat spor kıyafetiyle ve dışarıdan yapılır: postür, solunum, kas kontrolü ve biyomekanik hareket analizi üzerinden ilerlenir. Her aşama başlamadan önce anlatılır; seanslar birebir ve tam randevu gizliliği içinde yürütülür.",
-        "Klinikte tek fizyoterapist çalışıyor ve erkek. Bunu bir karşılaştırma olarak değil, randevu öncesinde bilmek isteyebileceğiniz bir bilgi olarak paylaşıyoruz."
+        "Görüşme kapalı bir odada, randevu düzeniyle ve birebir yapılır. Değerlendirme rahat spor kıyafetiyle ve dışarıdan yapılır; her adım başlamadan önce anlatılır, istemediğiniz bir adım olursa program onsuz planlanır. Klinikte tek fizyoterapist çalışıyor ve erkek."
       ]
     },
     {
@@ -2531,29 +2517,11 @@ export const erkekPelvikTabanIcerik = {
       ]
     },
     {
-      "h2": "Bu alanda kanıt nerede güçlü, nerede sınırlı",
-      "paragraflar": [
-        "Bir yaklaşımın kılavuzda yer alması ile o yaklaşımın belirli bir kişide sonuç üreteceği aynı şey değildir. Bu ayrımı yazmayan içerik, okuyucuya olduğundan fazlasını vaat eder.",
-        "Prostat cerrahisi sonrası konservatif yaklaşımların değeri, sistematik derleme düzeyinde hâlâ belirsiz olarak niteleniyor. Yani kılavuzlar bu yaklaşımı sunulacak seçenekler arasında sayarken, derlemeler tek tek kişilerde ne kadar fark yarattığı konusunda temkinli konuşuyor.",
-        "Bu sayfada oran, yüzde ve süre verilmemesinin nedeni budur. Verilebilecek dürüst bilgi şudur: hangi başlıkların bu kapsamda ele alındığı, sürecin nasıl yürüdüğü ve kararın neye göre verildiği."
-      ]
-    },
-    {
       "h2": "Leğen bölgesinde süregelen ağrıda fizyoterapi yaklaşımı",
       "paragraflar": [
         "Leğen bölgesinde uzun süredir devam eden ağrı tablolarında, hekim tanısı sonrasında kas ve bağ dokusuna yönelik yaklaşım ile gevşeme odaklı çalışma gündeme gelebilir. Kılavuzlarda bu yaklaşım yer alır, ancak öneri gücü zayıf düzeydedir.",
         "Bu tablolarda çalışma çoğunlukla kuvvetlendirme üzerine değil, gerginliğin azaltılması, nefes düzeni ve ağrıyı artıran günlük hareketlerin uyarlanması üzerine kurulur.",
         "Ağrının nedeni fizyoterapi kapsamında belirlenmez. Burada yapılan iş, hekimin koyduğu tanı çerçevesinde hareket ve yüklenme tarafını ele almaktır."
-      ]
-    },
-    {
-      "h2": "Cinsel işlev başlığında ne biliniyor, ne bilinmiyor",
-      "paragraflar": [
-        "Bu başlık erkek danışanların sık sorduğu ama içeriklerde çoğunlukla olduğundan güçlü anlatılan bir alan. Burada olduğu gibi yazıyoruz.",
-        "Sertleşme işleviyle ilgili çalışmalar yöntem kalitesi açısından düşük ve orta düzeyde bulunmuş; güncel bir derleme pelvik taban kas eğitimi ile karşılaştırma grubu arasında anlamlı bir fark ortaya koymamıştır. Erken boşalma başlığında ise ilgili kılavuz bu yöntemden söz etmiyor, mevcut çalışmalar az sayıda ve birbirinden farklı.",
-        "Kılavuzların bu alandaki ilk basamağı yaşam tarzı düzenlemesi ve hekim değerlendirmesidir. Dolayısıyla bu sayfa cinsel işlev için bir tedavi vaadi kurmaz.",
-        "Çalışmanın hedefi mekanizmadır: sertliğin sürdürülmesinde rol alan bulbospongiosus ve ischiocavernosus kaslarının kuvveti ve eşgüdümü, boşalma refleksinde bu kasların istemli olarak gevşetilebilmesi ve solunumla yönetilebilmesi, ağrılı boşalmada ise pelvik tabandaki fasyal gerginliğin mobilizasyon ve derin gevşeme çalışmalarıyla azaltılması.",
-        "Buna karşılık pelvik taban farkındalığı, gevşeme becerisi ve solunumla eşgüdüm kendi başına anlamlı başlıklardır ve yukarıdaki tablolarda ele alınır. Bu konudaki şikayetleriniz için önce hekim değerlendirmesi gerekir; sonrasında pelvik taban tarafında yapılabilecek bir şey olup olmadığı birlikte konuşulur."
       ]
     },
     {
@@ -2643,7 +2611,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Sertleşme sorunu ve erken boşalma her zaman tek başına bir şikâyet olarak dile getirilmez; günlük hayata yayılan bir gerginlikle birlikte anlatıldığı da olur. Yakınlık öncesinde kaygı belirginleşebilir, başarısızlık beklentisi yerleşebilir ve zamanla temastan kaçınma görülebilir. Konuyu paylaşmak zorlaştığı için başvuru kararı ertelenebilir. Şikâyetin ne zamandır sürdüğü, hangi koşullarda ortaya çıktığı ve sabah sertleşmelerinin sürüp sürmediği görüşmede ele alınan başlıklardandır.",
         "Pelvik taban kasları, penis köküne komşu yapılarla birlikte çalışır ve boşaltım ile cinsel işlevde ortak bir zemin paylaşır; yine de tablonun tek belirleyicisi değildir. Bu kasların gevşeyebilmesiyle ilgili tablo, sayfadaki \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınıyor. Leğen bölgesinde ağrı ya da idrar yakınması da eşlik ediyorsa bunlar görüşme sırasında ayrıca kaydedilir.",
-        "Erken boşalmada pelvik taban kas eğitimini inceleyen çalışmalar vardır, ancak sayıca az ve küçük katılımcı gruplarıyla yürütülmüştür; bu nedenle bir sonuç vaadi kurulamaz. Sertleşme işlevine dair kanıtın durumu \"Bu alanda kanıt nerede güçlü, nerede sınırlı\" bölümünde anlatılıyor. Sertleşme sorunu kalp damar hastalığı, diyabet, hormonal bozukluk ya da kullanılan bir ilacın yan etkisiyle ilişkili olabildiği için önce hekim değerlendirmesi gerekir. Efor sırasında göğüs ağrısı veya nefes darlığı tarif ediliyorsa durum farklıdır. Bu bulgularda önce hekime başvurulur."
+        "Erken boşalmada pelvik taban kas eğitimini inceleyen çalışmalar vardır, ancak sayıca az ve küçük katılımcı gruplarıyla yürütülmüştür; bu nedenle bir sonuç vaadi kurulamaz. Sertleşme sorunu kalp damar hastalığı, diyabet, hormonal bozukluk ya da kullanılan bir ilacın yan etkisiyle ilişkili olabildiği için önce hekim değerlendirmesi gerekir. Efor sırasında göğüs ağrısı veya nefes darlığı tarif ediliyorsa durum farklıdır. Bu bulgularda önce hekime başvurulur."
       ],
       "baglantilar": [
         {
