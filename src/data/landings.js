@@ -876,7 +876,8 @@ export const landings = [
     "yorumlar": ["hasan-d", "emre-e"],
     // Şikâyet bölümleri tek tek açılır başlık olur; mobilde sayfa ~6.500 kelimeydi.
     // Başlık başlangıçlarıyla eşlenir: aradaki bütün bölümler (ikisi dahil) katlanır.
-    "katlanir": { "ilk": "Geçmeyen kasık", "son": "Gaz ve dışkı kaçırma" },
+    // konum 'hero-alti': giriş bölümü + açılır şikâyetler hero'nun hemen altında (kullanıcı 09.10.2026).
+    "katlanir": { "ilk": "Geçmeyen kasık", "son": "Gaz ve dışkı kaçırma", "giris": "Hangi şikâyetlerle başvurulur", "konum": "hero-alti" },
     "servisAdi": "Erkeklerde Pelvik Taban Rehabilitasyonu",
     "breadcrumbAdi": "Erkeklerde Pelvik Taban Rehabilitasyonu",
     "odakKelime": "Kadıköy erkek pelvik taban fizyoterapisi",

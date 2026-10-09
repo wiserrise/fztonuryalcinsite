@@ -2527,7 +2527,7 @@ export const erkekPelvikTabanIcerik = {
     {
       "h2": "Hangi şikâyetlerle başvurulur",
       "paragraflar": [
-        "Bu başlığın altında toplanan şikâyetler birbirinden farklıdır: bir kısmı ağrı, bir kısmı idrar ya da bağırsak kontrolü, bir kısmı cinsel işlevle ilgilidir. Aşağıda on dört tablo ayrı ayrı ele alınıyor. Her biri için önce şikâyetin günlük hayatta nasıl göründüğü, sonra pelvik tabanla ilişkisi ve kanıtın durumu yazıldı.",
+        "Bu başlığın altında toplanan şikâyetler birbirinden farklıdır: bir kısmı ağrı, bir kısmı idrar ya da bağırsak kontrolü, bir kısmı cinsel işlevle ilgilidir. Aşağıda on sekiz tablo ayrı ayrı ele alınıyor. Her biri için önce şikâyetin günlük hayatta nasıl göründüğü, sonra pelvik tabanla ilişkisi ve kanıtın durumu yazıldı.",
         "Bir başlığın burada yer alması, o tabloda fizyoterapinin çözüm olduğu anlamına gelmez. Bazılarında kılavuzlarda tanımlı bir yer vardır, bazılarında kanıt sınırlıdır, bazılarında ise hiç yoktur. Hangisinin hangi grupta olduğu kendi bölümünde yazıyor ve okurken bu ayrım belirleyicidir.",
         "Sıralama bir öncelik ya da sıklık göstergesi değildir. Hangi başlığa girildiğini belirleyen hekim tanısıdır; buradaki bölümler o tanının üzerine ne eklenebileceğini anlatır."
       ]

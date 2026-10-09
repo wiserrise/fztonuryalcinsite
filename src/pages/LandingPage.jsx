@@ -337,7 +337,52 @@ export default function LandingPage({ slug: slugProp }) {
 
   // Uzun sayfalarda bazı bölümler açılır başlık olur (landings.js `katlanir`).
   const aralik = katlanirAralik(icerik.bolumler, landing.katlanir)
-  const araCtaSira = aralik && aralik[0] >= 2 ? aralik[0] - 2 : Math.floor(icerik.bolumler.length / 2) - 1
+  // `katlanir.konum: 'hero-alti'`: açılır bölümler (varsa `katlanir.giris` başlığıyla başlayan giriş
+  // bölümüyle birlikte) hero'nun hemen altında tek blok olur; ara eylem çağrısı bu bloğun sonuna gelir.
+  const ustBlok = Boolean(aralik) && landing.katlanir.konum === 'hero-alti'
+  const blokSiralar = []
+  if (ustBlok) {
+    const giris = landing.katlanir.giris ? icerik.bolumler.findIndex((b) => b.h2.startsWith(landing.katlanir.giris)) : -1
+    if (giris >= 0 && giris < aralik[0]) blokSiralar.push(giris)
+    for (let i = aralik[0]; i <= aralik[1]; i++) blokSiralar.push(i)
+  }
+  const araCtaSira = ustBlok ? -1 : aralik && aralik[0] >= 2 ? aralik[0] - 2 : Math.floor(icerik.bolumler.length / 2) - 1
+
+  const bolumuBas = (b, i) => {
+    const katli = Boolean(aralik) && i >= aralik[0] && i <= aralik[1]
+    const sonKatli = Boolean(aralik) && i === aralik[1]
+    return (
+      <div key={b.h2} style={{ marginBottom: katli && !sonKatli ? '0.85rem' : '3rem' }}>
+        {katli ? (
+          // Katlanan bölümün metni belgede kalır (arama motoru okur); yalnızca
+          // görsel olarak kapalı başlar. <details> JavaScript olmadan da çalışır.
+          <details className="landing-katlanir">
+            <summary><h2>{b.h2}</h2></summary>
+            <div className="landing-katlanir-icerik"><BolumIcerik b={b} /></div>
+          </details>
+        ) : (
+          <>
+            <h2 style={{ fontSize: 'clamp(1.35rem, 2.5vw, 1.7rem)', marginBottom: '1.1rem', lineHeight: 1.3 }}>{b.h2}</h2>
+            <BolumIcerik b={b} />
+          </>
+        )}
+
+        {/* Sayfanın ortasında tek bir ara eylem çağrısı; katlanan bölümler varsa onlardan önce */}
+        {i === araCtaSira && (
+          <div style={{ margin: '2.75rem 0 0.5rem' }}>
+            <CtaBlogu
+              landing={landing}
+              icerik={icerik}
+              reklam={reklam}
+              source="ara-cta"
+              baslik={landing.araCtaBaslik}
+              metin={landing.araCtaMetin}
+            />
+          </div>
+        )}
+      </div>
+    )
+  }
 
   return (
     <>
@@ -454,6 +499,25 @@ export default function LandingPage({ slug: slugProp }) {
           </div>
         </header>
 
+        {/* Şikâyet bloğu: açılır şikâyetler hero'nun hemen altında (landings.js `katlanir.konum`) */}
+        {ustBlok && (
+          <section className="section" style={{ padding: '3rem 0 1rem' }}>
+            <div className="container" style={{ maxWidth: 860 }}>
+              {blokSiralar.map((i) => bolumuBas(icerik.bolumler[i], i))}
+              <div style={{ margin: '2.75rem 0 0.5rem' }}>
+                <CtaBlogu
+                  landing={landing}
+                  icerik={icerik}
+                  reklam={reklam}
+                  source="ara-cta"
+                  baslik={landing.araCtaBaslik}
+                  metin={landing.araCtaMetin}
+                />
+              </div>
+            </div>
+          </section>
+        )}
+
         {reklam && <GuvenBlogu landing={landing} />}
 
         {/* Gövde bölümleri */}
@@ -480,41 +544,7 @@ export default function LandingPage({ slug: slugProp }) {
                 />
               </figure>
             )}
-            {icerik.bolumler.map((b, i) => {
-              const katli = Boolean(aralik) && i >= aralik[0] && i <= aralik[1]
-              const sonKatli = Boolean(aralik) && i === aralik[1]
-              return (
-                <div key={b.h2} style={{ marginBottom: katli && !sonKatli ? '0.85rem' : '3rem' }}>
-                  {katli ? (
-                    // Katlanan bölümün metni belgede kalır (arama motoru okur); yalnızca
-                    // görsel olarak kapalı başlar. <details> JavaScript olmadan da çalışır.
-                    <details className="landing-katlanir">
-                      <summary><h2>{b.h2}</h2></summary>
-                      <div className="landing-katlanir-icerik"><BolumIcerik b={b} /></div>
-                    </details>
-                  ) : (
-                    <>
-                      <h2 style={{ fontSize: 'clamp(1.35rem, 2.5vw, 1.7rem)', marginBottom: '1.1rem', lineHeight: 1.3 }}>{b.h2}</h2>
-                      <BolumIcerik b={b} />
-                    </>
-                  )}
-
-                  {/* Sayfanın ortasında tek bir ara eylem çağrısı; katlanan bölümler varsa onlardan önce */}
-                  {i === araCtaSira && (
-                    <div style={{ margin: '2.75rem 0 0.5rem' }}>
-                      <CtaBlogu
-                        landing={landing}
-                        icerik={icerik}
-                        reklam={reklam}
-                        source="ara-cta"
-                        baslik={landing.araCtaBaslik}
-                        metin={landing.araCtaMetin}
-                      />
-                    </div>
-                  )}
-                </div>
-              )
-            })}
+            {icerik.bolumler.map((b, i) => (blokSiralar.includes(i) ? null : bolumuBas(b, i)))}
           </div>
         </section>
 
