@@ -5,6 +5,7 @@ import Footer from '../components/Footer.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { getCategoryBySlug, serviceCategories } from '../data/services.js'
 import { LOCATION, BRAND_KISA } from '../config/site.js'
+import { kategoriSemasi, noindexSemasi } from '../lib/siteSchema.js'
 
 // Hizmetin gideceği yer: varsa kendi derin sayfası, yoksa ilgili blog yazısı.
 const hizmetYolu = (s) => s.sayfa || (s.blog ? `/blog/${s.blog}` : null)
@@ -13,41 +14,14 @@ export default function KategoriPage() {
   const { slug } = useParams()
   const cat = getCategoryBySlug(slug)
 
-  const itemList = cat
-    ? {
-        '@context': 'https://schema.org',
-        '@type': 'ItemList',
-        name: `${LOCATION.district} ${cat.name} Hizmetleri`,
-        numberOfItems: cat.services.length,
-        itemListElement: cat.services.map((s, i) => ({
-          '@type': 'ListItem',
-          position: i + 1,
-          item: {
-            '@type': 'Service',
-            name: s.name,
-            description: s.description,
-            provider: { '@id': `${SITE_URL}/#clinic` },
-            areaServed: LOCATION.district,
-            ...(hizmetYolu(s) ? { url: `${SITE_URL}${hizmetYolu(s)}` } : {}),
-          },
-        })),
-      }
-    : null
-
   useSeo({
     title: cat
       ? `${LOCATION.district} ${cat.name} | ${BRAND_KISA}`
       : `Kategori bulunamadı | ${BRAND_KISA}`,
     description: cat ? cat.intro : 'Aradığınız hizmet kategorisi bulunamadı.',
     canonical: `${SITE_URL}/tedavi-yaklasimlarimiz/${slug}`,
-    breadcrumbs: cat
-      ? [
-          { name: 'Ana Sayfa', url: '/' },
-          { name: 'Tedavi Yaklaşımlarımız', url: '/tedavi-yaklasimlarimiz' },
-          { name: cat.name, url: `/tedavi-yaklasimlarimiz/${cat.slug}` },
-        ]
-      : undefined,
-    jsonLd: itemList,
+    // CollectionPage + kartlardaki hizmet sayfalarının listesi + kırıntı (prerender ile aynı).
+    jsonLd: cat ? kategoriSemasi(cat) : noindexSemasi(),
   })
 
   useEffect(() => {

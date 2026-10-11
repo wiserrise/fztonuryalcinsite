@@ -8,6 +8,7 @@ import { getPostById, blogPosts } from '../data/blogPosts.js'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { BRAND_KISA } from '../config/site.js'
 import { useSectionNav } from '../hooks/useSectionNav.js'
+import { blogSemasi, noindexSemasi } from '../lib/siteSchema.js'
 
 // Yazı gövdesindeki site içi bağlantılar tam sayfa yenilemesi yapmasın diye
 // router bağlantısına çevrilir. Dış bağlantılar (WhatsApp, kurum siteleri)
@@ -35,13 +36,8 @@ export default function BlogPost() {
       : 'Aradığınız blog yazısı bulunamadı.',
     canonical: `${SITE_URL}/blog/${id}`,
     ogType: 'article',
-    breadcrumbs: post
-      ? [
-          { name: 'Ana Sayfa', url: '/' },
-          { name: 'Blog', url: '/#blog' },
-          { name: post.title, url: `/blog/${post.id}` },
-        ]
-      : undefined,
+    // Sayfa + BlogPosting (headline = H1) + kırıntı; prerender aynı fonksiyonu çağırır.
+    jsonLd: post ? blogSemasi(post) : noindexSemasi(),
   })
 
   useEffect(() => {

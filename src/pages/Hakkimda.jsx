@@ -1,6 +1,10 @@
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
+import { hakkimdaSemasi } from '../lib/siteSchema.js'
+
+// Onur Yalçın'ın tam kaydı (Person) yalnız bu sayfada; içine bu sayfada görünen bilgiler girer.
+const jsonLd = hakkimdaSemasi()
 
 export default function Hakkimda() {
   useSeo({
@@ -8,10 +12,7 @@ export default function Hakkimda() {
     description:
       "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın; Kadıköy Kozyatağı'nda erkek pelvik taban fizyoterapisi, bütüncül ve kaynak odaklı fizyoterapi ile manuel terapi uygular.",
     canonical: `${SITE_URL}/hakkimda`,
-    breadcrumbs: [
-      { name: 'Ana Sayfa', url: '/' },
-      { name: 'Hakkımda', url: '/hakkimda' },
-    ],
+    jsonLd,
   })
   return (
     <>

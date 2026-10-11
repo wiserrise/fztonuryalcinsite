@@ -1,90 +1,71 @@
-// Reklam hizmet sayfalarının yapılandırılmış verisi ve baş etiketleri.
+// Reklam hizmet sayfalarının yapılandırılmış verisi.
 //
 // Aynı değerler iki yerde gerekiyor: tarayıcıda çalışan LandingPage bileşeninde ve
 // derleme sonrası her sayfa için statik HTML üreten prerender betiğinde. İkisinin
-// ayrışmaması için tek kaynak burasıdır.
+// ayrışmaması için tek kaynak burasıdır; ortak düğümler (site, sayfa, kırıntı, klinik
+// özeti) lib/siteSchema.js'ten gelir.
 
-import { SITE_URL } from '../config/site.js'
-import { LOCATION } from '../config/site.js'
+import { SITE_URL, LOCATION } from '../config/site.js'
+import { semaGrafi, webSiteDugumu, sayfaDugumu, kirintiDugumu, sssDugumu, klinikOzeti } from './siteSchema.js'
 
-/** Sayfanın @graph biçimindeki yapılandırılmış verisi. */
+/**
+ * Sayfanın @graph biçimindeki yapılandırılmış verisi: site, MedicalWebPage, Service,
+ * (sayfada soru varsa) FAQPage ve kırıntı. Klinik burada tam kayıt olarak değil kısa
+ * özetle geçer; tam kayıt ana sayfada ve iletişimde.
+ */
 export function landingJsonLd(landing) {
-  const url = `${SITE_URL}/${landing.slug}`
+  const yol = `/${landing.slug}`
+  const url = `${SITE_URL}${yol}`
   const icerik = landing.icerik
-  return {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'MedicalWebPage',
-        '@id': `${url}#webpage`,
-        url,
-        name: icerik.title,
-        description: icerik.metaDescription,
-        inLanguage: 'tr-TR',
-        // isPartOf bir web sitesi (CreativeWork) bekler; işletme düğümü (#clinic) hata veriyordu.
-        isPartOf: { '@id': `${SITE_URL}/#website` },
-        about: { '@id': `${url}#service` },
-        primaryImageOfPage: `${SITE_URL}${landing.gorsel}`,
-      },
-      {
-        '@type': 'Service',
-        '@id': `${url}#service`,
-        name: landing.servisAdi,
-        description: icerik.metaDescription,
-        serviceType: landing.servisAdi,
-        provider: { '@id': `${SITE_URL}/#clinic` },
-        // Bölge sayfasında hizmet alanı semttir (w8-schema); ilçe ve il zincirde kalır.
-        // Hizmet sayfalarında ilçe. Tek klinik entity'si (#clinic) değişmez.
-        areaServed: landing.semt
-          ? {
-              '@type': 'Place',
-              name: landing.semt,
-              containedInPlace: {
-                '@type': 'AdministrativeArea',
-                name: LOCATION.district,
-                containedInPlace: { '@type': 'City', name: LOCATION.city },
-              },
-            }
-          : {
+  return semaGrafi([
+    webSiteDugumu(),
+    sayfaDugumu({
+      tur: 'MedicalWebPage',
+      yol,
+      ad: icerik.h1,
+      description: icerik.metaDescription,
+      // Sayfanın konusu klinik (about), ana varlığı bu sayfadaki hizmet. Hizmet düğümü
+      // aynı grafikte tam olarak durduğu için burada yalnız @id yeterli.
+      mainEntity: { '@id': `${url}#service` },
+      primaryImageOfPage: `${SITE_URL}${landing.gorsel}`,
+    }),
+    {
+      '@type': 'Service',
+      '@id': `${url}#service`,
+      // Temiz hizmet adı: H1 uzun bir cümle olduğu için servisAdi kullanılır.
+      name: landing.servisAdi,
+      description: icerik.metaDescription,
+      serviceType: landing.servisAdi,
+      provider: klinikOzeti(),
+      // Bölge sayfasında hizmet alanı semttir (w8-schema); ilçe ve il zincirde kalır.
+      // Hizmet sayfalarında ilçe.
+      areaServed: landing.semt
+        ? {
+            '@type': 'Place',
+            name: landing.semt,
+            containedInPlace: {
               '@type': 'AdministrativeArea',
               name: LOCATION.district,
               containedInPlace: { '@type': 'City', name: LOCATION.city },
             },
-        url,
-      },
-      // Sayfada soru yoksa FAQPage basılmaz (boş mainEntity geçersiz yapılandırılmış veridir).
-      ...(icerik.sss && icerik.sss.length > 0
-        ? [{
-            '@type': 'FAQPage',
-            '@id': `${url}#faq`,
-            mainEntity: icerik.sss.map((f) => ({
-              '@type': 'Question',
-              name: f.soru,
-              acceptedAnswer: { '@type': 'Answer', text: f.cevap },
-            })),
-          }]
-        : []),
-    ],
-  }
+          }
+        : {
+            '@type': 'AdministrativeArea',
+            name: LOCATION.district,
+            containedInPlace: { '@type': 'City', name: LOCATION.city },
+          },
+      url,
+    },
+    // Sayfada soru yoksa FAQPage basılmaz (boş mainEntity geçersiz yapılandırılmış veridir).
+    sssDugumu(yol, icerik.sss),
+    kirintiDugumu(yol, landingBreadcrumbs(landing)),
+  ])
 }
 
-/** Sayfanın kırıntı navigasyonu (BreadcrumbList kaynağı). */
+/** Sayfanın kırıntı navigasyonu (hero'daki görünen kırıntıyla aynı). */
 export function landingBreadcrumbs(landing) {
   return [
     { name: 'Ana Sayfa', url: '/' },
     { name: landing.breadcrumbAdi, url: `/${landing.slug}` },
   ]
-}
-
-export function landingBreadcrumbJsonLd(landing) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: landingBreadcrumbs(landing).map((c, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name: c.name,
-      item: `${SITE_URL}${c.url === '/' ? '/' : c.url}`,
-    })),
-  }
 }

@@ -21,7 +21,11 @@ import { SITE_URL, BRAND_KISA, LOCATION } from '../src/config/site.js'
 import { landings } from '../src/data/landingsTam.js'
 import { blogPosts } from '../src/data/blogPosts.js'
 import { serviceCategories } from '../src/data/services.js'
-import { landingJsonLd, landingBreadcrumbJsonLd } from '../src/lib/landingSchema.js'
+import { landingJsonLd } from '../src/lib/landingSchema.js'
+import {
+  JSON_LD_ID, anaSayfaSemasi, iletisimSemasi, hakkimdaSemasi, tedaviYaklasimlariSemasi,
+  kategoriSemasi, blogSemasi, gizlilikSemasi, noindexSemasi,
+} from '../src/lib/siteSchema.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const distDir = resolve(__dirname, '../dist')
@@ -55,11 +59,19 @@ const kacis = (s) =>
 // JSON-LD, </script> dizisiyle erken kapanmasın diye kaçışlanır.
 const jsonLdYaz = (obj) => JSON.stringify(obj).replace(/</g, '\\u003c')
 
+// Sayfanın tek JSON-LD bloğu (site, sayfa, kırıntı ve varlıklar tek grafikte; src/lib/siteSchema.js).
+// Kimlik useSeo.js'teki setJsonLd() ile AYNI (JSON_LD_ID): tarayıcı hidrasyonda bu bloğu
+// bulur ve içeriğini günceller. Kimlik tutmasaydı yenisini ekler, sayfada iki FAQPage, iki
+// Service ve iki BreadcrumbList oluşurdu (aynı sınıf hata canonical'da da yaşandı: şablondaki
+// etiket silinmeyince ikilendi).
+const jsonLdEtiketi = (obj) =>
+  obj ? `<script type="application/ld+json" id="${JSON_LD_ID}">${jsonLdYaz(obj)}</script>` : ''
+
 /**
  * Şablondaki başlık ve açıklamayı sayfaya özgü değerlerle değiştirir,
  * kanonik adres, Open Graph ve yapılandırılmış veriyi ekler.
  */
-function headDegistir(sablon, { title, description, canonical, image, jsonLd = [], noindex = false, onYukle = [] }) {
+function headDegistir(sablon, { title, description, canonical, image, jsonLd = null, noindex = false, onYukle = [] }) {
   let html = sablon
 
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${kacis(title)}</title>`)
@@ -89,18 +101,7 @@ function headDegistir(sablon, { title, description, canonical, image, jsonLd = [
     `<meta name="twitter:card" content="summary_large_image" />`,
     `<meta name="twitter:title" content="${kacis(title)}" />`,
     `<meta name="twitter:description" content="${kacis(description)}" />`,
-    // ID'ler useSeo.js'teki setJsonLd() ile AYNI olmali. Aksi halde React hidrasyonda
-    // bloklari bulamaz ve YENISINI ekler; sayfada iki FAQPage, iki Service ve iki
-    // BreadcrumbList olusur. Ayni id kullanildiginda useSeo mevcut blogu gunceller.
-    // (Ayni sinif hata canonical'da da yasandi: sablondaki etiket silinmeyince ikilendi.)
-    ...jsonLd.map((o, i) => {
-      const tipler = []
-      for (const n of o['@graph'] || [o]) {
-        if (n && n['@type']) tipler.push(...[].concat(n['@type']))
-      }
-      const id = tipler.includes('BreadcrumbList') ? 'ld-breadcrumb' : i === 0 ? 'ld-page' : `ld-ek-${i}`
-      return `<script type="application/ld+json" id="${id}">${jsonLdYaz(o)}</script>`
-    }),
+    jsonLdEtiketi(jsonLd),
   ]
     .filter(Boolean)
     .join('\n    ')
@@ -166,7 +167,7 @@ for (const landing of landings) {
     description: landing.icerik.metaDescription,
     canonical: `${SITE_URL}/${landing.slug}`,
     image: `${SITE_URL}${landing.gorsel}`,
-    jsonLd: [landingJsonLd(landing), landingBreadcrumbJsonLd(landing)],
+    jsonLd: landingJsonLd(landing),
     onYukle: landingOnYukle(landing),
   })
   // Metin normalde useEffect içinde yüklenir; sunucuda efekt çalışmadığı için önbellek
@@ -183,6 +184,7 @@ yaz(
     description:
       'Fizyoterapist Onur Yalçın internet sitesinde toplanan kişisel verilerin işlenmesi, çerez kullanımı ve KVKK kapsamındaki haklarınıza ilişkin aydınlatma metni.',
     canonical: `${SITE_URL}/gizlilik-politikasi`,
+    jsonLd: gizlilikSemasi(),
   }), '/gizlilik-politikasi'),
 )
 
@@ -197,6 +199,7 @@ for (const post of blogPosts) {
       title: `${post.title} | ${BRAND_KISA}`,
       description: `${post.excerpt} ${LOCATION.district} ${LOCATION.neighborhood} fizyoterapist Onur Yalçın.`,
       canonical: `${SITE_URL}/blog/${post.id}`,
+      jsonLd: blogSemasi(post),
     }), `/blog/${post.id}`),
   )
 }
@@ -210,24 +213,28 @@ for (const cat of serviceCategories) {
       title: `${LOCATION.district} ${cat.name} | ${BRAND_KISA}`,
       description: cat.intro,
       canonical: `${SITE_URL}/tedavi-yaklasimlarimiz/${cat.slug}`,
+      jsonLd: kategoriSemasi(cat),
     }), `/tedavi-yaklasimlarimiz/${cat.slug}`),
   )
 }
 
 // ── Kurumsal sayfalar ────────────────────────────────────────────────────
 // Değerler ilgili sayfa bileşenlerindeki useSeo çağrılarından birebir alındı.
+// Kliniğin tam kaydı ana sayfanın dışında yalnız iletişimde, Onur Yalçın'ınki yalnız Hakkımda'da.
 const kurumsal = [
   {
     slug: 'hakkimda',
     title: 'Fizyoterapist Onur Yalçın Kimdir? | Hakkımda – Kadıköy Kozyatağı',
     description:
       "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın; Kadıköy Kozyatağı'nda bütüncül ve kaynak odaklı fizyoterapi ile manuel terapi uygular.",
+    jsonLd: hakkimdaSemasi(),
   },
   {
     slug: 'iletisim',
     title: 'İletişim ve Randevu | Fizyoterapist Onur Yalçın – Kadıköy Kozyatağı',
     description:
       'Fizyoterapist Onur Yalçın kliniği iletişim ve randevu: Kozyatağı, Gülbahar Sk. Ege Yıldız Sitesi No:15, 34742 Kadıköy/İstanbul. Telefon +90 507 294 99 00.',
+    jsonLd: iletisimSemasi(serviceCategories),
   },
   {
     slug: 'tedavi-yaklasimlarimiz',
@@ -235,6 +242,7 @@ const kurumsal = [
       'Tedavi Yaklaşımlarımız | Fizyoterapi ve Rehabilitasyon Hizmetleri – Kadıköy Kozyatağı',
     description:
       "Kadıköy Kozyatağı'nda manuel terapi, Schroth ile skolyoz, pelvik taban, TME (çene eklemi), klinik pilates ve nörolojik/ortopedik rehabilitasyon dahil fizyoterapi hizmet kategorilerimiz. Fizyoterapist Onur Yalçın.",
+    jsonLd: tedaviYaklasimlariSemasi(serviceCategories),
   },
 ]
 for (const s of kurumsal) {
@@ -249,6 +257,7 @@ yaz(
     description: 'Randevu talebiniz kliniğimize ulaştı. En kısa sürede sizinle iletişime geçeceğiz.',
     canonical: `${SITE_URL}/randevu-talebiniz-alindi`,
     noindex: true,
+    jsonLd: noindexSemasi(),
   }), '/randevu-talebiniz-alindi'),
 )
 
@@ -262,12 +271,16 @@ yaz(
     title: `Sayfa bulunamadı | ${BRAND_KISA}`,
     description: 'Aradığınız sayfa bulunamadı. Ana sayfadan ya da tedavi yaklaşımlarımızdan devam edebilirsiniz.',
     noindex: true,
+    jsonLd: noindexSemasi(),
   }), '/__sayfa-bulunamadi'),
 )
 
 // Ana sayfa EN SON yazılır: index.html hem ana sayfa hem de yukarıdaki bütün sayfaların
-// şablonudur (sablon betiğin başında okundu).
-writeFileSync(resolve(distDir, 'index.html'), await govdeEkle(sablon, '/'), 'utf-8')
+// şablonudur (sablon betiğin başında okundu). Şablonda JSON-LD yoktur; kliniğin tam kaydı
+// şablonda dursaydı her sayfaya basılırdı. Ana sayfanın grafiği yalnız buraya eklenir;
+// başlık, açıklama ve canonical şablondaki gibi kalır.
+const anaSayfa = sablon.replace('</head>', `  ${jsonLdEtiketi(anaSayfaSemasi(serviceCategories))}\n  </head>`)
+writeFileSync(resolve(distDir, 'index.html'), await govdeEkle(anaSayfa, '/'), 'utf-8')
 
 const toplam =
   landings.length + blogPosts.length + serviceCategories.length + kurumsal.length + 3

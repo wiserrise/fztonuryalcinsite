@@ -4,6 +4,11 @@ import Footer from '../components/Footer.jsx'
 import { NAP, CALISMA_SAATLERI } from '../config/site.js'
 import { PHONE_HREF } from '../components/Cta.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
+import { serviceCategories } from '../data/services.js'
+import { iletisimSemasi } from '../lib/siteSchema.js'
+
+// Kliniğin tam kaydı ana sayfadan sonra yalnız burada (ikisinde aynı veri).
+const jsonLd = iletisimSemasi(serviceCategories)
 
 export default function Iletisim() {
   useSeo({
@@ -11,10 +16,7 @@ export default function Iletisim() {
     description:
       'Fizyoterapist Onur Yalçın kliniği iletişim ve randevu: Kozyatağı, Gülbahar Sk. Ege Yıldız Sitesi No:15, 34742 Kadıköy/İstanbul. Telefon +90 507 294 99 00.',
     canonical: `${SITE_URL}/iletisim`,
-    breadcrumbs: [
-      { name: 'Ana Sayfa', url: '/' },
-      { name: 'İletişim', url: '/iletisim' },
-    ],
+    jsonLd,
   })
   return (
     <>

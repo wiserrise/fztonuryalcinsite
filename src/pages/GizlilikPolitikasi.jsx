@@ -9,6 +9,9 @@ import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { BRAND, BRAND_KISA, NAP } from '../config/site.js'
+import { gizlilikSemasi } from '../lib/siteSchema.js'
+
+const jsonLd = gizlilikSemasi()
 
 const ADRES = NAP.adres
 const EPOSTA = 'fztonuryalcin@gmail.com'
@@ -115,10 +118,7 @@ export default function GizlilikPolitikasi() {
     description:
       'Fizyoterapist Onur Yalçın internet sitesinde toplanan kişisel verilerin işlenmesi, çerez kullanımı ve KVKK kapsamındaki haklarınıza ilişkin aydınlatma metni.',
     canonical: `${SITE_URL}/gizlilik-politikasi`,
-    breadcrumbs: [
-      { name: 'Ana Sayfa', url: '/' },
-      { name: 'Gizlilik Politikası', url: '/gizlilik-politikasi' },
-    ],
+    jsonLd,
   })
 
   return (

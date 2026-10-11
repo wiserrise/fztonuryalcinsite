@@ -14,6 +14,7 @@ import { PhoneButton, WhatsAppButton } from '../components/Cta.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { formDonusumuBildir, klasikGonderimAl } from '../lib/tracking.js'
 import { BRAND, BRAND_KISA, CALISMA_SAATLERI } from '../config/site.js'
+import { noindexSemasi } from '../lib/siteSchema.js'
 
 export default function RandevuAlindi() {
   useSeo({
@@ -21,6 +22,7 @@ export default function RandevuAlindi() {
     description: 'Randevu talebiniz kliniğimize ulaştı. En kısa sürede sizinle iletişime geçeceğiz.',
     canonical: `${SITE_URL}/randevu-talebiniz-alindi`,
     noindex: true,
+    jsonLd: noindexSemasi(),
   })
 
   useEffect(() => {

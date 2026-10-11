@@ -3,12 +3,12 @@ import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { serviceCategories } from '../data/services.js'
-import { landings } from '../data/landings.js'
+// Hub listeleri landings.js'ten TÜRETİLİR; şema (siteSchema.js) da aynı listeleri kullanır.
+import { bolgeSayfalari, hizmetSayfalari } from '../data/landings.js'
+import { tedaviYaklasimlariSemasi } from '../lib/siteSchema.js'
 
-// Hub listeleri landings.js'ten TURETILIR; elle senkron tutulmaz.
-// Bolge sayfalari slug'i '-fizyoterapist' ile biter, hizmet sayfalari bitmez.
-const bolgeSayfalari = landings.filter((l) => l.slug.endsWith('-fizyoterapist'))
-const hizmetSayfalari = landings.filter((l) => !l.slug.endsWith('-fizyoterapist'))
+// Sayfadaki listelerle aynı öğeleri taşır; prerender aynı fonksiyonu çağırır.
+const jsonLd = tedaviYaklasimlariSemasi(serviceCategories)
 
 export default function TedaviYaklasimlari() {
   useSeo({
@@ -16,10 +16,7 @@ export default function TedaviYaklasimlari() {
     description:
       "Kadıköy Kozyatağı'nda manuel terapi, Schroth ile skolyoz, pelvik taban, TME (çene eklemi), klinik pilates ve nörolojik/ortopedik rehabilitasyon dahil fizyoterapi hizmet kategorilerimiz. Fizyoterapist Onur Yalçın.",
     canonical: `${SITE_URL}/tedavi-yaklasimlarimiz`,
-    breadcrumbs: [
-      { name: 'Ana Sayfa', url: '/' },
-      { name: 'Tedavi Yaklaşımlarımız', url: '/tedavi-yaklasimlarimiz' },
-    ],
+    jsonLd,
   })
 
   return (

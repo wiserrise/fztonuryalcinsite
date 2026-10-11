@@ -11,12 +11,14 @@ import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { useSeo } from '../hooks/useSeo.js'
 import { BRAND_KISA } from '../config/site.js'
+import { noindexSemasi } from '../lib/siteSchema.js'
 
 export default function SayfaBulunamadi() {
   useSeo({
     title: `Sayfa bulunamadı | ${BRAND_KISA}`,
     description: 'Aradığınız sayfa bulunamadı. Ana sayfadan ya da tedavi yaklaşımlarımızdan devam edebilirsiniz.',
     noindex: true,
+    jsonLd: noindexSemasi(),
   })
 
   return (

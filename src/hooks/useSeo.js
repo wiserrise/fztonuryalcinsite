@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { SITE_URL } from '../config/site.js'
+import { JSON_LD_ID } from '../lib/siteSchema.js'
 
 // Adres tek yerde tanımlıdır (config/site.js); buradan yeniden dışa aktarılmasının
 // nedeni sayfaların halihazırda useSeo üzerinden içe aktarıyor olmasıdır.
@@ -40,6 +41,8 @@ function setCanonical(href) {
 }
 
 // Kimlikli bir JSON-LD <script> ekler/günceller; obj null ise kaldırır.
+// Ön render edilmiş sayfada blok sunucudan aynı kimlikle gelir (scripts/prerender.mjs);
+// burada bulunur ve yalnız içeriği yenilenir, ikinci bir blok eklenmez.
 function setJsonLd(id, obj) {
   let el = document.getElementById(id)
   if (!obj) {
@@ -55,30 +58,16 @@ function setJsonLd(id, obj) {
   el.textContent = JSON.stringify(obj)
 }
 
-function buildBreadcrumb(crumbs) {
-  if (!crumbs || crumbs.length === 0) return null
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: crumbs.map((c, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name: c.name,
-      item: c.url.startsWith('http') ? c.url : `${SITE_URL}${c.url}`,
-    })),
-  }
-}
-
 /**
- * Sayfa başına <title>, meta description, canonical, Open Graph ve (varsa) breadcrumb
- * JSON-LD etiketlerini günceller. SPA olduğu için her sayfa kendi SEO değerlerini set eder.
- * breadcrumbs: [{ name, url }] — url mutlak veya '/...' göreli olabilir.
+ * Sayfa başına <title>, meta description, canonical, Open Graph ve JSON-LD etiketlerini
+ * günceller. SPA olduğu için her sayfa kendi SEO değerlerini set eder.
+ * jsonLd: sayfanın tek JSON-LD grafiği (site, sayfa, kırıntı ve varlıklar birlikte);
+ *   lib/siteSchema.js'teki fonksiyonlardan gelir, prerender da aynılarını kullanır.
  * beklemede: true iken hiçbir etikete dokunulmaz. Sayfa metni tembel yüklenirken
  *   (LandingPage) prerender'dan gelen doğru başlık ve JSON-LD yerinde kalır; aksi halde
  *   içerik gelene kadar ld-page silinip yeniden yazılıyordu.
  */
-export function useSeo({ title, description, canonical, ogType = 'website', image = DEFAULT_IMAGE, breadcrumbs, jsonLd, noindex = false, beklemede = false }) {
-  const crumbsKey = breadcrumbs ? JSON.stringify(breadcrumbs) : ''
+export function useSeo({ title, description, canonical, ogType = 'website', image = DEFAULT_IMAGE, jsonLd, noindex = false, beklemede = false }) {
   const ldKey = jsonLd ? JSON.stringify(jsonLd) : ''
   useEffect(() => {
     if (beklemede) return
@@ -97,7 +86,6 @@ export function useSeo({ title, description, canonical, ogType = 'website', imag
     setMetaTag('name', 'twitter:description', description)
     setMetaTag('name', 'twitter:image', image)
     setCanonical(canonical)
-    setJsonLd('ld-breadcrumb', buildBreadcrumb(breadcrumbs))
-    setJsonLd('ld-page', jsonLd || null)
-  }, [title, description, canonical, ogType, image, crumbsKey, ldKey, noindex, beklemede])
+    setJsonLd(JSON_LD_ID, jsonLd || null)
+  }, [title, description, canonical, ogType, image, ldKey, noindex, beklemede])
 }

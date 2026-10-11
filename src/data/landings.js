@@ -1971,6 +1971,12 @@ export const landings = [
 
 export const getLandingBySlug = (slug) => landings.find((l) => l.slug === slug)
 
+// Tedavi yaklaşımları hub'ındaki iki liste. Sayfa (TedaviYaklasimlari.jsx) ve yapılandırılmış
+// verisi (lib/siteSchema.js) aynı listeyi buradan alır; elle senkron tutulmaz.
+// Bölge sayfalarının slug'ı '-fizyoterapist' ile biter, hizmet sayfalarınınki bitmez.
+export const bolgeSayfalari = landings.filter((l) => l.slug.endsWith('-fizyoterapist'))
+export const hizmetSayfalari = landings.filter((l) => !l.slug.endsWith('-fizyoterapist'))
+
 // İçerik modülleri: dinamik import ifadeleri Rollup'ın her modülü ayrı parçaya
 // ayırabilmesi için burada sabit yazılır (değişkenle import edilemez).
 const icerikModulleri = {

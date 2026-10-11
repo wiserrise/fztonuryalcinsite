@@ -14,7 +14,8 @@ import FloatingCta, { WhatsAppButton, PhoneButton, MobilAltCubuk, PHONE_HREF, wa
 import RandevuFormu from '../components/RandevuFormu.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { getLandingBySlug, landingIcerikYukle } from '../data/landings.js'
-import { landingJsonLd, landingBreadcrumbs } from '../lib/landingSchema.js'
+import { landingJsonLd } from '../lib/landingSchema.js'
+import { noindexSemasi } from '../lib/siteSchema.js'
 import { BRAND, BRAND_KISA, LOCATION, NAP, CALISMA_SAATLERI, GBP_MAP_URL } from '../config/site.js'
 import { GOOGLE_PUAN, GOOGLE_YORUMLARI, KLINIK_FOTOGRAFLARI } from '../data/guven.js'
 // Bir kez yüklenen içerik burada tutulur: aynı sayfaya geri dönüşte yeniden istek atılmaz
@@ -307,8 +308,8 @@ export default function LandingPage({ slug: slugProp }) {
     description: icerik ? icerik.metaDescription : 'Aradığınız sayfa bulunamadı.',
     canonical: url,
     image: landing ? `${SITE_URL}${landing.gorsel}` : undefined,
-    breadcrumbs: landing ? landingBreadcrumbs(landing) : undefined,
-    jsonLd: landing && icerik ? landingJsonLd({ ...landing, icerik }) : null,
+    // Kırıntı grafiğin içinde. Sayfa yoksa (bilinmeyen slug) yalnız site düğümü kalır.
+    jsonLd: landing ? (icerik ? landingJsonLd({ ...landing, icerik }) : null) : noindexSemasi(),
     beklemede: Boolean(landing && !icerik),
   })
 
