@@ -22,7 +22,7 @@ const KISI_ID = `${SITE_URL}/#onuryalcin`
 const SITE_ID = `${SITE_URL}/#website`
 const OZET = ['@type', '@id', 'name', 'url']
 const OZET_BEKLENEN = {
-  [KLINIK_ID]: { '@type': 'Physiotherapy', name: BRAND, url: `${SITE_URL}/` },
+  [KLINIK_ID]: { '@type': ['Physiotherapy', 'MedicalBusiness', 'LocalBusiness'], name: BRAND, url: `${SITE_URL}/` },
   [KISI_ID]: { '@type': 'Person', name: 'Onur Yalçın', url: `${SITE_URL}/hakkimda` },
 }
 const KONMAZ = [
@@ -183,7 +183,8 @@ denetim('Tam kaydın olmadığı sayfada #clinic / #onuryalcin\'e yalnız-@id re
         if (!ozetMi(d)) { hata(s.rota, `${id} referansı kısa özet değil: ${Object.keys(d).join(', ')}`); continue }
         ozet++
         for (const [k, v] of Object.entries(OZET_BEKLENEN[id])) {
-          if (d[k] !== v) hata(s.rota, `${id} özetinde ${k} = "${d[k]}" ("${v}" bekleniyor)`)
+          // Tip dizi olabilir (klinik: Physiotherapy + MedicalBusiness + LocalBusiness); içerikçe karşılaştırılır.
+          if (JSON.stringify(d[k]) !== JSON.stringify(v)) hata(s.rota, `${id} özetinde ${k} = "${d[k]}" ("${v}" bekleniyor)`)
         }
       }
     }
@@ -253,15 +254,24 @@ denetim('Her blog sayfasında BlogPosting: headline = H1, author = kişi özeti,
   return `${bloglar.length} blog sayfası`
 })
 
-denetim('Blog tarihleri: datePublished ve dateModified mevcut (sayfada görünen tarihten)', (hata) => {
-  let var_ = 0
+// Standart: sayfada görünmeyen veri şemaya girmez. Yazı sayfasında tarih görünüyorsa BlogPosting
+// aynı tarihi taşır; görünmüyorsa ("Güncel Makale" gibi) şemada da tarih olmaz.
+denetim('Blog tarihleri: sayfada görünen tarih varsa şemada aynısı, yoksa şemada da yok', (hata) => {
+  let tarihli = 0
+  let tarihsiz = 0
   for (const s of bloglar) {
     const y = s.graf.find((d) => tipVar(d, 'BlogPosting'))
-    if (y?.datePublished && y?.dateModified) { var_++; continue }
     const post = blogPosts.find((p) => `/blog/${p.id}` === s.rota)
-    hata(s.rota, `tarih yok; sayfada tarih yerine "${post?.date}" yazıyor`)
+    const gorunen = /\d{4}-\d{2}-\d{2}|\d{1,2}\s+\p{L}+\s+\d{4}/u.test(String(post?.date || ''))
+    if (gorunen) {
+      tarihli++
+      if (!(y?.datePublished && y?.dateModified)) hata(s.rota, `sayfada tarih var ("${post.date}") ama şemada yok`)
+    } else {
+      tarihsiz++
+      if (y?.datePublished || y?.dateModified) hata(s.rota, `sayfada tarih yok ("${post?.date}") ama şemada tarih var`)
+    }
   }
-  return `${var_}/${bloglar.length} sayfada tarih var`
+  return `${tarihli} sayfada görünen tarih (şemada var), ${tarihsiz} sayfada görünen tarih yok (şemada da yok)`
 })
 
 denetim('ItemList öğeleri kısa özet (@type+@id+name+url); her öğe hedef sayfadaki düğüme çözülüyor, adı ve türü o düğümle aynı', (hata) => {

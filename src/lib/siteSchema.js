@@ -33,6 +33,10 @@ const ANA_SAYFA = `${SITE_URL}/`
 const SITE_ID = `${SITE_URL}/#website`
 // Sitede zaten kullanılan sabit kimlikler korunur (standart: her yerde aynı değer).
 const KLINIK_ID = `${SITE_URL}/#clinic`
+// Kliniğin tipi tam kayıtta ve özette aynıdır. schema.org'da Physiotherapy hem tıbbi uzmanlık
+// değeri hem MedicalBusiness alt türü olduğundan tek başına yazılınca bazı denetleyiciler onu
+// işletme saymıyor (provider/worksFor Organization bekler); dizi bu belirsizliği kaldırır.
+const KLINIK_TIPI = ['Physiotherapy', 'MedicalBusiness', 'LocalBusiness']
 const KISI_ID = `${SITE_URL}/#onuryalcin`
 const KISI_ADI = 'Onur Yalçın'
 const PROFIL_URL = `${SITE_URL}/hakkimda`
@@ -54,15 +58,13 @@ const ANA_KIRINTI = { name: 'Ana Sayfa', url: '/' }
 const tamAdres = (yol) => (yol === '/' ? ANA_SAYFA : `${SITE_URL}${yol}`)
 
 /** Kliniğe kısa referans (publisher, about, provider, worksFor). Tam kayıt: klinikTamKaydi. */
-export const klinikOzeti = () => ({ '@type': 'Physiotherapy', '@id': KLINIK_ID, name: BRAND, url: ANA_SAYFA })
+export const klinikOzeti = () => ({ '@type': KLINIK_TIPI, '@id': KLINIK_ID, name: BRAND, url: ANA_SAYFA })
 
 /** Onur Yalçın'a kısa referans (founder, author). Tam kayıt Hakkımda'da. */
 export const kisiOzeti = () => ({ '@type': 'Person', '@id': KISI_ID, name: KISI_ADI, url: PROFIL_URL })
 
 export const semaGrafi = (dugumler) => ({ '@context': 'https://schema.org', '@graph': dugumler.filter(Boolean) })
 
-// services.js kategorileri GBP kategorileridir; ilk üçü tıbbi uygulama, diğerleri hizmet.
-const TIBBI_KATEGORILER = new Set(['fizik-tedavi-klinigi', 'rehabilitasyon-merkezi', 'fizik-tedavi-uzmani'])
 
 /**
  * Kliniğin tam kaydı. Yalnız ana sayfada ve iletişimde basılır.
@@ -74,7 +76,7 @@ const TIBBI_KATEGORILER = new Set(['fizik-tedavi-klinigi', 'rehabilitasyon-merke
  */
 export function klinikTamKaydi(kategoriler) {
   return {
-    '@type': ['Physiotherapy', 'MedicalBusiness', 'LocalBusiness'],
+    '@type': KLINIK_TIPI,
     '@id': KLINIK_ID,
     name: BRAND,
     url: ANA_SAYFA,
@@ -128,7 +130,6 @@ export function klinikTamKaydi(kategoriler) {
         target: {
           '@type': 'EntryPoint',
           urlTemplate: 'https://wa.me/905072949900',
-          inLanguage: 'tr',
           actionPlatform: [
             'https://schema.org/DesktopWebPlatform',
             'https://schema.org/MobileWebPlatform',
@@ -148,7 +149,8 @@ export function klinikTamKaydi(kategoriler) {
         itemListElement: k.services.map((s) => ({
           '@type': 'Offer',
           itemOffered: {
-            '@type': TIBBI_KATEGORILER.has(k.slug) ? 'MedicalTherapy' : 'Service',
+            // itemOffered Product / Service bekler; MedicalTherapy bu aralıkta değil (sözlük denetimi).
+            '@type': 'Service',
             name: s.name,
             description: s.description,
           },

@@ -7,7 +7,7 @@ import { JSON_LD_ID } from '../lib/siteSchema.js'
 export { SITE_URL }
 export const DEFAULT_IMAGE = `${SITE_URL}/assets/onur-yalcin-portrait-Pdhc5rvj.jpg`
 
-// Ana sayfa (landing) SEO metni — index.html'deki statik değerlerle aynı tutulur,
+// Ana sayfa (landing) SEO metni: index.html'deki statik değerlerle aynı tutulur,
 // blog sayfasından geri dönüldüğünde title/description'ın eski haline dönmesi için.
 export const HOME_SEO = {
   title:
