@@ -394,3 +394,9 @@ a.kt-one-cikan:hover .kt-icon{background:var(--secondary);color:var(--primary)}
 .footer-hizmet-listesi{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.6rem 2rem;font-size:.92rem}
 .footer-hizmet-listesi a{color:rgba(255,255,255,.7);transition:color .2s}
 .site-footer a:hover{color:var(--secondary) !important}
+
+/* Kart numarası: ikon yerine sade sıra rozeti */
+.kt-no{display:inline-grid;place-items:center;align-self:flex-start;min-width:44px;height:36px;padding:0 .75rem;margin-bottom:1.1rem;border-radius:10px;background:rgb(0 212 255/.12);color:#0a6f87;font-size:.9rem;font-weight:800;letter-spacing:.06em;font-variant-numeric:tabular-nums;transition:var(--transition)}
+a.kt-card:hover .kt-no{background:var(--primary);color:var(--secondary)}
+.kt-one-cikan .kt-no{background:rgba(255,255,255,.12);color:var(--secondary)}
+a.kt-one-cikan:hover .kt-no{background:var(--secondary);color:var(--primary)}

@@ -8,7 +8,7 @@ import { useSectionNav } from '../hooks/useSectionNav.js'
 import { NAP, CALISMA_SAATLERI, GBP_MAP_EMBED } from '../config/site.js'
 import { PhoneButton, WhatsAppButton } from '../components/Cta.jsx'
 import { serviceCategories } from '../data/services.js'
-import KartIkon, { OkIkon } from '../components/KartIkon.jsx'
+import { OkIkon } from '../components/KartIkon.jsx'
 import { anaSayfaSemasi } from '../lib/siteSchema.js'
 
 // Kliniğin tam kaydı + site + sayfa; prerender aynı grafiği index.html'e yazar.
@@ -28,19 +28,16 @@ export default function Home() {
           <p className="section-lead">Değerlendirme sonrasında kişiye göre planlanan başlıca çalışma alanları.</p>
           <div className="kt-grid kt-grid--ana">
             {[
-              {baslik: 'Erkeklerde Pelvik Taban Fizyoterapisi', yol: '/erkek-pelvik-taban-kadikoy', metin: 'Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıkları ele alınır.', ikon: 'pelvik-taban'},
-              {baslik: 'Klinik Pilates', yol: '/klinik-pilates-kadikoy', metin: 'Reformer ve mat çalışmaları, değerlendirme sonrasında kişiye göre planlanır; postür ve gövde stabilizasyonu üzerine kurulur.', ikon: 'pilates-salonu'},
-              {baslik: 'Skolyoz (Schroth)', yol: '/skolyoz-schroth-kadikoy', metin: 'Omurga eğriliğinde üç boyutlu yaklaşım: eğrilik paternine göre egzersiz, solunum ve postür çalışması.', ikon: 'skolyoz'},
-              {baslik: 'Manuel Terapi', yol: '/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi', metin: 'Eklem ve yumuşak dokuya yönelik elle uygulanan teknikler; boyun, sırt ve bel şikâyetlerinde değerlendirmeye göre kullanılır.', ikon: 'manuel'},
-              {baslik: 'Sporcu Rehabilitasyonu', yol: '/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi', metin: 'Yaralanma sonrası dönemde kuvvet, denge ve hareket kontrolünün kademeli olarak yeniden kazandırılması.', ikon: 'sporcu'},
-              {baslik: 'Fizyoterapi Değerlendirmesi', yol: '/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani', metin: 'Ayrıntılı öykü, hareket analizi ve testlerle başlayan değerlendirme; tedavi planı bu bulgular üzerine kurulur.', ikon: 'degerlendirme'},
-              {baslik: 'Mide ve Sindirim (Visseral Terapi)', yol: '/visseral-terapi-kadikoy', metin: 'Reflü, mide ağrısı, şişkinlik ve göbek düşmesi şikayetlerinde diyafram çalışması ve visseral manuel terapi.', ikon: 'visseral'},
+              {baslik: 'Erkeklerde Pelvik Taban Fizyoterapisi', yol: '/erkek-pelvik-taban-kadikoy', metin: 'Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıkları ele alınır.'},
+              {baslik: 'Klinik Pilates', yol: '/klinik-pilates-kadikoy', metin: 'Reformer ve mat çalışmaları, değerlendirme sonrasında kişiye göre planlanır; postür ve gövde stabilizasyonu üzerine kurulur.'},
+              {baslik: 'Skolyoz (Schroth)', yol: '/skolyoz-schroth-kadikoy', metin: 'Omurga eğriliğinde üç boyutlu yaklaşım: eğrilik paternine göre egzersiz, solunum ve postür çalışması.'},
+              {baslik: 'Manuel Terapi', yol: '/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi', metin: 'Eklem ve yumuşak dokuya yönelik elle uygulanan teknikler; boyun, sırt ve bel şikâyetlerinde değerlendirmeye göre kullanılır.'},
+              {baslik: 'Sporcu Rehabilitasyonu', yol: '/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi', metin: 'Yaralanma sonrası dönemde kuvvet, denge ve hareket kontrolünün kademeli olarak yeniden kazandırılması.'},
+              {baslik: 'Fizyoterapi Değerlendirmesi', yol: '/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani', metin: 'Ayrıntılı öykü, hareket analizi ve testlerle başlayan değerlendirme; tedavi planı bu bulgular üzerine kurulur.'},
+              {baslik: 'Mide ve Sindirim (Visseral Terapi)', yol: '/visseral-terapi-kadikoy', metin: 'Reflü, mide ağrısı, şişkinlik ve göbek düşmesi şikayetlerinde diyafram çalışması ve visseral manuel terapi.'},
             ].map((alan, i) => (
               <Link key={alan.yol} to={alan.yol} className={`kt-card${i === 0 ? ' kt-one-cikan' : ''}`}>
-                <div className="kt-ust">
-                  <KartIkon slug={alan.ikon} />
-                  <span className="kt-sayi">{String(i + 1).padStart(2, '0')}</span>
-                </div>
+                <span className="kt-no">{String(i + 1).padStart(2, '0')}</span>
                 <h3 className="kt-baslik">{alan.baslik}</h3>
                 <p className="kt-metin">{alan.metin}</p>
                 <span className="kt-alt">İncele <OkIkon /></span>

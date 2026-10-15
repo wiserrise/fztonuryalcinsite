@@ -2,7 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
-import KartIkon, { OkIkon } from '../components/KartIkon.jsx'
+import { OkIkon } from '../components/KartIkon.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { getCategoryBySlug, serviceCategories } from '../data/services.js'
 import { LOCATION, BRAND_KISA } from '../config/site.js'
@@ -81,10 +81,7 @@ export default function KategoriPage() {
                 const yol = hizmetYolu(s)
                 const icerik = (
                   <>
-                    <div className="kt-ust">
-                      <KartIkon slug={cat.slug} />
-                      <span className="kt-sayi">{String(i + 1).padStart(2, '0')}</span>
-                    </div>
+                    <span className="kt-no">{String(i + 1).padStart(2, '0')}</span>
                     <h2 className="kt-baslik">{s.name}</h2>
                     <p className="kt-metin">{s.description}</p>
                     {yol && <span className="kt-alt">Detaylı bilgi <OkIkon /></span>}
