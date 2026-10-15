@@ -362,7 +362,7 @@ export const sahrayiceditIcerik = {
       "paragraflar": [
         "Klinik reformer pilates, gövdenin yük altında kontrolünü sürdürebilmesi üzerine kurulu bir çalışmadır ve bu sayfadaki başlıkların çoğuyla kesişir. Ev içi yüklenmelere bağlı bel şikâyetlerinde ve duruş çalışmalarında programın parçası olabilir.",
         "Bu çalışma stüdyo grup dersinden farklıdır: program değerlendirme sonrasında kişiye göre kurulur ve seanslar fizyoterapist eşliğinde yürütülür. Yay direnci hareketi zorlaştırmak için değil, hareketin doğru kalıpta kalmasını sağlamak için seçilir.",
-        "Skolyozda ise klinik pilates skolyoza özgü çalışmanın yerine geçmez, yanında yer alabilir. Hangi çalışmanın öne alınacağı değerlendirme sonucuna ve kişinin hedefine göre belirlenir; karar görüntüleme ve hekim değerlendirmesiyle birlikte ele alınır."
+        "Skolyozda ise klinik pilates skolyoza özgü çalışmanın yerine geçmez, yanında yer alabilir. Hangi çalışmanın öne alınacağı değerlendirme sonucuna ve kişinin hedefine göre belirlenir."
       ],
       "baglantilar": [
         {
@@ -486,8 +486,7 @@ export const erenkoyIcerik = {
       "h2": "Diş sıkma ve gıcırdatma çeneyi nasıl zorluyor",
       "paragraflar": [
         "Gece boyunca süren diş sıkma, çiğneme kaslarını dinlenme fırsatı bulmadan çalıştırır. Bu yüzden şikâyet çoğu zaman sabah en belirgin hâldedir ve gün içinde bir miktar geriler.",
-        "Fizyoterapi bu tabloda çiğneme kaslarına ve çene ekleminin hareketine yönelir; boyun bölgesinin katkısı da programa dahil edilir. Gece plağı kullanımı ve diş tarafını ilgilendiren kararlar diş hekimine aittir.",
-        "Bu yüzden çene şikâyetlerinde diş hekimiyle iş birliği önemlidir. Fizyoterapi programı, diş hekiminin koyduğu çerçeveyle çelişmeyecek biçimde planlanır."
+        "Fizyoterapi bu tabloda çiğneme kaslarına ve çene ekleminin hareketine yönelir; boyun bölgesinin katkısı da programa dahil edilir."
       ]
     },
     {
@@ -606,7 +605,7 @@ export const erenkoyIcerik = {
     },
     {
       "soru": "Boynumdan kolun içine doğru uyuşma iniyor, ne yapmalıyım?",
-      "cevap": "Değerlendirmede uyuşmanın hangi parmaklara kadar indiği, hangi baş pozisyonunda arttığı ve güç kaybının eşlik edip etmediği incelenir. İlerleyen güç kaybı ya da elde beceri kaybı varsa program başlatılmadan hekim değerlendirmesine yönlendirilirsiniz."
+      "cevap": "Değerlendirmede uyuşmanın hangi parmaklara kadar indiği, hangi baş pozisyonunda arttığı ve güç kaybının eşlik edip etmediği incelenir."
     },
     {
       "soru": "Boyun düzleşmesi tanısı aldım, egzersiz işe yarar mı?",
@@ -690,7 +689,7 @@ export const suadiyeIcerik = {
       "h2": "Ön çapraz bağ yaralanmaları ve dizin güven kaybı",
       "paragraflar": [
         "Ön çapraz bağ yaralanmalarından sonra sık bildirilen şikâyet ağrı değil, güven kaybıdır: diz yön değiştirirken ya da inişte boşluğa düşecekmiş gibi hissedilir. Bu his, kas kuvvetinden ayrı olarak eklem konum duyusuyla ilişkilidir.",
-        "Ameliyat kararı verilmişse çerçeveyi cerrahınızın protokolü belirler; hangi hareketin ne zaman başlayabileceği bu protokole göre planlanır. Ameliyatsız izlenen durumlarda ise program hekim değerlendirmesi doğrultusunda kurulur.",
+        "Ameliyat kararı verilmişse çerçeveyi cerrahınızın protokolü belirler; hangi hareketin ne zaman başlayabileceği bu protokole göre planlanır.",
         "Her iki durumda da spora dönüş bir tarih üzerinden değil, ölçülebilir ölçütler üzerinden planlanır: kuvvet farkı, denge, sıçrama ve iniş kontrolü ile yön değiştirme becerisi birlikte değerlendirilir."
       ]
     },
@@ -706,8 +705,7 @@ export const suadiyeIcerik = {
       "h2": "Kas zorlanmaları ve ilk günlerde ne yapılmalı",
       "paragraflar": [
         "Ani bir zorlanma sonrasında ilk günlerdeki yaklaşım, sürecin geri kalanını etkiler. Bölgenin korunması, ağrı sınırları içinde hareketin sürdürülmesi ve şişliğin izlenmesi bu dönemin temel başlıklarıdır.",
-        "Tam hareketsizlik çoğu durumda önerilmez; ağrı sınırları içinde yapılan kontrollü hareket, dokunun düzenli biçimde toparlanmasına katkı sağlar. Ancak bunun sınırı kişiye göre değişir ve değerlendirmeyle belirlenir.",
-        "Belirgin güç kaybı, yürüyememe, hızla artan şişlik ya da şekil bozukluğu varsa öncelik hekim değerlendirmesidir."
+        "Tam hareketsizlik çoğu durumda önerilmez; ağrı sınırları içinde yapılan kontrollü hareket, dokunun düzenli biçimde toparlanmasına katkı sağlar. Ancak bunun sınırı kişiye göre değişir ve değerlendirmeyle belirlenir."
       ]
     },
     {
@@ -834,7 +832,7 @@ export const suadiyeIcerik = {
     },
     {
       "soru": "Yaralanmanın hemen ardından ne yapmalıyım?",
-      "cevap": "Bölgenin korunması, ağrı sınırları içinde hareketin sürdürülmesi ve şişliğin izlenmesi bu dönemin temel başlıklarıdır. Belirgin güç kaybı, yürüyememe ya da hızla artan şişlik varsa öncelik hekim değerlendirmesidir."
+      "cevap": "Bölgenin korunması, ağrı sınırları içinde hareketin sürdürülmesi ve şişliğin izlenmesi bu dönemin temel başlıklarıdır."
     },
     {
       "soru": "Görüntüleme sonucum yok, yine de gelebilir miyim?",
@@ -920,7 +918,7 @@ export const bostanciIcerik = {
       "h2": "Baş dönmesi ve vestibüler değerlendirme",
       "paragraflar": [
         "Baş dönmesi tek bir nedene bağlanamayacak kadar geniş bir başlıktır. İç kulak kaynaklı tablolar, kan basıncıyla ilişkili durumlar ve boyun bölgesinden kaynaklanan şikâyetler benzer biçimde tarif edilebilir.",
-        "Bu yüzden değerlendirme ve tanı önce hekim tarafından yapılır. Vestibüler kaynaklı bir tablo düşünülüyorsa fizyoterapi programa dahil olabilir.",
+        "Vestibüler kaynaklı bir tablo düşünülüyorsa fizyoterapi programa dahil olabilir.",
         "Vestibüler çalışmada göz, baş ve gövde hareketlerinin birlikte düzenlenmesi hedeflenir. Program kademeli ilerler; hangi hareketin ne zaman ekleneceği kişinin tolerans düzeyine göre belirlenir."
       ]
     },
@@ -990,7 +988,7 @@ export const bostanciIcerik = {
       "paragraflar": [
         "Denge ve yürüme çalışmalarının bir bölümünde gövde kontrolü belirleyicidir. Gövde yükü dengeli dağıtamadığında, denge çalışmaları beklenen katkıyı vermez.",
         "Klinik reformer pilates bu noktada programın parçası olabilir. Yay direnci hareketi zorlaştırmak için değil, hareketin doğru kalıpta kalmasını sağlamak için seçilir; destekli bir ortamda çalışmayı mümkün kılar.",
-        "Uygun olup olmadığı değerlendirme sonrasında belirlenir. Nörolojik tablolarda bu karar hekim değerlendirmesiyle birlikte ele alınır."
+        "Uygun olup olmadığı değerlendirme sonrasında belirlenir."
       ],
       "baglantilar": [
         {
@@ -1059,7 +1057,7 @@ export const bostanciIcerik = {
     },
     {
       "soru": "Baş dönmem var, doğrudan fizyoterapiye gelebilir miyim?",
-      "cevap": "Baş dönmesinin nedeni birden fazla olabilir; değerlendirme ve tanı önce hekim tarafından yapılır. Vestibüler kaynaklı bir tablo düşünülüyorsa fizyoterapi programa dahil olabilir."
+      "cevap": "Baş dönmesinin nedeni birden fazla olabilir. Vestibüler kaynaklı bir tablo düşünülüyorsa fizyoterapi programa dahil olabilir."
     },
     {
       "soru": "Seanslar hangi sıklıkla planlanıyor?",

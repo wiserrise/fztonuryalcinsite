@@ -33,7 +33,7 @@ export const klinikPilatesIcerik = {
     {
       "h2": "İlk randevunuz nasıl ilerler?",
       "paragraflar": [
-        "İlk randevunuz bir egzersiz dersi değil, değerlendirme görüşmesidir; değerlendirmeye ayrıldığı için sonraki seanslardan daha uzun sürer. Varsa hekim raporunuzu ve yönlendirmenizi getirmeniz süreci netleştirir.",
+        "İlk randevunuz bir egzersiz dersi değil, değerlendirme görüşmesidir; değerlendirmeye ayrıldığı için sonraki seanslardan daha uzun sürer.",
         "Randevu saatinizi WhatsApp'tan yazarak ya da 0507 294 99 00 numarasını arayarak netleştirebilirsiniz."
       ],
       "liste": [
@@ -42,16 +42,12 @@ export const klinikPilatesIcerik = {
           "metin": "Şikayetinizin ne zaman başladığını, neyin artırıp neyin azalttığını, iş ve hareket düzeninizi dinliyoruz."
         },
         {
-          "baslik": "2. Belgelerin incelenmesi",
-          "metin": "Hekim raporunuzdaki tanı ve yönlendirme bilgisi gözden geçirilir."
-        },
-        {
           "baslik": "3. Gözlem, ölçüm ve testler",
           "metin": "Hareket açıklığı ve kuvvet gibi ölçülebilir başlıkları ölçüyoruz; denge ve hareket kontrolünü testler ve gözlemle değerlendiriyoruz. Gözleme dayalı değerlendirme tek başına karar aracı değildir, öykü ve diğer bulgularla birlikte yorumlanır."
         },
         {
           "baslik": "4. Uygunluk taraması",
-          "metin": "Kemik yoğunluğu düşüklüğü (osteopeni, osteoporoz), bilinen omurga kırığı, uzun süreli kortizon kullanımı, yakın zamanda geçirilmiş ameliyat, gebelik, kalp ve tansiyon hastalığı, kontrolsüz kronik hastalıklar ve düzenli kullandığınız ilaçlar sorgulanır. Kırık riski bilinen kişilerde yüklü öne eğilme ve gövde dönmesi içeren hareketler uyarlanır; program hekim değerlendirmesiyle birlikte planlanır."
+          "metin": "Kemik yoğunluğu düşüklüğü (osteopeni, osteoporoz), bilinen omurga kırığı, uzun süreli kortizon kullanımı, yakın zamanda geçirilmiş ameliyat, gebelik, kalp ve tansiyon hastalığı, kontrolsüz kronik hastalıklar ve düzenli kullandığınız ilaçlar sorgulanır. Kırık riski bilinen kişilerde yüklü öne eğilme ve gövde dönmesi içeren hareketler uyarlanır."
         },
         {
           "baslik": "5. Deneme egzersizleri",
@@ -75,11 +71,7 @@ export const klinikPilatesIcerik = {
         },
         {
           "baslik": "Doğum sonrası dönem",
-          "metin": "Hekim değerlendirmesi ve onayı sonrasında planlanır. İlk görüşmede karın orta hattındaki ayrışma (diastazis rekti) sorgulanır."
-        },
-        {
-          "baslik": "Yaralanma sonrası dönüş",
-          "metin": "Hekim takibi sürerken egzersize kontrollü biçimde geri dönmek isteyenler."
+          "metin": "İlk görüşmede karın orta hattındaki ayrışma (diastazis rekti) sorgulanır."
         },
         {
           "baslik": "Bireysel çalışmayı tercih edenler",
@@ -134,7 +126,7 @@ export const klinikPilatesIcerik = {
       "h2": "Seans akışı ve sıklığı",
       "paragraflar": [
         "Seanslar hazırlık, ana çalışma ve sonlandırma şeklinde ilerler; ana çalışmayı değerlendirmede öne çıkan başlıklara göre kuruyoruz.",
-        "Seans sıklığını durumunuza, günlük programınıza ve varsa hekim takviminize göre planlıyoruz. Belirli aralıklarla ölçüm ve testleri tekrarlıyor, nerede olduğunuzu ölçüme bakarak görüyoruz. Randevunuzu WhatsApp'tan planlayabilirsiniz."
+        "Belirli aralıklarla ölçüm ve testleri tekrarlıyor, nerede olduğunuzu ölçüme bakarak görüyoruz. Randevunuzu WhatsApp'tan planlayabilirsiniz."
       ]
     },
     {
@@ -209,7 +201,7 @@ export const klinikPilatesIcerik = {
     },
     {
       "soru": "Kaç seansta sonuç alınır?",
-      "cevap": "Sabit bir seans sayısı verilemez; süreç mevcut durumunuza, şikayetin süresine, günlük yükünüze ve varsa hekim takibine göre değişir. Belirli sayıda seans sonunda belirli bir sonuç sözü verilmez; program yeniden değerlendirmelerle güncellenir."
+      "cevap": "Sabit bir seans sayısı verilemez. Belirli sayıda seans sonunda belirli bir sonuç sözü verilmez; program yeniden değerlendirmelerle güncellenir."
     },
     {
       "soru": "Seans sırasında ağrı olur mu?",
@@ -217,7 +209,7 @@ export const klinikPilatesIcerik = {
     },
     {
       "soru": "Tanısı konulmuş bir durumda egzersiz programı nasıl planlanır?",
-      "cevap": "Hastalık durumlarında fizyoterapi uygulamaları yürütülür; program hekimin planı doğrultusunda düzenlenir. Egzersiz bir görüntüleme bulgusunu ortadan kaldırma iddiası taşımaz; çalışılan başlıklar yük toleransı ve günlük yaşamdaki fonksiyondur."
+      "cevap": "Hastalık durumlarında fizyoterapi uygulamaları yürütülür. Egzersiz bir görüntüleme bulgusunu ortadan kaldırma iddiası taşımaz; çalışılan başlıklar yük toleransı ve günlük yaşamdaki fonksiyondur."
     },
     {
       "soru": "Randevu için hekim raporu getirmek zorunlu mu?",
@@ -229,7 +221,7 @@ export const klinikPilatesIcerik = {
     },
     {
       "soru": "Doğum sonrası dönemde klinik pilatese ne zaman başlanabilir?",
-      "cevap": "Başlama zamanı doğum şekline, iyileşme sürecine ve hekim değerlendirmesine göre değişir. Onay sonrasında karın orta hattındaki ayrışma sorgulanır, egzersizler kademeli ilerletilir."
+      "cevap": "Onay sonrasında karın orta hattındaki ayrışma sorgulanır, egzersizler kademeli ilerletilir."
     },
     {
       "soru": "Skolyozda hangi yaklaşım uygulanıyor?",
@@ -394,7 +386,7 @@ export const skolyozSchrothIcerik = {
     {
       "h2": "İlk değerlendirme görüşmesinde ne oluyor",
       "paragraflar": [
-        "Görüşme tek seansta tamamlanır. Varsa hekim raporu ve omurga görüntüleri incelenir, ardından fizyoterapi değerlendirmesi yapılır.",
+        "Görüşme tek seansta tamamlanır.",
         "Görüşmenin sonunda haftalık sıklığı, ev programını ve bir sonraki kontrolün tarihini yazılı olarak alırsınız. Toplam seans sayısını önceden söylemeyiz; yaş, iskelet olgunluğu, eğrinin paterni, ağrı ve korse kullanımı planı etkiler. Belirsizlik ilk randevunun sonunda biter.",
         "Randevular Pazartesi'den Cumartesi'ye 21:00'e kadar planlanabilir; okul ve iş çıkışı saatleri ile cumartesi randevusu açıktır. WhatsApp'tan yazabilir veya 0507 294 99 00 numarasını arayabilirsiniz."
       ],
@@ -449,7 +441,7 @@ export const skolyozSchrothIcerik = {
     {
       "h2": "Çocuk ve ergenlerde hedef nedir",
       "paragraflar": [
-        "Büyüme çağındaki skolyozda temel konu, iskelet olgunlaşması tamamlanana kadar geçen dönemdir. İlerleme riski hızlı büyüme döneminde en yüksektir; bu riski hekim yalnızca dereceye değil, iskelet olgunluğu ve büyüme hızına da bakarak değerlendirir.",
+        "Büyüme çağındaki skolyozda temel konu, iskelet olgunlaşması tamamlanana kadar geçen dönemdir. İlerleme riski hızlı büyüme döneminde en yüksektir.",
         "SOSORT kılavuzu, büyüme dönemindeki konservatif tedavide hedeflenen başlıkları şöyle sıralar: ilerlemeyi sınırlamaya çalışmak, solunum fonksiyonunu korumak, omurga ağrısını önlemek veya yönetmek, postüral düzeltmeyle gövde görünümünü desteklemek. Bunlar tedavi hedefleridir, her kişide sağlanacağı anlamına gelmez; listede omurgayı düzleştirmek yer almaz.",
         "Ergenlerde devam etme isteği süreci etkiler; egzersizler yaşa uygun ve evde tekrar edilebilir biçimde öğretilir, randevular okul çıkışına ayarlanabilir. Spor teşvik edilir, ancak tek başına bir yönetim stratejisi değildir."
       ]
@@ -457,7 +449,7 @@ export const skolyozSchrothIcerik = {
     {
       "h2": "Yetişkinlerde hedefler farklıdır",
       "paragraflar": [
-        "Yetişkinde iskelet büyümesi tamamlandığı için egzersizin hedefi eğriliği geri döndürmek değildir. Bununla birlikte skolyoz erişkinlikte durağan bir tablo değildir: iskelet olgunluğunda yaklaşık 30 derecenin üzerinde kalan eğriliklerde yıllar içinde yavaş bir ilerleme bildirilir, bu nedenle hekim takibi erişkinlikte de sürer.",
+        "Yetişkinde iskelet büyümesi tamamlandığı için egzersizin hedefi eğriliği geri döndürmek değildir.",
         "Öncelik; mekanik ağrının yönetimi, postüral hizalanma, gövde dayanıklılığı, denge ve günlük yaşam fonksiyonlarının korunmasıdır.",
         "İleri yaşlarda dejenerasyona bağlı gelişen dejeneratif skolyozda spinal stenoz gibi tablolar eşlik edebileceği için görüntüleme daha belirleyicidir. Yetişkinlerde yayımlanmış çalışma sayısı sınırlı olduğundan takip, ağrı ve fonksiyon üzerinden yapılır."
       ]
@@ -465,7 +457,7 @@ export const skolyozSchrothIcerik = {
     {
       "h2": "Korse ya da cerrahi gündemdeyse fizyoterapinin yeri",
       "paragraflar": [
-        "Korse ve cerrahi kararını hekim verir; Cobb açısı, iskelet olgunluğu ve ilerleme riski birlikte değerlendirilir. Genel çerçevede yaklaşık 10 ile 25 derece arasında düzenli izlem ve büyüme çağında skolyoza özgü egzersiz, 25 ile 40 derece arasında ve büyümesi süren olgularda korse adaylığı, 45 ile 50 derecenin üzerinde cerrahi gündeme gelebilir. İlerleme riski yüksek olgularda korse daha erken düşünülebilir; bunlar kılavuz aralıklarıdır, mutlak eşik değildir.",
+        "Cobb açısı, iskelet olgunluğu ve ilerleme riski birlikte değerlendirilir. Genel çerçevede yaklaşık 10 ile 25 derece arasında düzenli izlem ve büyüme çağında skolyoza özgü egzersiz, 25 ile 40 derece arasında ve büyümesi süren olgularda korse adaylığı, 45 ile 50 derecenin üzerinde cerrahi gündeme gelebilir. İlerleme riski yüksek olgularda korse daha erken düşünülebilir; bunlar kılavuz aralıklarıdır, mutlak eşik değildir.",
         "Egzersiz korsenin yerine geçmez. Randomize çalışmalarda korse kullanımının etkili olduğu ve sonucun düzenli günlük kullanım süresiyle ilişkili olduğu bildirilmiştir; fizyoterapi korseye alternatif değil, ona eşlik eden bir çalışmadır.",
         "SOSORT kılavuzu skolyoza özgü egzersizleri tek başına, korseyle birlikte ve ameliyat sonrası dönemde de önerir; ameliyat olmuş kişilerde program cerrahın kısıtları çerçevesinde planlanır."
       ]
@@ -473,7 +465,7 @@ export const skolyozSchrothIcerik = {
     {
       "h2": "Skolyoza özgü egzersiz ne sağlar, neyi sağlamaz",
       "paragraflar": [
-        "Sağladığı şunlardır: büyüme çağında ilerlemenin düzenli ölçülüp hekime raporlanması, korse kullanımına uyumun kolaylaşması, ağrının ve solunumun izlenmesi, duruş farkındalığı ve gövde dayanıklılığı. Yaşam kalitesi ölçeklerinde anlamlı iyileşme bildirilmiştir.",
+        "Yaşam kalitesi ölçeklerinde anlamlı iyileşme bildirilmiştir.",
         "Sağlamadığı ise omurgayı düzleştirmektir. Meta-analizlerde bildirilen ortalama Cobb değişimi küçüktür ve derlemeler arasında farklılık gösterir. Gövde rotasyon açısındaki değişim tutarlı değildir: bazı meta-analizlerde küçük ama anlamlı bir azalma bildirilirken, bazılarında anlamlı fark bulunmamıştır.",
         "Ölçümün kendisi de belirsizlik taşır: elle yapılan Cobb ölçümünde aynı gözlemcinin tekrarları arasında yaklaşık 3 ile 5 derece, farklı gözlemciler arasında 5 ile 7 dereceye varan fark bildirilir; 5 derecelik değişim literatürde ölçüm hatasının üzerinde sayılan gerçek değişim sınırıdır. Bu nedenle derece düşüşü, seans sayısında sonuç ya da korseden kaçınma vaadi verilmez; tek taahhüt, değerlendirmenin ve takibin düzenli yapılmasıdır."
       ]
@@ -482,7 +474,7 @@ export const skolyozSchrothIcerik = {
       "h2": "Program takibi ve devamlılık",
       "paragraflar": [
         "Öğrenilen düzeltmelerin evde düzenli tekrarlanması, programın kalıcı hale gelmesi için beklenen koşuldur; ev programı baştan itibaren planın parçasıdır.",
-        "Belirli aralıklarla postür ve rotasyon ölçümü güncellenir; ölçümler kaydedilip yönlendiren hekime iletilir."
+        "Belirli aralıklarla postür ve rotasyon ölçümü güncellenir."
       ]
     },
     {
@@ -496,7 +488,7 @@ export const skolyozSchrothIcerik = {
       "h2": "Solunum ve göğüs kafesi hareketliliği neden programın parçası",
       "paragraflar": [
         "Skolyozdaki dönme bileşeni, göğüs kafesinin iki yanının nefesle farklı genişlemesine yol açabilir. Bu yüzden Schroth temelli çalışmada nefes bir ısınma hareketi değil, egzersizin kendisidir: hedeflenen bölgeye yönlendirilen nefes, o bölgedeki genişlemeyi çalışmanın yolu olarak kullanılır.",
-        "Solunum çalışması tek başına eğriliğin açısını değiştirmeyi amaçlamaz. Amaç gövde hareketliliğini korumak ve kişinin kendi duruşunu fark etmesini sağlamaktır. Solunum kapasitesine ilişkin bir ölçüm gerekiyorsa bu, hekim değerlendirmesi kapsamındadır."
+        "Solunum çalışması tek başına eğriliğin açısını değiştirmeyi amaçlamaz. Amaç gövde hareketliliğini korumak ve kişinin kendi duruşunu fark etmesini sağlamaktır."
       ]
     },
     {
@@ -517,7 +509,7 @@ export const skolyozSchrothIcerik = {
       "h2": "Kadıköy skolyoz fizyoterapisi ile genel egzersiz programları arasındaki fark",
       "paragraflar": [
         "Genel bir kuvvetlendirme ya da esneme programı gövdeyi bütün olarak çalıştırır ve simetrik bir yüklenme varsayar. Skolyoza özgü çalışma ise eğriliğin yönünü ve dönme bileşenini hesaba katar; aynı hareket gövdenin iki yanına farklı biçimde uygulanabilir.",
-        "Klinik pilates bu programın yerine geçmez, yanında yer alabilir. Hangi çalışmanın öne alınacağı değerlendirme sonucuna ve kişinin hedefine göre belirlenir. Karar, görüntüleme ve hekim değerlendirmesiyle birlikte ele alınır."
+        "Klinik pilates bu programın yerine geçmez, yanında yer alabilir. Hangi çalışmanın öne alınacağı değerlendirme sonucuna ve kişinin hedefine göre belirlenir."
       ],
       "baglantilar": [
         {
@@ -557,7 +549,7 @@ export const skolyozSchrothIcerik = {
     },
     {
       "soru": "Çocuğum için uygun mu, kaç yaşından itibaren başlanır?",
-      "cevap": "Yaş tek başına belirleyici değildir; çocuğun egzersizleri anlayıp uygulayabilecek düzeyde olması dikkate alınır. Uygunluk, hekim ve fizyoterapi değerlendirmesi sonrasında netleşir."
+      "cevap": "Yaş tek başına belirleyici değildir; çocuğun egzersizleri anlayıp uygulayabilecek düzeyde olması dikkate alınır."
     },
     {
       "soru": "Korse kullanıyorsa egzersiz yapabilir mi?",
@@ -573,7 +565,7 @@ export const skolyozSchrothIcerik = {
     },
     {
       "soru": "Yetişkinlerde de fizyoterapi anlamlı mı?",
-      "cevap": "Yetişkinde hedef eğriliği geri döndürmek değildir; program ağrı yönetimi, postüral hizalanma, gövde dayanıklılığı ve denge üzerine kurulur. Erişkinlikte de yavaş ilerleme görülebildiği için hekim takibi sürer."
+      "cevap": "Yetişkinde hedef eğriliği geri döndürmek değildir; program ağrı yönetimi, postüral hizalanma, gövde dayanıklılığı ve denge üzerine kurulur."
     },
     {
       "soru": "Ameliyat düşünülüyorsa fizyoterapinin yeri var mı?",
@@ -581,7 +573,7 @@ export const skolyozSchrothIcerik = {
     },
     {
       "soru": "Sigorta kapsamını ve ödeme koşullarını nasıl öğrenirim?",
-      "cevap": "Özel sağlık sigortalarında kapsam poliçeye göre değişir; poliçe bilgilerinizi ilettiğinizde hangi belgeleri hazırlamanız gerektiğini söyleyebiliriz. Kamu geri ödemesi kapsamındaki fizik tedavi için hekiminizin yönlendireceği sağlık kuruluşuna başvurmanız gerekir. Ödeme koşullarını telefonla veya WhatsApp'tan öğrenebilirsiniz, bunun için randevu almanız gerekmez."
+      "cevap": "Özel sağlık sigortalarında kapsam poliçeye göre değişir; poliçe bilgilerinizi ilettiğinizde hangi belgeleri hazırlamanız gerektiğini söyleyebiliriz. Ödeme koşullarını telefonla veya WhatsApp'tan öğrenebilirsiniz, bunun için randevu almanız gerekmez."
     }
   ],
   "anahtarKelimeler": [

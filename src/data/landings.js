@@ -507,7 +507,7 @@ export const landings = [
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
       ],
       "araCtaBaslik": "Sindirim şikayetlerinizi birlikte değerlendirelim",
-      "araCtaMetin": "Reflü, mide ağrısı, şişkinlik ya da göbek düşmesi şikayetleriniz geçmiyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, doktor teşhisleriniz ve tetkik bulgularınızın incelenmesiyle başlar.",
+      "araCtaMetin": "Reflü, mide ağrısı, şişkinlik ya da göbek düşmesi şikayetleriniz geçmiyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. ",
       "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
       "ilgiliBaglantilar": [
           {
