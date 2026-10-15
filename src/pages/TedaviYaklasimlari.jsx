@@ -46,11 +46,11 @@ export default function TedaviYaklasimlari() {
             <div
               style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+                gridTemplateColumns: 'repeat(auto-fill, minmax(min(320px, 100%), 1fr))',
                 gap: '1.5rem',
               }}
             >
-              {serviceCategories.map((cat) => (
+              {serviceCategories.map((cat, i) => (
                 <Link
                   key={cat.slug}
                   to={`/tedavi-yaklasimlarimiz/${cat.slug}`}
@@ -61,20 +61,36 @@ export default function TedaviYaklasimlari() {
                     border: '1px solid var(--border)',
                     borderRadius: 'var(--radius)',
                     boxShadow: 'var(--shadow-sm)',
-                    padding: '2rem',
+                    overflow: 'hidden',
                     transition: 'var(--transition)',
                   }}
                 >
-                  <h2 style={{ fontSize: '1.35rem', fontWeight: 700, marginBottom: '0.35rem' }}>{cat.name}</h2>
-                  <span style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '0.85rem', marginBottom: '1rem' }}>
-                    {cat.services.length} hizmet
-                  </span>
-                  <p style={{ color: 'var(--text-light)', fontSize: '0.95rem', lineHeight: 1.7, flexGrow: 1 }}>
-                    {cat.intro}
-                  </p>
-                  <span style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '0.95rem', marginTop: '1.25rem' }}>
-                    İncele →
-                  </span>
+                  {cat.gorsel && (
+                    <picture>
+                      <source srcSet={`${cat.gorsel}.webp`} type="image/webp" />
+                      <img
+                        src={`${cat.gorsel}.jpg`}
+                        alt={cat.gorselAlt}
+                        width="960"
+                        height="600"
+                        loading={i < 3 ? 'eager' : 'lazy'}
+                        decoding="async"
+                        style={{ display: 'block', width: '100%', height: 'auto', aspectRatio: '16 / 10', objectFit: 'cover' }}
+                      />
+                    </picture>
+                  )}
+                  <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1, padding: '1.75rem 2rem 2rem' }}>
+                    <h2 style={{ fontSize: '1.35rem', fontWeight: 700, marginBottom: '0.35rem' }}>{cat.name}</h2>
+                    <span style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '0.85rem', marginBottom: '1rem' }}>
+                      {cat.services.length} hizmet
+                    </span>
+                    <p style={{ color: 'var(--text-light)', fontSize: '0.95rem', lineHeight: 1.7, flexGrow: 1 }}>
+                      {cat.intro}
+                    </p>
+                    <span style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '0.95rem', marginTop: '1.25rem' }}>
+                      İncele →
+                    </span>
+                  </div>
                 </Link>
               ))}
             </div>
