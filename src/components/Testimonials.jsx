@@ -35,9 +35,7 @@ export default function Testimonials() {
     <section id="testimonials" className="section" style={{ backgroundColor: 'var(--surface)', position: 'relative', overflow: 'hidden' }}>
       <div className="container">
         <h2 className="section-title">Danışanlarımız Ne Diyor?</h2>
-        <div style={{ textAlign: 'center', marginBottom: '3rem', color: 'var(--text-light)' }}>
-          Sağlığına kavuşan danışanlarımızın deneyimleri.
-        </div>
+        <p className="section-lead">Sağlığına kavuşan danışanlarımızın deneyimleri.</p>
         <div style={{ maxWidth: '800px', margin: '0 auto', position: 'relative' }}>
           <div style={{ backgroundColor: 'var(--background)', padding: '3rem', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow-lg)', textAlign: 'center', position: 'relative' }}>
             <QuoteIcon />

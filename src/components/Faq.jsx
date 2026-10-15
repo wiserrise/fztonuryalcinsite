@@ -20,9 +20,7 @@ export default function Faq() {
     <section id="faq" className="section" style={{ backgroundColor: 'var(--background)' }}>
       <div className="container">
         <h2 className="section-title">Sıkça Sorulan Sorular</h2>
-        <div style={{ textAlign: 'center', marginBottom: '3rem', color: 'var(--text-light)', maxWidth: '700px', margin: '0 auto 4rem auto' }}>
-          Kliniğimize gelmeden önce hastalarımızın en çok merak ettiği sorular ve cevapları.
-        </div>
+        <p className="section-lead">Kliniğimize gelmeden önce hastalarımızın en çok merak ettiği sorular ve cevapları.</p>
         <div style={{ maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
           {faqs.map((item, i) => {
             const isOpen = openIndex === i

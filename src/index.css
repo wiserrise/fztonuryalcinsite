@@ -23,7 +23,7 @@ img{max-width:100%;height:auto;display:block}
 button{cursor:pointer;border:none;background:none;font-family:inherit}
 .container{width:100%;max-width:1200px;margin:0 auto;padding:0 1.5rem}
 .section{padding:5rem 0}
-.section-title{font-size:2.5rem;font-weight:700;text-align:center;margin-bottom:3rem;position:relative}
+.section-title{font-size:clamp(1.9rem,3.4vw,2.5rem);font-weight:700;text-align:center;margin-bottom:3rem;position:relative}
 .section-title:after{content:"";position:absolute;bottom:-1rem;left:50%;transform:translate(-50%);width:60px;height:4px;background-color:var(--secondary);border-radius:2px}
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:.75rem 1.75rem;border-radius:30px;font-weight:600;font-size:1rem;transition:var(--transition);text-transform:uppercase;letter-spacing:.5px}
 .btn-primary{background-color:var(--secondary);color:var(--primary);box-shadow:0 4px 14px #00d4ff63}
@@ -39,7 +39,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 
 
 /* ===== Bileşenlerden çıkarılan responsive/animasyon stilleri ===== */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
           .nav-desktop { display: block !important; }
           .nav-mobile-toggle { display: none !important; }
         }
@@ -336,7 +336,7 @@ a.kt-card:focus-visible{outline:2px solid var(--secondary);outline-offset:2px}
 .kt-icon{display:grid;place-items:center;width:48px;height:48px;flex:none;border-radius:12px;color:var(--primary);background:linear-gradient(135deg,rgb(0 212 255/.16),rgb(10 37 64/.06));transition:var(--transition)}
 .kt-icon svg{width:24px;height:24px}
 a.kt-card:hover .kt-icon{background:var(--primary);color:var(--secondary)}
-.kt-sayi{font-size:.8rem;font-weight:700;letter-spacing:.06em;color:#94a3b8;font-variant-numeric:tabular-nums}
+.kt-sayi{font-size:.8rem;font-weight:700;letter-spacing:.06em;color:#7c8aa0;font-variant-numeric:tabular-nums}
 .kt-rozet{display:inline-block;align-self:flex-start;padding:.2rem .7rem;border-radius:30px;background:rgb(0 212 255/.12);color:#0a6f87;font-size:.8rem;font-weight:600;margin-bottom:.9rem}
 .kt-baslik{font-size:1.15rem;font-weight:700;line-height:1.35;color:var(--primary);margin:0 0 .6rem}
 .kt-kategori .kt-baslik{font-size:1.3rem}
@@ -357,3 +357,40 @@ a.kt-foto-kart:hover .kt-foto img{transform:scale(1.04)}
 .kt-govde{display:flex;flex-direction:column;flex-grow:1;padding:1.5rem 1.75rem 1.75rem}
 .kt-satir{display:flex;align-items:center;justify-content:space-between;margin-bottom:.8rem}
 .kt-satir .kt-rozet{margin-bottom:0}
+
+/* Bölüm başlığı sistemi: başlık + alt çizgi + kısa açıklama */
+.section-lead{max-width:760px;margin:0 auto 3.5rem;text-align:center;color:var(--text-light);font-size:1.05rem;line-height:1.7}
+.section-title + .section-lead{margin-top:-1.25rem}
+.kt-kaydir{display:flex;align-items:center;justify-content:center;gap:.5rem;margin-bottom:1.5rem;color:var(--primary);font-weight:600;font-size:.95rem}
+.kt-kaydir .kt-ok{color:#0a6f87}
+
+/* Ana sayfa: öne çıkan alanlar (4 sütun, ilk kart 2 sütun) */
+.kt-grid--ana{grid-template-columns:repeat(4,1fr)}
+.kt-one-cikan{grid-column:span 2;background:linear-gradient(135deg,var(--primary),var(--primary-light));border-color:transparent}
+.kt-one-cikan .kt-baslik{color:#fff;font-size:1.45rem}
+.kt-one-cikan .kt-metin{color:rgba(255,255,255,.82)}
+.kt-one-cikan .kt-sayi{color:rgba(255,255,255,.6)}
+.kt-one-cikan .kt-icon{background:rgba(255,255,255,.12);color:var(--secondary)}
+.kt-one-cikan .kt-alt{color:var(--secondary);border-top-color:rgba(255,255,255,.18)}
+a.kt-one-cikan:hover .kt-icon{background:var(--secondary);color:var(--primary)}
+@media (max-width:1023px){.kt-grid--ana{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:620px){.kt-grid--ana{grid-template-columns:1fr}.kt-one-cikan{grid-column:auto}}
+
+/* Şikayet kartları (ikon solda) ve blog kartları */
+.kt-yatay{flex-direction:row;gap:1.25rem;padding:1.5rem}
+.kt-yatay .kt-icon{margin-bottom:0}
+.kt-yatay:hover{box-shadow:var(--shadow);border-color:#cbd5e1}
+.kt-grid--blog{grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:1.5rem}
+.kt-icinde{display:flex;flex-direction:column;flex-grow:1}
+.kt-icinde > h3{font-size:1.15rem !important;line-height:1.4 !important}
+.kt-icinde > p{flex-grow:1}
+.blog-card.kt-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:#cbd5e1}
+.blog-card.kt-card:hover::before{transform:scaleX(1)}
+.kt-alt.kt-alt{text-decoration:none}
+
+/* Footer: hizmet listesi tam genişlikte, çok sütunlu */
+.footer-hizmetler{margin-bottom:3rem;padding-top:2.5rem;border-top:1px solid rgba(255,255,255,.1)}
+.footer-hizmetler h2{font-size:1.05rem;font-weight:600;margin-bottom:1.25rem;color:rgba(255,255,255,.9)}
+.footer-hizmet-listesi{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.6rem 2rem;font-size:.92rem}
+.footer-hizmet-listesi a{color:rgba(255,255,255,.7);transition:color .2s}
+.site-footer a:hover{color:var(--secondary) !important}

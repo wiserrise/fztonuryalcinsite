@@ -31,7 +31,7 @@ const CloseIcon = () => (
   </svg>
 )
 
-const linkStyle = { fontWeight: 500, color: 'var(--primary)', transition: 'color 0.3s' }
+const linkStyle = { fontWeight: 500, color: 'var(--primary)', transition: 'color 0.3s', whiteSpace: 'nowrap' }
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -70,17 +70,17 @@ export default function Navbar() {
       }}
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <a href="/" style={{ fontSize: '1.3rem', fontWeight: 700, color: 'var(--secondary)', whiteSpace: 'nowrap', marginRight: '2rem' }} onClick={(e) => { goToSection('hero', e); close() }}>
+        <a href="/" style={{ fontSize: 'clamp(1.05rem, 4vw, 1.2rem)', fontWeight: 700, color: 'var(--secondary)', whiteSpace: 'nowrap', marginRight: '1rem' }} onClick={(e) => { goToSection('hero', e); close() }}>
           Kadıköy Fizyoterapist Onur Yalçın
         </a>
 
         <div className="nav-desktop" style={{ display: 'none' }}>
-          <ul style={{ display: 'flex', gap: '1.25rem', alignItems: 'center', margin: 0 }}>
+          <ul style={{ display: 'flex', gap: '1.1rem', alignItems: 'center', margin: 0 }}>
             {links.map((l) => (
               <li key={l.label}>{renderLink(l, linkStyle)}</li>
             ))}
             <li>
-              <a href="tel:+905072949900" className="btn btn-primary" style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', padding: '0.5rem 1.25rem', fontSize: '0.9rem' }}>
+              <a href="tel:+905072949900" className="btn btn-primary" style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', padding: '0.5rem 1.1rem', fontSize: '0.88rem', whiteSpace: 'nowrap' }}>
                 <PhoneIcon size={16} />Randevu Al
               </a>
             </li>
