@@ -350,3 +350,10 @@ a.kt-card:hover .kt-ok{transform:translateX(4px)}
 .kt-link:hover,.kt-link:focus-visible{transform:translateY(-2px);box-shadow:var(--shadow);border-color:var(--secondary)}
 .kt-link:hover .kt-ok{color:#0a6f87;transform:translateX(4px)}
 @media (prefers-reduced-motion:reduce){.kt-card,.kt-link,.kt-icon,.kt-ok,.kt-card::before{transition:none}a.kt-card:hover,.kt-link:hover{transform:none}}
+.kt-foto-kart{padding:0}
+.kt-foto{display:block;overflow:hidden}
+.kt-foto img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;transition:transform .5s cubic-bezier(.4,0,.2,1)}
+a.kt-foto-kart:hover .kt-foto img{transform:scale(1.04)}
+.kt-govde{display:flex;flex-direction:column;flex-grow:1;padding:1.5rem 1.75rem 1.75rem}
+.kt-satir{display:flex;align-items:center;justify-content:space-between;margin-bottom:.8rem}
+.kt-satir .kt-rozet{margin-bottom:0}

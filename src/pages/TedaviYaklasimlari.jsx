@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
-import KartIkon, { OkIkon } from '../components/KartIkon.jsx'
+import { OkIkon } from '../components/KartIkon.jsx'
 import { serviceCategories } from '../data/services.js'
 // Hub listeleri landings.js'ten TÜRETİLİR; şema (siteSchema.js) da aynı listeleri kullanır.
 import { bolgeSayfalari, hizmetSayfalari } from '../data/landings.js'
@@ -46,15 +46,29 @@ export default function TedaviYaklasimlari() {
           <div className="container">
             <div className="kt-grid kt-grid--kategori">
               {serviceCategories.map((cat, i) => (
-                <Link key={cat.slug} to={`/tedavi-yaklasimlarimiz/${cat.slug}`} className="kt-card kt-kategori">
-                  <div className="kt-ust">
-                    <KartIkon slug={cat.slug} />
-                    <span className="kt-sayi">{String(i + 1).padStart(2, '0')}</span>
+                <Link key={cat.slug} to={`/tedavi-yaklasimlarimiz/${cat.slug}`} className="kt-card kt-kategori kt-foto-kart">
+                  {cat.gorsel && (
+                    <picture className="kt-foto">
+                      <source srcSet={`${cat.gorsel}.webp`} type="image/webp" />
+                      <img
+                        src={`${cat.gorsel}.jpg`}
+                        alt={cat.gorselAlt}
+                        width="960"
+                        height="600"
+                        loading={i < 3 ? 'eager' : 'lazy'}
+                        decoding="async"
+                      />
+                    </picture>
+                  )}
+                  <div className="kt-govde">
+                    <div className="kt-satir">
+                      <span className="kt-rozet">{cat.services.length} hizmet</span>
+                      <span className="kt-sayi">{String(i + 1).padStart(2, '0')}</span>
+                    </div>
+                    <h2 className="kt-baslik">{cat.name}</h2>
+                    <p className="kt-metin">{cat.intro}</p>
+                    <span className="kt-alt">İncele <OkIkon /></span>
                   </div>
-                  <span className="kt-rozet">{cat.services.length} hizmet</span>
-                  <h2 className="kt-baslik">{cat.name}</h2>
-                  <p className="kt-metin">{cat.intro}</p>
-                  <span className="kt-alt">İncele <OkIkon /></span>
                 </Link>
               ))}
             </div>
