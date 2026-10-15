@@ -26,7 +26,7 @@ export const belFitigiIcerik = {
       "h2": "Bel fıtığı nedir, ağrı neden bacağa vurur?",
       "paragraflar": [
         "Omurları birbirinden ayıran diskler, dışta lif halkası ve içte jel kıvamında bir çekirdekten oluşur. Lif halkasında zayıflama olduğunda çekirdek dokusu dışa doğru taşabilir ve omurilikten çıkan sinir kökünün geçtiği dar alana baskı yapabilir. Bel bölgesinde hissedilen ağrının kalçaya, bacağa, bazen ayağa kadar yayılması çoğunlukla bu sinir kökü etkilenmesiyle ilişkilidir.",
-        "Sinir kökü etkilendiğinde tablo yalnız ağrıdan ibaret olmaz. Uyuşma, karıncalanma, bacakta yorgunluk hissi, öksürürken veya hapşırırken artan sancı sık anlatılan durumlardır. Şikâyetin bacağın hangi bölgesine yayıldığı, hangi seviyenin etkilendiği konusunda fikir verir, ancak bu ayrım tanı yerine geçmez. Tanı, hekim muayenesi ve gerektiğinde görüntüleme ile konur.",
+        "Sinir kökü etkilendiğinde tablo yalnız ağrıdan ibaret olmaz. Uyuşma, karıncalanma, bacakta yorgunluk hissi, öksürürken veya hapşırırken artan sancı sık anlatılan durumlardır.",
         "Görüntülemede fıtık görülmesi ile hissedilen ağrının şiddeti her zaman birbirine paralel ilerlemez. Benzer görüntüye sahip iki kişinin şikâyeti farklı olabilir; günlük yükler, kas dayanıklılığı, hareket alışkanlıkları ve uyku düzeni tabloyu etkiler. Bu nedenle fizyoterapide yalnız film değil, kişinin günü de değerlendirilir."
       ]
     },
@@ -57,39 +57,6 @@ export const belFitigiIcerik = {
         {
           "baslik": "Hedef belirleme",
           "metin": "Kişinin zorlandığı somut eylemler, örneğin çorap giymek, araçtan inmek veya market poşeti taşımak."
-        }
-      ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren belirtiler",
-      "paragraflar": [
-        "Bel ve bacak ağrısı çoğu zaman fizyoterapi ile takip edilebilen bir tablodur, ancak bazı belirtiler öncelikle hekim değerlendirmesi gerektirir. Aşağıdaki bulgular varsa egzersiz programına başlanmaz, kişi hekime yönlendirilir.",
-        "Bu tabloların değerlendirilmesi, tanı ve tedavi kararı hekime aittir. Fizyoterapi süreci hekim değerlendirmesiyle birlikte yürür; program sırasında yeni bir belirti ortaya çıkarsa yönlendirme yenilenir. Buradaki bilgi tanı koymak için değil, hangi durumda hekime başvurmak gerektiğini görmek içindir."
-      ],
-      "liste": [
-        {
-          "baslik": "İdrar ve gaita kontrolünde değişiklik",
-          "metin": "Tutamama, boşaltamama veya yeni başlayan idrar yapma zorluğu."
-        },
-        {
-          "baslik": "Eyer bölgesinde uyuşma",
-          "metin": "Makat çevresi ve iç uylukta yeni ortaya çıkan hissizlik."
-        },
-        {
-          "baslik": "İlerleyici güç kaybı",
-          "metin": "Ayak bileğini veya parmakları kaldıramama, bacakta gün geçtikçe artan güçsüzlük."
-        },
-        {
-          "baslik": "İki bacağa birden yayılan şikâyet",
-          "metin": "Ağrının veya uyuşmanın iki taraflı olması ve hızla artması."
-        },
-        {
-          "baslik": "Sistemik belirtiler",
-          "metin": "Ateş, açıklanamayan kilo kaybı, pozisyon değiştirmekle azalmayan gece ağrısı."
-        },
-        {
-          "baslik": "Yakın zamanda ciddi darbe",
-          "metin": "Düşme veya kaza sonrası ortaya çıkan şiddetli bel ağrısı."
         }
       ]
     },
@@ -146,7 +113,7 @@ export const belFitigiIcerik = {
     {
       "h2": "Bel fıtığında sık karşılaşılan yanlış anlamalar",
       "paragraflar": [
-        "Bel fıtığı olan herkesin ameliyat olacağı düşüncesi yaygındır. Oysa çoğu kişide süreç ameliyatsız takiple yürütülür ve karar, muayene ve görüntüleme bulgularıyla birlikte hekim tarafından verilir.",
+        "Bel fıtığı olan herkesin ameliyat olacağı düşüncesi yaygındır.",
         "Bir başka yaygın inanış, ağrı varken tamamen hareketsiz kalmanın iyi geleceğidir. Güncel yaklaşımlarda uzun süreli yatak istirahati genellikle önerilmez; ağrının izin verdiği ölçüde hareketi sürdürmek kas dayanıklılığının korunmasına yardımcı olur. Ne kadar hareket edileceği kişinin tablosuna göre belirlenir.",
         "Üçüncü yanlış anlama, tek bir egzersizin herkese uyacağıdır. İnternette görülen bir hareket bir kişide rahatlatıcı olurken bir başkasında şikâyeti artırabilir; bu nedenle program değerlendirme sonrası kişiye özel planlanır.",
         "Son olarak, ağrının azalması programın bittiği anlamına gelmez. Ağrı yatıştığında gövde dayanıklılığı henüz tamamlanmamış olabilir; bu aşamada yarıda bırakılan programlarda şikâyet yeniden ortaya çıkabilir."
@@ -155,7 +122,7 @@ export const belFitigiIcerik = {
     {
       "h2": "Ameliyat kararı ve ameliyat sonrası dönem",
       "paragraflar": [
-        "Ameliyat kararı hekim tarafından verilir. Hekime yönlendirme gerektiren bulguların bulunmadığı durumlarda genellikle önce ameliyatsız takip tercih edilir; bu süreçte fizyoterapi, ağrı yönetimi ve kademeli yüklenme birlikte yürür.",
+        "Bu süreçte fizyoterapi, ağrı yönetimi ve kademeli yüklenme birlikte yürür.",
         "Ameliyat geçirmiş kişilerde program, cerrahın belirlediği kısıtlar çerçevesinde planlanır. Yara iyileşmesi, eğilme ve ağırlık kaldırma sınırları, oturma süresi gibi başlıklarda cerrahın önerisine uyulur. Bu dönemde amaç, dokuyu zorlamadan hareketi geri kazanmak ve günlük yaşama dönüşü desteklemektir.",
         "Ameliyat sonrası dönemde ilerleme hızını belirleyen şey takvim değil, kişinin verdiği yanıttır. Ağrı ve şişlik davranışı izlenir, program buna göre ilerletilir.",
         "Hem ameliyatsız hem ameliyat sonrası dönemde sık atlanan başlık, ev programının sürdürülmesidir. Klinikte geçen süre sınırlıdır; sürdürülebilir değişim, günün geri kalanında yapılan küçük düzenlemelerle oluşur."
@@ -199,9 +166,9 @@ export const belFitigiIcerik = {
       ]
     },
     {
-      "h2": "Süreci kim yürütür, hekimle iş birliği nasıl kurulur?",
+      "h2": "Süreci kim yürütür?",
       "paragraflar": [
-        "Seansları fizyoterapist yürütür. Tanı ve tedavi kararı hekime aittir; fizyoterapi, hekimin yönlendirmesi ve değerlendirme bulguları doğrultusunda planlanır.",
+        "Seansları fizyoterapist yürütür.",
         "Kadıköy bel fıtığı fizyoterapisi boyunca gözlenen değişiklikler kayıt altında tutulur ve gerektiğinde yönlendiren hekimle paylaşılabilir. Kozyatağı Gülbahar Sokak'taki klinikte randevular Pazartesi ile Cumartesi arasında 09:00-21:00 saatlerinde planlanır; 0507 294 99 00 numarasından ulaşılabilir."
       ]
     },
@@ -218,11 +185,11 @@ export const belFitigiIcerik = {
   "sss": [
     {
       "soru": "Bel fıtığında fizyoterapiye ne zaman başlanabilir?",
-      "cevap": "Hekim değerlendirmesi yapıldıktan ve acil yönlendirme gerektiren bulgular dışlandıktan sonra başlanabilir. Ağrının şiddetli olduğu dönemde program, şikâyeti artırmayacak biçimde sade tutulur; tablo yatıştıkça yüklenme kademeli olarak ilerletilir. Başlangıç zamanı ve içeriği kişiye göre değişir, değerlendirme sonrası planlanır."
+      "cevap": "Ağrının şiddetli olduğu dönemde program, şikâyeti artırmayacak biçimde sade tutulur; tablo yatıştıkça yüklenme kademeli olarak ilerletilir. Başlangıç zamanı ve içeriği kişiye göre değişir, değerlendirme sonrası planlanır."
     },
     {
       "soru": "Bel fıtığı ameliyat olmadan düzelir mi?",
-      "cevap": "Birçok kişide süreç ameliyatsız takiple yürütülür, ancak nasıl ilerleyeceği kişiden kişiye değişir ve önceden söylenemez. Ameliyat kararı, muayene ve görüntüleme bulgularıyla birlikte hekim tarafından verilir. Fizyoterapi bu kararın yerine geçmez, hekimin planıyla birlikte yürür."
+      "cevap": "Birçok kişide süreç ameliyatsız takiple yürütülür, ancak nasıl ilerleyeceği kişiden kişiye değişir ve önceden söylenemez."
     },
     {
       "soru": "Kaç seans gerekir?",
@@ -230,15 +197,11 @@ export const belFitigiIcerik = {
     },
     {
       "soru": "Ağrının bacağa vurması ne anlama gelir?",
-      "cevap": "Bel bölgesinden çıkan sinir kökünün etkilenmesi, ağrının kalçaya ve bacağa yayılmasına, buna uyuşma veya karıncalanmanın eşlik etmesine yol açabilir. Yayılımın izlediği yol hangi seviyenin etkilendiği konusunda fikir verir, fakat tanı yerine geçmez. Bu tablo hekim muayenesiyle değerlendirilir."
+      "cevap": "Bel bölgesinden çıkan sinir kökünün etkilenmesi, ağrının kalçaya ve bacağa yayılmasına, buna uyuşma veya karıncalanmanın eşlik etmesine yol açabilir. Bu tablo hekim muayenesiyle değerlendirilir."
     },
     {
       "soru": "Egzersiz ağrımı artırır mı?",
       "cevap": "Program, ağrının artmadığı hareket aralığında kurulur. Çalışma sırasında hafif bir zorlanma hissi olabilir, ancak bacağa yayılan ağrının artması durdurma işaretidir. Böyle bir yanıt oluşursa hareket değiştirilir veya genlik azaltılır; zorlayarak devam etmek süreci hızlandırmaz."
-    },
-    {
-      "soru": "Hangi belirtilerde doğrudan hekime başvurmalıyım?",
-      "cevap": "İdrar veya gaita kontrolünde değişiklik, makat ve iç uyluk çevresinde yeni başlayan uyuşma, bacakta ilerleyen güç kaybı, iki bacağa birden yayılan ve hızla artan şikâyet, ateş veya açıklanamayan kilo kaybı gibi durumlarda fizyoterapi programı beklenmeden hekim değerlendirmesi gerekir."
     },
     {
       "soru": "Klinik pilates bel fıtığı olan biri için uygun mudur?",
@@ -344,7 +307,7 @@ export const boyunFitigiIcerik = {
       "h2": "İlk değerlendirmede neler yapılır",
       "paragraflar": [
         "İlk görüşme öykü almakla başlar. Şikâyetin ne zaman ve nasıl başladığı, hangi hareketle arttığı, neyle azaldığı, gece uykuyu bölüp bölmediği, kolda kuvvet kaybı hissi olup olmadığı, çalışma düzeni, uyku pozisyonu ve daha önce uygulanan yaklaşımlar konuşulur. Varsa hekim notları ve görüntüleme raporları birlikte incelenir. Bu bölüm, sonraki adımların neye göre planlanacağını belirler.",
-        "Ardından fiziksel değerlendirme yapılır: boyun hareket açıklığı, hangi yönlerin sınırlı olduğu, çevre dokuların gerginliği, derin boyun kaslarının dayanıklılığı, kürek kemiğinin hareket kontrolü ve üst ekstremiteye yönelik sinir mobilitesi bakılır. Kuvvet ve duyu taraması, hekim değerlendirmesi gerektiren bir bulgu olup olmadığını görmek açısından önemlidir.",
+        "Ardından fiziksel değerlendirme yapılır: boyun hareket açıklığı, hangi yönlerin sınırlı olduğu, çevre dokuların gerginliği, derin boyun kaslarının dayanıklılığı, kürek kemiğinin hareket kontrolü ve üst ekstremiteye yönelik sinir mobilitesi bakılır.",
         "Bulgular bir araya getirildikten sonra hedefler birlikte konuşulur ve program kişiye özel planlanır. Herkese aynı içerik uygulanmaz; süreç, kişinin verdiği yanıta göre seans seans güncellenir."
       ]
     },
@@ -400,13 +363,6 @@ export const boyunFitigiIcerik = {
       ]
     },
     {
-      "h2": "Hekim değerlendirmesinin öne alındığı durumlar",
-      "paragraflar": [
-        "Bazı bulgular varlığında fizyoterapi programına başlamadan önce hekim değerlendirmesi öncelikli olur. Bunlar; kolda giderek belirginleşen kuvvet kaybı, elde beceri kaybı gibi ince hareketlerde zorlanma, yürüyüş ve dengede değişiklik, her iki kola birden yayılan belirtiler, düşme veya darbe sonrası başlayan şikâyet, açıklanamayan ateş ve kilo kaybı ile mesane veya bağırsak kontrolünde değişikliktir.",
-        "Bu tabloların hiçbiri kendi başına bir sonuç anlamına gelmez; yalnızca sıralamanın değişmesini gerektirir. Tanı ve tedavi kararı hekime aittir. Böyle bir bulgu görüldüğünde kişi ilgili hekime yönlendirilir, fizyoterapi süreci de hekimin belirlediği çerçevede planlanır."
-      ]
-    },
-    {
       "h2": "Günlük yaşamda uygulanabilir düzenlemeler",
       "paragraflar": [
         "Klinikte geçirilen süre, haftanın toplamı içinde küçük bir bölümdür. Sonucu belirleyen, günün geri kalanında boynun nasıl kullanıldığıdır. Bu yüzden değerlendirme sırasında uyku düzeni, araç kullanımı, çanta taşıma alışkanlığı ve iş düzeni de konuşulur; değişiklik önerileri kişinin gerçekten sürdürebileceği ölçüde tutulur."
@@ -433,7 +389,7 @@ export const boyunFitigiIcerik = {
     {
       "h2": "Ameliyat kararı ve ameliyat sonrası dönem",
       "paragraflar": [
-        "Cerrahi kararı hekime aittir ve klinik tabloya, muayene bulgularına ve görüntüleme sonucuna göre verilir. Fizyoterapi bu kararın yerine geçmez; ameliyat gerekip gerekmediği sorusu klinikte değil, ilgili hekimin değerlendirmesinde yanıtlanır. Kişi ameliyatsız izlenecekse program bu çerçevede, cerrahi planlandıysa hekimin verdiği takvime göre kurulur.",
+        "Kişi ameliyatsız izlenecekse program bu çerçevede, cerrahi planlandıysa hekimin verdiği takvime göre kurulur.",
         "Ameliyat sonrası dönemde fizyoterapi, cerrahın belirlediği hareket kısıtları, boyun desteği kullanımı ve doku iyileşme süreci gözetilerek planlanır. Bu dönemde ilerleme hızını protokol belirler; hareket açıklığı ve yüklenme, izin verilen sınırların dışına çıkarılmaz. Ameliyat sonrası fizyoterapi süreci blog bölümünde ayrıca ele alınmıştır."
       ]
     },
@@ -495,7 +451,7 @@ export const boyunFitigiIcerik = {
     },
     {
       "soru": "Fizyoterapiye başlamak için MR gerekli mi?",
-      "cevap": "Görüntüleme isteme kararı hekime aittir. Elinizde bir rapor varsa getirmeniz değerlendirmeye katkı sağlar. Rapor yoksa ve muayenede hekim değerlendirmesi gerektiren bir bulgu görülürse, süreç öncesinde ilgili hekime yönlendirme yapılır."
+      "cevap": "Elinizde bir rapor varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Kaç seans sürer?",
@@ -515,7 +471,7 @@ export const boyunFitigiIcerik = {
     },
     {
       "soru": "Ameliyat gerekir mi?",
-      "cevap": "Bu kararı ilgili hekim verir; muayene bulguları ve görüntüleme sonucu birlikte değerlendirilir. Klinikte ameliyat kararı verilmez. Cerrahi planlandıysa fizyoterapi, hekimin belirlediği hareket kısıtları ve takvim çerçevesinde yürütülür."
+      "cevap": "Bu kararı ilgili hekim verir; muayene bulguları ve görüntüleme sonucu birlikte değerlendirilir. Klinikte ameliyat kararı verilmez."
     },
     {
       "soru": "Randevu nasıl alınır ve klinik nerede?",
@@ -544,7 +500,7 @@ export const norolojikRehabilitasyonIcerik = {
       "h2": "Nörolojik rehabilitasyon nedir, hangi durumlarda gündeme gelir",
       "paragraflar": [
         "Nörolojik rehabilitasyon, beyin, beyin sapı, omurilik veya çevresel sinirleri etkileyen bir durumun ardından hareket, denge ve günlük yaşam becerilerinin yeniden düzenlenmesi üzerine kurulu bir fizyoterapi alanıdır. Kas kuvvetini artırmak tek başına yeterli olmaz; asıl mesele, sinir sisteminin hareketi nasıl planladığı, kasları hangi sırayla devreye soktuğu ve vücudun dengeyi hangi bilgilerle koruduğudur.",
-        "Bu başlık altında en sık karşılaşılan tablolar inme (felç) sonrası dönem, multipl skleroz, Parkinson hastalığı, denge ve baş dönmesi sorunları, travmatik beyin ve omurilik yaralanmaları ile periferik sinir tutulumlarıdır. Tanı hekim tarafından konur, tıbbi tedavi hekim tarafından yürütülür. Fizyoterapi süreci bu tanının ve hekimin yönlendirmesinin üzerine kurulur.",
+        "Bu başlık altında en sık karşılaşılan tablolar inme (felç) sonrası dönem, multipl skleroz, Parkinson hastalığı, denge ve baş dönmesi sorunları, travmatik beyin ve omurilik yaralanmaları ile periferik sinir tutulumlarıdır. Fizyoterapi süreci bu tanının ve hekimin yönlendirmesinin üzerine kurulur.",
         "Kliniğe gelen kişilerin çoğu bir tanı adıyla değil, bir zorlanmayla gelir: elin eskisi gibi tutamaması, yürürken bir yana kayma hissi, kaldırımda takılma, kalabalık ortamda dengesizlik, yorgunluğun günün yarısını alması. Değerlendirme de tam bu noktadan, kişinin kendi anlattığı zorlanmadan başlar."
       ]
     },
@@ -553,7 +509,7 @@ export const norolojikRehabilitasyonIcerik = {
       "paragraflar": [
         "İnme sonrasında beynin etkilenen bölgesine bağlı olarak vücudun bir yarısında güç kaybı, kas tonusunda değişiklik, his kaybı, denge ve konuşma sorunları görülebilir. Fizyoterapi tarafında amaç, kişinin o an yapabildiği hareketi güvenli biçimde genişletmek ve etkilenen tarafı günlük kullanımın içine yeniden sokmaktır.",
         "Çalışma genellikle yatak içi hareket ve oturma dengesinden başlar; oturmadan ayağa kalkma, ayakta durma, iki taraf arasında ağırlık aktarma ve yürüme sırasına doğru ilerler. Etkilenen kolun omuz güvenliği ayrı bir başlıktır, çünkü destek verilmediğinde omuz eklemi zorlanabilir. Bu nedenle pozisyonlama ve taşıma yöntemleri süreç başında konuşulur.",
-        "Kas tonusundaki artış, yani spastisite, hareketi kısıtladığında germe, pozisyonlama ve hareketi kolaylaştıran çalışmalar programa eklenir. Bu tabloda tıbbi tedavi kararı hekimindir; fizyoterapi programı hekimin planıyla birlikte, onunla uyumlu biçimde yürür."
+        "Kas tonusundaki artış, yani spastisite, hareketi kısıtladığında germe, pozisyonlama ve hareketi kolaylaştıran çalışmalar programa eklenir."
       ],
       "liste": [
         {
@@ -679,9 +635,9 @@ export const norolojikRehabilitasyonIcerik = {
       ]
     },
     {
-      "h2": "Süreci kim yürütür, hekim takibiyle nasıl ilişkilenir",
+      "h2": "Süreci kim yürütür?",
       "paragraflar": [
-        "Tanı, ilaç düzeni ve tıbbi takip nöroloji hekiminin sorumluluğundadır. Fizyoterapi süreci bu çerçeveyi değiştirmez; hekimin belirlediği sınırlar içinde hareket, denge ve günlük yaşam becerileri üzerinde çalışılır.",
+        "Tanı, ilaç düzeni ve tıbbi takip nöroloji hekiminin sorumluluğundadır.",
         "Kadıköy nörolojik rehabilitasyon randevuları fizyoterapist Onur Yalçın tarafından yürütülür. Elinizde varsa epikriz, görüntüleme raporu ve kullandığınız ilaçların listesini ilk görüşmeye getirmeniz değerlendirmeyi kolaylaştırır."
       ]
     },
@@ -697,7 +653,7 @@ export const norolojikRehabilitasyonIcerik = {
   "sss": [
     {
       "soru": "Nörolojik rehabilitasyona hekim yönlendirmesi olmadan başlanabilir mi?",
-      "cevap": "Tanı ve tedavi kararı hekime aittir. Nörolojik tablolarda fizyoterapi programı, hekimin tanısı ve yönlendirmesi üzerine kurulur. Elinizde güncel bir hekim değerlendirmesi yoksa önce bu adımın tamamlanması istenir."
+      "cevap": "Nörolojik tablolarda fizyoterapi programı, ayrıntılı değerlendirme bulgularına göre kurulur."
     },
     {
       "soru": "Süreç kaç seans sürer?",
@@ -705,11 +661,7 @@ export const norolojikRehabilitasyonIcerik = {
     },
     {
       "soru": "İnme sonrası fizyoterapiye ne zaman başlanır?",
-      "cevap": "Başlama zamanı hekimin klinik değerlendirmesine göre belirlenir. Kişinin genel tıbbi durumu uygun olduğunda, hekimin onayıyla ve o dönemde güvenli olan çalışmalarla başlanır."
-    },
-    {
-      "soru": "Fizyoterapist ile fizik tedavi ve rehabilitasyon hekimi arasındaki fark nedir?",
-      "cevap": "Fizik tedavi ve rehabilitasyon hekimi tıp doktorudur; tanı koyar ve tıbbi tedaviyi yönetir. Fizyoterapist ise fizyoterapi ve rehabilitasyon lisans eğitimi almış bir sağlık meslek mensubudur ve hekimin tanısı doğrultusunda değerlendirme yaparak fizyoterapi programını yürütür. Onur Yalçın fizyoterapisttir."
+      "cevap": "Kişinin genel tıbbi durumu uygun olduğunda, ve o dönemde güvenli olan çalışmalarla başlanır."
     },
     {
       "soru": "MS'te egzersiz yorgunluğu artırır mı?",
@@ -721,7 +673,7 @@ export const norolojikRehabilitasyonIcerik = {
     },
     {
       "soru": "Baş dönmesi için gelen herkese aynı egzersizler mi veriliyor?",
-      "cevap": "Hayır. Baş dönmesinin kaynağı ve tetikleyicileri kişiden kişiye farklıdır. Önce hekim tanısı ve ayrıntılı bir değerlendirme gerekir; bakış sabitleme, alışma ve denge çalışmaları kişinin tablosuna göre seçilir."
+      "cevap": "Hayır. Baş dönmesinin kaynağı ve tetikleyicileri kişiden kişiye farklıdır. Önce ayrıntılı bir değerlendirme yapılır; bakış sabitleme, alışma ve denge çalışmaları kişinin tablosuna göre seçilir."
     },
     {
       "soru": "Seanslara bir yakınım eşlik edebilir mi?",
@@ -764,8 +716,8 @@ export const ameliyatSonrasiRehabilitasyonIcerik = {
     {
       "h2": "Cerrahınızın Protokolü Programın Çerçevesini Belirler",
       "paragraflar": [
-        "Ameliyatı yapan hekim, onarılan dokunun ne zaman ne kadar yüklenebileceğini bilen kişidir. Bu nedenle fizyoterapi programı cerrahın protokolünün üzerine kurulur; onun yerine geçmez, sınırlarını kendiliğinden genişletmez. Elinizde yazılı bir protokol varsa ilk görüşmeye getirmeniz planlamayı doğrudan kolaylaştırır.",
-        "Protokol yoksa ya da eksikse çalışma daha temkinli bir çerçevede başlar ve ameliyat raporu üzerinden ilerlenir. Gerekli görülen noktalarda cerrahınıza sorulacak başlıklar sizinle birlikte not edilir. Tanı ve tedavi kararı hekime aittir; fizyoterapi bu kararın uygulama ayağını yürütür."
+        "Ameliyatı yapan hekim, onarılan dokunun ne zaman ne kadar yüklenebileceğini bilen kişidir. Elinizde yazılı bir protokol varsa ilk görüşmeye getirmeniz planlamayı doğrudan kolaylaştırır.",
+        "Protokol yoksa ya da eksikse çalışma daha temkinli bir çerçevede başlar ve ameliyat raporu üzerinden ilerlenir. Gerekli görülen noktalarda cerrahınıza sorulacak başlıklar sizinle birlikte not edilir."
       ],
       "liste": [
         {
@@ -936,7 +888,7 @@ export const ameliyatSonrasiRehabilitasyonIcerik = {
       "h2": "Seans Dışında Ne Yapılır?",
       "paragraflar": [
         "Ameliyat sonrası sürecin büyük bölümü klinik dışında geçer. Bu nedenle ev programı yardımcı bir ek değil, programın temel parçasıdır. Egzersizler yazılı ve görsel olarak verilir, uygulama seans içinde birlikte denenir ve gerekirse düzeltilir.",
-        "Ne kadar, hangi sıklıkta yapılacağı kadar hangi durumda durulacağı da anlatılır. Artan şişlik, dinmeyen ağrı, ateş ya da yara bölgesinde değişiklik gibi durumlarda egzersize devam edilmez ve hekime başvurulması gerekir. Bu sınırların baştan bilinmesi, evde tereddüde düşülen anlarda yol gösterir.",
+        "Ne kadar, hangi sıklıkta yapılacağı kadar hangi durumda durulacağı da anlatılır. Bu sınırların baştan bilinmesi, evde tereddüde düşülen anlarda yol gösterir.",
         "Uyku pozisyonu, oturma düzeni, çalışma masası yüksekliği ve taşıma alışkanlıkları da gözden geçirilir. Kozyatağı çevresindeki iş merkezlerinde masa başında uzun süre çalışan kişiler için bu düzenlemeler ayrıca ele alınır, çünkü günün büyük bölümü bu pozisyonda geçer."
       ]
     },
@@ -981,11 +933,11 @@ export const ameliyatSonrasiRehabilitasyonIcerik = {
     },
     {
       "soru": "Cerrahımın yazılı bir protokolü yok, yine de gelebilir miyim?",
-      "cevap": "Gelebilirsiniz. Protokol yoksa çalışma daha temkinli bir çerçevede başlar ve ameliyat raporu üzerinden ilerlenir. Cerrahınıza sorulması gereken noktalar sizinle birlikte not edilir. Doku yüklenmesini ilgilendiren kararlar hekim onayı olmadan genişletilmez."
+      "cevap": "Gelebilirsiniz. Protokol yoksa çalışma daha temkinli bir çerçevede başlar ve ameliyat raporu üzerinden ilerlenir. Cerrahınıza sorulması gereken noktalar sizinle birlikte not edilir."
     },
     {
       "soru": "Egzersizler ağrı yapar mı?",
-      "cevap": "Ameliyat sonrasında hareket sırasında bir miktar rahatsızlık hissedilmesi olağandır. Ancak egzersizin dinmeyen, saatler sonra artan ya da şişlikle birlikte gelen bir ağrı bırakması beklenmez. Böyle bir durumda yük ve tekrar sayısı yeniden ayarlanır; tabloda değişiklik varsa hekim değerlendirmesi istenir."
+      "cevap": "Ameliyat sonrasında hareket sırasında bir miktar rahatsızlık hissedilmesi olağandır. Ancak egzersizin dinmeyen, saatler sonra artan ya da şişlikle birlikte gelen bir ağrı bırakması beklenmez. Böyle bir durumda yük ve tekrar sayısı yeniden ayarlanır."
     },
     {
       "soru": "Diz protezi ameliyatından sonra nelere dikkat edilir?",
@@ -1089,7 +1041,7 @@ export const ceneEklemiTmeIcerik = {
       "h2": "Çene kilitlenmesi: ağzın açılmaması ya da kapanmaması",
       "paragraflar": [
         "Çene kilitlenmesi iki farklı biçimde anlatılır. Bazı kişilerde ağız belirli bir noktadan sonra açılmaz ve çene o tarafa doğru kayar. Bazılarında ise ağız açıldıktan sonra kapanmakta zorlanır. İkisi de eklem içi diskin konumu ve çevredeki kasların durumuyla ilişkilidir.",
-        "Ani gelişen ve devam eden kilitlenmelerde önce hekim değerlendirmesi gerekir. Zorlayarak açma kapama denemeleri tabloyu artırabilir. Değerlendirmenin ardından hareket açıklığını kademeli olarak geri kazandırmaya yönelik kontrollü egzersizler ve elle uygulanan teknikler planlanabilir.",
+        "Zorlayarak açma kapama denemeleri tabloyu artırabilir. Değerlendirmenin ardından hareket açıklığını kademeli olarak geri kazandırmaya yönelik kontrollü egzersizler ve elle uygulanan teknikler planlanabilir.",
         "Tekrarlayan takılmalarda amaç, çenenin açılma yolunu düzenlemek ve kasların hareketi tek yöne çekmesini azaltmaktır. Bu, ayna karşısında yapılan yönlendirilmiş açma kapama çalışmalarıyla desteklenir. İlerleme, ağız açıklığının ve hareket kalitesinin belirli aralıklarla yeniden ölçülmesiyle izlenir."
       ]
     },
@@ -1098,7 +1050,7 @@ export const ceneEklemiTmeIcerik = {
       "paragraflar": [
         "Şakak bölgesinde başlayan, gün ilerledikçe artan ve çiğnemekle belirginleşen baş ağrıları, çiğneme kaslarının aşırı yüklenmesiyle birlikte görülebilir. Kişi ağrının kaynağını çenede aramadığı için süreç uzayabilir ve şikâyet farklı başlıklar altında değerlendirilebilir.",
         "Yüz ve kulak bölgesindeki şikâyetler de benzer şekilde karışabilir. Kulakta dolgunluk, çınlama benzeri hisler ve yutkunurken rahatsızlık, çene ekleminin kulak kanalına yakınlığı nedeniyle bu bölgeye yansıyabilir.",
-        "Baş ağrısının ve kulak şikâyetlerinin pek çok başka nedeni bulunur. Ayırıcı değerlendirme ve tanı hekimin alanındadır. Fizyoterapi, hekim değerlendirmesinin ardından tablonun kas ve eklem kaynaklı bileşenine yönelir."
+        "Baş ağrısının ve kulak şikâyetlerinin pek çok başka nedeni bulunur. Fizyoterapi, tablonun kas ve eklem kaynaklı bileşenine yönelir."
       ]
     },
     {
@@ -1183,14 +1135,6 @@ export const ceneEklemiTmeIcerik = {
       ]
     },
     {
-      "h2": "Diş hekimi ile iş birliği ve gece plağının yeri",
-      "paragraflar": [
-        "Çene eklemi şikâyetleri çoğu zaman tek bir meslek grubunun alanına sığmaz. Diş aşınması, kapanış ilişkisi, dolgu ve protez uyumu, ortodontik durum ve gece plağı planlaması diş hekiminin değerlendirmesini gerektirir.",
-        "Gece plağı, çiğneme kaslarının gece boyunca ürettiği yükün dişler üzerindeki etkisini azaltmaya yönelik olarak diş hekimi tarafından planlanır. Plak kullanan kişilerde fizyoterapi, kas gerginliği ve hareket kalitesi tarafına odaklanır. İki yaklaşım birbirinin yerine geçmez; birlikte yürütülmesi tercih edilir.",
-        "Kliniğe diş hekimi yönlendirmesiyle gelen kişilerde, yapılan değerlendirme ve planlanan program hakkında hekimle bilgi paylaşımı kişinin onayıyla sürdürülür. Tanı ve tedavi kararı hekime aittir; bu sayfadaki bilgiler bilgilendirme amaçlıdır."
-      ]
-    },
-    {
       "h2": "Günlük alışkanlıklar ve ev programı",
       "paragraflar": [
         "Klinikte yapılanlar kadar gün içindeki alışkanlıklar da tabloyu etkiler. Bu nedenle her programın bir ev bileşeni olur ve bu bileşen kişinin günlük düzenine göre şekillenir.",
@@ -1237,7 +1181,7 @@ export const ceneEklemiTmeIcerik = {
       "h2": "İlerleme nasıl izlenir, program neye göre güncellenir",
       "paragraflar": [
         "Takip; ağzın açılma miktarı, ağrının hangi hareketlerde ortaya çıktığı ve günlük işlerde ne kadar zorlanıldığı üzerinden yapılır. Kişinin kendi aktarımı da bu tabloya eklenir. Aynı ölçümler belirli aralıklarla tekrarlanır, böylece değişim izlenime değil karşılaştırılabilir kayda dayanır.",
-        "Kadıköy çene eklemi fizyoterapisi sürecinde program sabit değildir. Yanıt beklenenden farklı seyrederse yaklaşım gözden geçirilir, egzersizlerin türü veya yoğunluğu değiştirilir. Tablo fizyoterapi kapsamının dışına işaret ediyorsa hekim ya da diş hekimi değerlendirmesi için yönlendirme yapılır."
+        "Kadıköy çene eklemi fizyoterapisi sürecinde program sabit değildir. Yanıt beklenenden farklı seyrederse yaklaşım gözden geçirilir, egzersizlerin türü veya yoğunluğu değiştirilir."
       ]
     },
     {
@@ -1255,7 +1199,7 @@ export const ceneEklemiTmeIcerik = {
     },
     {
       "soru": "Çenemden ses geliyor ama ağrım yok. Yine de başvurmalı mıyım?",
-      "cevap": "Ağrısız sesler her zaman bir sorun anlamına gelmez. Ancak ses zamanla artıyorsa, ağız açıklığı azalıyorsa ya da takılma hissi ekleniyorsa değerlendirme yapılması yerinde olur. Değerlendirme, hareketin nasıl ilerlediğini görmek için yapılır; tanı hekimin alanındadır."
+      "cevap": "Ağrısız sesler her zaman bir sorun anlamına gelmez. Ancak ses zamanla artıyorsa, ağız açıklığı azalıyorsa ya da takılma hissi ekleniyorsa değerlendirme yapılması yerinde olur. Değerlendirme, hareketin nasıl ilerlediğini görmek için yapılır."
     },
     {
       "soru": "Diş sıkma alışkanlığım var. Fizyoterapi bunun neresinde?",
@@ -1271,15 +1215,15 @@ export const ceneEklemiTmeIcerik = {
     },
     {
       "soru": "Çenem kilitlendi, ne yapmalıyım?",
-      "cevap": "Ani gelişen ve devam eden kilitlenmede önce hekim değerlendirmesi gerekir. Zorlayarak açma kapama denemelerinden kaçınmak yerinde olur. Hekim değerlendirmesinin ardından hareket açıklığını kademeli olarak çalışan bir fizyoterapi programı planlanabilir."
+      "cevap": "Zorlayarak açma kapama denemelerinden kaçınmak yerinde olur. Hareket açıklığını kademeli olarak çalışan bir fizyoterapi programı planlanabilir."
     },
     {
       "soru": "Baş ağrımın çeneden kaynaklandığını nasıl anlarım?",
-      "cevap": "Şakak bölgesinde yoğunlaşan, çiğnemekle ya da uzun konuşmayla artan ve sabah çene yorgunluğunun eşlik ettiği baş ağrıları çiğneme kaslarıyla ilişkili olabilir. Ancak baş ağrısının pek çok başka nedeni bulunur. Ayırıcı değerlendirme hekimin alanındadır; fizyoterapi bu değerlendirmenin ardından kas ve eklem bileşenine yönelir."
+      "cevap": "Şakak bölgesinde yoğunlaşan, çiğnemekle ya da uzun konuşmayla artan ve sabah çene yorgunluğunun eşlik ettiği baş ağrıları çiğneme kaslarıyla ilişkili olabilir. Ancak baş ağrısının pek çok başka nedeni bulunur."
     },
     {
       "soru": "MR ya da tomografi gerekli mi?",
-      "cevap": "Görüntüleme kararı hekime aittir ve her çene şikâyetinde istenmez. Daha önce çekilmiş bir görüntüleme veya rapor varsa ilk görüşmeye getirmeniz değerlendirmede yardımcı olur."
+      "cevap": "Daha önce çekilmiş bir görüntüleme veya rapor varsa ilk görüşmeye getirmeniz değerlendirmede yardımcı olur."
     },
     {
       "soru": "Seans sırasında ağız içine dokunuluyor mu?",
@@ -1375,8 +1319,7 @@ export const sporYaralanmalariIcerik = {
       "h2": "İlk Değerlendirmede Neler Yapılır?",
       "paragraflar": [
         "İlk görüşme, hikâyenin dinlenmesiyle başlar. Yaralanma ne zaman ve nasıl oldu, o an ne hissedildi, hangi hareket şu anda ağrıyı artırıyor, hangi hareket rahat, günlük hayatta ve sporda neler kısıtlanmış durumda. Daha önce çekilmiş görüntüleme ve hekim raporu varsa birlikte gözden geçirilir.",
-        "Ardından fiziksel değerlendirme gelir: eklem hareket açıklığının ölçülmesi, kas kuvvetinin karşılaştırmalı incelenmesi, şişlik ve hassasiyetin haritalanması, denge ve yük aktarımının gözlenmesi. Yürüyüş, çömelme, tek ayak duruş gibi temel hareketler izlenir. Amaç, ağrının bildirildiği yeri değil, o yükün nereden geldiğini anlamaktır; diz ağrısı kalça ya da ayak bileğinden kaynaklanan bir kontrol sorununun sonucu olabilir.",
-        "Tanı koymak ve tedavi kararı vermek hekimin görev alanıdır. Değerlendirme sırasında hekim görüşü gerektiren bir bulgu görülürse bu açıkça belirtilir ve yönlendirme yapılır. Fizyoterapi programı, hekimin koyduğu tanı ve verdiği sınırlar çerçevesinde planlanır."
+        "Ardından fiziksel değerlendirme gelir: eklem hareket açıklığının ölçülmesi, kas kuvvetinin karşılaştırmalı incelenmesi, şişlik ve hassasiyetin haritalanması, denge ve yük aktarımının gözlenmesi. Yürüyüş, çömelme, tek ayak duruş gibi temel hareketler izlenir. Amaç, ağrının bildirildiği yeri değil, o yükün nereden geldiğini anlamaktır; diz ağrısı kalça ya da ayak bileğinden kaynaklanan bir kontrol sorununun sonucu olabilir."
       ]
     },
     {
@@ -1447,7 +1390,7 @@ export const sporYaralanmalariIcerik = {
       "h2": "Programı Kim Yürütüyor?",
       "paragraflar": [
         "Değerlendirme, egzersiz seçimi ve seans takibi Fizyoterapist Onur Yalçın tarafından yürütülür; randevular Pazartesi ile Cumartesi arasında planlanır.",
-        "Kadıköy spor yaralanmaları rehabilitasyonu boyunca klinik seansları ile ev programı birlikte ele alınır; tanı ve tedavi kararı hekime aittir."
+        "Kadıköy spor yaralanmaları rehabilitasyonu boyunca klinik seansları ile ev programı birlikte ele alınır."
       ]
     },
     {
@@ -1468,7 +1411,7 @@ export const sporYaralanmalariIcerik = {
   "sss": [
     {
       "soru": "Spor yaralanmasından sonra fizyoterapiye ne zaman başlamak gerekir?",
-      "cevap": "Başlangıç zamanı yaralanmanın türüne ve şiddetine göre değişir. Şişlik, belirgin şekil bozukluğu, ayak basamama ya da eklemde boşalma hissi varsa önce hekim değerlendirmesi gerekir. Hekim tarafından ciddi bir yapısal sorun dışlandıktan sonra erken dönemde başlanan kontrollü çalışma, hareket kaybını ve kas kuvvetindeki düşüşü sınırlamaya yöneliktir. Değerlendirme yapılmadan uzaktan bir başlangıç tarihi söylemek doğru olmaz."
+      "cevap": "Başlangıç zamanı yaralanmanın türüne ve şiddetine göre değişir. Hekim tarafından ciddi bir yapısal sorun dışlandıktan sonra erken dönemde başlanan kontrollü çalışma, hareket kaybını ve kas kuvvetindeki düşüşü sınırlamaya yöneliktir. Değerlendirme yapılmadan uzaktan bir başlangıç tarihi söylemek doğru olmaz."
     },
     {
       "soru": "Ağrım geçtiyse spora dönebilir miyim?",
@@ -1492,7 +1435,7 @@ export const sporYaralanmalariIcerik = {
     },
     {
       "soru": "Ameliyat olmadan iyileşmesi mümkün mü?",
-      "cevap": "Ameliyat gerekip gerekmediği bir hekim kararıdır ve yaralanan yapıya, yaralanmanın derecesine, ek yaralanmaların varlığına ve kişinin hedeflerine göre değişir. Bu sorunun yanıtı fizyoterapi kapsamında verilemez. Hekimin ameliyatsız takip kararı verdiği durumlarda rehabilitasyon programı bu karara göre planlanır."
+      "cevap": "Bu sorunun yanıtı fizyoterapi kapsamında verilemez. Hekimin ameliyatsız takip kararı verdiği durumlarda rehabilitasyon programı bu karara göre planlanır."
     },
     {
       "soru": "Seanslarda neler yapılıyor?",
@@ -1500,7 +1443,7 @@ export const sporYaralanmalariIcerik = {
     },
     {
       "soru": "Yaralanmanın ilk gününde buz mu sıcak mı uygulamalıyım?",
-      "cevap": "Akut dönemde, yani ilk saatlerde şişlik ve sıcaklık artışı varken genellikle soğuk uygulama tercih edilir; sıcak uygulama bu dönemde şişliği artırabilir. Uygulamanın süresi ve sıklığı kişiye ve bölgeye göre değişir, cilde doğrudan temas ettirilmemesi önerilir. Şişlik geçmiyorsa, ayak basılamıyorsa ya da belirgin bir şekil bozukluğu varsa hekim değerlendirmesi gerekir."
+      "cevap": "Akut dönemde, yani ilk saatlerde şişlik ve sıcaklık artışı varken genellikle soğuk uygulama tercih edilir; sıcak uygulama bu dönemde şişliği artırabilir. Uygulamanın süresi ve sıklığı kişiye ve bölgeye göre değişir, cilde doğrudan temas ettirilmemesi önerilir."
     },
     {
       "soru": "Kliniğe nasıl ulaşabilirim ve randevu nasıl alınır?",
@@ -1575,7 +1518,7 @@ export const ofisCalisanlariFizyoterapiIcerik = {
       "h2": "Değerlendirme nasıl ilerler",
       "paragraflar": [
         "Süreç, şikâyetin ne zaman başladığı, hangi hareketle arttığı ve gün içinde nasıl değiştiğiyle ilgili ayrıntılı bir görüşmeyle açılır. Ardından duruş gözlemi, eklem hareket açıklığı ölçümü, kas kuvveti ve esneklik testleri ile hareket kalitesinin incelenmesi gelir.",
-        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Program sabit bir şablon değildir; ara değerlendirmelerle içeriği ve şiddeti güncellenir. Tanı ve tedavi kararının hekime ait olduğu, fizyoterapi sürecinin bu karar çerçevesinde yürüdüğü baştan paylaşılır.",
+        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Program sabit bir şablon değildir; ara değerlendirmelerle içeriği ve şiddeti güncellenir.",
         "Değerlendirme tek seferlik bir işlem değildir. Program ilerledikçe bulgular yeniden ölçülür; beklenenden farklı seyreden bir bölüm varsa yaklaşım değiştirilir. Bu ara kontroller, kişinin kendi gözlemleriyle birlikte yorumlanır."
       ],
       "liste": [
@@ -1685,7 +1628,7 @@ export const ofisCalisanlariFizyoterapiIcerik = {
       "h2": "Masa başı yaşam ve pelvik taban",
       "paragraflar": [
         "Uzun süreli oturma, gövde içi basıncın yönetildiği alt bölgeyi de ilgilendirir. Pelvik taban kasları gövde kontrolünün alt sınırını oluşturur ve nefesle birlikte çalışır; hareketsizlik bu koordinasyonu etkileyebilir.",
-        "Bu başlık, kişi kendisi tarif ettiğinde ya da değerlendirme bulguları işaret ettiğinde programa dâhil edilir. Konu mahremiyet içerdiğinden değerlendirme ve uygulama kişinin bilgisi ve onayıyla, gerektiğinde hekim yönlendirmesi dikkate alınarak yürütülür.",
+        "Bu başlık, kişi kendisi tarif ettiğinde ya da değerlendirme bulguları işaret ettiğinde programa dâhil edilir.",
         "Bu alanla ilgili çalışmalar da diğer bölgelerde olduğu gibi değerlendirmeyle başlar ve kişiye göre planlanır. Herkese aynı egzersiz listesi verilmez; kasların hangi yönde ve hangi yoğunlukta çalıştırılacağı bulgulara göre belirlenir."
       ],
       "baglantilar": [
@@ -1715,14 +1658,6 @@ export const ofisCalisanlariFizyoterapiIcerik = {
         "Değerlendirme ve seanslar Fizyoterapist Onur Yalçın tarafından yürütülür; görüşmeler Kozyatağı'nda Gülbahar Sokak'taki klinikte yapılır.",
         "Kadıköy ofis çalışanları fizyoterapisi randevuları Pazartesi ile Cumartesi arasında 09:00 ve 21:00 saatleri içinde planlanır."
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde hekim değerlendirmesini gerektirir. Kola ya da bacağa yayılan uyuşma ile birlikte güç kaybı, dinlenmeyle azalmayan ve gece belirginleşen ağrı, düşme veya darbe sonrası başlayan şikâyetler, ateşin eşlik ettiği tablolar bunlar arasında sayılabilir.",
-        "Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır. Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez.",
-        "Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında da yeniden değerlendirme yapılır. Şikâyetin beklenenden farklı seyretmesi, programın gözden geçirilmesi için yeterli bir nedendir."
-      ]
     }
   ],
   "sss": [
@@ -1740,11 +1675,11 @@ export const ofisCalisanlariFizyoterapiIcerik = {
     },
     {
       "soru": "Klinik reformer pilates ofis çalışanları için uygun mu?",
-      "cevap": "Reformer'da direnç ve destek miktarı ayarlanabildiği için hareketler başlangıç seviyesine göre de düzenlenebilir. Uygunluk değerlendirme sonrasında, varsa hekim yönlendirmesi de dikkate alınarak belirlenir ve egzersizler kişinin bulgularına göre seçilir."
+      "cevap": "Reformer'da direnç ve destek miktarı ayarlanabildiği için hareketler başlangıç seviyesine göre de düzenlenebilir."
     },
     {
       "soru": "Görüntüleme sonucu ya da rapor getirmem gerekir mi?",
-      "cevap": "Elinizde bir görüntüleme sonucu veya hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar. Görüntüleme isteme yetkisi hekime aittir; fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Elinizde bir görüntüleme sonucu veya hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "İş yerinde uygulayabileceğim hareketler veriliyor mu?",
@@ -1757,10 +1692,6 @@ export const ofisCalisanlariFizyoterapiIcerik = {
     {
       "soru": "Kliniğe ulaşım nasıl sağlanıyor?",
       "cevap": "Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir. Kozyatağı metro istasyonuna yürüme mesafesinde olduğu için ofis çıkışında toplu taşımayla ulaşım pratiktir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Fiziksel tıp ve rehabilitasyon hekimliği ayrı bir hekim ünvanıdır; tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist ise değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     },
     {
       "soru": "İlk randevuya nasıl hazırlanmalıyım?",
@@ -1778,7 +1709,7 @@ export const ofisCalisanlariFizyoterapiIcerik = {
 export const idrarKacirmaIcerik = {
   "slug": "idrar-kacirma-kadikoy",
   "title": "Kadıköy idrar kaçırma fizyoterapisi | Fzt. Onur Yalçın",
-  "metaDescription": "Kadıköy idrar kaçırma fizyoterapisi: zorlanma ve ani sıkışma tipinin ayrımı, hekim yönlendirmesi sonrası pelvik taban değerlendirmesi ve program.",
+  "metaDescription": "Kadıköy idrar kaçırma fizyoterapisi: zorlanma ve ani sıkışma tipinin ayrımı, pelvik taban değerlendirmesi ve program.",
   "h1": "Kadıköy idrar kaçırma fizyoterapisi ile mesane kontrolü üzerine çalışma",
   "heroAltBaslik": "Hekim değerlendirmesi sonrasında pelvik taban kaslarının işlevine yönelik, mahremiyeti gözeten bir süreç",
   "heroParagraf": "Kadıköy idrar kaçırma fizyoterapisi, idrar kaçırmanın türüne ve altta yatan nedene göre planlanan bir çalışmadır. Bu sayfada kaçırmanın hangi tiplerde görüldüğünü, hekim değerlendirmesinin neden önce geldiğini, fizyoterapi değerlendirmesinin nasıl yürüdüğünü ve mahremiyetin nasıl korunduğunu bulacaksınız. Randevu ve sorularınız için 0507 294 99 00 numaralı telefondan arayabilir ya da WhatsApp üzerinden yazabilirsiniz.",
@@ -1819,16 +1750,8 @@ export const idrarKacirmaIcerik = {
         },
         {
           "baslik": "Taşma biçiminde kaçırma",
-          "metin": "Mesanenin tam boşalamaması ve dolgunluk üzerine sızma biçiminde ortaya çıkar. Bu tablo öncelikle hekim değerlendirmesi gerektirir."
+          "metin": "Mesanenin tam boşalamaması ve dolgunluk üzerine sızma biçiminde ortaya çıkar."
         }
-      ]
-    },
-    {
-      "h2": "Süreç neden hekim değerlendirmesiyle başlar",
-      "paragraflar": [
-        "Fizyoterapi, teşhis koyan bir uygulama değildir. İdrar kaçırmanın arkasında idrar yolu enfeksiyonu, mesane çıkışında engel, nörolojik bir tablo, ilaç etkisi ya da başka bir durum bulunabilir. Bunların ayrımı hekim değerlendirmesiyle yapılır.",
-        "Hekim değerlendirmesi tamamlandıktan ve yönlendirme yapıldıktan sonra fizyoterapi süreci başlar. Elinizde tetkik, konsültasyon notu ya da reçete varsa ilk görüşmeye getirmeniz, çalışmanın doğru zeminde kurulmasını sağlar.",
-        "Bu sıralama gecikme değil, güvenlik gerekçesidir. Altta yatan bir neden atlandığında yalnızca egzersizle ilerlemek sonucu geciktirir."
       ]
     },
     {
@@ -1912,7 +1835,7 @@ export const idrarKacirmaIcerik = {
       "h2": "Erkeklerde idrar kaçırma ve prostat cerrahisi sonrası dönem",
       "paragraflar": [
         "Pelvik taban kasları erkeklerde de bulunur ve boşaltım kontrolünde benzer işlevleri üstlenir.",
-        "Prostat cerrahisi sonrasında idrar kontrolünde değişiklik yaşanabilir ve bu dönemde pelvik taban çalışması hekim yönlendirmesi çerçevesinde gündeme gelir. Çalışmanın ne zaman başlayacağı ve hangi yükle ilerleyeceği ameliyatı yapan hekimin değerlendirmesine bağlıdır.",
+        "Prostat cerrahisi sonrasında idrar kontrolünde değişiklik yaşanabilir ve bu dönemde pelvik taban çalışması gündeme gelir. Çalışmanın ne zaman başlayacağı ve hangi yükle ilerleyeceği ameliyatı yapan hekimin değerlendirmesine bağlıdır.",
         "Bu başlıkta da süreç aynı biçimde yürür: önce değerlendirme, sonra kişiye özel program."
       ]
     },
@@ -1923,34 +1846,6 @@ export const idrarKacirmaIcerik = {
         "Belirleyici olan, evde sürdürülen düzendir. Klinikte geçirilen süre programın küçük bir bölümüdür; günlük hayata yerleşen bir rutin olmadan kazanım kalıcı olmaz. Bu yüzden program, günlük düzeninize sığacak biçimde planlanır.",
         "İlerleme düzenli aralıklarla yeniden değerlendirilir ve program buna göre güncellenir.",
         "Süreç boyunca beklenti yönetimi de programın parçasıdır. Kimi dönemlerde ilerleme durur, kimi dönemlerde hızlanır; bu dalgalanma olağandır ve tek başına programın işlemediği anlamına gelmez. Şikayetin sıklığındaki ve şiddetindeki değişim, tek bir günün gözlemiyle değil belirli aralıklarla yapılan yeniden değerlendirmeyle izlenir."
-      ]
-    },
-    {
-      "h2": "Hangi durumlarda önce hekime başvurmalı",
-      "paragraflar": [
-        "Aşağıdaki bulgular fizyoterapi kapsamı dışındadır ve öncelikle hekim değerlendirmesi gerektirir."
-      ],
-      "liste": [
-        {
-          "baslik": "İdrarda kan görülmesi",
-          "metin": "Gözle görülür kanama hekim değerlendirmesi gerektirir."
-        },
-        {
-          "baslik": "Ateş, yan ağrısı, yanma",
-          "metin": "Enfeksiyon düşündüren bulgularda önce hekime başvurulur."
-        },
-        {
-          "baslik": "İşemeye başlamakta güçlük veya boşaltamama",
-          "metin": "Mesanenin boşaltılamaması acil değerlendirme gerektirebilir."
-        },
-        {
-          "baslik": "Yeni başlayan uyuşma, güçsüzlük veya his kaybı",
-          "metin": "Bacaklarda ya da oturma bölgesinde yeni ortaya çıkan nörolojik belirtiler ivedilikle hekime iletilmelidir."
-        },
-        {
-          "baslik": "Ele gelen şişlik veya sarkma hissi",
-          "metin": "Kasık ya da vajinal bölgede yeni fark edilen şişlik hekim değerlendirmesiyle ele alınır."
-        }
       ]
     },
     {
@@ -2007,7 +1902,7 @@ export const idrarKacirmaIcerik = {
   "sss": [
     {
       "soru": "İdrar kaçırma fizyoterapiyle ele alınabilir mi?",
-      "cevap": "Pelvik taban fizyoterapisi, idrar kaçırmada başvurulan yaklaşımlardan biridir. Sonucun ne olacağı kaçırmanın tipine, altta yatan nedene ve sürecin nasıl sürdürüldüğüne göre değişir. Bu nedenle önce hekim değerlendirmesi, ardından fizyoterapi değerlendirmesi yapılır ve program buna göre planlanır."
+      "cevap": "Pelvik taban fizyoterapisi, idrar kaçırmada başvurulan yaklaşımlardan biridir. Sonucun ne olacağı kaçırmanın tipine, altta yatan nedene ve sürecin nasıl sürdürüldüğüne göre değişir."
     },
     {
       "soru": "Değerlendirmede ne yapılacak, önceden öğrenebilir miyim?",
@@ -2055,10 +1950,10 @@ export const idrarKacirmaIcerik = {
 export const hamilelikFizyoterapisiIcerik = {
   "slug": "hamilelik-fizyoterapisi-kadikoy",
   "title": "Kadıköy hamilelik fizyoterapisi | Fzt. Onur Yalçın",
-  "metaDescription": "Kadıköy hamilelik fizyoterapisi: gebelikte bel ve kasık ağrısı ile duruş için hekim onayı sonrası planlanan egzersiz programı. Kozyatağı.",
+  "metaDescription": "Kadıköy hamilelik fizyoterapisi: gebelikte bel ve kasık ağrısı ile duruş için planlanan egzersiz programı. Kozyatağı.",
   "h1": "Kadıköy hamilelik fizyoterapisi: gebelik boyunca güvenli hareket ve destek",
-  "heroAltBaslik": "Hekim onayı alındıktan sonra, trimestere göre uyarlanan ve kişinin kendi gebelik seyrini gözeten bir program",
-  "heroParagraf": "Kadıköy hamilelik fizyoterapisi, gebelik boyunca bedende oluşan değişikliklerin getirdiği zorlanmaları hekim onayı çerçevesinde ele alan bir çalışmadır. Bu sayfada gebelikte hangi şikayetlerin sık görüldüğünü, programın neden hekim onayına bağlı olduğunu, trimesterlere göre nelerin değiştiğini ve hangi bulgularda hemen hekime başvurulması gerektiğini bulacaksınız. Randevu ve sorularınız için 0507 294 99 00 numaralı telefondan arayabilir ya da WhatsApp üzerinden yazabilirsiniz.",
+  "heroAltBaslik": "Trimestere göre uyarlanan ve kişinin kendi gebelik seyrini gözeten bir program",
+  "heroParagraf": "Kadıköy hamilelik fizyoterapisi, gebelik boyunca bedende oluşan değişikliklerin getirdiği zorlanmaları ele alan bir çalışmadır. Bu sayfada gebelikte hangi şikayetlerin sık görüldüğünü ve trimesterlere göre nelerin değiştiğini bulacaksınız. Randevu ve sorularınız için 0507 294 99 00 numaralı telefondan arayabilir ya da WhatsApp üzerinden yazabilirsiniz.",
   "primaryCtaMetni": "Randevu ve bilgi için arayın",
   "bolumler": [
     {
@@ -2091,21 +1986,12 @@ export const hamilelikFizyoterapisiIcerik = {
         },
         {
           "baslik": "El ve bilekte uyuşma",
-          "metin": "Ödemin artmasıyla sinir sıkışması belirtileri ortaya çıkabilir; bu tablo hekim değerlendirmesi gerektirir."
+          "metin": "Ödemin artmasıyla sinir sıkışması belirtileri ortaya çıkabilir."
         },
         {
           "baslik": "Bacaklarda ağırlık ve kramp",
           "metin": "Dolaşımdaki değişiklikler ve artan yükle ilişkili olabilir."
         }
-      ]
-    },
-    {
-      "h2": "Program neden hekim onayına bağlıdır",
-      "paragraflar": [
-        "Gebelik, hekim takibinin merkezde olduğu bir dönemdir. Egzersizin uygun olup olmadığı, hangi yükle yapılabileceği ve kaçınılması gereken durumlar gebeliğin kendi seyrine göre değişir.",
-        "Bu nedenle çalışma, takibi yürüten hekimin onayı alındıktan sonra başlar. Riskli gebelik, erken doğum tehdidi, plasenta ile ilgili durumlar, kanama öyküsü ve tansiyonla ilgili tablolar egzersiz kararını doğrudan etkiler; bunların değerlendirilmesi hekimin işidir.",
-        "Onay alındıktan sonra bile program sabit kalmaz. Gebelik ilerledikçe ve hekim takibinde yeni bir durum ortaya çıktıkça çalışma yeniden uyarlanır.",
-        "Onay yalnızca bir formalite değildir; çalışmanın sınırlarını da belirler. Hekim belirli bir pozisyondan ya da belirli bir yüklenmeden kaçınılmasını istediğinde program buna göre kurulur ve bu sınır çalışma boyunca korunur."
       ]
     },
     {
@@ -2136,10 +2022,6 @@ export const hamilelikFizyoterapisiIcerik = {
         "Değerlendirme sonunda ne bulunduğu, hangi başlığın öncelikli görüldüğü ve programın neden o biçimde kurulduğu size anlatılır. Anlamadığınız ya da rahatsız olduğunuz bir adım varsa çalışma o adım olmadan da planlanabilir."
       ],
       "liste": [
-        {
-          "baslik": "Hekim notu ve takip bilgileri",
-          "metin": "Gebelik haftası, takip eden hekimin onayı ve varsa özel durumlar gözden geçirilir."
-        },
         {
           "baslik": "Şikayetin ayrıntısı",
           "metin": "Ağrının nerede, hangi hareketle ve günün hangi saatinde ortaya çıktığı konuşulur."
@@ -2192,40 +2074,7 @@ export const hamilelikFizyoterapisiIcerik = {
       "paragraflar": [
         "Gebelikte egzersiz kararı bireyseldir ve hekim değerlendirmesine dayanır. Bununla birlikte program planlanırken bazı başlıklar genel olarak gözetilir.",
         "Nefesin tutulduğu ve karın içi basıncını ani artıran zorlanmalı hareketler, dengeyi zorlayan ve düşme riski taşıyan çalışmalar, aşırı ısınmaya yol açan koşullar ve karın bölgesine doğrudan baskı uygulayan pozisyonlar gözden geçirilir.",
-        "Egzersiz sırasında baş dönmesi, nefes darlığı, göğüs ağrısı, kasılma hissi ya da olağandışı herhangi bir belirti ortaya çıkarsa çalışma durdurulur ve hekime başvurulur.",
         "Grup dersleri ya da genel videolar, gebeliğin kendi seyrini gözetmez. Bu içerikler bilgilendirici olabilir, ancak sizin için uygun olup olmadığı ancak değerlendirme sonrasında söylenebilir."
-      ]
-    },
-    {
-      "h2": "Hangi bulgularda hemen hekime başvurulmalı",
-      "paragraflar": [
-        "Aşağıdaki bulgular fizyoterapi kapsamı dışındadır ve gecikmeden hekim değerlendirmesi gerektirir."
-      ],
-      "liste": [
-        {
-          "baslik": "Kanama veya sıvı gelmesi",
-          "metin": "Her ikisi de ivedilikle hekime iletilmelidir."
-        },
-        {
-          "baslik": "Düzenli ve tekrarlayan kasılmalar",
-          "metin": "Erken doğum belirtisi olabilir; hekim değerlendirmesi gerekir."
-        },
-        {
-          "baslik": "Bebek hareketlerinde azalma",
-          "metin": "Alışılmış hareket düzeninde belirgin azalma hemen bildirilmelidir."
-        },
-        {
-          "baslik": "Şiddetli baş ağrısı, görme değişikliği, ani ödem",
-          "metin": "Tansiyonla ilgili tabloların belirtileri olabilir."
-        },
-        {
-          "baslik": "Ateş, idrar yaparken yanma",
-          "metin": "Enfeksiyon düşündüren bulgularda önce hekime başvurulur."
-        },
-        {
-          "baslik": "Bacakta tek taraflı şişlik, kızarıklık ve ağrı",
-          "metin": "Damarla ilgili bir tablo düşündürebilir; ivedilikle değerlendirilmelidir."
-        }
       ]
     },
     {
@@ -2258,18 +2107,10 @@ export const hamilelikFizyoterapisiIcerik = {
       ]
     },
     {
-      "h2": "Fizyoterapinin sınırı ve hekimin rolü",
-      "paragraflar": [
-        "Fizyoterapi, gebelik takibinin yerine geçmez. Tanı koymak, gebeliğin seyrini değerlendirmek, tetkik istemek ve ilaç düzenlemek hekimin işidir. Bu sayfadaki bilgiler bilgilendirme amaçlıdır ve kişisel bir değerlendirmenin yerini tutmaz.",
-        "Çalışma sırasında hekim değerlendirmesi gerektiren bir bulgu görülürse süreç durdurulur ve size durum aktarılır. Bu, programın aksaması değil, doğru işleyişidir.",
-        "Takibi yürüten hekiminizle iletişimin sürmesi, programın da doğru uyarlanmasını sağlar. Kontrollerde çalışma hakkında bilgi vermeniz önerilir."
-      ]
-    },
-    {
       "h2": "Doğum sonrası döneme geçiş",
       "paragraflar": [
         "Gebelik döneminde kurulan farkındalık, doğum sonrası toparlanmayı doğrudan etkiler. Nefes düzeni ve gövde kontrolü bu iki dönem arasındaki köprüdür.",
-        "Doğumdan sonra çalışmaya ne zaman başlanacağı lohusa dönemi kontrolündeki hekim değerlendirmesine bağlıdır ve doğum biçimine göre değişir. Bu döneme özgü başlıklar doğum sonrası fizyoterapi sayfasında ayrıca ele alınmıştır.",
+        "Bu döneme özgü başlıklar doğum sonrası fizyoterapi sayfasında ayrıca ele alınmıştır.",
         "Doğum sonrası dönemde karın duvarının toparlanması, taşıma ve emzirme pozisyonları ile uyku düzenindeki değişiklikler yeni başlıklar üretir. Gebelikte kurulan alışkanlıklar bu döneme hazırlıksız girilmemesini sağlar."
       ]
     },
@@ -2292,15 +2133,15 @@ export const hamilelikFizyoterapisiIcerik = {
   "sss": [
     {
       "soru": "Gebelikte fizyoterapi güvenli mi?",
-      "cevap": "Bu karar gebeliğin seyrine göre değişir ve takibi yürüten hekim tarafından verilir. Hekim onayı alındıktan sonra program, gebelik haftası ve kişinin durumu gözetilerek uyarlanır. Onay olmadan çalışmaya başlanmaz."
+      "cevap": "Program, gebelik haftası ve kişinin durumu gözetilerek uyarlanır. Onay olmadan çalışmaya başlanmaz."
     },
     {
       "soru": "Hangi haftada başlanabilir?",
-      "cevap": "Belirli bir hafta söylenemez. Başlama zamanı hekim değerlendirmesine ve gebeliğin seyrine bağlıdır. Kimi kişilerde erken dönemde duruş ve nefes çalışmasıyla başlanabilirken, kimi durumlarda beklenmesi gerekebilir."
+      "cevap": "Belirli bir hafta söylenemez. Kimi kişilerde erken dönemde duruş ve nefes çalışmasıyla başlanabilirken, kimi durumlarda beklenmesi gerekebilir."
     },
     {
       "soru": "Bel ağrım gebelikten mi kaynaklanıyor, nasıl anlaşılır?",
-      "cevap": "Gebelikte bel ağrısı sık görülür, ancak her ağrı gebeliğe bağlanamaz. Ağrının yeri, hangi hareketle arttığı ve eşlik eden belirtiler değerlendirilir. Yeni ortaya çıkan uyuşma, güçsüzlük ya da ateş gibi bulgular varsa önce hekime başvurulur."
+      "cevap": "Gebelikte bel ağrısı sık görülür, ancak her ağrı gebeliğe bağlanamaz. Ağrının yeri, hangi hareketle arttığı ve eşlik eden belirtiler değerlendirilir."
     },
     {
       "soru": "Kasık ağrısı için ne yapılıyor?",
@@ -2308,7 +2149,7 @@ export const hamilelikFizyoterapisiIcerik = {
     },
     {
       "soru": "Egzersiz sırasında bir şey hissedersem ne yapmalıyım?",
-      "cevap": "Baş dönmesi, nefes darlığı, göğüs ağrısı, kasılma hissi, kanama ya da olağandışı herhangi bir belirti durumunda çalışma durdurulur ve hekime başvurulur. Bu durumlar programın seyrini de değiştirir."
+      "cevap": "Bu durumlar programın seyrini de değiştirir."
     },
     {
       "soru": "Doğuma hazırlık çalışması yapılıyor mu?",
@@ -2316,7 +2157,7 @@ export const hamilelikFizyoterapisiIcerik = {
     },
     {
       "soru": "Doğumdan sonra devam edebilir miyim?",
-      "cevap": "Doğum sonrası dönemde çalışmaya ne zaman başlanacağı lohusa kontrolündeki hekim değerlendirmesine bağlıdır ve doğum biçimine göre değişir. Onay alındıktan sonra program karın duvarındaki değişim gözetilerek yeniden kurulur."
+      "cevap": "Onay alındıktan sonra program karın duvarındaki değişim gözetilerek yeniden kurulur."
     },
     {
       "soru": "Randevuya gelirken ne getirmeliyim?",
@@ -2343,7 +2184,7 @@ export const erkekPelvikTabanIcerik = {
   "metaDescription": "Kadıköy erkek pelvik taban fizyoterapisi: kronik pelvik ağrı, pudendal nevralji, hard flaccid ve prostat ameliyatı sonrası idrar kaçırmada EMG biofeedback destekli değerlendirme.",
   "h1": "Kadıköy erkek pelvik taban fizyoterapisi: değerlendirme ve süreç",
   "heroAltBaslik": "Pelvik taban kas disfonksiyonları, kronik ağrı ve erkek sağlığına özgü pelvik taban rehabilitasyonu",
-  "heroParagraf": "Erkeklerde pelvik taban; leğen kemiği tabanını bir kubbe gibi kapatan, idrar sfinkterlerinden penil erektil dokulara, Alcock kanalındaki pudendal sinirden rektal kontrol sistemine kadar uzanan hassas bir derin kas-sinir merkezidir. Kliniğimizde uygulanan seanslar genel geçer egzersiz reçeteleri değildir; erkek leğen tabanındaki derin kasların (levator ani, ischiocavernosus, bulbospongiosus, obturator internus) tonusunu, gevşeyememe (hipertonus) durumunu, tetik noktalarını ve sinir iletim konforunu hedef alan klinik bir çalışmadır. Süreç hekim tanısı ve yönlendirmesi sonrasında planlanır.",
+  "heroParagraf": "Erkeklerde pelvik taban; leğen kemiği tabanını bir kubbe gibi kapatan, idrar sfinkterlerinden penil erektil dokulara, Alcock kanalındaki pudendal sinirden rektal kontrol sistemine kadar uzanan hassas bir derin kas-sinir merkezidir. Kliniğimizde uygulanan seanslar genel geçer egzersiz reçeteleri değildir; erkek leğen tabanındaki derin kasların (levator ani, ischiocavernosus, bulbospongiosus, obturator internus) tonusunu, gevşeyememe (hipertonus) durumunu, tetik noktalarını ve sinir iletim konforunu hedef alan klinik bir çalışmadır. Süreç ilk değerlendirmenin ardından planlanır.",
   "primaryCtaMetni": "Randevu ve bilgi için arayın",
   "bolumler": [
     {
@@ -2353,7 +2194,7 @@ export const erkekPelvikTabanIcerik = {
         "Erkek anatomisinde idrar yolunun prostat yatağıyla kurduğu ilişki, ereksiyon sırasında kanın dokuda tutulması, Alcock kanalından geçen pudendal sinirin seyri ve testis köküne uzanan kas bağlantıları kendine özgü bir mekanik yapı oluşturur. Genel egzersiz programları leğen kemiğinin tabanındaki bu derin kasları ayrı ayrı hedeflemez; bu nedenle süreç, bu kas-sinir dinamiklerine odaklanan ayrı bir yaklaşımla yürütülür.",
         "Erkeklerde alt üriner sistem şikayetleri kendi başına bir değerlendirme alanıdır ve kadınlar için tanımlanan çerçeve doğrudan aktarılamaz. Aynı kas grubundan söz ediliyor olması, aynı yolun izleneceği anlamına gelmez; tablonun nedeni, eşlik eden durumlar ve öncelikler farklıdır.",
         "Bu sayfa o farkı esas alır. Anlatılan her başlık erkek danışanın kendi tablosu üzerinden kurulur, kadın danışanlar için yazılmış bir metnin uyarlaması olarak değil.",
-        "Kadıköy erkek pelvik taban fizyoterapisi kapsamında yapılan iş bu yüzden hazır bir egzersiz listesi vermek değil, tablonun hangi başlığa girdiğini hekim tanısı çerçevesinde anlamak ve çalışmayı ona göre kurmaktır."
+        "Kadıköy erkek pelvik taban fizyoterapisi kapsamında yapılan iş bu yüzden hazır bir egzersiz listesi vermek değil, tablonun hangi başlığa girdiğini anlamak ve çalışmayı ona göre kurmaktır."
       ]
     },
     {
@@ -2407,16 +2248,16 @@ export const erkekPelvikTabanIcerik = {
     {
       "h2": "Hangi başlıklarda gündeme gelir, hangilerinde gelmez",
       "paragraflar": [
-        "Bu alanda her şikayet aynı ağırlıkta değildir. Kılavuzlarda pelvik taban kas eğitiminin açıkça yer aldığı başlıklar vardır; kanıtı sınırlı olan, hatta hiç ele alınmayan başlıklar da vardır. İkisini aynı listede saymak okuyucuyu yanıltır, o yüzden burada ayrı tutuluyor."
+        "Bu alanda her şikayet aynı ağırlıkta değildir. Kılavuzlarda pelvik taban kas eğitiminin açıkça yer aldığı başlıklar vardır. İkisini aynı listede saymak okuyucuyu yanıltır, o yüzden burada ayrı tutuluyor."
       ],
       "liste": [
         {
           "baslik": "Prostat cerrahisi sonrası idrar kontrolü",
-          "metin": "Kılavuzların bu yaklaşımı ameliyat sonrası dönemde sunulacak seçenekler arasında saydığı başlıktır. Çalışmaya ne zaman başlanacağına ameliyatı yapan hekim karar verir."
+          "metin": "Kılavuzların bu yaklaşımı ameliyat sonrası dönemde sunulacak seçenekler arasında saydığı başlıktır."
         },
         {
           "baslik": "Leğen bölgesinde süregelen ağrı",
-          "metin": "Hekim tanısı sonrasında gevşeme odaklı çalışma ve kas dokusuna yönelik yaklaşım gündeme gelebilir. Öneri gücü zayıf düzeydedir ve program kişiye göre kurulur."
+          "metin": "Gevşeme odaklı çalışma ve kas dokusuna yönelik yaklaşım gündeme gelebilir. Öneri gücü zayıf düzeydedir ve program kişiye göre kurulur."
         },
         {
           "baslik": "Gevşeyemeyen, sürekli gergin pelvik taban",
@@ -2428,7 +2269,7 @@ export const erkekPelvikTabanIcerik = {
         },
         {
           "baslik": "Bu sayfada ele alınmayanlar",
-          "metin": "Tanı koymak, ilaç düzenlemek ve cerrahi kararı hekimin işidir. Ayrıca burada uygulanmayan yöntemler anlatılmaz."
+          "metin": "Ayrıca burada uygulanmayan yöntemler anlatılmaz."
         }
       ]
     },
@@ -2511,25 +2352,25 @@ export const erkekPelvikTabanIcerik = {
       "h2": "Prostat ameliyatı sonrası dönem: kılavuzlar ne diyor",
       "paragraflar": [
         "Kılavuzlar, prostat cerrahisi sonrası idrar kontrolü başlığında pelvik taban kas eğitimini ameliyat sonrası erken dönemde sunulması önerilen yaklaşımlar arasında sayar. Ameliyat öncesinde yapılan hazırlık ise daha zayıf bir öneri olarak, sunulabilir nitelikte tanımlanır.",
-        "Radikal prostatektomi, TURP ya da HoLEP sonrasında iç sfinkter mekanizması etkilendiğinde idrarı tutma görevi büyük ölçüde dış çizgili sfinkter ve pelvik taban kas sistemine kalır. Hekim onayıyla erken dönemde başlanan doğru aktivasyon, sfinkter desteği ve nöromusküler eğitim bu nedenle sürecin merkezindedir.",
+        "Radikal prostatektomi, TURP ya da HoLEP sonrasında iç sfinkter mekanizması etkilendiğinde idrarı tutma görevi büyük ölçüde dış çizgili sfinkter ve pelvik taban kas sistemine kalır.",
         "Bu iki ifade arasındaki fark önemlidir ve burada korunmuştur: birinin önerilmesi ile diğerinin sunulabilir olması aynı şey değildir.",
-        "Çalışmanın ne zaman başlayacağı ameliyatı yapan hekimin değerlendirmesine bağlıdır ve doğrudan ameliyatın biçimine, yara iyileşmesine ve kişinin genel durumuna göre değişir. Bu sayfada bir süre ya da seans sayısı verilmez; o bilgi hekim takibinden gelir."
+        "Çalışmanın ne zaman başlayacağı ameliyatı yapan hekimin değerlendirmesine bağlıdır ve doğrudan ameliyatın biçimine, yara iyileşmesine ve kişinin genel durumuna göre değişir. Bu sayfada bir süre ya da seans sayısı verilmez."
       ]
     },
     {
       "h2": "Leğen bölgesinde süregelen ağrıda fizyoterapi yaklaşımı",
       "paragraflar": [
-        "Leğen bölgesinde uzun süredir devam eden ağrı tablolarında, hekim tanısı sonrasında kas ve bağ dokusuna yönelik yaklaşım ile gevşeme odaklı çalışma gündeme gelebilir. Kılavuzlarda bu yaklaşım yer alır, ancak öneri gücü zayıf düzeydedir.",
+        "Leğen bölgesinde uzun süredir devam eden ağrı tablolarında, kas ve bağ dokusuna yönelik yaklaşım ile gevşeme odaklı çalışma gündeme gelebilir. Kılavuzlarda bu yaklaşım yer alır, ancak öneri gücü zayıf düzeydedir.",
         "Bu tablolarda çalışma çoğunlukla kuvvetlendirme üzerine değil, gerginliğin azaltılması, nefes düzeni ve ağrıyı artıran günlük hareketlerin uyarlanması üzerine kurulur.",
-        "Ağrının nedeni fizyoterapi kapsamında belirlenmez. Burada yapılan iş, hekimin koyduğu tanı çerçevesinde hareket ve yüklenme tarafını ele almaktır."
+        "Ağrının nedeni fizyoterapi kapsamında belirlenmez."
       ]
     },
     {
       "h2": "Hangi şikâyetlerle başvurulur",
       "paragraflar": [
-        "Bu başlığın altında toplanan şikâyetler birbirinden farklıdır: bir kısmı ağrı, bir kısmı idrar ya da bağırsak kontrolü, bir kısmı cinsel işlevle ilgilidir. Aşağıda on sekiz tablo ayrı ayrı ele alınıyor. Her biri için önce şikâyetin günlük hayatta nasıl göründüğü, sonra pelvik tabanla ilişkisi ve kanıtın durumu yazıldı.",
-        "Bir başlığın burada yer alması, o tabloda fizyoterapinin çözüm olduğu anlamına gelmez. Bazılarında kılavuzlarda tanımlı bir yer vardır, bazılarında kanıt sınırlıdır, bazılarında ise hiç yoktur. Hangisinin hangi grupta olduğu kendi bölümünde yazıyor ve okurken bu ayrım belirleyicidir.",
-        "Sıralama bir öncelik ya da sıklık göstergesi değildir. Hangi başlığa girildiğini belirleyen hekim tanısıdır; buradaki bölümler o tanının üzerine ne eklenebileceğini anlatır."
+        "Bu başlığın altında toplanan şikâyetler birbirinden farklıdır: bir kısmı ağrı, bir kısmı idrar ya da bağırsak kontrolü, bir kısmı cinsel işlevle ilgilidir. Aşağıda on sekiz tablo ayrı ayrı ele alınıyor. Her biri için önce şikâyetin günlük hayatta nasıl göründüğü, sonra pelvik tabanla ilişkisi yazıldı.",
+        "Bir başlığın burada yer alması, o tabloda fizyoterapinin çözüm olduğu anlamına gelmez. Hangisinin hangi grupta olduğu kendi bölümünde yazıyor ve okurken bu ayrım belirleyicidir.",
+        "Sıralama bir öncelik ya da sıklık göstergesi değildir. Buradaki bölümler, her başlıkta fizyoterapinin neyi ele aldığını anlatır."
       ]
     },
     {
@@ -2537,7 +2378,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Kasıkta, testislerde, penis kökünde ya da makat çevresinde aylardır süren, yeri tam gösterilemeyen bir ağrı tarif edilebilir. Uzun oturmak, araç kullanmak ya da dar kıyafet şikâyeti artırabilir; idrar yaparken veya boşalma sonrasında yanma eşlik edebilir. Bu süreçte birden çok kez idrar tahlili verilmiş, farklı ilaçlar denenmiş ve şikâyet yerinde durmuş olabilir. Ağrının ne zaman geleceğini kestirememek iş gününü ve uykuyu da etkileyebilir.",
         "Hekim değerlendirmesinde enfeksiyon ve başka bir neden saptanmadığında tablo, NIH sınıflamasında kategori III olarak geçen kronik prostatit / kronik pelvik ağrı sendromu başlığı altında ele alınabilir. Tek bir nedene bağlanamadığı için şikâyeti idrar, ağrı, kas gerginliği gibi alt başlıklara ayıran fenotip temelli yaklaşımlar (UPOINT gibi) tanımlanmıştır. Pelvik taban kaynaklı gerginlik bu alt gruplardan yalnızca biridir; bu gerginliğin neden kas zayıflığıyla aynı şey olmadığı \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde anlatılıyor.",
-        "Fizyoterapi değerlendirmesinde bu tabloya özgü iki nokta öne çıkar: hassas noktalara basmanın bilinen ağrıyı yeniden üretip üretmediği ve şikâyetin idrar yapma ile boşalmaya göre değişip değişmediği. Pelvik taban gerginliğinin öne çıktığı alt grupta ne çalışıldığı \"Leğen bölgesinde süregelen ağrıda fizyoterapi yaklaşımı\" bölümünde anlatılıyor; bu alt grupta eldeki araştırmalar küçük ölçekli ve yöntem olarak değişkendir, herkes için geçerli bir sonuç vaat edilemez. Testiste ani ve şiddetli ağrı bu tablonun seyrine ait değildir. Bu bulgularda önce hekime başvurulur."
+        "Fizyoterapi değerlendirmesinde bu tabloya özgü iki nokta öne çıkar: hassas noktalara basmanın bilinen ağrıyı yeniden üretip üretmediği ve şikâyetin idrar yapma ile boşalmaya göre değişip değişmediği. Pelvik taban gerginliğinin öne çıktığı alt grupta ne çalışıldığı \"Leğen bölgesinde süregelen ağrıda fizyoterapi yaklaşımı\" bölümünde anlatılıyor; bu alt grupta eldeki araştırmalar küçük ölçekli ve yöntem olarak değişkendir, herkes için geçerli bir sonuç vaat edilemez. Testiste ani ve şiddetli ağrı bu tablonun seyrine ait değildir."
       ],
       "baglantilar": [
         {
@@ -2551,7 +2392,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Bu başlıkta öne çıkan yakınma, oturunca artan; ayağa kalkınca ya da uzanınca hafifleyen batıcı, yanıcı bir ağrıdır. Perine bölgesinde öznel uyuşma hissi ya da makat çevresinde yabancı cisim hissi eşlik edebilir; bu his, muayenede ölçülen bir duyu kaybı anlamına gelmez. Araba yolculuğu, masa başı çalışma ve bisiklet gibi uzun oturma gerektiren durumlar günü zorlaştırabilir; klozette oturmak bazen daha rahat gelir. Zamanla oturma gerektiren planlardan kaçınma, günlük düzeni de etkileyebilir.",
         "Pudendal sinir, leğen tabanındaki kas ve bağ yapılarının arasından geçer; bu komşuluk nedeniyle gevşemekte zorlanan bir pelvik taban tabloya eşlik edebilir, ancak her tabloda sorumlu yapı pelvik taban değildir. Bu ayrım “Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban” başlığında ele alınır. Değerlendirmede oturma yüzeyi ve ağırlığın oturma kemiklerine nasıl dağıldığı gözlenir. Fizyoterapide anılan başlıklar oturma düzeninin uyarlanması ve sinire binen yükü azaltmayı amaçlayan günlük düzenlemelerdir; yanıt kişiden kişiye değişir.",
-        "Tanı klinik ölçütlere dayanır. Nantes ölçütleri sinirin dağılım alanındaki ağrıyı, oturmakla artışı, ağrının kişiyi geceleri uyandırmamasını ve muayenede nesnel duyu kaybı bulunmamasını temel alır; hekimin uyguladığı tanısal sinir bloğuyla rahatlama da ölçütler arasındadır. Görüntüleme tek başına tanı koydurmaz. Benzer yakınmalar “Geçmeyen kasık, testis ve makat ağrısı” başlığında da geçer. İlerleyici güçsüzlük ya da idrar veya dışkı kontrolünde değişiklik bu başlığın dışındadır. Bu bulgularda önce hekime başvurulur."
+        "Tanı klinik ölçütlere dayanır. Nantes ölçütleri sinirin dağılım alanındaki ağrıyı, oturmakla artışı, ağrının kişiyi geceleri uyandırmamasını ve muayenede nesnel duyu kaybı bulunmamasını temel alır; hekimin uyguladığı tanısal sinir bloğuyla rahatlama da ölçütler arasındadır. Görüntüleme tek başına tanı koydurmaz. Benzer yakınmalar “Geçmeyen kasık, testis ve makat ağrısı” başlığında da geçer. İlerleyici güçsüzlük ya da idrar veya dışkı kontrolünde değişiklik bu başlığın dışındadır."
       ],
       "baglantilar": [
         {
@@ -2569,7 +2410,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Bazı erkekler belin alt kısmında, kalçada ve kuyruk sokumunda derinden gelen, yeri tam gösterilemeyen bir ağrı tarif eder. Ağrı uzun oturmayla, araç kullanmayla ya da sert yüzeyde oturmayla belirginleşebilir; ayağa kalkınca veya pozisyon değiştirince bir süre hafifleyebilir. Kimi zaman bacağa ya da makat çevresine yayılan dolgunluk ve karıncalanma eşlik edebilir. Bu tablo iş gününü, uzun toplantıları ve yolculukları zorlaştırabilir.",
         "Tarlov kisti, sinir kökü kılıfında gelişen ve çoğunlukla sakrum düzeyinde görülen bir yapıdır; sıklıkla başka bir nedenle çekilen MR'de rastlantısal olarak saptanır ve pek çok kişide belirti vermez. Görüntülemede kist bulunması, şikâyetin nedeninin kist olduğu anlamına gelmez. Fizyoterapi kisti küçültmez, ortadan kaldırmaz; buradaki yeri belirtilerin yönetimidir. Değerlendirmede oturma biçimi ve kuyruk sokumuna binen basınç gözlenir. Eşlik eden pelvik taban gerginliği için \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" başlığına bakabilirsiniz.",
-        "Kanıt bu başlıkta zayıftır: Tarlov kistinde fizyoterapinin etkisine ilişkin kılavuz düzeyinde bir öneri bulunmuyor, eldeki bilgi sınırlı ve dolaylı. Bu nedenle çerçeveyi hekim tanısı belirler; kistin kendisine yönelik bir sonuç vaadi bu başlıkta kurulamaz. İdrar veya dışkı kontrolünde kayıp, bacakta ilerleyici güç kaybı, eyer bölgesinde uyuşma bulgularından herhangi biri varsa çalışmaya devam edilmez. Bu bulgularda önce hekime başvurulur."
+        "İdrar veya dışkı kontrolünde kayıp, bacakta ilerleyici güç kaybı, eyer bölgesinde uyuşma bulgularından herhangi biri varsa çalışmaya devam edilmez."
       ],
       "baglantilar": [
         {
@@ -2583,7 +2424,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Şikâyet çoğu zaman oturmayla anlatılır: sert zeminde oturmak zorlaşır, kuyruk sokumu bölgesinde batma ya da zonklama belirir. Ağrı oturma süresi uzadıkça artabilir, oturur pozisyondan kalkarken ya da öne eğilirken keskinleşebilir. Tabloların bir bölümü düşme veya doğrudan darbe sonrası başlar; bir bölümünde uzun süreli oturma, uzun araç kullanımı ya da bisiklet öne çıkar; bazı tablolarda belirgin bir neden bulunamaz. Toplantı, yolculuk ve masa başı çalışma bu nedenle kısaltılabilir, tek kalçaya yaslanarak sürdürülebilir.",
         "Koksiks yalıtılmış bir kemik ucu değildir: levator ani kaslarının bir bölümü ve gluteus maximus buraya tutunur, sakrotüberöz ve sakrospinöz bağlar da bölgenin yük aktarımına katılır. Bu nedenle kuyruk sokumu ağrısı bazı kişilerde pelvik taban kaslarının gerginliğiyle birlikte değerlendirilir; bu, her tabloda pelvik tabanın sorumlu olduğu anlamına gelmez. Değerlendirmede ağrının hangi zeminde arttığı ile kullanılan minderin şekli ve kuyruk sokumunun hareketliliği ele alınır. Gevşeyemeyen pelvik taban burada da eşlik edebilir; ayrıntısı \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" başlığındadır.",
-        "Bu başlıkta kanıt sınırlıdır. Oturma uyarlaması, kuyruk sokumu çevresindeki kas gerginliğine yönelik çalışma ve değerlendirmeye göre seçilen manuel yaklaşımlar literatürde tanımlanmıştır; ancak karşılaştırmalı çalışmalar az sayıdadır ve koksidinide hangi kişide ne kadar yarar görüleceği önceden bilinemez. Dinamik grafi gibi görüntüleme yöntemlerinin istenmesi ve yorumlanması hekimin kararıdır. Düşme sonrası şekil bozukluğu ya da bölgede şişlik olduğunda ise durum farklıdır. Bu bulgularda önce hekime başvurulur."
+        "Oturma uyarlaması, kuyruk sokumu çevresindeki kas gerginliğine yönelik çalışma ve değerlendirmeye göre seçilen manuel yaklaşımlar literatürde tanımlanmıştır; ancak karşılaştırmalı çalışmalar az sayıdadır ve koksidinide hangi kişide ne kadar yarar görüleceği önceden bilinemez. Düşme sonrası şekil bozukluğu ya da bölgede şişlik olduğunda ise durum farklıdır."
       ],
       "baglantilar": [
         {
@@ -2597,7 +2438,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Ağrı boşalma anında başlayabilir ya da hemen ardından ortaya çıkabilir. Kişiler bunu çoğunlukla perine bölgesinde, testislerde, penis ucunda, kasıkta veya alt karında yanma, zonklama ya da sıkışma olarak tarif eder. Süresi kişiye göre değişir; birkaç dakika sürebileceği gibi saatlere de uzayabilir. Günlük hayatta sık görünen tarafı, ağrının tekrarlamasıyla birlikte cinsel yakınlıktan kaçınma, boşalma öncesinde tetikte bekleme ve konuyu dile getirmekte zorlanmadır. Şikâyet uzun süre paylaşılmadan taşınabilir.",
         "Bu şikâyet çoğu zaman kronik pelvik ağrı şemsiyesi altında değerlendirilir; o şemsiye sayfada \"Geçmeyen kasık, testis ve makat ağrısı\" bölümünde anlatıldı. Pelvik taban kaslarının gevşeyememesiyle ilişkili tarafı ise \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" başlığında ayrıca ele alınıyor. Fizyoterapi değerlendirmesinde bu başlığa özgü olarak ağrının boşalmayla zamansal ilişkisi ve perine bölgesindeki hassas noktalar gözden geçirilir.",
-        "Ağrılı boşalmada fizyoterapinin etkisi doğrudan bu şikâyet üzerinden değil, daha geniş pelvik ağrı başlığı üzerinden değerlendirilmiştir. Avrupa Üroloji Derneği'nin kronik pelvik ağrı kılavuzunda pelvik taban kas eğitimi ve gevşeme çalışması bu tablo için seçeneklerden biri sayılır; ağrılı boşalmaya özgü güçlü bir öneri olarak sunulmaz, tek başına yeterli bir yaklaşım da değildir. Sıra da bellidir: enfeksiyon, taş, üroloji kaynaklı nedenler ve kullanılan ilaçlarla ilişkili durumlar önce hekim tarafından dışlanır. Menide kan ya da testiste şişlik bu tablonun beklenen parçası değildir. Bu bulgularda önce hekime başvurulur."
+        "Ağrılı boşalmada fizyoterapinin etkisi doğrudan bu şikâyet üzerinden değil, daha geniş pelvik ağrı başlığı üzerinden değerlendirilmiştir. Avrupa Üroloji Derneği'nin kronik pelvik ağrı kılavuzunda pelvik taban kas eğitimi ve gevşeme çalışması bu tablo için seçeneklerden biri sayılır; ağrılı boşalmaya özgü güçlü bir öneri olarak sunulmaz, tek başına yeterli bir yaklaşım da değildir. Menide kan ya da testiste şişlik bu tablonun beklenen parçası değildir."
       ],
       "baglantilar": [
         {
@@ -2611,7 +2452,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Sertleşme sorunu ve erken boşalma her zaman tek başına bir şikâyet olarak dile getirilmez; günlük hayata yayılan bir gerginlikle birlikte anlatıldığı da olur. Yakınlık öncesinde kaygı belirginleşebilir, başarısızlık beklentisi yerleşebilir ve zamanla temastan kaçınma görülebilir. Konuyu paylaşmak zorlaştığı için başvuru kararı ertelenebilir. Şikâyetin ne zamandır sürdüğü, hangi koşullarda ortaya çıktığı ve sabah sertleşmelerinin sürüp sürmediği görüşmede ele alınan başlıklardandır.",
         "Pelvik taban kasları, penis köküne komşu yapılarla birlikte çalışır ve boşaltım ile cinsel işlevde ortak bir zemin paylaşır; yine de tablonun tek belirleyicisi değildir. Bu kasların gevşeyebilmesiyle ilgili tablo, sayfadaki \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınıyor. Leğen bölgesinde ağrı ya da idrar yakınması da eşlik ediyorsa bunlar görüşme sırasında ayrıca kaydedilir.",
-        "Erken boşalmada pelvik taban kas eğitimini inceleyen çalışmalar vardır, ancak sayıca az ve küçük katılımcı gruplarıyla yürütülmüştür; bu nedenle bir sonuç vaadi kurulamaz. Sertleşme sorunu kalp damar hastalığı, diyabet, hormonal bozukluk ya da kullanılan bir ilacın yan etkisiyle ilişkili olabildiği için önce hekim değerlendirmesi gerekir. Efor sırasında göğüs ağrısı veya nefes darlığı tarif ediliyorsa durum farklıdır. Bu bulgularda önce hekime başvurulur."
+        "Erken boşalmada pelvik taban kas eğitimini inceleyen çalışmalar vardır, ancak sayıca az ve küçük katılımcı gruplarıyla yürütülmüştür; bu nedenle bir sonuç vaadi kurulamaz. Efor sırasında göğüs ağrısı veya nefes darlığı tarif ediliyorsa durum farklıdır."
       ],
       "baglantilar": [
         {
@@ -2625,7 +2466,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Bu başlıkta anlatılan tablo çoğunlukla genç erkeklerde gündeme gelir: penis gevşek haldeyken bile sert, soğuk ya da uyuşmuş hissedilir, bölgede sürekli bir kasılma ve içe çekilme duygusu bildirilir. Hard flaccid, bu tarifi bir araya getiren yaygın bir adlandırmadır. Şikâyet uzun oturmayla, yoğun saatlerde ya da tuvalet sonrasında belirginleşebilir. Gün içinde bölgeyi sık sık kontrol etme ihtiyacı tarif edilir.",
         "Tarif edilen kasılma duygusu, sayfadaki \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde anlatılan yüksek tonus tablosuyla örtüşür; mekanizma orada ele alınır. Değerlendirmede kasın istirahatteki durumu ve istemli gevşeme becerisi öne çıkar; görüşmenin genel akışı sayfadaki \"İlk görüşme bu alanda genellikle nasıl ilerler\" bölümünde anlatılır. Tarif bu tabloya uyduğu ölçüde, sayfadaki yüksek tonus çerçevesi bu başlıkta da geçerlidir.",
-        "Bu başlıkta kanıt zayıftır: hard flaccid, büyük ürolojik kılavuzlarda tanımlanmış bir tanı değildir; yazılı kaynaklar ağırlıklı olarak olgu serilerinden ve internet topluluklarında oluşmuş tariflerden gelir. Tanı olarak tanımlı olmadığı için bu ada özgü bir öneri de yoktur; tarif edilen tabloda sayfadaki çerçeve geçerli olsa da bunun hard flaccid'de işe yaradığını gösteren bir çalışma yoktur. Şişlik, renk değişikliği ve travma sonrası ortaya çıkan belirtiler ayrı değerlendirilir. Bu bulgularda önce hekime başvurulur."
+        "Yazılı kaynaklar ağırlıklı olarak olgu serilerinden ve internet topluluklarında oluşmuş tariflerden gelir. Tanı olarak tanımlı olmadığı için bu ada özgü bir öneri de yoktur; tarif edilen tabloda sayfadaki çerçeve geçerli olsa da bunun hard flaccid'de işe yaradığını gösteren bir çalışma yoktur. Şişlik, renk değişikliği ve travma sonrası ortaya çıkan belirtiler ayrı değerlendirilir."
       ],
       "baglantilar": [
         {
@@ -2639,7 +2480,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Tuvaletten çıktıktan kısa süre sonra birkaç damla idrarın gelmesi ve iç çamaşırda ıslaklık bırakması erkeklerde sık bildirilen bir tablodur. Tanımlayıcı özelliği zamanlamasıdır: akış bittiği hâlde birkaç damla geride kalır, bu nedenle idrar kaçırmadan ayrı ele alınır. Mesanenin tam boşalmadığı hissi ise ayrı bir işeme sonrası şikâyettir ve bu tabloya eşlik edebilir. Günlük hayatta tuvalette geçen sürenin uzamasına, kıyafet değiştirme ihtiyacına ve yolculuk öncesinde tedirginliğe yol açabilir.",
         "Bu tablo genellikle idrar akışı bittikten sonra idrar kanalının alt bölümünde kalan birkaç damlayla ilişkilendirilir; bu bölümün boşalmasına katkı veren kaslar pelvik tabanın bir parçasıdır. EAU alt üriner sistem semptomları başlığında bu damlaların boşaltılmasına yönelik basit davranışsal önlemler bu şikâyet için anılır. Değerlendirmede işeme alışkanlığı ile tuvalette acele etme ve pelvik taban kaslarının istemli kasılma becerisi gözden geçirilir.",
-        "Davranışsal önlemler kılavuz metinlerinde pratik öneri olarak yer alır, ancak etkilerini doğrudan gösteren güçlü kanıt azdır; bu nedenle damlamanın ne kadar süreceğine dair bir taahhüt verilemez. Damlama tek başına görülebileceği gibi, prostat büyümesi gibi alt üriner sistem nedenleriyle birlikte de bulunabilir. Bu nedenle sıra önce hekim değerlendirmesindedir. Damlamaya idrar yapamama eşlik ediyorsa tablo farklıdır. Bu bulgularda önce hekime başvurulur."
+        "Davranışsal önlemler kılavuz metinlerinde pratik öneri olarak yer alır; damlamanın ne kadar süreceğine dair bir taahhüt verilemez. Damlama tek başına görülebileceği gibi, prostat büyümesi gibi alt üriner sistem nedenleriyle birlikte de bulunabilir. Damlamaya idrar yapamama eşlik ediyorsa tablo farklıdır."
       ],
       "baglantilar": [
         {
@@ -2657,7 +2498,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Gün içinde tuvalete gitme sayısı artar, sıkışma hissi aniden gelir ve ertelemek zorlaşır. Bazı kişilerde tuvalete yetişememe kaygısı öne çıkar; toplantı, yolculuk ya da uzun sıra beklemeyi gerektiren durumlar önceden planlanmaya başlar. Gece uyanmalar uykuyu böler. Sıvı alımını tümüyle kısmak ilk akla gelen çözüm olur; ancak aşırı kısıtlama idrarı yoğunlaştırarak sıkışma hissini artırabilir. Burada amaçlanan, miktarı azaltmak değil alınan sıvının gün içindeki dağılımını gözden geçirmektir.",
         "Aşırı aktif mesane tek başına bir kas zayıflığı tablosu değildir; belirtiler mesanenin dolum sırasındaki davranışıyla ilişkilendirilir. Pelvik taban buraya bir yönden bağlanır: sıkışma anında bilinçli bir kasılma, mesane kasılmasını refleks olarak baskılayabilir. Sürekli gergin tutulan bir pelvik tabanın sıkışma hissine katkısı ise \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınır. Değerlendirmede günlük işeme kaydı ve gece uyanma sayısı bu tabloya özgü iki başlıktır.",
-        "Davranışsal yaklaşımlar (mesane eğitimi, sıkışma bastırma teknikleri, pelvik taban kas eğitimi, sıvının gün içine dağıtılması ve kafein alışkanlığının gözden geçirilmesi) kılavuzlarda ilk basamakta sayılır; yanıtın kişiden kişiye değiştiği de aynı metinlerde belirtilir. Benzer belirtiler oluşturabilen idrar yolu enfeksiyonu, şeker hastalığı, nörolojik nedenler, prostat kaynaklı tıkanıklık ve kullanılan ilaçlar bu tabloda önce değerlendirilir. İdrarda kan görülmesi ise beklenen bir bulgu değildir. Bu bulgularda önce hekime başvurulur."
+        "Davranışsal yaklaşımlar (mesane eğitimi, sıkışma bastırma teknikleri, pelvik taban kas eğitimi, sıvının gün içine dağıtılması ve kafein alışkanlığının gözden geçirilmesi) kılavuzlarda ilk basamakta sayılır; yanıtın kişiden kişiye değiştiği de aynı metinlerde belirtilir. Benzer belirtiler oluşturabilen idrar yolu enfeksiyonu, şeker hastalığı, nörolojik nedenler, prostat kaynaklı tıkanıklık ve kullanılan ilaçlar bu tabloda önce değerlendirilir. İdrarda kan görülmesi ise beklenen bir bulgu değildir."
       ],
       "baglantilar": [
         {
@@ -2671,7 +2512,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Ameliyat sonrasında idrar kaçırma genellikle önce günlük ayrıntılarda fark edilir. Ped ya da koruyucu ürün kullanımı gündeme gelebilir; öksürürken, hapşırırken, sandalyeden ayağa kalkarken ya da ağır bir şey kaldırırken kaçak görülebilir. Uzun toplantı, yolculuk ya da spor gibi tuvaletten uzak kalınan durumlardan kaçınma, su içmeyi azaltma ve kıyafet seçimini buna göre yapma sık rastlanan davranışlardır; sıvıyı kısmak yerine gün içine yaymak konuşulur.",
         "Bu tablo sıklıkla, idrar yolunun çıkışını çevreleyen kasların karın içi basınç arttığı anda devreye girme biçimiyle ilişkilendirilir; kaçağın nedeni tek bir başlığa indirgenmez ve değerlendirmeyle netleşir. Kaçağın hangi hareketle ortaya çıktığı ve gün içindeki dağılımı değerlendirme sırasında sorulur. Çalışma, doğru kası fark etme, nefesle zamanlama ve günlük yüklenmelerden hemen önce bilinçli kasılmayı kullanma üzerine kurulur.",
-        "Kaçak kimi kişilerde gün ilerledikçe artar, kimilerinde yalnızca belirli hareketlerde ortaya çıkar; seyri kişiden kişiye değiştiği için süre ya da sonuç üzerine taahhüt verilmez. Çalışmanın ne zaman başlayacağına ameliyatı yapan hekim karar verir; sonda ve kontrol takvimi bu kararın parçasıdır. Ameliyat sonrası dönemde kılavuzların ne söylediği, \"Prostat ameliyatı sonrası dönem: kılavuzlar ne diyor\" bölümünde ayrıca ele alınmıştır."
+        "Kaçak kimi kişilerde gün ilerledikçe artar, kimilerinde yalnızca belirli hareketlerde ortaya çıkar; seyri kişiden kişiye değiştiği için süre ya da sonuç üzerine taahhüt verilmez. Ameliyat sonrası dönemde kılavuzların ne söylediği, \"Prostat ameliyatı sonrası dönem: kılavuzlar ne diyor\" bölümünde ayrıca ele alınmıştır."
       ],
       "baglantilar": [
         {
@@ -2685,7 +2526,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Tuvalette uzun süre kalmak, ıkınmaya rağmen dışkıyı çıkaramamak ve işi bittikten sonra bile bağırsağın tam boşalmadığı hissiyle kalkmak bu tablonun bilinen görüntüsüdür. Dışkı yumuşak olsa bile çıkış zor olabilir; bazı kişiler elle ya da pozisyon değiştirerek destek arar. Sabah rutini uzar, gün içinde birkaç kez tuvalete dönme ihtiyacı doğar, uzun toplantılar ve yolculuklar önceden planlanır hale gelir. Şikâyet her gün aynı şiddette olmayabilir; bazı günler sorunsuz geçer, bazı günler aynı döngü tekrar eder.",
         "Boşaltım sırasında pelvik taban ve dış anal sfinkter gevşer, karın kasları ise itici bir basınç üretir. Dissinerjik defekasyon denen tabloda bu iş bölümü bozulur: ıkınma anında kas gevşeyeceğine kasılır ya da yeterli basınç oluşmaz, çıkış işlevsel olarak daralır. Lif ve sıvı düzeni tek başına yeterli olmadığında bu koordinasyon sorunu gündeme gelir. Değerlendirmede ıkınma sırasındaki kas davranışı ve tuvalet pozisyonu gözden geçirilir; \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümündeki çerçeve burada da geçerlidir.",
-        "Kabızlık ve anorektal bozukluklara ilişkin kılavuzlar, dissinerjik defekasyonda biofeedback destekli pelvik taban eğitimini önerilen seçenekler arasında sayar. Kılavuzun bu yönde olması, sonucun kişiden kişiye değişmeyeceği anlamına gelmez. Yaklaşımın yeri tanının konulmuş olmasına bağlıdır; benzer tabloyu yapabilen yapısal nedenlerden ayrım, anorektal manometri ve balon atma testi gibi tetkiklerle hekim tarafından yapılır. Dışkıda kan, açıklanamayan kilo kaybı ya da yeni başlayan bağırsak alışkanlığı değişikliği bu tablonun beklenen parçası değildir. Bu bulgularda önce hekime başvurulur."
+        "Kabızlık ve anorektal bozukluklara ilişkin kılavuzlar, dissinerjik defekasyonda biofeedback destekli pelvik taban eğitimini önerilen seçenekler arasında sayar. Kılavuzun bu yönde olması, sonucun kişiden kişiye değişmeyeceği anlamına gelmez. Yaklaşımın yeri tanının konulmuş olmasına bağlıdır; benzer tabloyu yapabilen yapısal nedenlerden ayrım, anorektal manometri ve balon atma testi gibi tetkiklerle hekim tarafından yapılır. Dışkıda kan, açıklanamayan kilo kaybı ya da yeni başlayan bağırsak alışkanlığı değişikliği bu tablonun beklenen parçası değildir."
       ],
       "baglantilar": [
         {
@@ -2699,7 +2540,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Bazı erkekler makat bölgesinde aniden giren, kramp ya da sıkışma gibi tarif edilen şiddetli bir ağrı tanımlar. Proktalji fugaksta atak genellikle saniyeler ya da birkaç dakika sürer, sıklıkla gece uykudan uyandırır ve kendiliğinden sonlanır; ataklar arasında belirgin bir şikâyet kalmaz. Levator ani sendromunda tablo farklıdır: ağrı daha çok künt bir basınç veya dolgunluk hissi olarak daha uzun sürer ve uzun oturmakla artabilir.",
         "Levator ani sendromu, makatı çevreleyen kas grubundaki artmış istirahat gerginliğiyle ilişkilendirilir; bu çerçeve sayfadaki \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınıyor. Proktalji fugaksın mekanizması ise net değildir ve pelvik taban her iki tablonun da nedeni olarak gösterilemez. Öykü alımında atağın süresi ve sıklığı ile ağrının oturma süresiyle ilişkisi kaydedilir; muayenede kas tonusu ve ıkınma sırasında kasın gevşeyip gevşemediği incelenir.",
-        "Kanıt tabloya göre değişir: biofeedback boşaltım koordinasyonu bozukluğunda kılavuzlarda yer alırken levator ani sendromunda aynı güçte bir öneri yoktur; proktalji fugaks tarafında fizyoterapiyi destekleyen kanıt daha da sınırlıdır. Fissür, hemoroid, apse ve tümör gibi dışlanması gereken nedenler önce hekim tarafından değerlendirilir. Makattan kanama ya da ağrının karakterinin değişmesi ayrı bir anlam taşır. Bu bulgularda önce hekime başvurulur."
+        "Kanıt tabloya göre değişir: biofeedback boşaltım koordinasyonu bozukluğunda kılavuzlarda yer alırken levator ani sendromunda aynı güçte bir öneri yoktur. Makattan kanama ya da ağrının karakterinin değişmesi ayrı bir anlam taşır."
       ],
       "baglantilar": [
         {
@@ -2713,7 +2554,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Şikâyet çoğunlukla sprint, ani yön değiştirme, şut ya da pas sırasında kasıkta beliren bir ağrı olarak başlar. Isınmayla hafifleyip maç sonrası geri dönmesi sık bildirilir. Zamanla günlük hayata taşar: arabadan inerken, yatakta dönerken, öksürürken ya da karın altına yüklenen her harekette rahatsızlık hissedilir. Kişi genellikle ağrının yerini tam gösteremez; kasık, karın altı ve iç uyluk arasında yayılan, haftalarca geçmeyen bir bölgeden söz eder.",
         "Adı fıtık olsa da sporcu fıtığı denen tabloda gerçek bir fıtık kesesi bulunmaz; osteitis pubis ise pubik kaynaklı ayrı bir başlıktır. Kasık ağrısında ağrının kaynağı için iç uyluk kasları, kalça eklemi, kasık kanalı ve pubik bölge ayrı ayrı değerlendirilir (Doha uzlaşısı). Pelvik taban burada ağrının kaynağı olarak değil, karın içi basıncın yönetimi üzerinden ilişkili bir halka olarak görülür.",
-        "Her kasık ağrısının arkasında pelvik taban aranmaz. Değerlendirmede iç uyluk kaslarının yüke yanıtı ve kalça hareketi incelenir; hangi yapının ağrıdığı muayene ile ayrılır. Aktif egzersiz temelli rehabilitasyon, iç uyluk kaynaklı tabloda kullanılan yaklaşımlardan biridir; pelvik taban fizyoterapisinin sporcu kasık ağrısındaki yeri ise netleşmiş değildir ve kişiye göre değerlendirilir. Ele gelen kitle ya da dinlenirken de süren gece ağrısı bu tabloda uyarı bulgusudur. Bu bulgularda önce hekime başvurulur."
+        "Her kasık ağrısının arkasında pelvik taban aranmaz. Değerlendirmede iç uyluk kaslarının yüke yanıtı ve kalça hareketi incelenir; hangi yapının ağrıdığı muayene ile ayrılır. Aktif egzersiz temelli rehabilitasyon, iç uyluk kaynaklı tabloda kullanılan yaklaşımlardan biridir; pelvik taban fizyoterapisinin sporcu kasık ağrısındaki yeri ise netleşmiş değildir ve kişiye göre değerlendirilir. Ele gelen kitle ya da dinlenirken de süren gece ağrısı bu tabloda uyarı bulgusudur."
       ],
       "baglantilar": [
         {
@@ -2727,7 +2568,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Uzun süreli bisiklet sürüşlerinde bazı kişiler selenin temas ettiği bölgede uyuşma, karıncalanma ya da kasığa yayılan bir rahatsızlık tarif eder. Şikâyet çoğunlukla sürüş sırasında başlar, molada azalır; bazılarında iniş sonrası bir süre daha devam eder. Günlük hayatta pedal çevirirken pozisyonu sık sık değiştirme ihtiyacı ve antrenman süresini kısaltma şeklinde görünür. Kimi zaman bölgedeki his azlığı, ağrıdan önce fark edilir.",
         "Bisikletçide asıl gündem, kas kaynaklı bir ağrıdan çok perineye binen doğrudan sele basıncıdır; bölgeden geçen pudendal sinir ve damar yapıları bu yükten etkilenebilir. Sporcu kasık ağrısında pelvik tabanın yeri farklıdır; o başlık için \"Kasık ve karın altında geçmeyen sporcu ağrısı\" bölümüne bakılabilir. Değerlendirmede sele tipi ve açısı ile gidon mesafesi konuşulur, çünkü bunların değiştirilmesi araştırılan basit önlemlerdir.",
-        "Sürüş boyunca gevşeyemeyen bir pelvik tabanın bu tabloya katkısı ayrı bir konudur; \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınır. Bu başlıkta kanıt sınırlıdır: sele ve kurulum değişikliklerine dair çalışmalar daha çok gözlemsel düzeydedir ve kılavuz düzeyinde bir fizyoterapi önerisi bulunmuyor, bu yüzden basit bir kurulum değişikliğinin herkeste aynı sonucu vereceği söylenemez. Uyuşma ya da his kaybı sürüş bittikten sonra da devam ediyorsa, bu bulgularda önce hekime başvurulur."
+        "Sürüş boyunca gevşeyemeyen bir pelvik tabanın bu tabloya katkısı ayrı bir konudur; \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınır."
       ],
       "baglantilar": [
         {
@@ -2740,28 +2581,28 @@ export const erkekPelvikTabanIcerik = {
       "h2": "Derin kalça içi ağrısı ve bacağa yansıyan sızı (obturator internus / piriformis spazmı)",
       "paragraflar": [
         "Kalçanın tam merkezinde, leğen kemiğinin iç duvarını oluşturan kasların derin spazmı; siyatik ya da pudendal sinir hattı boyunca yayılan kramp ve sızı olarak tarif edilir. Uzun oturma ve belirli kalça hareketleri şikâyeti artırabilir.",
-        "Değerlendirmede kalça içi derin kasların gerginliği ve tetik noktaları ile pelvik tabanın bu kaslarla ilişkisi birlikte ele alınır; bel kaynaklı sinir sıkışması gibi nedenlerin dışlanması için hekim değerlendirmesi önce gelir."
+        "Değerlendirmede kalça içi derin kasların gerginliği ve tetik noktaları ile pelvik tabanın bu kaslarla ilişkisi birlikte ele alınır."
       ]
     },
     {
       "h2": "Testis ve kasıkta çekilme hissi (orşiyalji / spermatik kord irritasyonu)",
       "paragraflar": [
         "Enfeksiyon ya da varikosel saptanmamasına rağmen testislerde ve leğen tabanına inen fasyal hatlarda süren çekilme, sızlama ve doku hassasiyeti bu başlıkta ele alınır.",
-        "Ani başlayan şiddetli testis ağrısı, şişlik ya da kızarıklık acil hekim değerlendirmesi gerektirir; fizyoterapi, hekimin ciddi nedenleri dışladığı süregelen tablolarda devreye girer."
+        "Fizyoterapi, hekimin ciddi nedenleri dışladığı süregelen tablolarda devreye girer."
       ]
     },
     {
       "h2": "İdrarı başlatmada güçlük ve kesik kesik işeme (gevşeyemeyen sfinkter)",
       "paragraflar": [
         "Tuvalette pelvik taban kaslarının gevşeyememesi nedeniyle idrar akışının gecikmesi, çatallı ya da ince akması ve mesanenin tam boşalmadığı hissi bu tablonun tipik anlatımıdır.",
-        "Prostat büyümesi ve idrar yolu darlığı gibi nedenlerin hekim tarafından değerlendirilmesi önce gelir. Kas kaynaklı bulunduğunda çalışma gevşeme eğitimi, solunum ve biofeedback ile işeme sırasındaki koordinasyon üzerine kurulur."
+        "Kas kaynaklı bulunduğunda çalışma gevşeme eğitimi, solunum ve biofeedback ile işeme sırasındaki koordinasyon üzerine kurulur."
       ]
     },
     {
       "h2": "Gaz ve dışkı kaçırma (fekal / gaz inkontinansı)",
       "paragraflar": [
         "Anal sfinkter kas tonusunun yetersizliği ya da cerrahi girişimler sonrasında tutma kontrolünün zayıflaması bu başlıkta ele alınır.",
-        "Değerlendirme sonrasında sfinkter ve pelvik taban kaslarının kuvvet ve dayanıklılığına yönelik, biofeedback destekli bir program planlanır. Yeni başlayan bağırsak alışkanlığı değişikliği ya da dışkıda kan varsa önce hekime başvurulur."
+        "Değerlendirme sonrasında sfinkter ve pelvik taban kaslarının kuvvet ve dayanıklılığına yönelik, biofeedback destekli bir program planlanır."
       ]
     },
     {
@@ -2776,7 +2617,7 @@ export const erkekPelvikTabanIcerik = {
         },
         {
           "baslik": "Süregelen öksürük",
-          "metin": "Tekrarlayan öksürük karın içi basıncını ani artırır. Nedeni hekim tarafından değerlendirilmelidir."
+          "metin": "Tekrarlayan öksürük karın içi basıncını ani artırır."
         },
         {
           "baslik": "Ağır kaldırma ve nefes tutma",
@@ -2802,38 +2643,6 @@ export const erkekPelvikTabanIcerik = {
       ]
     },
     {
-      "h2": "Hangi bulgularda önce hekime başvurulmalı",
-      "paragraflar": [
-        "Aşağıdaki bulgular fizyoterapi kapsamı dışındadır ve gecikmeden hekim değerlendirmesi gerektirir."
-      ],
-      "liste": [
-        {
-          "baslik": "İdrarda gözle görülür kan",
-          "metin": "Gecikmeden hekime iletilmelidir."
-        },
-        {
-          "baslik": "İdrar yapamama",
-          "metin": "Boşaltımın hiç gerçekleşmediği durumlar ivedi değerlendirme gerektirir."
-        },
-        {
-          "baslik": "Testiste büyüme ya da kıvam değişikliği",
-          "metin": "Ağrı eşlik etmese bile hekim değerlendirmesi gerekir."
-        },
-        {
-          "baslik": "Ateş ya da üşüme titremenin eşlik etmesi",
-          "metin": "Leğen bölgesindeki şikayete bu bulguların eklenmesi hâlinde önce hekime başvurulur."
-        },
-        {
-          "baslik": "Açıklanamayan kilo kaybı",
-          "metin": "Nedeni bilinmeyen kilo kaybı ayrı bir değerlendirme konusudur."
-        },
-        {
-          "baslik": "Ani başlayan şiddetli ağrı",
-          "metin": "Aniden ortaya çıkan şiddetli ağrıda çalışma durdurulur ve hekime başvurulur."
-        }
-      ]
-    },
-    {
       "h2": "Kadıköy Kozyatağı'ndaki klinik, randevu ve ulaşım",
       "paragraflar": [
         "Klinik, Kadıköy Kozyatağı'nda Gülbahar Sokak üzerindedir. Ataşehir, Bostancı, Erenköy, Suadiye ve Göztepe çevresinden ulaşım kolaydır. Görüşmeler randevu ile yapılır ve bekleme alanında yoğunluk oluşmayacak biçimde planlanır.",
@@ -2848,7 +2657,7 @@ export const erkekPelvikTabanIcerik = {
     },
     {
       "soru": "Süreç hekim yönlendirmesi olmadan başlayabilir mi?",
-      "cevap": "Hayır. Bu alandaki şikayetlerin bir bölümü ancak başka nedenler dışlandıktan sonra fizyoterapi kapsamına girer. Bu nedenle çalışma, takibi yürüten hekimin tanısı ve yönlendirmesi alındıktan sonra başlar."
+      "cevap": "Hayır. Bu alandaki şikayetlerin bir bölümü ancak başka nedenler dışlandıktan sonra fizyoterapi kapsamına girer. Bu nedenle çalışma, ilk değerlendirmenin ardından başlar."
     },
     {
       "soru": "İlk görüşmede ne yapılır?",
@@ -2864,19 +2673,19 @@ export const erkekPelvikTabanIcerik = {
     },
     {
       "soru": "Prostat ameliyatı sonrasında çalışmaya ne zaman başlanır?",
-      "cevap": "Bu karar ameliyatı yapan hekime aittir ve ameliyatın biçimine, yara iyileşmesine ve genel duruma göre değişir. Bu sayfada bir hafta ya da gün sayısı verilmez; başlama zamanı hekim takibinden gelir."
+      "cevap": "Bu sayfada bir hafta ya da gün sayısı verilmez."
     },
     {
       "soru": "Ameliyat öncesinde bir hazırlık yapılabilir mi?",
-      "cevap": "Kılavuzlar ameliyat öncesi hazırlığı sunulabilir nitelikte, daha zayıf bir öneri olarak tanımlar. Yapılıp yapılmayacağı hekim değerlendirmesine ve takvime bağlıdır."
+      "cevap": "Kılavuzlar ameliyat öncesi hazırlığı sunulabilir nitelikte, daha zayıf bir öneri olarak tanımlar."
     },
     {
       "soru": "Leğen bölgesindeki süregelen ağrıda fizyoterapi ne yapar, ne yapmaz?",
-      "cevap": "Ağrının nedenini belirlemez; o hekimin işidir. Hekim tanısı sonrasında kas ve bağ dokusuna yönelik yaklaşım, gevşeme çalışması ve ağrıyı artıran günlük hareketlerin uyarlanması gündeme gelebilir. Öneri gücü zayıf düzeydedir."
+      "cevap": "Kas ve bağ dokusuna yönelik yaklaşım, gevşeme çalışması ve ağrıyı artıran günlük hareketlerin uyarlanması gündeme gelebilir. Öneri gücü zayıf düzeydedir."
     },
     {
       "soru": "Cinsel işlevle ilgili şikayetlerde pelvik taban çalışması işe yarar mı?",
-      "cevap": "Bu alandaki kanıt sınırlıdır. Sertleşme işleviyle ilgili çalışmalar yöntem kalitesi açısından düşük ve orta düzeyde bulunmuş, güncel bir derleme anlamlı bir fark ortaya koymamıştır. Bu nedenle burada bir tedavi vaadi kurulmaz; önce hekim değerlendirmesi gerekir."
+      "cevap": "Sertleşme işleviyle ilgili çalışmalar yöntem kalitesi açısından düşük ve orta düzeyde bulunmuş, güncel bir derleme anlamlı bir fark ortaya koymamıştır."
     },
     {
       "soru": "Kaç seans sürer, ne zaman sonuç alınır?",
@@ -2991,7 +2800,7 @@ export const visseralTerapiIcerik = {
     {
       "h2": "Tedavi Sürecimiz Nasıl İlerler?",
       "paragraflar": [
-        "Göğüs ağrısı, nefes darlığı, çarpıntı, yutma güçlüğü, açıklanamayan kilo kaybı, kusma ya da dışkıda kan gibi durumlarda önce hekim değerlendirmesi gerekir. Fizyoterapi süreci hekim teşhisi ve tetkik bulguları üzerine kurulur."
+        "Fizyoterapi süreci hekim teşhisi ve tetkik bulguları üzerine kurulur."
       ],
       "liste": [
         {
@@ -3028,7 +2837,7 @@ export const ayakBilegiBurkulmasiTopukDikeniIcerik = {
       "h2": "Ayak bileği burkulması nasıl oluşur",
       "paragraflar": [
         "Ayak bileği burkulması, eklemi çevreleyen bağların normal hareket sınırının ötesine zorlanmasıyla ortaya çıkar. En sık görülen biçimde ayak içe doğru döner, dış yan bağlar gerilir ve bazı kişilerde kısmen zedelenir. Merdiven inerken boşa basmak, kaldırım kenarında dengeyi kaybetmek ya da basketbol ve futbolda başka birinin ayağına basmak tipik örneklerdir. Ağrı ve şişlik çoğu zaman olaydan hemen sonra belirir.",
-        "Bağdaki zorlanmanın düzeyi kişiden kişiye çok farklıdır. Bazı durumlarda yalnızca birkaç gün süren bir hassasiyet kalır, bazı durumlarda eklem belirgin biçimde şişer ve üzerine yük vermek zorlaşır. Bu ayrımı yapmak ve gerekli görüntülemeyi istemek hekimin görevidir. Fizyoterapi süreci, hekimin değerlendirmesi çerçevesinde ilerler.",
+        "Bağdaki zorlanmanın düzeyi kişiden kişiye çok farklıdır. Bazı durumlarda yalnızca birkaç gün süren bir hassasiyet kalır, bazı durumlarda eklem belirgin biçimde şişer ve üzerine yük vermek zorlaşır. Fizyoterapi süreci, ilerler.",
         "Burkulmanın asıl önemli yanı, ilk ağrı geçtikten sonra eklemde neyin kaybolduğudur. Bağlarda ve çevre kaslarda denge algısını taşıyan duyu bilgisi azalabilir, ayak bileği bu yüzden aynı zeminde yeniden takılmaya yatkın hale gelebilir. Kadıköy ayak bileği burkulması rehabilitasyonu için başvuran kişilerin birçoğu, ağrısı geçmesine rağmen eklemine güvenemediğini anlatır."
       ],
       "baglantilar": [
@@ -3042,7 +2851,7 @@ export const ayakBilegiBurkulmasiTopukDikeniIcerik = {
       "h2": "Topuk dikeni ve plantar fasiit: topuk altındaki sızının kaynağı",
       "paragraflar": [
         "Ayak tabanında topuk kemiğinden parmak diplerine uzanan kalın bir bağ dokusu şeridi bulunur, plantar fasya adı verilen bu yapı ayağın kavsini taşımaya yardım eder. Bu dokuya binen yük artıp tolere edilen sınırı aştığında topuğun iç alt kısmında ağrı başlayabilir ve tablo plantar fasiit olarak adlandırılır. Topuk dikeni ise görüntülemede topuk kemiğinin altında görülebilen kemik çıkıntısını tanımlar.",
-        "Görüntülemede çıkıntı bulunması her zaman ağrının nedeninin o çıkıntı olduğu anlamına gelmez; çıkıntı olup ağrısı olmayan kişiler de vardır. Bu nedenle değerlendirmede asıl bakılan, dokunun yüküne ve ayağın yürürken nasıl çalıştığına dairdir. Tanı kararı hekime aittir.",
+        "Görüntülemede çıkıntı bulunması her zaman ağrının nedeninin o çıkıntı olduğu anlamına gelmez; çıkıntı olup ağrısı olmayan kişiler de vardır. Bu nedenle değerlendirmede asıl bakılan, dokunun yüküne ve ayağın yürürken nasıl çalıştığına dairdir.",
         "Tipik tarif, sabah yataktan kalkıp ilk adımları atarken ya da uzun süre oturduktan sonra ayağa kalkınca topukta hissedilen sert bir sızıdır. Birkaç dakika yürüdükten sonra azalması, gün sonunda ise yeniden artması sık anlatılan bir örüntüdür. Yeni başlanan bir yürüyüş programı, kilo artışı, sert zeminde uzun süre ayakta durmak ve ayakkabı değişikliği tabloyu tetikleyebilir."
       ]
     },
@@ -3164,20 +2973,12 @@ export const ayakBilegiBurkulmasiTopukDikeniIcerik = {
           "yol": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapiden önce hekim değerlendirmesini gerektirir. Darbe ya da düşme sonrasında ayağa hiç basılamaması, ayak bileği çevresinde kemik üzerinde belirgin hassasiyet, görünür şekil bozukluğu ve hızla artan şişlik ya da morarma bunlar arasında sayılabilir. Bu tür bir durumda kırık ya da ciddi bağ yaralanması hekim tarafından dışlanmalıdır.",
-        "Topuk ve ayak tabanı yakınmalarında ise dinlenirken ve geceleri de süren ağrı, ateş ya da kızarıklık eşlik etmesi, ayakta uyuşma ya da yanma, baldırda tek taraflı şişlik ve ağrı hekim değerlendirmesi için yeterli nedenlerdir. Şeker hastalığı ya da dolaşım sorunu olan kişilerde ayak yakınmaları ayrıca dikkat ister. Bu kişilerde ayakta yara, renk değişikliği ya da his kaybı fark edildiğinde de hekime danışılması uygun olur.",
-        "Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır. Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez."
-      ]
     }
   ],
   "sss": [
     {
       "soru": "Burkulmadan sonra ne zaman fizyoterapiye başlanabilir?",
-      "cevap": "Zamanlama burkulmanın düzeyine ve hekimin önerisine göre değişir. Hafif bir burkulmada hareket açma ve kademeli yüklenme erken dönemde başlayabilir; belirgin şişlik ya da şüpheli bir kırık varsa önce hekim değerlendirmesi gerekir. Başvuru sırasında bu süreç birlikte gözden geçirilir."
+      "cevap": "Zamanlama burkulmanın düzeyine ve hekimin önerisine göre değişir. Hafif bir burkulmada hareket açma ve kademeli yüklenme erken dönemde başlayabilir. Başvuru sırasında bu süreç birlikte gözden geçirilir."
     },
     {
       "soru": "Ağrım geçti ama ayak bileğime güvenemiyorum, fizyoterapi gerekir mi?",
@@ -3193,7 +2994,7 @@ export const ayakBilegiBurkulmasiTopukDikeniIcerik = {
     },
     {
       "soru": "Aşil tendonu ağrısı da bu kapsamda değerlendiriliyor mu?",
-      "cevap": "Evet, aşil çevresindeki yakınmalar baldır ve ayak tabanı zinciriyle birlikte ele alınır. Tendonun yüke dayanma kapasitesi, baldır kasının kuvveti ve esnekliği ve ayağın yürürken nasıl çalıştığı değerlendirilir. Tendonda ani bir kopma şüphesi varsa vakit kaybetmeden hekime başvurmak gerekir."
+      "cevap": "Evet, aşil çevresindeki yakınmalar baldır ve ayak tabanı zinciriyle birlikte ele alınır. Tendonun yüke dayanma kapasitesi, baldır kasının kuvveti ve esnekliği ve ayağın yürürken nasıl çalıştığı değerlendirilir."
     },
     {
       "soru": "Program kaç seans sürer?",
@@ -3205,7 +3006,7 @@ export const ayakBilegiBurkulmasiTopukDikeniIcerik = {
     },
     {
       "soru": "Görüntüleme sonucu ya da rapor getirmem gerekir mi?",
-      "cevap": "Elinizde röntgen, MR ya da hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar. Görüntüleme isteme yetkisi hekime aittir; fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Elinizde röntgen, MR ya da hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Ev egzersizleri veriliyor mu?",
@@ -3214,10 +3015,6 @@ export const ayakBilegiBurkulmasiTopukDikeniIcerik = {
     {
       "soru": "Randevu saatleri nasıl planlanıyor?",
       "cevap": "Randevular Pazartesi ile Cumartesi arasında 09:00-21:00 aralığında planlanır. Klinik Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist ise değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -3234,14 +3031,14 @@ export const basAgrisiMigrenFizyoterapisiIcerik = {
   "metaDescription": "Kadıköy baş ağrısı fizyoterapisi: gerilim tipi ve boyun kaynaklı baş ağrılarında değerlendirme sonrası kişiye özel program, Kozyatağı'nda randevu.",
   "h1": "Kadıköy baş ağrısı fizyoterapisi ile boyun, çene ve kas kaynaklı ağrılara yaklaşım",
   "heroAltBaslik": "Gerilim tipi baş ağrısı, boyun kaynaklı ağrı ve migrenle birlikte seyreden ense gerginliği için Kozyatağı'nda fizyoterapi",
-  "heroParagraf": "Kadıköy baş ağrısı fizyoterapisi arayan kişilerin tarif ettiği tablo çoğu zaman benzerdir: enseden başlayıp şakağa uzanan bir ağrı, gün sonuna doğru artan bir baskı hissi, omuzlarda ve çenede sürekli bir gerginlik. Kozyatağı'ndaki klinikte bu yakınmalar önce ayrıntılı bir değerlendirmeyle ele alınır, program bulgulara göre planlanır ve tanı ile ilaç kararının hekime ait olduğu baştan paylaşılır.",
+  "heroParagraf": "Kadıköy baş ağrısı fizyoterapisi arayan kişilerin tarif ettiği tablo çoğu zaman benzerdir: enseden başlayıp şakağa uzanan bir ağrı, gün sonuna doğru artan bir baskı hissi, omuzlarda ve çenede sürekli bir gerginlik. Kozyatağı'ndaki klinikte bu yakınmalar önce ayrıntılı bir değerlendirmeyle ele alınır ve program bulgulara göre planlanır.",
   "primaryCtaMetni": "Randevu için WhatsApp'tan yazın",
   "bolumler": [
     {
       "h2": "Baş ağrısı tek bir şikâyet değildir",
       "paragraflar": [
         "Baş ağrısı gündelik dilde tek bir başlık altında anlatılsa da altında birbirinden farklı mekanizmalar bulunur. Bazı ağrılar başın iki yanını saran bir bant gibi hissedilir, bazıları şakakta ya da gözün arkasında zonklar, bazıları ise ense ve başın arka kısmından başlayıp alına doğru ilerler. Ağrının nerede başladığı ve nasıl yayıldığı, hangi tabloyla karşılaşıldığına dair önemli ipuçları taşır.",
-        "Baş ağrıları genel olarak birincil ve ikincil olmak üzere iki gruba ayrılır. Gerilim tipi baş ağrısı ve migren birincil gruba girer; başka bir sağlık sorununun belirtisi olarak ortaya çıkan ağrılar ise ikincil grupta değerlendirilir. Bu ayrımı yapmak ve tanıyı koymak hekimin görevidir; fizyoterapi ise kasların, eklemlerin ve hareket alışkanlıklarının ağrıdaki payını ele alır.",
+        "Baş ağrıları genel olarak birincil ve ikincil olmak üzere iki gruba ayrılır. Gerilim tipi baş ağrısı ve migren birincil gruba girer; başka bir sağlık sorununun belirtisi olarak ortaya çıkan ağrılar ise ikincil grupta değerlendirilir.",
         "Aynı kişide birden fazla baş ağrısı türü bir arada bulunabilir. Migren öyküsü olan birinde boyun gerginliği ağrıyı kolaylaştıran bir etken olarak öne çıkabilir, gerilim tipi ağrısı olan birinde ise uzun süren ekran başı çalışma tabloya eklenebilir. Bu nedenle değerlendirme, ağrıyı tek bir etikete bağlamak yerine ayrıntılarıyla birlikte okumaya dayanır."
       ]
     },
@@ -3278,7 +3075,7 @@ export const basAgrisiMigrenFizyoterapisiIcerik = {
     {
       "h2": "Migren ve fizyoterapinin yeri",
       "paragraflar": [
-        "Migren, genellikle tek taraflı, zonklayıcı ve ortadan şiddetliye uzanan ataklarla seyreden nörolojik bir durumdur. Bulantı, ışığa ve sese duyarlılık ya da aura denilen görsel belirtiler ağrıya eşlik edebilir. Tanısı ve ilaçla yönetimi hekime aittir; fizyoterapi migrenin yerine geçen bir uygulama değildir.",
+        "Migren, genellikle tek taraflı, zonklayıcı ve ortadan şiddetliye uzanan ataklarla seyreden nörolojik bir durumdur. Bulantı, ışığa ve sese duyarlılık ya da aura denilen görsel belirtiler ağrıya eşlik edebilir. Fizyoterapi migrenin yerine geçen bir uygulama değildir.",
         "Buna karşın bazı kişilerde ense ve omuz gerginliği atakların öncesinde ya da sırasında dikkat çeker. Boyun bölgesindeki yük, düzensiz uyku ve gün içinde biriken gerginlik atakları kolaylaştıran etkenler arasında anlatılabilir. Hekimin uygun gördüğü durumlarda fizyoterapi, bu tablonun kas ve hareket boyutuna destek olarak planlanır; bu destek ataklar konusunda bir sonuç vaadi anlamına gelmez.",
         "Migreni olan kişiler için çoğu zaman en işlevsel yol ortak çalışmadır: hekim tanıyı ve ilaç planını yürütür, fizyoterapist boyun ve omuz kuşağını, nefes düzenini ve günlük hareket alışkanlıklarını ele alır. Atak sırasında yapılacak uygulamalardan çok atak dışı dönemde sürdürülen çalışmalar öne çıkar. Atakların tarihini, süresini ve öncesindeki etkinlikleri not eden bir günlük tutmak her iki tarafın da işini kolaylaştırır."
       ]
@@ -3288,7 +3085,7 @@ export const basAgrisiMigrenFizyoterapisiIcerik = {
       "paragraflar": [
         "Kadıköy baş ağrısı fizyoterapisi başlığı altında en sık karşılaşılan tablolar şunlardır: başın arkasına ve şakağa yayılıp gün sonuna doğru artan ağrılar, boynu çevirirken tetiklenen ağrılar ve ense ile omuzlarda sürekli sertlik hissi. Ağrıya çene sıkma ya da uzun süre ekrana bakma alışkanlığı eşlik ediyorsa bu bölgeler de değerlendirmeye dâhil edilir.",
         "Kozyatağı çevresinde çalışan birçok kişi mesai ilerledikçe başlayan bir ağrıyı anlatır. Metro çıkışına yürüme mesafesindeki iş merkezlerinde geçen uzun saatler, arka arkaya toplantılar ve akşam yolculuğu ağrının gün içindeki seyrini şekillendirebilir. Masa başı yükünün boyun ve omuzlara etkisi, ofis çalışanlarına yönelik sayfada ayrıca ele alınır.",
-        "Hekimin baş ağrısının diğer nedenlerini değerlendirdiği ve boyun ya da çene bölgesinde fizyoterapiye uygun bulgular saptadığı durumlarda da fizyoterapi gündeme gelir. İlk kez başlayan, şiddeti birden artan ya da niteliği değişen bir ağrıda ise sıra fizyoterapiye değil hekim değerlendirmesine aittir. Bu ayrım ilk görüşmede birlikte yapılır."
+        "Hekimin baş ağrısının diğer nedenlerini değerlendirdiği ve boyun ya da çene bölgesinde fizyoterapiye uygun bulgular saptadığı durumlarda da fizyoterapi gündeme gelir. Bu ayrım ilk görüşmede birlikte yapılır."
       ],
       "baglantilar": [
         {
@@ -3302,7 +3099,7 @@ export const basAgrisiMigrenFizyoterapisiIcerik = {
       "paragraflar": [
         "Değerlendirme ağrının ayrıntılı öyküsüyle başlar: ne zaman başladığı, günün hangi saatlerinde arttığı, başın hangi bölgesinde hissedildiği, bulantı ya da görme değişikliğinin eşlik edip etmediği ve daha önce hangi hekimlere başvurulduğu sorulur. Varsa görüntüleme sonuçları ve hekim notları bu aşamada incelenir.",
         "Ardından duruş, boyun hareket açıklığı, üst boyun omurlarının hareketliliği, derin boyun kaslarının kontrolü ve omuz kuşağı değerlendirilir. Çene açılışı, çiğneme kaslarının gerginliği ve çene hareketindeki sapmalar da gözlenir. Ense, kafa tabanı ve omuz üstü kaslarındaki hassas noktaların tanıdık ağrıyı yeniden üretip üretmediği nazikçe kontrol edilir.",
-        "Bulgular kişiyle paylaşılır ve program bu bulgulara göre planlanır. Tanı ve tedavi kararının hekime ait olduğu, fizyoterapi sürecinin bu çerçevede yürüdüğü baştan belirtilir. Değerlendirme sırasında bir hareketin ağrıyı gerçekten tetikleyip tetiklemediği, programın yönünü belirleyen en değerli ipuçlarından biridir."
+        "Bulgular kişiyle paylaşılır ve program bu bulgulara göre planlanır. Değerlendirme sırasında bir hareketin ağrıyı gerçekten tetikleyip tetiklemediği, programın yönünü belirleyen en değerli ipuçlarından biridir."
       ]
     },
     {
@@ -3346,14 +3143,14 @@ export const basAgrisiMigrenFizyoterapisiIcerik = {
       "paragraflar": [
         "Süreçte ilerleme tek bir ölçüte bağlanmaz. Ağrının sıklığı, şiddeti, süresi ve günlük işlere etkisi birlikte izlenir. Ağrı günlüğündeki değişiklikler, kişinin kendi gözlemleri ve klinikteki ölçümler birlikte yorumlanır.",
         "Klinik tarafta boyun hareket açıklığı, derin boyun kaslarının kontrolü, omuz kuşağı duruşu ve çene açılışı belirli aralıklarla yeniden ölçülür. Başlangıçta ağrıyı tetikleyen hareketlerin aynı yanıtı verip vermediği kontrol edilir. Bu karşılaştırmalar, programın sürdürülmesine ya da değiştirilmesine karar vermek için temel oluşturur.",
-        "Her ağrı türü doğrusal bir seyir izlemez; daha rahat ve daha zor günlerin dönüşümlü görülmesi olağan olabilir. Bu nedenle tek bir günün ağrı düzeyine göre karar vermek yerine daha uzun bir dönemin eğilimine bakılır. Beklenenden farklı seyreden bir tablo varsa program gözden geçirilir, gerektiğinde ilgili hekime geri bildirim yapılması önerilir."
+        "Her ağrı türü doğrusal bir seyir izlemez; daha rahat ve daha zor günlerin dönüşümlü görülmesi olağan olabilir. Bu nedenle tek bir günün ağrı düzeyine göre karar vermek yerine daha uzun bir dönemin eğilimine bakılır."
       ]
     },
     {
       "h2": "Baş ağrısında sık yapılan yanlışlar",
       "paragraflar": [
         "En sık karşılaşılan yanlış anlama, her baş ağrısının boyundan ya da duruştan kaynaklandığını varsaymaktır. Baş ağrılarının önemli bir bölümü kasla ilgili olmayabilir; bu yüzden hekim değerlendirmesi olmadan ağrıyı yalnızca bir kas sorunu olarak yorumlamak yanıltıcı olabilir.",
-        "İkinci sık yanlış, ağrı kesicilerin sık ve kontrolsüz kullanılmasıdır. Ağrı kesicilerin çok sık kullanılması bazı kişilerde ilaç kullanımına bağlı baş ağrısı olarak bilinen tabloyu tetikleyebilir. İlaç konusundaki karar hekime aittir; fizyoterapist ilaç önermez ve ilaç planı üzerinde değişiklik yapmaz.",
+        "İkinci sık yanlış, ağrı kesicilerin sık ve kontrolsüz kullanılmasıdır. Ağrı kesicilerin çok sık kullanılması bazı kişilerde ilaç kullanımına bağlı baş ağrısı olarak bilinen tabloyu tetikleyebilir.",
         "Boynu zorlayarak çevirmek, kendi kendine çıtlatmaya çalışmak ya da ensedeki kasları aşırı sert bir baskıyla ovmak kimi zaman ağrıyı artırabilir. Uzun süre dinlenmek ve hareketten tamamen kaçınmak ise genellikle gerginliği azaltmaz. Programın kademeli, kontrollü ve bulgulara göre kurulması bu nedenle önem taşır."
       ]
     },
@@ -3370,14 +3167,6 @@ export const basAgrisiMigrenFizyoterapisiIcerik = {
           "yol": "/kozyatagi-fizyoterapist"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı baş ağrıları, fizyoterapiden önce hekim değerlendirmesini gerektirir. Hayatın en şiddetli ağrısı olarak tarif edilen ani başlangıçlı baş ağrısı, ateş ve ense sertliğinin birlikte görülmesi, bilinç değişikliği, konuşma bozukluğu, yüzde ya da kolda güç kaybı, çift görme ya da görme kaybı ve nöbet geçirilmesi bu bulgular arasında sayılır. Bu tür bir tabloda gecikmeden acil sağlık kuruluşuna başvurulmalıdır.",
-        "Baş veya boyun bölgesine darbe sonrasında başlayan ağrılar, giderek artan ağrılar, ileri yaşta ilk kez ortaya çıkan baş ağrıları, gece uykudan uyandıran ya da öksürmekle belirgin artan ağrılar da önce hekime danışılması gereken durumlardır. Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır.",
-        "Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler genel bilgilendirme amaçlıdır, teşhis yerine geçmez. Süreç boyunca yeni bir bulgu ortaya çıkarsa program yeniden değerlendirilir."
-      ]
     }
   ],
   "sss": [
@@ -3387,7 +3176,7 @@ export const basAgrisiMigrenFizyoterapisiIcerik = {
     },
     {
       "soru": "Migren fizyoterapi ile geçer mi?",
-      "cevap": "Migren hekimin tanı koyduğu ve ilaçla yönettiği bir durumdur; fizyoterapi migrenin yerine geçmez. Boyun ve omuz gerginliği tabloya eşlik ediyorsa, hekimin uygun görmesi halinde bu bölgeye yönelik fizyoterapi destekleyici bir çalışma olarak planlanabilir."
+      "cevap": "Boyun ve omuz gerginliği tabloya eşlik ediyorsa, hekimin uygun görmesi halinde bu bölgeye yönelik fizyoterapi destekleyici bir çalışma olarak planlanabilir."
     },
     {
       "soru": "Gerilim tipi baş ağrısı ile servikojenik baş ağrısı aynı şey mi?",
@@ -3407,11 +3196,11 @@ export const basAgrisiMigrenFizyoterapisiIcerik = {
     },
     {
       "soru": "Baş ağrısı sırasında randevuya gelinebilir mi?",
-      "cevap": "Şiddetli bir atak sırasında değerlendirme yapmak çoğu zaman uygun değildir; atak dışı dönemde bulgular daha sağlıklı incelenir. Ani başlayan ya da alışılmadık şiddette bir ağrı varsa önce hekime ya da acil sağlık kuruluşuna başvurulmalıdır."
+      "cevap": "Şiddetli bir atak sırasında değerlendirme yapmak çoğu zaman uygun değildir; atak dışı dönemde bulgular daha sağlıklı incelenir."
     },
     {
       "soru": "Ağrı kesici kullanıyorsam ilaçlarımı bırakmam gerekir mi?",
-      "cevap": "Hayır. İlaç kullanımı ve dozu konusundaki kararlar hekime aittir; fizyoterapi sürecinde ilaç önerilmez ya da değiştirilmez. Kullandığınız ilaçlar, değerlendirmenin bütününü doğru okumak için bilgi olarak paylaşılır."
+      "cevap": "Hayır. Fizyoterapi sürecinde ilaç önerilmez ya da değiştirilmez. Kullandığınız ilaçlar, değerlendirmenin bütününü doğru okumak için bilgi olarak paylaşılır."
     },
     {
       "soru": "Ofis çalışanlarında baş ağrısı neden sık görülür?",
@@ -3420,10 +3209,6 @@ export const basAgrisiMigrenFizyoterapisiIcerik = {
     {
       "soru": "Randevu saatleri nelerdir ve kliniğe nasıl ulaşılır?",
       "cevap": "Randevular Pazartesi ile Cumartesi arasında 09:00-21:00 saatleri içinde planlanır. Klinik Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -3456,7 +3241,7 @@ export const butunculFizyoterapiDegerlendirmeIcerik = {
       "paragraflar": [
         "Belirli bir bölgede süren ağrı, hareket sırasında beliren kısıtlılık, günlük işleri yaparken yaşanan zorlanma ya da bir ameliyat veya yaralanma sonrasında hareketin yeniden kazanılması gereken durumlar değerlendirme için başlıca nedenlerdir. Şikâyetin hangi bölgeden başladığı bazen belirsiz kalır; bu da ilk seansın en yararlı olduğu durumlardan biridir. Bu gibi durumlarda değerlendirme, hangi hareketin hangi dokuya yük bindirdiğini ayırt etmeye çalışır ve gereksiz yere geniş bir program kurmaktan kaçınır.",
         "Birden fazla bölgede aynı anda ortaya çıkan yakınmalar da değerlendirmeye uygundur. Örneğin hem boyunda hem belde gerginlik tarif eden ya da bir bölge düzeldiğinde başka bir bölgede rahatsızlık hisseden kişilerde, hareket zincirinin tamamına bakmak gerekebilir. Bel ve boyun şikâyetlerinin ayrıntıları sitedeki blog yazılarında anlatılmaktadır. Her iki durumda da ortak payda, şikâyetin tek bir noktaya sıkışmayıp hareket düzeninin bir parçası olarak görülmesidir.",
-        "Belirgin bir ağrı olmasa da çalışma düzeni, spor alışkanlığı ya da duruş konusunda fikir almak isteyen kişiler değerlendirmeye gelebilir. Böyle bir seans, zorlanmanın nerede biriktiğini görmeye ve sürdürülebilir bir egzersiz alışkanlığının nasıl kurulacağını konuşmaya yarar. Daha önce hekim tarafından konulmuş bir tanı varsa, bu bilgi sürecin çerçevesini belirler. Hekimin henüz görmediği ya da hekim görüşü gerektirebilecek bir tablo olduğu düşünülürse, kişi önce uygun bir hekime yönlendirilir."
+        "Belirgin bir ağrı olmasa da çalışma düzeni, spor alışkanlığı ya da duruş konusunda fikir almak isteyen kişiler değerlendirmeye gelebilir. Böyle bir seans, zorlanmanın nerede biriktiğini görmeye ve sürdürülebilir bir egzersiz alışkanlığının nasıl kurulacağını konuşmaya yarar. Daha önce hekim tarafından konulmuş bir tanı varsa, bu bilgi sürecin çerçevesini belirler."
       ],
       "baglantilar": [
         {
@@ -3488,7 +3273,7 @@ export const butunculFizyoterapiDegerlendirmeIcerik = {
       "paragraflar": [
         "Görüşmenin ardından beden, ayakta ve hareket halindeyken gözlenir. Duruşun önden, yandan ve arkadan görünümü, omuz ve kalça hizası, ayak basışı ve yürüyüş biçimi incelenir. Oturup kalkma, eğilme, kol kaldırma ve çömelme gibi günlük hareketlerin nasıl yapıldığı da değerlendirmeye dâhil edilir. Gözlem sırasında iki taraf arasındaki farklar ve hareketin hangi evrede bozulduğu da dikkatle not edilir.",
         "Ardından eklem hareket açıklığı, kas kuvveti, esneklik ve gerekli görülen durumlarda denge testleri uygulanır. Hareketin hangi noktada kısıtlandığı, ağrının hangi açıda belirdiği ve karşı taraftaki bölgeyle farkın ne olduğu not edilir. Bu ölçümler, programın başlangıç noktasını oluşturur ve sonraki karşılaştırmalara temel olur. Testler ağrıyı çoğaltmak için değil, hareketin sınırlarını anlamak için kademeli ve kişinin sinyallerine göre uygulanır.",
-        "Spor yapan kişilerde ek olarak sıçrama, tek ayak üzerinde denge ve yön değiştirme gibi hareketler de gözlenebilir. Bu konuda ayrı bir değerlendirme sayfası bulunmaktadır. Fizyoterapistin muayenesi, hekimin tıbbi muayenesinin yerine geçmez; tanı koyma yetkisi hekime aittir ve değerlendirme bu çerçevede yürütülür."
+        "Spor yapan kişilerde ek olarak sıçrama, tek ayak üzerinde denge ve yön değiştirme gibi hareketler de gözlenebilir. Bu konuda ayrı bir değerlendirme sayfası bulunmaktadır."
       ],
       "baglantilar": [
         {
@@ -3509,7 +3294,7 @@ export const butunculFizyoterapiDegerlendirmeIcerik = {
       "h2": "Değerlendirmeden sonra kullanılan yaklaşımlar",
       "paragraflar": [
         "Kadıköy bütüncül fizyoterapi programı, tek bir tekniğe dayanmaz; bulgulara göre birkaç yaklaşım bir arada planlanır. Eklem ve yumuşak dokudaki kısıtlılığı ele almak için manuel terapi, kasların kuvvetini ve kontrolünü geliştirmek için terapötik egzersiz, gövde ve omuz kuşağı kontrolü için kontrollü pilates çalışmaları kullanılabilir. Seansların içeriği, o günkü bulgulara ve kişinin geçen günlerde nasıl hissettiğine göre küçük ayarlamalarla yeniden şekillenebilir.",
-        "Hangi yaklaşımın öne çıkacağı kişiye göre değişir. Hareket kaybı belirgin olan birinde başlangıçta elle uygulamalar, kuvvet eksikliği belirgin olan birinde ise egzersiz ağırlıklı bir düzen daha çok yer tutabilir. Seçimler, değerlendirme bulgularına ve varsa hekim yönlendirmesine dayanır. Eklem kapsülü ve bağ dokusundaki hareket kısıtlılığı ile kasın kuvvet eksikliği birbirinden farklı yaklaşımlar gerektirdiği için ayrım baştan yapılır.",
+        "Hangi yaklaşımın öne çıkacağı kişiye göre değişir. Hareket kaybı belirgin olan birinde başlangıçta elle uygulamalar, kuvvet eksikliği belirgin olan birinde ise egzersiz ağırlıklı bir düzen daha çok yer tutabilir. Eklem kapsülü ve bağ dokusundaki hareket kısıtlılığı ile kasın kuvvet eksikliği birbirinden farklı yaklaşımlar gerektirdiği için ayrım baştan yapılır.",
         "Klinikte yapılan çalışmanın bir bölümü, ev programı olarak kişiye aktarılır. Böylece seanslar arasındaki günlerde de aynı hareket kalitesi sürdürülebilir. Program, ara değerlendirmelerde yeniden gözden geçirilir ve gerektiğinde yaklaşımlar değiştirilir."
       ],
       "baglantilar": [
@@ -3560,7 +3345,7 @@ export const butunculFizyoterapiDegerlendirmeIcerik = {
       "paragraflar": [
         "Kadıköy bütüncül fizyoterapi sürecinde ilerleme, ilk değerlendirmedeki ölçümlerle karşılaştırılarak izlenir. Eklem hareket açıklığı, kas kuvveti ve hareket kalitesi belirli aralıklarla yeniden ölçülür. Kişinin günlük işlerdeki zorlanması ve ağrının seyri de bu karşılaştırmaya eklenir. Değerlendirme tekrarları, her seferinde aynı yöntemlerle yapıldığında karşılaştırmayı anlamlı kılar.",
         "Ölçümler kadar kişinin kendi gözlemi de değerlidir. Merdiveni daha rahat çıkabilmek, geceleri daha az uyanmak ya da bir işi daha uzun süre sürdürebilmek, çoğu zaman testlerden önce fark edilen değişikliklerdir. Bu gözlemler, seans başlarında kısa bir görüşmeyle paylaşılır. Şikâyetin dalgalanması da doğal olabilir; iyi ve kötü günlerin genel seyirle birlikte yorumlanması, tek bir güne bakarak karar vermekten daha sağlıklıdır.",
-        "Beklenenden farklı seyreden bir bölüm olduğunda program yeniden düzenlenir. Bir hareketin yük seviyesi değiştirilebilir, yaklaşım farklı bir bölgeye yönlendirilebilir ya da hekimle görüşme gerekliliği değerlendirilebilir. Süreç kişiden kişiye değiştiği için önceden sabit bir takvim verilmez."
+        "Beklenenden farklı seyreden bir bölüm olduğunda program yeniden düzenlenir. Süreç kişiden kişiye değiştiği için önceden sabit bir takvim verilmez."
       ]
     },
     {
@@ -3568,7 +3353,7 @@ export const butunculFizyoterapiDegerlendirmeIcerik = {
       "paragraflar": [
         "En yaygın yanlış anlamalardan biri, ağrının olduğu yerin sorunun kaynağı olduğunu düşünmektir. Oysa ağrı bazen komşu bölgelerin yeterince çalışmamasının sonucudur ve yalnızca ağrıyan noktaya odaklanmak tabloyu eksik bırakabilir. Bu nedenle değerlendirme, ağrının yanı sıra çevresindeki bölgeleri de kapsar. Benzer biçimde, ağrının yokluğunun tam bir hareket kalitesi anlamına geldiği düşüncesi de tartışmaya açıktır; kısıtlılık çoğu zaman sessizce sürer.",
         "Bir diğer yanlış anlama, fizyoterapinin yalnızca seans süresince yapılan bir uygulama olduğu düşüncesidir. Kliniğe gelinen süre haftanın küçük bir bölümüdür; günlük alışkanlıklar ve ev programı sürecin büyük kısmını oluşturur. Kişinin sürece aktif katılımı bu yüzden belirleyicidir. Bir egzersizin herkes için aynı etkiyi göstereceği varsayımı da yaygındır, oysa aynı hareket farklı kişilerde farklı bölgeleri çalıştırabilir.",
-        "Görüntüleme sonucunun tek başına şikâyeti açıkladığı düşüncesi de temkinle karşılanır. Görüntülerde saptanan bazı değişiklikler şikâyeti olmayan kişilerde de görülebilir; bu nedenle bulgular hareket testleri ve öyküyle birlikte yorumlanır. Görüntüleme isteme ve tanı koyma yetkisi hekime aittir. Bu yüzden değerlendirme sonuçlarının sade bir dille paylaşılması ve kişinin soru sorabilmesi sürecin önemli bir parçasıdır."
+        "Görüntüleme sonucunun tek başına şikâyeti açıkladığı düşüncesi de temkinle karşılanır. Görüntülerde saptanan bazı değişiklikler şikâyeti olmayan kişilerde de görülebilir; bu nedenle bulgular hareket testleri ve öyküyle birlikte yorumlanır. Bu yüzden değerlendirme sonuçlarının sade bir dille paylaşılması ve kişinin soru sorabilmesi sürecin önemli bir parçasıdır."
       ]
     },
     {
@@ -3577,20 +3362,6 @@ export const butunculFizyoterapiDegerlendirmeIcerik = {
         "Değerlendirme ve seanslar, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın tarafından yürütülür. Görüşmeler Kadıköy Kozyatağı'nda Gülbahar Sokak üzerindeki klinikte yapılır. Klinik, Kozyatağı metro istasyonuna yürüme mesafesindedir. Değerlendirme boyunca kişinin mahremiyetine ve rahatlığına özen gösterilir; uygulamalar öncesinde ne yapılacağı anlatılır ve onay alınır.",
         "Kadıköy bütüncül fizyoterapi randevuları Pazartesi ile Cumartesi günleri 09:00 ve 21:00 saatleri arasında planlanır. Bu aralık, mesai öncesinde ya da sonrasında gelmek isteyen kişiler için esneklik sağlar. İlk seans, öykü ve testlere yeterli zaman ayrılabilmesi için buna göre ayarlanır.",
         "İlk randevuya hareketi kısıtlamayan rahat bir kıyafetle gelinmesi yeterlidir. Varsa hekim raporlarının ve görüntüleme sonuçlarının getirilmesi, değerlendirmenin daha eksiksiz ilerlemesine yardımcı olur. Randevu almak için WhatsApp üzerinden yazılabilir."
-      ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde hekim değerlendirmesini gerektirir. Kola ya da bacağa yayılan uyuşma ile birlikte güç kaybı, dinlenmeyle azalmayan ve geceleri belirginleşen ağrı, nedeni açıklanamayan kilo kaybı ya da ateşin eşlik ettiği tablolar bunlar arasında sayılabilir. Yukarıda sayılanlar bir liste olmaktan çok örneklerdir; kişi kendisini endişelendiren başka bir bulgu fark ettiğinde de çekinmeden paylaşabilir.",
-        "Düşme ya da darbe sonrasında başlayan şikâyetler, idrar veya dışkı kontrolünde ani değişiklik, göğüs ağrısı veya nefes darlığıyla birlikte gelen yakınmalar da öncelikle hekim muayenesini gerektirir. Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır.",
-        "Fizyoterapi süreci, hekimin tanı ve tedavi kararı çerçevesinde ilerler. Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında yeniden değerlendirme yapılır. Bu sayfadaki bilgiler genel bilgilendirme amaçlıdır ve teşhis yerine geçmez."
-      ],
-      "baglantilar": [
-        {
-          "metin": "Kadıköy ortopedik rehabilitasyon",
-          "yol": "/ortopedik-rehabilitasyon-kadikoy"
-        }
       ]
     }
   ],
@@ -3602,10 +3373,6 @@ export const butunculFizyoterapiDegerlendirmeIcerik = {
     {
       "soru": "İlk seansta neler yapılır?",
       "cevap": "Önce şikâyet öyküsü ve günlük yaşam ayrıntılı biçimde dinlenir. Ardından duruş, hareket açıklığı, kas kuvveti ve esneklik gibi testler yapılır, bulgular paylaşılır ve hedefler birlikte belirlenir."
-    },
-    {
-      "soru": "Fizyoterapi muayenesi ile hekim muayenesi aynı şey mi?",
-      "cevap": "Hayır. Fizyoterapi değerlendirmesi hareket, kuvvet ve işlev odaklıdır; tanı koyma ve tedavi kararı verme yetkisi hekime aittir. Fizyoterapi süreci, hekimin kararı çerçevesinde yürütülür."
     },
     {
       "soru": "Ağrım yokken de değerlendirmeye gelebilir miyim?",
@@ -3621,7 +3388,7 @@ export const butunculFizyoterapiDegerlendirmeIcerik = {
     },
     {
       "soru": "Yanımda rapor ya da görüntüleme sonucu getirmem gerekir mi?",
-      "cevap": "Elinizde hekim raporu, röntgen, MR veya benzeri bir sonuç varsa getirmeniz değerlendirmeye katkı sağlar. Zorunlu değildir; görüntüleme isteme yetkisi hekime aittir ve fizyoterapi mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Elinizde hekim raporu, röntgen, MR veya benzeri bir sonuç varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Seanslar sırasında hangi yaklaşımlar kullanılır?",
@@ -3684,7 +3451,7 @@ export const dizAgrisiRehabilitasyonuIcerik = {
       "paragraflar": [
         "Menisküsler, uyluk ve kaval kemiği arasında yer alan, yükü yayan ve eklemi stabilize etmeye yardımcı olan kıkırdak benzeri yapılardır. Dönme hareketiyle gelen bir zorlanma ya da zamanla oluşan yıpranma sonucu bu yapıda yakınma ortaya çıkabilir. Kişiler genellikle eklem aralığında ağrı, takılma, kilitlenme hissi ya da şişlik tarif eder. Menisküs yakınmasının her zaman dönme travmasıyla başlamadığı da bilinir; bazı kişilerde yıllar içinde çömelme ve yerden kalkma gibi tekrarlayan hareketler sonucunda yakınma yavaş yavaş belirir.",
         "Bağ yakınmalarında ise dizin güvensizliği öne çıkar. Ön çapraz bağ, arka çapraz bağ ve yan bağların her biri dizin farklı yönlerdeki kaymasını sınırlar; bu yapılardan biri zorlandığında dizin yön değiştirirken ya da merdiven inerken boşa çıkacakmış gibi hissedilmesi olağandır. Çapraz bağ yaralanmalarında fizyoterapinin rolü ayrıca ele alınmıştır.",
-        "Kıkırdak yakınmalarında ise tablo daha yavaş gelişir. Sabah ilk adımlarda tutukluk, uzun yürüyüşten sonra artan ağrı ve hava değişimiyle belirginleşen rahatsızlık sık tarif edilir. Bu yapıların görüntülenmesi ve tanısı hekime aittir; fizyoterapi, hekim değerlendirmesi çerçevesinde dizin çevresindeki kasların, hareketin ve yük paylaşımının düzenlenmesine yönelir."
+        "Kıkırdak yakınmalarında ise tablo daha yavaş gelişir. Sabah ilk adımlarda tutukluk, uzun yürüyüşten sonra artan ağrı ve hava değişimiyle belirginleşen rahatsızlık sık tarif edilir."
       ],
       "baglantilar": [
         {
@@ -3706,7 +3473,7 @@ export const dizAgrisiRehabilitasyonuIcerik = {
       "paragraflar": [
         "Süreç, şikâyetin ne zaman başladığı, hangi hareketle arttığı, daha önce bir burkulma ya da darbe geçirilip geçirilmediği ve varsa hekim değerlendirmesinin ne söylediği üzerine ayrıntılı bir görüşmeyle açılır. Daha önce çekilmiş görüntüleme sonuçları ve ameliyat raporları bu aşamada değerlendirmeye eklenir.",
         "Ardından duruş ve yürüyüş gözlenir. Çömelme, tek ayak üzerinde durma, basamak inme gibi gündelik hareketlerde dizin ve kalçanın nasıl hizalandığı incelenir. Eklem hareket açıklığı, uyluk ve kalça kaslarının kuvveti, esneklik ve denge testleri yapılır; dizin şişlik, ısı ve hassasiyet bulguları da kaydedilir. Gerektiğinde yürüyüş sırasında dizin içe ya da dışa kayması, ayağın yere basış biçimi ve gövdenin yana eğilmesi gibi ayrıntılar da not edilir. Bu gözlemler, ağrıya yol açan hareket örüntüsünü anlamak için kullanılır.",
-        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Program sabit bir şablon değildir, ara değerlendirmelerle içeriği ve yoğunluğu güncellenir. Tanı ve tedavi kararının hekime ait olduğu, fizyoterapi sürecinin bu karar çerçevesinde yürüdüğü baştan paylaşılır."
+        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Program sabit bir şablon değildir, ara değerlendirmelerle içeriği ve yoğunluğu güncellenir."
       ]
     },
     {
@@ -3808,14 +3575,6 @@ export const dizAgrisiRehabilitasyonuIcerik = {
           "yol": "/kozyatagi-fizyoterapist"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde ya da sırasında hekim değerlendirmesini gerektirir. Düşme ya da darbe sonrasında dizin birdenbire şişmesi, dizi tam açamama ya da bükememe, kilitlenme, ağırlık verememe, ateş ve kızarıklıkla birlikte görülen ısınmış ve şiş diz, baldırda tek taraflı şişlik ve ağrı bunlar arasında sayılabilir.",
-        "Dinlenmeyle azalmayan, geceleri belirginleşen ya da zamanla artan ağrı, açıklanamayan kilo kaybıyla birlikte görülen yakınmalar ve bacakta yayılan uyuşma ile güç kaybı da hekime yönlendirmeyi gerektirir. Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır.",
-        "Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez. Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında yeniden değerlendirme yapılır."
-      ]
     }
   ],
   "sss": [
@@ -3829,7 +3588,7 @@ export const dizAgrisiRehabilitasyonuIcerik = {
     },
     {
       "soru": "Menisküs yırtığı olan biri fizyoterapiye başlayabilir mi?",
-      "cevap": "Bu karar hekimle birlikte verilir; yırtığın tipi, yeri ve belirtilerin niteliği belirleyicidir. Hekim değerlendirmesi sonrasında fizyoterapi, dizin çevresindeki kasların ve hareketin düzenlenmesi yönünde planlanır."
+      "cevap": "Bu karar hekimle birlikte verilir; yırtığın tipi, yeri ve belirtilerin niteliği belirleyicidir. Fizyoterapi, dizin çevresindeki kasların ve hareketin düzenlenmesi yönünde planlanır."
     },
     {
       "soru": "Diz protezi ya da çapraz bağ ameliyatından sonra ne zaman başvurulabilir?",
@@ -3841,7 +3600,7 @@ export const dizAgrisiRehabilitasyonuIcerik = {
     },
     {
       "soru": "Görüntüleme sonucu ya da MR getirmem gerekir mi?",
-      "cevap": "Elinizde bir görüntüleme sonucu veya hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar. Görüntüleme isteme yetkisi hekime aittir; fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Elinizde bir görüntüleme sonucu veya hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Diz ağrısı için dizlik kullanmalı mıyım?",
@@ -3858,10 +3617,6 @@ export const dizAgrisiRehabilitasyonuIcerik = {
     {
       "soru": "Kliniğe ulaşım nasıl sağlanıyor?",
       "cevap": "Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir. Kozyatağı metro istasyonuna yürüme mesafesinde olduğu için toplu taşımayla ulaşım pratiktir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Fiziksel tıp ve rehabilitasyon hekimliği ayrı bir hekim unvanıdır; tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist ise değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -3936,7 +3691,7 @@ export const durusBozukluguKifozLordozIcerik = {
       "h2": "Çocuk ve ergenlerde postür değerlendirmesi",
       "paragraflar": [
         "Büyüme çağında duruş sürekli değişir. Okul çantası, uzun süren ders saatleri, ekran kullanımı ve hızlı boy uzaması sırt ve omuz görünümünü etkileyebilir. Ebeveynler çoğunlukla çocuğun omzunun bir tarafının yüksek durduğunu, sırtının kamburlaştığını ya da karnının öne çıktığını fark ettiğinde değerlendirme düşünür.",
-        "Çocuklarda yapılan postür değerlendirmesinde amaç, görünümün geçici bir alışkanlık mı yoksa daha ayrıntılı bir incelemeyi gerektiren bir tablo mu olduğunu anlamaktır. Omurganın yana doğru eğriliği gibi bulgular fark edildiğinde hekim değerlendirmesi önerilir. Yana eğrilikle ilgili yaklaşımlar ayrı bir sayfada ele alınmaktadır.",
+        "Çocuklarda yapılan postür değerlendirmesinde amaç, görünümün geçici bir alışkanlık mı yoksa daha ayrıntılı bir incelemeyi gerektiren bir tablo mu olduğunu anlamaktır. Yana eğrilikle ilgili yaklaşımlar ayrı bir sayfada ele alınmaktadır.",
         "Çocuk ve ergenle yapılan çalışma, yetişkinlerden farklı bir dille ve daha oyunsu bir yapıyla kurulur. Egzersizler kısa, anlaşılır ve günlük hayata sığacak biçimde seçilir; çocuğun hareket becerisi ve gelişim düzeyi de gözetilir. Genel çocuk fizyoterapisi çerçevesi için ilgili sayfaya bakılabilir.",
         "Ergenlik döneminde hızlı boy uzaması kasların kemik büyümesine yetişmesini zorlaştırabilir ve geçici bir sertlik ya da kamburlaşma görünümü yaratabilir. Okul çantasının iki omuza dengeli taşınması, uzun ders saatleri arasında kısa hareket araları verilmesi ve düzenli spor alışkanlığı bu dönemde önerilen genel çerçeveyi oluşturur. Çocuğun kendi yaşına uygun bir egzersiz düzenine yönlendirilmesi, duruş farkındalığını baskı kurmadan geliştirmeye yardımcı olur."
       ],
@@ -3956,7 +3711,7 @@ export const durusBozukluguKifozLordozIcerik = {
       "paragraflar": [
         "Kadıköy duruş bozukluğu fizyoterapisi genellikle iki farklı nedenle gündeme gelir. Bazı kişiler görünümden, yani omuzlarının öne düşmesinden ya da sırtlarının yuvarlaklaşmasından rahatsızdır. Bazıları ise duruşa eşlik eden ağrı, çabuk yorulma ya da hareket kısıtlılığı nedeniyle başvurur.",
         "Boyun, sırt veya bel bölgesinde oturdukça ya da ayakta kaldıkça artan rahatsızlık, derin nefes alırken göğüste sıkışma hissi, kol kaldırırken omuzda zorlanma ve çocuklarda aileyi endişelendiren duruş değişiklikleri sık tarif edilen durumlardır. Ağrı olmaksızın da görünümle ilgili değerlendirme talep edilebilir.",
-        "Fizyoterapinin rolü, duruşun altında yatan kas dengesizliği ve hareket alışkanlıklarını ortaya koymak ve bunlara yönelik program kurmaktır. Yapısal bir neden ya da hekim incelemesi gerektiren bir bulgu varsa süreç bu çerçevede yönlendirilir. Tanı ve tedavi kararı hekime aittir, fizyoterapi bu karara eşlik eden bir süreçtir."
+        "Fizyoterapinin rolü, duruşun altında yatan kas dengesizliği ve hareket alışkanlıklarını ortaya koymak ve bunlara yönelik program kurmaktır. Yapısal bir neden ya da hekim incelemesi gerektiren bir bulgu varsa süreç bu çerçevede yönlendirilir."
       ]
     },
     {
@@ -3964,7 +3719,7 @@ export const durusBozukluguKifozLordozIcerik = {
       "paragraflar": [
         "Değerlendirme, şikâyetin ne zaman başladığı, günün hangi saatlerinde arttığı ve hangi hareketlerle değiştiği üzerine yapılan görüşmeyle açılır. Ardından ayakta duruş önden, yandan ve arkadan gözlenir; baş, omuzlar, kürek kemikleri, omurga hattı, pelvis ve ayak dizilimi birlikte incelenir. Kişinin rahat durduğu konum ile kendini toparladığı konum arasındaki fark da not edilir.",
         "Gözleme hareket testleri eşlik eder. Eklem hareket açıklığı, kas kısalığı, kas kuvveti, göğüs kafesinin ve omurganın esnekliği ile gövde kontrolü değerlendirilir. Duruşun düzeltilebilir olup olmadığı, yani kişinin isteyerek konumunu değiştirebilmesi, kasların mı yoksa yapının mı belirleyici olduğuna dair önemli bir ipucu verir.",
-        "Bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Elinizde daha önce çekilmiş bir röntgen ya da hekim notu varsa getirmeniz süreci kolaylaştırır; görüntüleme isteme yetkisi ise hekime aittir. Değerlendirme tek seferlik bir işlem olarak değil, program boyunca yinelenen bir inceleme olarak ele alınır."
+        "Bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Elinizde daha önce çekilmiş bir röntgen ya da hekim notu varsa getirmeniz süreci kolaylaştırır. Değerlendirme tek seferlik bir işlem olarak değil, program boyunca yinelenen bir inceleme olarak ele alınır."
       ]
     },
     {
@@ -4025,14 +3780,6 @@ export const durusBozukluguKifozLordozIcerik = {
           "yol": "/kozyatagi-fizyoterapist"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde hekim değerlendirmesini gerektirir. Kola ya da bacağa yayılan uyuşma ve güç kaybı, dinlenmeyle azalmayan ve geceleri belirginleşen ağrı, nedensiz kilo kaybı ya da ateşin eşlik ettiği tablolar, kısa sürede belirgin biçimde artan bir omurga eğriliği bunlar arasında sayılabilir.",
-        "Çocuk ve ergenlerde omuz ya da kalçanın belirgin biçimde asimetrik görünmesi, öne eğilince sırtta çıkıntı fark edilmesi ya da ağrının eşlik etmesi durumunda da hekim incelemesi önerilir. Sertleşmiş bir kifoz gibi yapısal nedenler hekim tarafından değerlendirilir ve tanı konur.",
-        "Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır. Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez."
-      ]
     }
   ],
   "sss": [
@@ -4050,7 +3797,7 @@ export const durusBozukluguKifozLordozIcerik = {
     },
     {
       "soru": "Çocuğumun duruşu için ne zaman değerlendirme yaptırmalıyım?",
-      "cevap": "Omuz yüksekliği farkı, öne eğilince sırtta çıkıntı, belirgin kamburlaşma ya da ağrı fark ettiğinizde değerlendirme yaptırılabilir. Bu durumlarda önce hekim değerlendirmesi önerilebilir; fizyoterapi süreci hekimin kararı çerçevesinde planlanır."
+      "cevap": "Omuz yüksekliği farkı, öne eğilince sırtta çıkıntı, belirgin kamburlaşma ya da ağrı fark ettiğinizde değerlendirme yaptırılabilir."
     },
     {
       "soru": "Duruş düzeltici korse veya bant işe yarar mı?",
@@ -4062,11 +3809,11 @@ export const durusBozukluguKifozLordozIcerik = {
     },
     {
       "soru": "Klinik pilates duruş için uygun mu?",
-      "cevap": "Klinik pilates, gövde ve omuz kuşağı kontrolünü kademeli biçimde çalıştırmak için kullanılan seçeneklerden biridir. Uygunluk değerlendirme sonrasında, varsa hekim yönlendirmesi de dikkate alınarak belirlenir."
+      "cevap": "Klinik pilates, gövde ve omuz kuşağı kontrolünü kademeli biçimde çalıştırmak için kullanılan seçeneklerden biridir."
     },
     {
       "soru": "Skolyoz ile duruş bozukluğu aynı şey mi?",
-      "cevap": "Hayır. Duruş bozukluğu çoğunlukla kasların ve alışkanlıkların etkilediği bir görünümü anlatır; skolyoz ise omurganın yana doğru ve dönme eşliğinde eğriliğidir. Şüphe edilen durumlarda hekim değerlendirmesi önerilir, skolyoz çalışmaları ayrı bir sayfada ele alınır."
+      "cevap": "Hayır. Duruş bozukluğu çoğunlukla kasların ve alışkanlıkların etkilediği bir görünümü anlatır; skolyoz ise omurganın yana doğru ve dönme eşliğinde eğriliğidir."
     },
     {
       "soru": "İlk randevuya nasıl hazırlanmalıyım?",
@@ -4075,10 +3822,6 @@ export const durusBozukluguKifozLordozIcerik = {
     {
       "soru": "Randevu saatleri ve ulaşım nasıl?",
       "cevap": "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında planlanır. Klinik Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist ise değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -4125,7 +3868,7 @@ export const egzersizTerapisiEvProgramiIcerik = {
       "paragraflar": [
         "Egzersiz programı yalnızca bir yaralanma sonrasında gündeme gelmez. Uzun süredir devam eden bel, boyun ve omuz yakınmaları, hareketsiz bir yaşam sonrası beliren genel bir kuvvet kaybı, ameliyat ya da alçı döneminin ardından kasın yeniden çalıştırılması ve denge kaybı hissi egzersizin devreye girdiği tablolar arasındadır. Kronik ağrı olan kişilerde de kademeli egzersiz, ağrı yönetiminin önemli bir parçası olarak ele alınır.",
         "Bazı kişiler ise belirgin bir yakınmaları olmadan, yaşın ilerlemesiyle birlikte kuvvet ve dengelerini korumak istedikleri için başvurur. Böyle bir durumda amaç bir şikâyeti ele almaktan çok mevcut işlevi sürdürmek ve olası yüklenmelere karşı bedeni hazırlamaktır. Değerlendirme, bu hedefin hangi hareketlerle destekleneceğini belirler. Merdiven çıkmak, yerden kalkmak ya da alışveriş poşeti taşımak gibi gündelik işlerde zorlanma hissi, programın hedeflerini somutlaştırmak için sıklıkla kullanılan örneklerdir.",
-        "Program kararı verilirken şikâyetin türü, süresi ve varsa hekim değerlendirmesi birlikte dikkate alınır. Bazı durumlarda egzersizin başlatılabilmesi için önce hekimin görüşü gerekir. Bu sayfadaki bilgiler genel bir çerçeve sunar ve bireysel tıbbi karar yerine geçmez."
+        "Program kararı verilirken şikâyetin türü, süresi ve varsa hekim değerlendirmesi birlikte dikkate alınır."
       ],
       "baglantilar": [
         {
@@ -4187,7 +3930,7 @@ export const egzersizTerapisiEvProgramiIcerik = {
       "paragraflar": [
         "Online danışmanlık, uzaktan yürütülen bir görüşme ve program takibi biçimidir. Kliniğe düzenli gelmekte zorlanan, şehir dışında yaşayan ya da yoğun çalışma temposu nedeniyle sık görüşemeyen kişiler için bir seçenek olarak düşünülebilir. Görüşme, mevcut yakınmanın anlatılmasıyla ve varsa hekim raporunun incelenmesiyle başlar.",
         "Uzaktan yapılan görüşmenin sınırları vardır. Elle muayene, eklem ve doku incelemesi görüntülü görüşmede aynı ayrıntıda yapılamaz; bu nedenle mümkünse ilk değerlendirmenin yüz yüze yapılması tercih edilir. Uzaktan danışmanlıkta ağırlık, mevcut programın doğru yapılıp yapılmadığının izlenmesi, hareketlerin ayarlanması ve sorulara yanıt verilmesidir.",
-        "Danışmanlık sürecinde kişi hareketlerini kamera karşısında gösterebilir, uygulama sırasında yaşadığı zorlukları paylaşabilir ve programın güncellenmesini isteyebilir. Beklenmeyen bir ağrı artışı ya da yeni bir bulgu tarif edildiğinde, program durdurularak yüz yüze değerlendirme ya da hekim yönlendirmesi gündeme gelir."
+        "Danışmanlık sürecinde kişi hareketlerini kamera karşısında gösterebilir, uygulama sırasında yaşadığı zorlukları paylaşabilir ve programın güncellenmesini isteyebilir."
       ]
     },
     {
@@ -4224,14 +3967,6 @@ export const egzersizTerapisiEvProgramiIcerik = {
           "metin": "Fizik tedavi kliniği yaklaşımı",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi"
         }
-      ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular egzersiz programına başlamadan önce hekim değerlendirmesini gerektirir. Dinlenmeyle azalmayan ve geceleri belirginleşen ağrı, kola ya da bacağa yayılan uyuşma ile birlikte güç kaybı, göğüs ağrısı, çarpıntı ya da egzersizle ortaya çıkan nefes darlığı, belirgin ve açıklanamayan kilo kaybı ve ateşin eşlik ettiği tablolar bunlar arasında sayılabilir. Düşme ya da darbe sonrası başlayan şikâyetler de önce hekim tarafından değerlendirilmelidir.",
-        "Kalp, tansiyon, kemik erimesi ya da başka bir kronik hastalığı olan kişilerde egzersizin türü ve şiddeti hekimin görüşü doğrultusunda belirlenir. Ameliyat ya da kırık sonrasında hangi hareketlerin ne zaman başlanabileceği cerrahın ya da hekimin protokolüne bağlıdır. Fizyoterapi süreci bu protokolün çerçevesinde yürür.",
-        "Program sırasında yeni bir bulgu ortaya çıktığında ya da şikâyet beklenenden farklı seyrettiğinde program durdurulabilir ve kişi hekime yönlendirilebilir. Tanı ve tedavi kararı hekime aittir; bu sayfadaki bilgiler genel bilgilendirme amaçlıdır ve teşhis yerine geçmez."
       ]
     }
   ],
@@ -4303,7 +4038,7 @@ export const fibromiyaljiKronikAgriIcerik = {
       "paragraflar": [
         "Fibromiyalji, ağrının tek bir eklemde ya da kasta toplanmadığı, boyun, omuz, sırt, bel, kalça ve bacaklar gibi vücudun çok sayıda bölgesinde birlikte hissedildiği bir tablodur. Kişiler bunu çoğu zaman yanma, sızlama, ağırlık ya da dokunmaya karşı artmış hassasiyet olarak tarif eder. Ağrının yeri gün içinde değişebilir, bir hafta boyun öne çıkarken ertesi hafta bel ve bacaklar daha çok rahatsız edebilir.",
         "Ağrıya çoğunlukla yorgunluk, uykudan dinlenmiş kalkamama, sabahları tutukluk ve dikkati toplamakta güçlük eşlik eder. Bu birlikteliğin kişiyi en çok yorduğu nokta, dışarıdan bakıldığında belirgin bir bulgu görülmemesidir. Anlatılan yakınma gerçektir; ancak çevrede anlaşılmama duygusu da sürece eklenebilir. Bu nedenle değerlendirmenin ilk adımı, kişinin yaşadığını ciddiye alarak dinlemek ve günlük hayattaki karşılığını somut örneklerle anlamaktır.",
-        "Tanıyı koyan ve ayırıcı tanıyı yapan kişi hekimdir. Kadıköy fibromiyalji fizyoterapisi kapsamında ise tanı almış ya da hekimi tarafından bu yönde değerlendirilen kişilerin hareket, dayanıklılık ve günlük işlev düzeyi ele alınır. Fizyoterapi, hekimin tıbbi değerlendirmesinin yerine geçmez, onunla birlikte ilerleyen tamamlayıcı bir süreçtir."
+        "Kadıköy fibromiyalji fizyoterapisi kapsamında ise tanı almış ya da hekimi tarafından bu yönde değerlendirilen kişilerin hareket, dayanıklılık ve günlük işlev düzeyi ele alınır."
       ]
     },
     {
@@ -4319,7 +4054,7 @@ export const fibromiyaljiKronikAgriIcerik = {
       "paragraflar": [
         "Hekim tarafından fibromiyalji tanısı konmuş ya da bu yönde değerlendirilen kişilerde, ağrı nedeniyle hareketin giderek azaldığı, merdiven çıkma, alışveriş yapma ya da ev işleri gibi gündelik görevlerin zorlaştığı durumlarda fizyoterapi sıklıkla gündeme gelir. Egzersiz, bu tablonun yönetiminde genel kabul gören temel bileşenlerden biridir.",
         "Bazı kişiler ağrıdan korktukları için hareketten kaçınır, bu da kasların ve dayanıklılığın zamanla azalmasına yol açar. Bazıları ise iyi geçen günlerde fazla yüklenir, ertesi gün ağrı artınca programı tamamen bırakır. İki örüntü de değerlendirmede ele alınan, birbirinden farklı ihtiyaçlardır.",
-        "Başka bir romatolojik ya da nörolojik tablonun dışlanmış olması, kişinin kendini güvende hissettiği bir zemin sağlar. Bu nedenle hekim raporu, kan tahlili ve varsa görüntüleme sonuçları değerlendirmeye getirildiğinde süreç daha sağlıklı yürür. Görüntüleme ya da tahlil isteme yetkisi hekimdedir. Ağrının kaynağı belirsizken yoğun bir egzersiz programına başlanmaması, genellikle daha güvenli bir yol olarak görülür."
+        "Başka bir romatolojik ya da nörolojik tablonun dışlanmış olması, kişinin kendini güvende hissettiği bir zemin sağlar. Bu nedenle hekim raporu, kan tahlili ve varsa görüntüleme sonuçları değerlendirmeye getirildiğinde süreç daha sağlıklı yürür. Ağrının kaynağı belirsizken yoğun bir egzersiz programına başlanmaması, genellikle daha güvenli bir yol olarak görülür."
       ]
     },
     {
@@ -4333,9 +4068,9 @@ export const fibromiyaljiKronikAgriIcerik = {
     {
       "h2": "Değerlendirme nasıl ilerler",
       "paragraflar": [
-        "Süreç, ağrının hangi bölgelerde hissedildiği, ne zaman başladığı, günün hangi saatlerinde arttığı ve hangi durumlarda azaldığı üzerine ayrıntılı bir görüşmeyle açılır. Daha önce denenen yöntemler, kullanılan ilaçlar ve hekim yönlendirmeleri de bu aşamada konuşulur. Kişinin ağrı için kullandığı kelimeler değerlendirmeye yön verir.",
+        "Süreç, ağrının hangi bölgelerde hissedildiği, ne zaman başladığı, günün hangi saatlerinde arttığı ve hangi durumlarda azaldığı üzerine ayrıntılı bir görüşmeyle açılır. Kişinin ağrı için kullandığı kelimeler değerlendirmeye yön verir.",
         "Görüşmenin ardından duruş ve hareket gözlemi, eklem hareket açıklığı, kas kuvveti ve esnekliğin incelenmesi yapılır. Hassasiyetin yoğun olduğu kişilerde muayene tekniği özellikle yumuşak tutulur; amaç bulguları aramak için zorlamak değil, kişinin kaldırabildiği yükü güvenle belirlemektir. Gerektiğinde oturma, ayağa kalkma ve kısa yürüyüş gibi işlevsel hareketler de gözlenir. Bu gözlemler, programın başlangıç yükünü kişinin gerçek kapasitesine yakın ve güvenli bir düzeyde kurmayı sağlar.",
-        "Değerlendirme sonunda bulgular kişiye anlatılır ve hedefler birlikte belirlenir. Hedefler genellikle ağrıyı sıfırlamak yerine işlevi artırmaya yöneliktir: daha uzun yürüyebilmek, çocuğu kucağına almak, ev işlerini bölerek tamamlamak gibi. Tanı ve tedavi kararının hekime ait olduğu baştan paylaşılır."
+        "Değerlendirme sonunda bulgular kişiye anlatılır ve hedefler birlikte belirlenir. Hedefler genellikle ağrıyı sıfırlamak yerine işlevi artırmaya yöneliktir: daha uzun yürüyebilmek, çocuğu kucağına almak, ev işlerini bölerek tamamlamak gibi."
       ]
     },
     {
@@ -4439,14 +4174,6 @@ export const fibromiyaljiKronikAgriIcerik = {
           "yol": "/iletisim"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde ya da sürecin ortasında hekim değerlendirmesini gerektirir. Açıklanamayan kilo kaybı, ateş, gece uykudan uyandıran ve hareketle değişmeyen ağrı, belirgin eklem şişliği ya da kızarıklığı, kol veya bacakta güç kaybı ve yayılan uyuşma, yeni başlayan şiddetli baş ağrısı, göğüs ağrısı ya da nefes darlığı bunlar arasında sayılabilir.",
-        "Mesane ya da bağırsak kontrolünde değişiklik, düşme ya da darbe sonrası başlayan ağrı ve mevcut tablodan farklı, ani gelişen yeni bir şikâyet de hekime yönlendirmeyi gerektirir. Uzun süren ağrıya ruh halinde belirgin düşüklük, umutsuzluk ya da kendine zarar verme düşünceleri eşlik ediyorsa, vakit kaybetmeden bir hekimden ya da ruh sağlığı alanında çalışan bir uzmandan destek alınması gerekir.",
-        "Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır. Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis ve tedavi yerine geçmez."
-      ]
     }
   ],
   "sss": [
@@ -4456,7 +4183,7 @@ export const fibromiyaljiKronikAgriIcerik = {
     },
     {
       "soru": "Fibromiyalji tanısını fizyoterapist koyar mı?",
-      "cevap": "Hayır. Tanı ve ayırıcı tanı hekimin görevidir. Fizyoterapist, hekim tanısı çerçevesinde hareket, dayanıklılık ve işlev düzeyini değerlendirir ve buna uygun bir program planlar."
+      "cevap": "Hayır. Fizyoterapist, hareket, dayanıklılık ve işlev düzeyini değerlendirir ve buna uygun bir program planlar."
     },
     {
       "soru": "Egzersiz yapınca ağrım artmaz mı?",
@@ -4472,7 +4199,7 @@ export const fibromiyaljiKronikAgriIcerik = {
     },
     {
       "soru": "Pilates ya da yoga gibi egzersizler uygun olur mu?",
-      "cevap": "Kontrollü ve ayarlanabilir şiddette yapılan bu tür egzersizler bazı kişilerde uygun bir seçenek olabilir. Hareketlerin seçimi, başlangıç yoğunluğu ve ilerleme hızı değerlendirme bulgularına ve varsa hekim yönlendirmesine göre belirlenir."
+      "cevap": "Kontrollü ve ayarlanabilir şiddette yapılan bu tür egzersizler bazı kişilerde uygun bir seçenek olabilir."
     },
     {
       "soru": "Yorgunluk ve uyku sorunları için ne yapılır?",
@@ -4489,10 +4216,6 @@ export const fibromiyaljiKronikAgriIcerik = {
     {
       "soru": "Randevu saatleri ve ulaşım nasıl?",
       "cevap": "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında planlanır. Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -4523,7 +4246,7 @@ export const geriatrikFizyoterapiOsteoporozIcerik = {
     {
       "h2": "Osteoporoz ve kemik sağlığı: hareketin yeri",
       "paragraflar": [
-        "Osteoporoz, kemik dokusunun yoğunluğunun ve yapısal kalitesinin azaldığı, kemiklerin daha kırılgan hale geldiği bir durumdur. Sessiz ilerleyebildiği için birçok kişi bunu bir kırık ya da kemik yoğunluğu ölçümü sırasında öğrenir. Tanı ve ilaç tedavisi hekim kararıdır; fizyoterapi bu çerçevenin yerine geçmez, yanında yer alır.",
+        "Osteoporoz, kemik dokusunun yoğunluğunun ve yapısal kalitesinin azaldığı, kemiklerin daha kırılgan hale geldiği bir durumdur. Sessiz ilerleyebildiği için birçok kişi bunu bir kırık ya da kemik yoğunluğu ölçümü sırasında öğrenir.",
         "Kemik, üzerine binen yüke yanıt veren canlı bir dokudur. Genel kabul gören yaklaşıma göre vücut ağırlığını taşıyan hareketler, direnç çalışmaları ve denge egzersizleri kemik ve kas sağlığını desteklemek için önerilen bileşenlerdir. Bu nedenle osteoporoz egzersizi, hareketten kaçınmak değil, doğru türde ve doğru dozda hareket etmek üzerine kuruludur.",
         "Öte yandan her egzersiz her kemik yapısı için uygun değildir. Omurgayı öne doğru kıran, ağır yükle bükülmeyi ve ani dönmeyi gerektiren hareketler, kemik yapısı zayıflamış kişilerde dikkatle ele alınır. Hangi hareketin seçileceği, hekimin bildirdiği bulgular ve değerlendirme sonuçları birlikte yorumlanarak belirlenir. Egzersiz programı, hekimin ilaç ve takip planıyla çelişmeyecek biçimde kurulur. Kemik sağlığını destekleyen diğer unsurlar, örneğin beslenme ve D vitamini düzeyi, hekim ve diyetisyen alanında kalır; fizyoterapi hareket boyutunu üstlenir."
       ]
@@ -4563,7 +4286,7 @@ export const geriatrikFizyoterapiOsteoporozIcerik = {
     {
       "h2": "Değerlendirme nasıl ilerler",
       "paragraflar": [
-        "İlk görüşmede kişinin öyküsü dinlenir: yakınmanın başlangıcı, geçirilmiş düşmeler, kırıklar ve ameliyatlar, kullanılan yürüme araçları ve gün içindeki hareket düzeyi. Hekim raporları, kemik yoğunluğu sonuçları ve görüntüleme bulguları varsa incelenir. Kullanılan ilaçlar hakkında bilgi alınır, ancak ilaçla ilgili karar hekime aittir.",
+        "İlk görüşmede kişinin öyküsü dinlenir: yakınmanın başlangıcı, geçirilmiş düşmeler, kırıklar ve ameliyatlar, kullanılan yürüme araçları ve gün içindeki hareket düzeyi. Hekim raporları, kemik yoğunluğu sonuçları ve görüntüleme bulguları varsa incelenir.",
         "Ardından gündelik hareketleri yansıtan basit testler yapılır: sandalyeden kalkıp oturma, kısa mesafe yürüme, tek ayak üzerinde durma ve dönme gibi görevler kullanılır. Eklem hareket açıklığı, kas gücü, duruş ve omurga hareketliliği gözden geçirilir. Bu testler kişiyi zorlamayacak biçimde, gerektiğinde destek alınarak uygulanır.",
         "Değerlendirmenin sonunda bulgular sade bir dille anlatılır ve birlikte hedef belirlenir. Hedef, kişiye anlamlı gelen bir günlük işe bağlanır: merdiveni daha rahat çıkabilmek, torunla birlikte yerden kalkabilmek ya da markete tek başına gidebilmek gibi. Program bu hedeflere ve bulgulara göre planlanır. Test sırasında baş dönmesi, nefes darlığı ya da ağrı bildirildiğinde ölçüm durdurulur ve ara verilir. Kişinin yorulduğu ya da kaygılandığı anlar da değerlendirmenin bir parçası olarak not edilir."
       ]
@@ -4631,7 +4354,7 @@ export const geriatrikFizyoterapiOsteoporozIcerik = {
       "paragraflar": [
         "Kadıköy geriatrik fizyoterapi sürecinde ilerleme, ağrı ifadesi kadar işlevsel ölçümlerle de izlenir. Sandalyeden kalkma tekrarı, belirli bir mesafeyi yürüme biçimi ve tek ayak üzerinde durma gibi başlangıçta alınan değerler belirli aralıklarla yeniden gözden geçirilir. Böylece değişim, yalnızca duyguya değil gözleme de dayanır.",
         "Kişinin kendi gözlemi de önemlidir: merdiveni daha rahat çıkıyor mu, dışarı çıkma güveni değişti mi, gün içindeki yorgunluk nasıl seyrediyor. Yakınların gözlemi de ek bilgi sağlar. Bu bilgiler ölçüm sonuçlarıyla birlikte yorumlanır.",
-        "Program ara değerlendirmelere göre güncellenir; yük artırılır, hareket sadeleştirilir ya da farklı bir bileşen öne alınır. Beklenmeyen bir ağrı, baş dönmesi ya da yorgunluk artışı bildirildiğinde yoğunluk azaltılır ve gerektiğinde hekime yönlendirme yapılır. Süreç kişiden kişiye değiştiği için önceden sabit bir takvim verilmez."
+        "Program ara değerlendirmelere göre güncellenir; yük artırılır, hareket sadeleştirilir ya da farklı bir bileşen öne alınır. Süreç kişiden kişiye değiştiği için önceden sabit bir takvim verilmez."
       ]
     },
     {
@@ -4650,14 +4373,6 @@ export const geriatrikFizyoterapiOsteoporozIcerik = {
           "metin": "Rehabilitasyon yaklaşımımız",
           "yol": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi"
         }
-      ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde hekim değerlendirmesini gerektirir. Düşme ya da darbe sonrasında başlayan şiddetli ağrı, hareket ettirilemeyen kol ya da bacak, ani başlayan sırt ağrısı, yeni gelişen güç kaybı ya da uyuşma, bilinç bulanıklığı, nefes darlığı ve göğüs ağrısı bunlar arasında sayılabilir.",
-        "Dinlenmeyle azalmayan ve geceleri belirginleşen ağrı, açıklanamayan kilo kaybı, ateşin eşlik ettiği tablolar ve ani başlayan baş dönmesi de önce hekim tarafından değerlendirilmelidir. Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır.",
-        "Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez. Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında program yeniden gözden geçirilir."
       ]
     }
   ],
@@ -4701,10 +4416,6 @@ export const geriatrikFizyoterapiOsteoporozIcerik = {
     {
       "soru": "Klinik nerede, randevu saatleri nasıl?",
       "cevap": "Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir. Randevular Pazartesi ile Cumartesi arasında 09:00-21:00 aralığında planlanır."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekime aittir. Fizyoterapist ise değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -4755,7 +4466,7 @@ export const kalcaAgrisiFizyoterapisiIcerik = {
       "paragraflar": [
         "Kalça eklemi ile bel omurları aynı hareket zincirinin iki halkasıdır. Kalçanın bir yönde yeterince hareket edememesi, bel bölgesinin bu eksikliği tamamlamak için fazladan hareket yapmasına neden olabilir. Tersine, bel bölgesindeki kısıtlılık da kalça üzerine ek yük bindirebilir. Özellikle bel çukurunun fazla artması ya da pelvisin öne yatması kalça önü yapılarına ek yük getirebilir.",
         "Bu nedenle kalça ağrısıyla gelen bir kişide bel hareketleri, kalça dönüşleri ve pelvisin duruşu birlikte incelenir. Bazı kişilerde ağrı kalçada hissedilse de asıl zorlanan bölge bel olabilir. Bazı kişilerde ise bel şikâyeti geçmişte yaşanmış, kalça ağrısı daha sonra eklenmiştir. Pek çok kişide iki bölge de aynı anda ele alındığında hareket daha bütüncül biçimde düzenlenir.",
-        "Bel fıtığı ya da sinir sıkışması gibi tanılar hekim değerlendirmesiyle konur. Fizyoterapi sürecinde bu tanılar bilinerek ya da hekim yönlendirmesi alınarak ilerlenir. Kalça-bel ilişkisinin ayrıntılı anlatıldığı sayfalar aşağıdaki bağlantılardan okunabilir."
+        "Bel fıtığı ya da sinir sıkışması gibi tanılar hekim değerlendirmesiyle konur. Kalça-bel ilişkisinin ayrıntılı anlatıldığı sayfalar aşağıdaki bağlantılardan okunabilir."
       ],
       "baglantilar": [
         {
@@ -4772,7 +4483,7 @@ export const kalcaAgrisiFizyoterapisiIcerik = {
       "h2": "Hangi durumlarda fizyoterapi düşünülür",
       "paragraflar": [
         "Yürümeyi, merdiven çıkmayı ya da uzun süre oturmayı zorlaştıran kalça şikâyetlerinde fizyoterapi değerlendirmesi düşünülebilir. Günlük işleri yaparken sürekli bir yana yüklenmek, yan yatınca uyku bölünmesi ve spor sırasında artan kasık çekmesi başvuruların sık görülen nedenleridir. Kadıköy kalça ağrısı fizyoterapisi için gelen kişilerin bir bölümü daha önce hekime gitmiş, bir bölümü ise önce değerlendirme yaptırmak istemiştir. Meslekte uzun süre ayakta kalmak ya da gün boyu oturmak da başvuruyu etkileyen bir ayrıntıdır.",
-        "Hekim tarafından kalçada kas ve tendon kaynaklı bir tablo olduğu belirtilmişse, fizyoterapi o çerçevede yürütülür. Eklem aşınması, labrum yakınması ya da çarpışma tipi bir tablo söz konusu olduğunda da kalça çevresi kaslarının çalışma düzeni programın konusudur. Karar yetkisi her durumda hekimdedir. Bu aşamada kişinin kendi tarif ettiği hareketler, sınırlı olduğu hissedilen yönler ve kaçındığı pozisyonlar not edilir.",
+        "Hekim tarafından kalçada kas ve tendon kaynaklı bir tablo olduğu belirtilmişse, fizyoterapi o çerçevede yürütülür. Eklem aşınması, labrum yakınması ya da çarpışma tipi bir tablo söz konusu olduğunda da kalça çevresi kaslarının çalışma düzeni programın konusudur. Bu aşamada kişinin kendi tarif ettiği hareketler, sınırlı olduğu hissedilen yönler ve kaçındığı pozisyonlar not edilir.",
         "Kalça ameliyatı geçirmiş kişilerde ise hedef farklıdır. Bu durumda cerrahın belirlediği protokol esas alınır, günlük hareketlerin güvenli biçimde yeniden kazanılması ve kas kontrolünün geri kazanılması çalışılır. Sürecin ayrıntıları ilgili bölümde anlatılmıştır. Gerektiğinde sonraki seanslarda kullanılmak üzere ilk ölçümler kayıt altına alınır."
       ]
     },
@@ -4781,7 +4492,7 @@ export const kalcaAgrisiFizyoterapisiIcerik = {
       "paragraflar": [
         "Süreç, şikâyetin ne zaman başladığı, ağrının tam olarak nerede hissedildiği ve hangi hareketlerle değiştiği üzerine ayrıntılı bir görüşmeyle açılır. Yan yatma, merdiven, oturma ve ayağa kalkma, koşma gibi gündelik ayrıntılar sorulur. Kadıköy kalça ağrısı fizyoterapisi sürecinde bu görüşme, test seçiminin yönünü belirleyen en önemli adımlardan biridir. Uygulamanın dozu ve süresi, ağrı yatıştıkça ve hareket genişledikçe yeniden ayarlanır.",
         "Ardından ayakta duruş ve yürüyüş gözlenir, tek ayak üstünde denge ve pelvis kontrolü izlenir. Kalça eklem hareket açıklığı, kas kuvveti, esneklik ve bel hareketleri ölçülür. Ağrıyı yeniden ortaya çıkaran özel testler, hangi dokunun yük altında zorlandığını anlamaya yardımcı olur. Kalça ile gövde arasındaki koordinasyon düzeldikçe egzersiz zorluğu aşamalı biçimde artırılır.",
-        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Varsa daha önce yapılmış görüntüleme sonuçları ve hekim notları değerlendirmeye dâhil edilir. Görüntüleme isteme ve tanı koyma yetkisinin hekime ait olduğu baştan paylaşılır. Seçilen yaklaşımın amacı her zaman günlük işlevi korumak ve kişinin kendi hareketlerini daha rahat yapabilmesine katkı sağlamaktır."
+        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Varsa daha önce yapılmış görüntüleme sonuçları ve hekim notları değerlendirmeye dâhil edilir. Seçilen yaklaşımın amacı her zaman günlük işlevi korumak ve kişinin kendi hareketlerini daha rahat yapabilmesine katkı sağlamaktır."
       ]
     },
     {
@@ -4854,7 +4565,7 @@ export const kalcaAgrisiFizyoterapisiIcerik = {
       "h2": "Süreci yürüten kişi ve randevu düzeni",
       "paragraflar": [
         "Değerlendirme ve seanslar Fizyoterapist Onur Yalçın tarafından yürütülür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunudur. Görüşmeler Kozyatağı'nda, Gülbahar Sokak üzerindeki klinikte yapılır.",
-        "Klinik, Kozyatağı metro istasyonuna yürüme mesafesindedir; bu da özellikle iş çıkışında ya da gün içinde kısa bir aralıkta ulaşımı kolaylaştırır. Kadıköy kalça ağrısı fizyoterapisi randevuları Pazartesi ile Cumartesi arasında 09:00 ve 21:00 saatleri içinde planlanır. Bu bulguların hiçbirinde beklemeden bir hekime başvurulması uygun olur.",
+        "Klinik, Kozyatağı metro istasyonuna yürüme mesafesindedir; bu da özellikle iş çıkışında ya da gün içinde kısa bir aralıkta ulaşımı kolaylaştırır. Kadıköy kalça ağrısı fizyoterapisi randevuları Pazartesi ile Cumartesi arasında 09:00 ve 21:00 saatleri içinde planlanır.",
         "İlk randevuda rahat hareket etmeyi sağlayan bir kıyafet yeterlidir. Varsa hekim raporları, ortopedi notları ve görüntüleme sonuçları değerlendirmeye getirilebilir. Randevu için WhatsApp üzerinden yazılabilir."
       ],
       "baglantilar": [
@@ -4863,20 +4574,12 @@ export const kalcaAgrisiFizyoterapisiIcerik = {
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde hekim değerlendirmesini gerektirir. Düşme ya da darbe sonrasında başlayan ve yük vermeyi engelleyen kalça ağrısı, ateşle birlikte gelen ağrı ve kalçada şişlik ya da kızarıklık bunlar arasında sayılabilir.",
-        "Dinlenmeyle azalmayan ve geceleri belirginleşen ağrı, açıklanamayan kilo kaybıyla birlikte görülen kalça yakınması, bacakta güç kaybı, uyuşma ya da idrar ve dışkı kontrolünde değişiklik de hekim değerlendirmesi gerektirir. Çocuklarda topallama ile birlikte gelen kalça ağrısı da hekim muayenesi gerektiren bir durumdur.",
-        "Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır. Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez."
-      ]
     }
   ],
   "sss": [
     {
       "soru": "Kalça ağrısı hangi durumlarda fizyoterapiye uygun olur?",
-      "cevap": "Yürümeyi, merdiven çıkmayı, yan yatmayı ya da uzun süre oturmayı zorlaştıran kas, tendon ve hareket kaynaklı kalça şikâyetlerinde fizyoterapi düşünülebilir. Uygunluk değerlendirme sonrasında, varsa hekim yönlendirmesi de dikkate alınarak belirlenir."
+      "cevap": "Yürümeyi, merdiven çıkmayı, yan yatmayı ya da uzun süre oturmayı zorlaştıran kas, tendon ve hareket kaynaklı kalça şikâyetlerinde fizyoterapi düşünülebilir."
     },
     {
       "soru": "Kalçanın dış yanındaki ağrı neden yan yatınca artar?",
@@ -4884,7 +4587,7 @@ export const kalcaAgrisiFizyoterapisiIcerik = {
     },
     {
       "soru": "Bel sorunu kalça ağrısına neden olabilir mi?",
-      "cevap": "Evet, bel bölgesinden kaynaklanan ağrılar kalça ve kasık çevresinde hissedilebilir. Bu nedenle değerlendirmede kalçanın yanı sıra bel hareketleri ve pelvis duruşu da incelenir. Tanı kararı hekime aittir, fizyoterapi bu çerçevede planlanır."
+      "cevap": "Evet, bel bölgesinden kaynaklanan ağrılar kalça ve kasık çevresinde hissedilebilir. Bu nedenle değerlendirmede kalçanın yanı sıra bel hareketleri ve pelvis duruşu da incelenir."
     },
     {
       "soru": "Kalça protezi sonrası fizyoterapi ne zaman başlar?",
@@ -4900,7 +4603,7 @@ export const kalcaAgrisiFizyoterapisiIcerik = {
     },
     {
       "soru": "Görüntüleme sonucu ya da hekim raporu getirmem gerekir mi?",
-      "cevap": "Elinizde röntgen, MR ya da hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar. Görüntüleme isteme ve tanı koyma yetkisi hekime aittir; fizyoterapi mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Elinizde röntgen, MR ya da hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Kalça kireçlenmesi olan biri fizyoterapi alabilir mi?",
@@ -4996,7 +4699,7 @@ export const karpalTunelTenisciDirsegiIcerik = {
       "h2": "Değerlendirme nasıl ilerler",
       "paragraflar": [
         "Süreç, yakınmanın ne zaman başladığı, hangi pozisyonda arttığı ve günün hangi saatlerinde belirginleştiği üzerine ayrıntılı bir görüşmeyle açılır. Hangi parmakların etkilendiği, uyuşmanın geceleri uyandırıp uyandırmadığı, elin hangi işlerde zorlandığı bu görüşmede netleştirilir. Kullanılan el, meslek ve spor alışkanlıkları da bilgi olarak kaydedilir.",
-        "Ardından bilek, dirsek, omuz ve boyun hareket açıklığı incelenir, kavrama ve parmak kuvveti değerlendirilir, hassas noktalar ve sinir yolu üzerindeki gerginlik testleri yapılır. Kadıköy karpal tünel fizyoterapisi değerlendirmesinde bu testler tanı koymak için değil, hareket ve yük örüntüsünü anlamak için kullanılır; tanı ve tedavi kararı hekime aittir.",
+        "Ardından bilek, dirsek, omuz ve boyun hareket açıklığı incelenir, kavrama ve parmak kuvveti değerlendirilir, hassas noktalar ve sinir yolu üzerindeki gerginlik testleri yapılır.",
         "Bulgular kişiye açıklanır ve program bu bulgulara göre kurulur. İlk görüşmede hedefler birlikte belirlenir: geceleri daha rahat uyumak, kavrama gücünü günlük işlerde sürdürebilmek ya da spora kademeli dönmek gibi. Program ilerledikçe testler tekrarlanır ve içerik güncellenir."
       ]
     },
@@ -5022,7 +4725,7 @@ export const karpalTunelTenisciDirsegiIcerik = {
       "h2": "Günlük yaşamda ve iş yerinde alınabilecek önlemler",
       "paragraflar": [
         "Programın etkisi, klinikte geçen süreyle sınırlı değildir; bilek ve dirseğin gün boyu maruz kaldığı yük de belirleyicidir. Bilek mümkün olduğunca düz ve nötr konumda tutulduğunda sinir ve tendonlar üzerindeki baskı azalır. Fareyi kavrarken bileği masaya dayamak, klavyede bileği yukarı kırmak ve telefonu uzun süre tek elle tutmak, sık görülen zorlayıcı alışkanlıklardır.",
-        "Gece uyurken bileğin bükülü kalması da uyuşmayı artırabilir. Bu konuda kullanılabilecek destekler konusunda hekime danışılması uygundur. Gün içinde kısa aralarla el ve bileğin gevşetilmesi, kolların zaman zaman sallanması ve aynı kavrama pozisyonunun uzun süre sürdürülmemesi yararlı alışkanlıklar arasında sayılır.",
+        "Gece uyurken bileğin bükülü kalması da uyuşmayı artırabilir. Gün içinde kısa aralarla el ve bileğin gevşetilmesi, kolların zaman zaman sallanması ve aynı kavrama pozisyonunun uzun süre sürdürülmemesi yararlı alışkanlıklar arasında sayılır.",
         "Ağır bir nesneyi kaldırırken avuç içi yukarı bakacak şekilde tutmak, dirsek dış yüzüne binen yükü azaltabilir. Alet sapının kalınlığını artıran basit düzenlemeler ya da iki elle taşıma da yardımcı olur. Masa başı çalışma düzeninin ayrıntılarına ilişkin daha geniş bilgi ilgili sayfada yer alır."
       ],
       "baglantilar": [
@@ -5078,20 +4781,12 @@ export const karpalTunelTenisciDirsegiIcerik = {
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde hekim değerlendirmesini gerektirir. Elde belirgin ve ilerleyen güç kaybı, başparmak kaslarında erime, sürekli ve geçmeyen uyuşma, ateş ya da kızarıklıkla birlikte eklem şişliği, düşme ya da darbe sonrası başlayan ağrı ve kolda aniden gelişen halsizlik bunlar arasında sayılabilir.",
-        "Göğüs ağrısı ya da nefes darlığıyla birlikte sol koldaki ağrı, dinlenmeyle hiç azalmayan ve geceleri belirginleşen ağrı da acil hekim değerlendirmesi gerektirebilir. Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır. Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler.",
-        "Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez. Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında yeniden değerlendirme yapılır ve gerekirse program gözden geçirilir."
-      ]
     }
   ],
   "sss": [
     {
       "soru": "Karpal tünel sendromu için fizyoterapi ne zaman düşünülür?",
-      "cevap": "Elde tekrarlayan uyuşma, geceleri uyandıran karıncalanma ya da kavrama gücünde azalma varsa değerlendirme düşünülebilir. Tanı ve gerekli tetkikler hekime aittir; fizyoterapi, hekim çerçevesinde hareket ve yük yönetimini ele alır."
+      "cevap": "Elde tekrarlayan uyuşma, geceleri uyandıran karıncalanma ya da kavrama gücünde azalma varsa değerlendirme düşünülebilir."
     },
     {
       "soru": "Tenisçi dirseği için tenis oynamak gerekir mi?",
@@ -5107,7 +4802,7 @@ export const karpalTunelTenisciDirsegiIcerik = {
     },
     {
       "soru": "Yakınmam bilekten mi yoksa boyundan mı kaynaklanıyor?",
-      "cevap": "Bunu ayırt etmek değerlendirmenin bir parçasıdır. Boyun, omuz, dirsek ve bilek hareketleri ile sinir yolu üzerindeki gerginlik testleri birlikte incelenir; gerektiğinde ek tetkik için hekime yönlendirme yapılır."
+      "cevap": "Bunu ayırt etmek değerlendirmenin bir parçasıdır. Boyun, omuz, dirsek ve bilek hareketleri ile sinir yolu üzerindeki gerginlik testleri birlikte incelenir."
     },
     {
       "soru": "Seans kaç sürer, kaç seans gerekir?",
@@ -5123,7 +4818,7 @@ export const karpalTunelTenisciDirsegiIcerik = {
     },
     {
       "soru": "Görüntüleme sonucu ya da rapor getirmem gerekir mi?",
-      "cevap": "Elinizde bir görüntüleme sonucu, sinir iletim çalışması veya hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar. Görüntüleme ve tetkik isteme yetkisi hekime aittir."
+      "cevap": "Elinizde bir görüntüleme sonucu, sinir iletim çalışması veya hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Randevu saatleri nasıl ve klinik nerede?",
@@ -5145,9 +4840,9 @@ export const karpalTunelTenisciDirsegiIcerik = {
 export const lenfodemManuelLenfDrenajiIcerik = {
   "slug": "lenfodem-manuel-lenf-drenaji-kadikoy",
   "title": "Kadıköy manuel lenf drenajı | Fzt. Onur Yalçın",
-  "metaDescription": "Kadıköy manuel lenf drenajı ve lenfödem fizyoterapisi: değerlendirme, elle uygulama, egzersiz ve cilt bakımı hekim kararı çerçevesinde planlanır.",
+  "metaDescription": "Kadıköy manuel lenf drenajı ve lenfödem fizyoterapisi: değerlendirme, elle uygulama, egzersiz ve cilt bakımı kişiye özel planlanır.",
   "h1": "Kadıköy manuel lenf drenajı ile lenfödem ve ameliyat sonrası şişliğe yaklaşım",
-  "heroAltBaslik": "Lenfödem, ameliyat sonrası ödem ve kol ya da bacakta süren şişlik için Kozyatağı'nda hekim kararıyla uyumlu fizyoterapi",
+  "heroAltBaslik": "Lenfödem, ameliyat sonrası ödem ve kol ya da bacakta süren şişlik için Kozyatağı'nda fizyoterapi",
   "heroParagraf": "Kadıköy manuel lenf drenajı arayan kişilerin anlattığı tablo çoğu zaman benzerdir: bir ameliyat ya da tedavinin ardından kolda ya da bacakta başlayan, gün sonunda ağırlaşan ve giysilere ya da yüzüğe yansıyan bir şişlik. Kozyatağı'ndaki klinikte bu şikâyet önce hekim bilgileriyle birlikte ayrıntılı biçimde değerlendirilir, uygulama ve egzersiz programı bulgulara göre planlanır.",
   "primaryCtaMetni": "Randevu için WhatsApp'tan yazın",
   "bolumler": [
@@ -5156,15 +4851,15 @@ export const lenfodemManuelLenfDrenajiIcerik = {
       "paragraflar": [
         "Lenf sistemi, dokular arasında biriken sıvının ve proteinlerin toplanıp dolaşıma geri taşındığı ince damarlar ve lenf düğümlerinden oluşan bir ağdır. Bu ağın taşıma kapasitesi bir nedenle azaldığında ya da kesintiye uğradığında sıvı dokuda birikmeye başlar. Lenfödem, bu birikimin bir kol, bacak, gövde ya da yüz bölgesinde görünür bir şişlik olarak yerleşmesi durumuna verilen addır.",
         "Lenfödem birincil ya da ikincil olabilir. Birincil biçimde lenf damarlarının gelişimsel özellikleri rol oynar. İkincil biçim ise daha sık karşılaşılandır ve genellikle cerrahi sırasında lenf düğümlerinin alınması, ışın tedavisi, travma ya da enfeksiyon gibi lenf akışını etkileyen bir olayın ardından ortaya çıkar. Nedenin hangisi olduğu, hekimin yürüttüğü tanı sürecinin konusudur.",
-        "Şişlik başlangıçta fark edilmeyecek kadar hafif olabilir. Yüzüğün ya da saat kayışının sıkılaşması, çorabın izinin derinleşmesi, kolun ya da bacağın ağırlaşması sık tarif edilen ilk işaretlerdir. Bu tür değişiklikler fark edildiğinde, nedenin hekim tarafından değerlendirilmesi ilk adımdır."
+        "Şişlik başlangıçta fark edilmeyecek kadar hafif olabilir. Yüzüğün ya da saat kayışının sıkılaşması, çorabın izinin derinleşmesi, kolun ya da bacağın ağırlaşması sık tarif edilen ilk işaretlerdir."
       ]
     },
     {
       "h2": "Ameliyat sonrası ödem ile lenfödem arasındaki fark",
       "paragraflar": [
         "Her şişlik lenfödem değildir. Cerrahi sonrasında ilk haftalarda görülen ödem, dokunun girişime verdiği olağan bir yanıt olabilir ve genellikle zamanla azalma eğilimi gösterir. Lenfödemde ise şişlik kalıcılaşma ve dokunun yapısını zamanla değiştirme eğilimi taşır.",
-        "Ayrım çoğu zaman şişliğin ne kadar sürdüğüne, günün hangi saatinde arttığına ve parmakla bastırıldığında iz bırakıp bırakmadığına bakılarak yapılır. Ancak bu ayrımı belirleyen kişi hekimdir; kalp, damar ve böbrek kaynaklı ödemler ile derin ven tıkanıklığı gibi durumların dışlanması gerekir. Fizyoterapi, bu değerlendirmenin ardından hekim yönlendirmesiyle devreye girer.",
-        "Ameliyat sonrası dönemde hareketin ve bölgesel bakımın nasıl planlanacağı cerrahın protokolüne göre şekillenir. Dren çekildikten sonra, yara durumu uygun bulunduğunda ve hekim onayıyla elle uygulamalara başlanabilir. Bu dönemin genel çerçevesi için ameliyat sonrası rehabilitasyon sayfasına ve ilgili blog yazısına bakılabilir."
+        "Ayrım çoğu zaman şişliğin ne kadar sürdüğüne, günün hangi saatinde arttığına ve parmakla bastırıldığında iz bırakıp bırakmadığına bakılarak yapılır. Ancak bu ayrımı belirleyen kişi hekimdir; kalp, damar ve böbrek kaynaklı ödemler ile derin ven tıkanıklığı gibi durumların dışlanması gerekir.",
+        "Ameliyat sonrası dönemde hareketin ve bölgesel bakımın nasıl planlanacağı cerrahın protokolüne göre şekillenir. Dren çekildikten sonra, yara durumu uygun bulunduğunda ve elle uygulamalara başlanabilir. Bu dönemin genel çerçevesi için ameliyat sonrası rehabilitasyon sayfasına ve ilgili blog yazısına bakılabilir."
       ],
       "baglantilar": [
         {
@@ -5181,7 +4876,7 @@ export const lenfodemManuelLenfDrenajiIcerik = {
       "h2": "Hangi durumlarda manuel lenf drenajı düşünülür",
       "paragraflar": [
         "Kadıköy manuel lenf drenajı için başvuran kişiler çoğunlukla üç gruptan gelir: lenf düğümü cerrahisi ya da ışın tedavisi sonrasında kolda ya da bacakta şişlik gelişenler, ortopedik ya da estetik cerrahi sonrasında uzun süren ödemle karşılaşanlar ve hekim tarafından lenfödem tanısı konmuş olanlar. Her grupta amaç, şişliğin nedenine ve kişinin durumuna uygun bir plan oluşturmaktır.",
-        "Uzun süre hareketsiz kalmaya, bacakta ağırlık hissine ve gün sonunda artan şişliğe bağlı yakınmalar da zaman zaman gündeme gelir. Bu durumlarda elle uygulamanın uygun olup olmadığı şişliğin nedenine bağlıdır. Nedeni bilinmeyen tek taraflı bir şişlik, uygulamadan önce mutlaka hekim tarafından değerlendirilmelidir.",
+        "Uzun süre hareketsiz kalmaya, bacakta ağırlık hissine ve gün sonunda artan şişliğe bağlı yakınmalar da zaman zaman gündeme gelir. Bu durumlarda elle uygulamanın uygun olup olmadığı şişliğin nedenine bağlıdır.",
         "Manuel lenf drenajı her durumda uygun değildir. Aktif enfeksiyon, tedavi edilmemiş derin ven tıkanıklığı, kontrolsüz kalp yetmezliği ve hekimin uygun bulmadığı aktif hastalık dönemleri uygulamanın önünde engel olabilir. Bu nedenle ilk adım, varsa hekim notunun ve raporların gözden geçirilmesidir. Eklem cerrahisi gibi ortopedik girişimlerden sonra gelişen ödem için de aynı yol izlenir."
       ],
       "baglantilar": [
@@ -5196,7 +4891,7 @@ export const lenfodemManuelLenfDrenajiIcerik = {
       "paragraflar": [
         "İlk görüşmede şişliğin ne zaman başladığı, ameliyat ya da tedavi öyküsü, gün içindeki seyri ve günlük işlevi nasıl etkilediği ayrıntılı biçimde dinlenir. Hekim raporları, patoloji ya da görüntüleme sonuçları ile kullanılan ilaçlar bilgi olarak değerlendirilir. Bu bilgiler, uygulamanın güvenli olup olmadığına karar verirken temel alınır. Eksik bir belge varsa, hekimden ek bilgi istenmesi de değerlendirme sürecinin olağan bir parçasıdır. Böylece uygulama, kişinin genel sağlık durumuyla çelişmeyecek biçimde kurgulanır.",
         "Fiziksel değerlendirmede iki taraf karşılaştırılır. Bilek, dirsek, diz ve ayak bileği gibi sabit noktalardan çevre ölçümü alınır, cilt görünümü ve dokunun sertliği incelenir, eklem hareketi ile kol ya da bacağın işlevi gözlenir. Parmakla bastırıldığında iz kalıp kalmadığı da not edilir.",
-        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Tanı ve tedavi kararının hekime ait olduğu, fizyoterapi sürecinin bu karar çerçevesinde yürüdüğü baştan paylaşılır. Değerlendirmenin genel işleyişi bütüncül fizyoterapi değerlendirmesi sayfasında ayrıca anlatılmaktadır."
+        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Değerlendirmenin genel işleyişi bütüncül fizyoterapi değerlendirmesi sayfasında ayrıca anlatılmaktadır."
       ],
       "baglantilar": [
         {
@@ -5217,14 +4912,6 @@ export const lenfodemManuelLenfDrenajiIcerik = {
           "metin": "Kadıköy manuel terapi",
           "yol": "/manuel-terapi-kadikoy"
         }
-      ]
-    },
-    {
-      "h2": "Kompresyon ve bandaj: hekim kararı çerçevesi",
-      "paragraflar": [
-        "Lenfödem yönetiminde elle uygulama tek başına bir program değildir. Kaynaklarda anılan kapsamlı yaklaşım; cilt bakımı, elle lenf drenajı, kompresyon ve egzersizin birlikte kullanılmasını içerir. Bu bileşenlerden kompresyon, özellikle sıvının yeniden birikmesini sınırlamak amacıyla gündeme gelir.",
-        "Kompresyon kolluğu, çorap ya da çok katlı bandaj kullanılıp kullanılmayacağına, hangi basınç sınıfında ve hangi sürelerde giyileceğine hekim karar verir. Yanlış seçilmiş ya da yanlış uygulanmış bir kompresyon dolaşımı bozabilir. Atardamar dolaşımı sorunu, diyabete bağlı his kaybı ve cilt hastalığı gibi durumlarda bu karar daha da fazla dikkat gerektirir.",
-        "Hekimin belirlediği çerçeve içinde, kompresyon ürününün nasıl giyildiği, ne zaman çıkarıldığı ve cilt kontrolünün nasıl yapılacağı birlikte gözden geçirilir. Ölçü alma ve ürün temini için hekim ya da ilgili sağlık birimi yönlendirmesi esas alınır. Kişinin kendi başına ürün ya da basınç düzeyi değiştirmemesi önemlidir."
       ]
     },
     {
@@ -5263,7 +4950,7 @@ export const lenfodemManuelLenfDrenajiIcerik = {
       "h2": "Sık yapılan yanlışlar ve yanlış anlamalar",
       "paragraflar": [
         "Kadıköy manuel lenf drenajı konusunda en yaygın yanlış anlama, bu uygulamanın derin ve güçlü bir masaj olduğu düşüncesidir. Oysa lenf damarları yüzeye yakındır ve hafif temasa yanıt verir; sert baskı hem rahatsız eder hem de amaca hizmet etmez. Genel amaçlı bir masaj ile klinik bir ödem programı da aynı şey değildir.",
-        "İkinci yanlış, şişliğin yalnızca elle uygulamayla yönetilebileceği beklentisidir. Kompresyon, cilt bakımı ve hareket olmadan elle uygulamanın katkısı sınırlı kalabilir. Bir diğeri de şişliğin nedeni bilinmeden uygulama aranmasıdır; tek taraflı ve yeni başlayan bir şişlik önce hekim tarafından değerlendirilmelidir.",
+        "İkinci yanlış, şişliğin yalnızca elle uygulamayla yönetilebileceği beklentisidir. Kompresyon, cilt bakımı ve hareket olmadan elle uygulamanın katkısı sınırlı kalabilir. Bir diğeri de şişliğin nedeni bilinmeden uygulama aranmasıdır.",
         "Sık görülen bir başka hata, kompresyon ürününü kendi başına seçmek, ağrıyı ya da uyuşmayı yok sayarak kullanmayı sürdürmek ve yıpranmış ürünü kullanmaya devam etmektir. Şişlik azaldığında programın bırakılması da şişliğin yeniden belirmesine zemin hazırlayabilir. Bırakma ya da sürdürme kararı, hekimle ve fizyoterapistle birlikte verilir."
       ]
     },
@@ -5292,14 +4979,6 @@ export const lenfodemManuelLenfDrenajiIcerik = {
           "yol": "/iletisim"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular elle uygulamadan önce hekim değerlendirmesini gerektirir. Kolda ya da bacakta kısa sürede gelişen şişlik, kızarıklık, sıcaklık artışı, ciltte gerginlik ve parlaklık, ateş ya da titreme bir cilt enfeksiyonunun, örneğin selülitin belirtisi olabilir. Böyle bir tabloda uygulama yapılmaz ve acil değerlendirme gerekebilir.",
-        "Tek bacakta ani başlayan şişlik, baldırda ağrı ve hassasiyet ya da nefes darlığı ve göğüs ağrısı eşlik ediyorsa vakit kaybetmeden bir sağlık kuruluşuna başvurulmalıdır. Nedeni bilinmeyen, giderek büyüyen ve sertleşen bir şişlik ya da cilt değişiklikleri de hekim kontrolü gerektirir. Kompresyon ürününün altında ağrı, uyuşma ya da renk değişimi olursa ürün çıkarılır ve hekime danışılır.",
-        "Tanı ve tedavi kararı hekime aittir; fizyoterapi bu karar çerçevesinde yürür. Bu sayfadaki bilgiler genel bilgilendirme amaçlıdır, teşhis ya da tedavi önerisi yerine geçmez. Süreç boyunca yeni bir bulgu ortaya çıkarsa yeniden değerlendirme yapılır."
-      ]
     }
   ],
   "sss": [
@@ -5309,11 +4988,11 @@ export const lenfodemManuelLenfDrenajiIcerik = {
     },
     {
       "soru": "Lenfödem tanısını kim koyar?",
-      "cevap": "Tanı koyma ve şişliğin nedenini araştırma yetkisi hekime aittir. Fizyoterapist, hekimin değerlendirmesi ve yönlendirmesi çerçevesinde ölçüm yapar ve fizyoterapi uygulamalarını planlar. Elinizde hekim raporu varsa ilk randevuya getirmeniz süreci kolaylaştırır."
+      "cevap": "Fizyoterapist, hekimin değerlendirmesi ve yönlendirmesi çerçevesinde ölçüm yapar ve fizyoterapi uygulamalarını planlar. Elinizde hekim raporu varsa ilk randevuya getirmeniz süreci kolaylaştırır."
     },
     {
       "soru": "Ameliyat sonrası şişlik için ne zaman başvurabilirim?",
-      "cevap": "Ameliyat sonrası şişlik için başvuru zamanı, cerrahın protokolüne ve yara durumuna göre belirlenir. Elle uygulamaya başlamadan önce cerrahın ya da takip eden hekimin görüşünün alınması gerekir. Bu konuda kararsız kalındığında, önce hekime danışılması önerilir."
+      "cevap": "Ameliyat sonrası şişlik için başvuru zamanı, cerrahın protokolüne ve yara durumuna göre belirlenir. Elle uygulamaya başlamadan önce cerrahın ya da takip eden hekimin görüşünün alınması gerekir."
     },
     {
       "soru": "Lenf drenajı uygulaması acı verir mi?",
@@ -5329,7 +5008,7 @@ export const lenfodemManuelLenfDrenajiIcerik = {
     },
     {
       "soru": "Hangi durumlarda manuel lenf drenajı yapılmaz?",
-      "cevap": "Aktif enfeksiyon, tedavi edilmemiş derin ven tıkanıklığı, kontrolsüz kalp yetmezliği ve hekimin uygun bulmadığı aktif hastalık dönemlerinde uygulama yapılmaz ya da ertelenir. Şişliğin nedeni belli değilse önce hekim değerlendirmesi gerekir. Bu nedenle ilk görüşmede sağlık öykünüz ayrıntılı olarak sorulur."
+      "cevap": "Aktif enfeksiyon, tedavi edilmemiş derin ven tıkanıklığı, kontrolsüz kalp yetmezliği ve hekimin uygun bulmadığı aktif hastalık dönemlerinde uygulama yapılmaz ya da ertelenir. Bu nedenle ilk görüşmede sağlık öykünüz ayrıntılı olarak sorulur."
     },
     {
       "soru": "Evde kendi kendime lenf drenajı yapabilir miyim?",
@@ -5342,10 +5021,6 @@ export const lenfodemManuelLenfDrenajiIcerik = {
     {
       "soru": "Randevu saatleri ve ulaşım nasıl?",
       "cevap": "Randevular Pazartesi ile Cumartesi arası 09:00 ve 21:00 saatleri içinde planlanır. Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist, değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -5370,7 +5045,7 @@ export const manuelTerapiIcerik = {
       "paragraflar": [
         "Manuel terapi, fizyoterapistin ellerini kullanarak eklem, kas, bağ dokusu ve sinir çevresindeki yapılara uyguladığı kontrollü tekniklerin genel adıdır. Kadıköy manuel terapi arayışındaki kişilerin çoğu, bir bölgede hareketin kısıtlandığını ya da belirli bir yönde zorlandığını tarif eder. Bu teknikler tek bir yöntemi değil, değerlendirme bulgularına göre seçilen bir uygulama grubunu ifade eder.",
         "Amaç, kısıtlanmış eklem hareketini yeniden çalışılabilir hale getirmek, gergin yumuşak dokunun esnekliğini artırmak ve ağrılı bölgede hareket sırasında oluşan korunma gerginliğini azaltmaktır. Elle uygulanan teknikler hareketin daha rahat yapılabildiği bir aralık açar. Bu aralığın egzersizle desteklenmesi, sürecin önemli bir parçasıdır.",
-        "Manuel terapi bir tanı işlemi değildir. Hekimin tanısı ve tedavi kararı çerçevesinde, fizyoterapi değerlendirmesinin ardından programa dâhil edilir. Bazı kişilerde sürecin merkezinde yer alırken bazılarında egzersiz ve günlük yaşam düzenlemelerinin yanında yardımcı bir bileşen olarak kalır. Bu nedenle uygulamanın yeri, ilk değerlendirmede kişiyle birlikte konuşulur ve gerekçesi açıkça anlatılır. Kişi uygulamanın ne amaçla yapıldığını bildiğinde süreç boyunca verdiği geri bildirim de daha işlevsel olur."
+        "Manuel terapi bir tanı işlemi değildir. Fizyoterapi değerlendirmesinin ardından programa dâhil edilir. Bazı kişilerde sürecin merkezinde yer alırken bazılarında egzersiz ve günlük yaşam düzenlemelerinin yanında yardımcı bir bileşen olarak kalır. Bu nedenle uygulamanın yeri, ilk değerlendirmede kişiyle birlikte konuşulur ve gerekçesi açıkça anlatılır. Kişi uygulamanın ne amaçla yapıldığını bildiğinde süreç boyunca verdiği geri bildirim de daha işlevsel olur."
       ]
     },
     {
@@ -5395,8 +5070,8 @@ export const manuelTerapiIcerik = {
       "h2": "Hangi durumlarda elle uygulama düşünülür",
       "paragraflar": [
         "Kadıköy manuel terapi başvurularında en sık düşünülen tablolar şunlardır: boyun ve sırt bölgesinde hareket kısıtlılığı, belde oturma ya da eğilmeyle artan tutukluk, omuzda kolu kaldırırken zorlanma ve çene açılırken hissedilen sınırlılık. Bu başlıkların her biri için ayrı bir değerlendirme yapılır.",
-        "Bel ve boyun bölgesinde fıtık ya da sinir sıkışması şüphesi varsa karar, hekim tanısı ile fizyoterapi bulgularının birlikte okunmasıyla verilir. Bazı kişilerde elle uygulamalar belirgin bir rahatlık sağlarken bazılarında egzersiz ön plana çıkar. Hangi tablonun hangi gruba girdiği değerlendirmeden sonra netleşir.",
-        "Çene ekleminde, kalça ve omuz çevresinde, ayak bileği ve el bileğinde de eklem hareketinin sınırlı olması bu yaklaşımı gündeme getirebilir. Ameliyat ya da alçı sonrası kısıtlanan eklemlerde de hekim onayıyla ve cerrahi protokole uygun biçimde kullanılabilir. Ağrının tek başına var olması, elle uygulamanın gerekli olduğu anlamına gelmez. Hareket açıklığındaki kayıp, eklem sonu hissinde sertlik ve komşu bölgelerin telafi çalışması gibi bulgular birlikte değerlendirilir. Bu bulgular yoksa program çoğunlukla egzersiz ve günlük düzen üzerine kurulur."
+        "Bel ve boyun bölgesinde fıtık ya da sinir sıkışması şüphesi varsa karar, fizyoterapi bulgularına göre verilir. Bazı kişilerde elle uygulamalar belirgin bir rahatlık sağlarken bazılarında egzersiz ön plana çıkar. Hangi tablonun hangi gruba girdiği değerlendirmeden sonra netleşir.",
+        "Çene ekleminde, kalça ve omuz çevresinde, ayak bileği ve el bileğinde de eklem hareketinin sınırlı olması bu yaklaşımı gündeme getirebilir. Ameliyat ya da alçı sonrası kısıtlanan eklemlerde de ve cerrahi protokole uygun biçimde kullanılabilir. Ağrının tek başına var olması, elle uygulamanın gerekli olduğu anlamına gelmez. Hareket açıklığındaki kayıp, eklem sonu hissinde sertlik ve komşu bölgelerin telafi çalışması gibi bulgular birlikte değerlendirilir. Bu bulgular yoksa program çoğunlukla egzersiz ve günlük düzen üzerine kurulur."
       ],
       "baglantilar": [
         {
@@ -5418,7 +5093,7 @@ export const manuelTerapiIcerik = {
       "paragraflar": [
         "İlk görüşme, şikâyetin başlangıcını, gün içindeki seyrini, hangi hareketlerin artırdığını ve daha önce yapılmış tetkik ve tedavileri kapsar. Hekim raporu ya da görüntüleme sonuçları varsa incelenir. Bu aşama, elle uygulamanın uygun olup olmadığına dair ilk fikri oluşturur.",
         "Ardından duruş ve hareket gözlemi, eklem hareket açıklığı ölçümü, kas kuvveti ve esneklik testleri yapılır. Eklem pasif olarak hareket ettirilirken hissedilen direnç, hareket sonunda ortaya çıkan ağrının niteliği ve komşu bölgelerin katkısı not edilir. Belde kalçanın, boyunda üst sırtın, omuzda kürek kemiğinin hareketi birlikte incelenir.",
-        "Değerlendirme sonunda bulgular kişiye anlatılır; uygulanacak teknikler ve uygulama sırasında beklenen duyumlar önceden paylaşılır. Her tekniğin öncesinde kişinin onayı alınır ve uygulama boyunca geri bildirimi dikkate alınır. Uygun olmayan bir bulgu saptanırsa uygulama ertelenir ve hekime yönlendirme yapılır."
+        "Değerlendirme sonunda bulgular kişiye anlatılır; uygulanacak teknikler ve uygulama sırasında beklenen duyumlar önceden paylaşılır. Her tekniğin öncesinde kişinin onayı alınır ve uygulama boyunca geri bildirimi dikkate alınır."
       ]
     },
     {
@@ -5492,7 +5167,7 @@ export const manuelTerapiIcerik = {
       "paragraflar": [
         "Kadıköy manuel terapi sürecinde ilerleme, her uygulamanın öncesinde ve sonrasında yinelenen basit karşılaştırmalarla izlenir: eklem hareket açıklığı, hareketin hangi noktada ağrı verdiği ve günlük işlerdeki zorlanma bunlar arasındadır. Böylece uygulamanın o kişide ne yaptığı gözle görülür hale gelir.",
         "Ölçülebilen bulguların yanında kişinin kendi gözlemleri de değerlendirmeye katılır: sabah tutukluğunun süresi, uykuda dönebilme, araç kullanırken omuz üzerinden bakabilme, çanta taşıyabilme gibi. Ağrı yoğunluğu bir ölçekle puanlanır ve süreç içinde karşılaştırılır. Bu kayıtlar, yaklaşımın hangi yöne ilerlemesi gerektiğine karar vermeyi kolaylaştırır.",
-        "Beklenenden farklı seyreden bir tablo varsa teknik değiştirilir, egzersizin ağırlığı yeniden düzenlenir ya da hekim değerlendirmesi önerilir. Önceden sabit bir takvim verilmez, çünkü süreç şikâyetin niteliğine ve kişinin yanıtına göre değişir. Gereksiz uzayan bir uygulama düzeni de sürecin hedefi sayılmaz. Elle uygulamaya duyulan ihtiyaç azaldıkça sürecin ağırlığı egzersize ve kişinin kendi başına sürdürebileceği düzene kayar. Bu geçiş, ara değerlendirmelerde birlikte planlanır."
+        "Önceden sabit bir takvim verilmez, çünkü süreç şikâyetin niteliğine ve kişinin yanıtına göre değişir. Gereksiz uzayan bir uygulama düzeni de sürecin hedefi sayılmaz. Elle uygulamaya duyulan ihtiyaç azaldıkça sürecin ağırlığı egzersize ve kişinin kendi başına sürdürebileceği düzene kayar. Bu geçiş, ara değerlendirmelerde birlikte planlanır."
       ]
     },
     {
@@ -5516,14 +5191,6 @@ export const manuelTerapiIcerik = {
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular elle uygulamadan önce hekim değerlendirmesini gerektirir. Kola ya da bacağa yayılan uyuşma ile birlikte güç kaybı, ilerleyen his kaybı, idrar ya da dışkı kontrolünde değişiklik, kasık ve oturma bölgesinde uyuşukluk, ateşin eşlik ettiği ağrı bunlar arasında sayılabilir. Dinlenmeyle azalmayan ve geceleri belirginleşen ağrı, nedeni belli olmayan kilo kaybı ya da düşme veya darbe sonrası başlayan şikâyetler de aynı gruptadır.",
-        "Kırık şüphesi, enfeksiyon, ileri düzey kemik erimesi, kan sulandırıcı kullanımı ve boyun omurgasında dengesizlik öyküsü gibi durumlarda bazı elle uygulama teknikleri uygun olmayabilir. Böyle bir durumdan şüphelenildiğinde uygulama yapılmaz, hekim yönlendirmesi sağlanır. Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler.",
-        "Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında yeniden değerlendirme yapılır. Bu sayfadaki bilgiler genel bilgilendirme amaçlıdır ve bir hekim muayenesi ya da tanının yerine geçmez."
-      ]
     }
   ],
   "sss": [
@@ -5545,7 +5212,7 @@ export const manuelTerapiIcerik = {
     },
     {
       "soru": "Bel veya boyun fıtığında manuel terapi uygulanabilir mi?",
-      "cevap": "Hekim tanısı ve fizyoterapi bulguları birlikte değerlendirilerek karar verilir. Bazı tablolarda hafif dereceli teknikler egzersizle birlikte kullanılabilir, bazı bulgularda ise önce hekim değerlendirmesi gerekir. Her fıtık tablosu için aynı yaklaşım uygulanmaz."
+      "cevap": "Karar, fizyoterapi bulguları değerlendirilerek verilir. Her fıtık tablosu için aynı yaklaşım uygulanmaz."
     },
     {
       "soru": "Manuel terapi masajdan farklı mı?",
@@ -5561,15 +5228,11 @@ export const manuelTerapiIcerik = {
     },
     {
       "soru": "Hekim raporu ya da görüntüleme sonucu getirmem gerekir mi?",
-      "cevap": "Zorunlu değildir, ancak elinizde varsa getirmeniz değerlendirmeye katkı sağlar. Görüntüleme isteme ve tanı koyma yetkisi hekime aittir. Fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Zorunlu değildir, ancak elinizde varsa getirmeniz değerlendirmeye katkı sağlar. Fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
     },
     {
       "soru": "Randevu saatleri ve ulaşım nasıl?",
       "cevap": "Randevular Pazartesi ile Cumartesi arasında 09:00-21:00 saatleri içinde planlanır. Klinik Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekime aittir. Fizyoterapist, değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     },
     {
       "soru": "İlk randevuya nasıl hazırlanmalıyım?",
@@ -5613,8 +5276,8 @@ export const matPilatesCoreKuvvetlendirmeIcerik = {
     {
       "h2": "Hangi durumlarda zemin egzersizleri düşünülür",
       "paragraflar": [
-        "Oturmaya bağlı bel gerginliği, duruş alışkanlıklarına bağlı yorgunluk ve hareketli yaşama dönerken gövde kontrolünü yeniden kazanma isteği gibi durumlarda zemin egzersizleri sıklıkla gündeme gelir. Tanısı konmuş bir rahatsızlığı olan kişilerde program, hekimin değerlendirmesi çerçevesinde ve fizyoterapist tarafından planlanır. Şikâyeti henüz belirginleşmemiş, ancak hareket kalitesini geliştirmek isteyen kişiler de değerlendirmeye gelebilir. Uzun süre masa başında çalışan kişilerde kalça ve gövde kaslarının gün boyu yeterince devreye girmemesi de bu çalışmaya yönlendiren yaygın bir nedendir.",
-        "Kadıköy mat pilates programı, ekipmansız ve evde sürdürülebilir bir temel isteyenler için uygun bir başlangıç noktası olabilir. Ameliyat ya da yaralanma sonrası bir sürecin ardından, hekim onayıyla gövde kontrolünü yeniden kurmak için de kullanılabilir. Bu karar her kişi için ayrı verilir; yalnızca şikâyetin adına bakılmaz.",
+        "Oturmaya bağlı bel gerginliği, duruş alışkanlıklarına bağlı yorgunluk ve hareketli yaşama dönerken gövde kontrolünü yeniden kazanma isteği gibi durumlarda zemin egzersizleri sıklıkla gündeme gelir. Tanısı konmuş bir rahatsızlığı olan kişilerde program, ve fizyoterapist tarafından planlanır. Şikâyeti henüz belirginleşmemiş, ancak hareket kalitesini geliştirmek isteyen kişiler de değerlendirmeye gelebilir. Uzun süre masa başında çalışan kişilerde kalça ve gövde kaslarının gün boyu yeterince devreye girmemesi de bu çalışmaya yönlendiren yaygın bir nedendir.",
+        "Kadıköy mat pilates programı, ekipmansız ve evde sürdürülebilir bir temel isteyenler için uygun bir başlangıç noktası olabilir. Ameliyat ya da yaralanma sonrası bir sürecin ardından, gövde kontrolünü yeniden kurmak için de kullanılabilir. Bu karar her kişi için ayrı verilir; yalnızca şikâyetin adına bakılmaz.",
         "Gebelik, spor yapan kişiler ve ileri yaştaki bireyler için mat çalışmaları farklı biçimde düzenlenir. Pozisyonlar, hareket genişliği ve nefes düzeni kişinin durumuna uyarlanır. Aynı hareketin herkes için aynı şekilde uygun olmadığı baştan kabul edilir."
       ],
       "baglantilar": [
@@ -5629,7 +5292,7 @@ export const matPilatesCoreKuvvetlendirmeIcerik = {
       "paragraflar": [
         "Süreç, şikâyetin ya da hedefin konuşulmasıyla başlar. Geçmiş yaralanmalar, ameliyatlar, günlük hareket düzeni, spor geçmişi ve varsa hekim notları bu görüşmede ele alınır. Pilatese ilk kez başlayacak kişiler için beklenti ve konfor sınırları da burada netleşir. Görüşme sırasında kişinin bu çalışmadan ne beklediği, daha önce hangi egzersiz türlerini denediği ve nelerden rahatsız olduğu da not edilir.",
         "Ardından duruş gözlemi, eklem hareket açıklığı ve temel kas kuvveti incelenir. Sırtüstü yatıştan oturmaya geçiş, tek ayak üzerinde denge, kalça ve omuz hareketlerinin gövdeyle uyumu gibi basit görevler hareket kalitesi hakkında bilgi verir. Nefes alırken kaburga ve karın hareketinin nasıl eşlik ettiği de gözlenir. Bu basit görevlerin bazıları ilk bakışta kolay görünür, ancak hareketin kalitesi ve telafi örüntüleri değerlendirmenin asıl bilgisini oluşturur.",
-        "Bulgular kişiye anlatılır ve program bu bulgulara göre kurulur. Hangi hareketlerin kolay, hangilerinin zorlayıcı geldiği ilk seanslardan itibaren birlikte izlenir. Tanı ve tedavi kararının hekime ait olduğu, fizyoterapi sürecinin bu çerçevede yürüdüğü baştan paylaşılır."
+        "Bulgular kişiye anlatılır ve program bu bulgulara göre kurulur. Hangi hareketlerin kolay, hangilerinin zorlayıcı geldiği ilk seanslardan itibaren birlikte izlenir."
       ]
     },
     {
@@ -5673,7 +5336,7 @@ export const matPilatesCoreKuvvetlendirmeIcerik = {
       "paragraflar": [
         "Gövde stabilitesinin bel şikâyetleriyle ilişkisi sık konuşulur. Derin kasların koordinasyonunun değiştiği durumlarda bel bölgesi hareket sırasında gereğinden fazla yük alabilir. Bu ilişki her kişide aynı değildir ve bel ağrısının tek nedeni olarak görülmemelidir. Bu nedenle program yalnızca bel bölgesine değil, kalça, kürek kemiği ve nefes düzenine de bakar.",
         "Duruş da core çalışmasıyla bağlantılıdır. Omuzların öne düşmesi, sırtın yuvarlanması ya da bel çukurluğunun belirginleşmesi gibi görünümler yalnızca kasın gücüyle değil, kasın zamanlamasıyla da ilgilidir. Değerlendirmede bu görünümlerin hareket sırasında nasıl değiştiği izlenir.",
-        "Omurga eğriliği olan kişilerde, örneğin skolyozda, genel mat egzersizleri yerine eğriliğe özgü planlanmış çalışmalar gerekebilir. Bu durumda yaklaşım değerlendirme sonrasında belirlenir. Hekim yönlendirmesi varsa programın içeriği buna göre düzenlenir."
+        "Omurga eğriliği olan kişilerde, örneğin skolyozda, genel mat egzersizleri yerine eğriliğe özgü planlanmış çalışmalar gerekebilir. Bu durumda yaklaşım değerlendirme sonrasında belirlenir."
       ],
       "baglantilar": [
         {
@@ -5745,14 +5408,6 @@ export const matPilatesCoreKuvvetlendirmeIcerik = {
           "yol": "/iletisim"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular egzersiz programına başlamadan önce hekim değerlendirmesini gerektirir. Kola ya da bacağa yayılan uyuşma ve güç kaybı, dinlenmeyle azalmayan ve geceleri belirginleşen ağrı, ateşin eşlik ettiği tablolar ve açıklanamayan kilo kaybı bunlar arasında sayılabilir. Yakın zamanda geçirilmiş bir düşme ya da darbe sonrası başlayan şikâyetler de aynı kapsamdadır. Bilinen bir kalp, akciğer ya da kemik erimesi gibi rahatsızlığı bulunan kişilerin de programdan önce hekimlerine danışması uygundur.",
-        "Göğüs ağrısı, nefes darlığı, bayılma hissi ya da yeni başlayan idrar ve dışkı kontrolü kaybı acil değerlendirme gerektirebilir. Gebelikte kanama, şiddetli karın ağrısı ya da şiddetli baş ağrısı gibi bulgular da egzersizden önce doktora iletilmelidir. Bu tür bir tablo tarif edildiğinde fizyoterapi öncesinde yönlendirme yapılır.",
-        "Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez. Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında yeniden değerlendirme yapılır."
-      ]
     }
   ],
   "sss": [
@@ -5770,7 +5425,7 @@ export const matPilatesCoreKuvvetlendirmeIcerik = {
     },
     {
       "soru": "Bel şikâyeti varken mat pilates yapılabilir mi?",
-      "cevap": "Bu, şikâyetin niteliğine ve varsa hekim değerlendirmesine bağlıdır. Değerlendirme sonrasında hangi hareketlerin uygun olduğu belirlenir ve gerekmeyen ya da başlangıçta zorlayıcı olabilecek hareketler programdan çıkarılır."
+      "cevap": "Değerlendirme sonrasında hangi hareketlerin uygun olduğu belirlenir ve gerekmeyen ya da başlangıçta zorlayıcı olabilecek hareketler programdan çıkarılır."
     },
     {
       "soru": "Program kaç seans sürer?",
@@ -5786,11 +5441,11 @@ export const matPilatesCoreKuvvetlendirmeIcerik = {
     },
     {
       "soru": "Hamilelikte ya da doğum sonrasında mat pilates yapılabilir mi?",
-      "cevap": "Bu dönemlerde hareketler, pozisyonlar ve nefes düzeni kişinin durumuna göre uyarlanır. Başlamadan önce doktorunuzun uygun görmesi ve değerlendirmenin yapılması gerekir. Şikâyet ya da risk bulgusu varsa önce hekim görüşü alınır."
+      "cevap": "Bu dönemlerde hareketler, pozisyonlar ve nefes düzeni kişinin durumuna göre uyarlanır. Başlamadan önce doktorunuzun uygun görmesi ve değerlendirmenin yapılması gerekir."
     },
     {
       "soru": "Görüntüleme sonucu ya da rapor getirmem gerekir mi?",
-      "cevap": "Elinizde bir görüntüleme sonucu veya hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar. Görüntüleme isteme yetkisi hekime aittir; fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Elinizde bir görüntüleme sonucu veya hekim raporu varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Randevular hangi saatlerde alınabiliyor?",
@@ -5799,10 +5454,6 @@ export const matPilatesCoreKuvvetlendirmeIcerik = {
     {
       "soru": "Kliniğe ulaşım nasıl sağlanıyor?",
       "cevap": "Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir. Kozyatağı metro istasyonuna yürüme mesafesinde olduğu için toplu taşımayla ulaşım pratiktir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist ise değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -5843,7 +5494,7 @@ export const miyofasyalAgriKinesioBantlamaIcerik = {
       "paragraflar": [
         "Boyun ve omuz çevresinde gün sonunda sertleşen kaslar, kürek kemikleri arasında beliren yanma benzeri ağrı, bel çevresinde hareketle ya da oturmayla artan gerginlik en sık başvuru nedenleri arasındadır. Spor sonrasında kasta kalan, birkaç gün geçse de azalmayan sertlik ve hareketi sınırlayan bir ağrı da aynı çerçevede değerlendirilir. Şikâyetin gün içinde ağrılı bir nokta olarak ortaya çıkması ve istirahatle kısmen azalması, kas ve fasya kaynaklı bir tablonun ipuçlarından biri olabilir. Yine de bu tek başına belirleyici değildir ve değerlendirmeyle doğrulanır.",
         "Önkol, kalça çevresi, baldır ve çene bölgesindeki kasların gerginliği de miyofasyal tablolar arasında sayılır. Çene sıkma alışkanlığı olan kişilerde şakak ve yanak kaslarında benzer bir hassasiyet görülebilir; bu durumda çene eklemi ayrıca değerlendirilir.",
-        "Ağrı ilk kez ortaya çıktıysa ve belirgin bir alarm bulgusu yoksa fizyoterapi değerlendirmesi uygun bir ilk adım olabilir. Şikâyet haftalardır sürüyorsa, tekrarlıyorsa ya da günlük işleri zorlaştırıyorsa değerlendirme daha da anlamlı hale gelir. Karar, hekim değerlendirmesi gerektiren bir durum bulunup bulunmadığına bakılarak verilir. Kadıköy miyofasyal ağrı tedavisi aramaya başlamadan önce, ağrının şiddeti ve süresi hakkında kısa bir not tutmak, başvuru sırasında bilgi paylaşmayı kolaylaştırır."
+        "Ağrı ilk kez ortaya çıktıysa ve belirgin bir alarm bulgusu yoksa fizyoterapi değerlendirmesi uygun bir ilk adım olabilir. Şikâyet haftalardır sürüyorsa, tekrarlıyorsa ya da günlük işleri zorlaştırıyorsa değerlendirme daha da anlamlı hale gelir. Kadıköy miyofasyal ağrı tedavisi aramaya başlamadan önce, ağrının şiddeti ve süresi hakkında kısa bir not tutmak, başvuru sırasında bilgi paylaşmayı kolaylaştırır."
       ],
       "baglantilar": [
         {
@@ -5861,7 +5512,7 @@ export const miyofasyalAgriKinesioBantlamaIcerik = {
       "paragraflar": [
         "Süreç, ağrının ne zaman başladığı, hangi hareketle arttığı, gün içinde nasıl değiştiği ve daha önce nelerin denendiği hakkında ayrıntılı bir görüşmeyle açılır. Mesleki hareketler, spor alışkanlıkları ve uyku düzeni gibi ayrıntılar da bu aşamada konuşulur. Bu bilgiler, ağrıyı sürdüren gündelik etkenleri görmeye yarar.",
         "Ardından duruş ve hareket gözlemi yapılır; eklem hareket açıklığı, kas kuvveti ve esneklik değerlendirilir. Şikâyetli bölgede kasların ve fasyanın gerginliği el ile incelenir, hassas noktaların yeri ve bu noktalara bastırıldığında ağrının yayılıp yayılmadığı not edilir. Böylece programın ilk bulgu zemini oluşturulur. Gerekirse çalışma pozisyonu ya da spor hareketi taklit edilerek ağrının hangi aşamada belirdiği izlenir. Böylece yalnızca dinlenme halindeki değil, hareket sırasındaki tablo da görülmüş olur.",
-        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Tanı ve tedavi kararının hekime ait olduğu, fizyoterapi sürecinin bu karar çerçevesinde yürüdüğü baştan paylaşılır. Elde varsa hekim notları ve görüntüleme raporları da değerlendirmeye katkı sağlar."
+        "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Elde varsa hekim notları ve görüntüleme raporları da değerlendirmeye katkı sağlar."
       ]
     },
     {
@@ -5915,7 +5566,7 @@ export const miyofasyalAgriKinesioBantlamaIcerik = {
       "paragraflar": [
         "İlerleme yalnızca ağrının şiddetiyle ölçülmez. Boynun ne kadar yana dönebildiği, kolun başın üzerine ne rahatlıkla kalktığı, oturup kalkarken belin ne ölçüde zorlandığı ve ağrılı noktaya bastırıldığında beliren hassasiyetin değişimi birlikte izlenir. Bu ölçümler seans aralarında yeniden alınır ve ilk bulgularla karşılaştırılır. Ölçümlerin aynı koşullarda tekrarlanması, değişimin daha güvenilir yorumlanmasını sağlar.",
         "Kişinin kendi gözlemleri de önemli bir veridir. Ağrının hangi saatlerde arttığı, uykuyu bölüp bölmediği ve günlük işleri yaparken ne kadar zorlandığı değerlendirmeye eklenir. Bazı günlerde ağrının dalgalanması beklenebilir; bu dalgalanmalar tek başına programın yanlış gittiği anlamına gelmez.",
-        "Program, bu gözlemler doğrultusunda güncellenir. Beklenenden farklı seyreden bir bölüm varsa yaklaşım değiştirilir ya da gerekiyorsa hekim değerlendirmesi önerilir. Sürecin süresi kişiden kişiye değiştiği için önceden sabit bir takvim verilmez."
+        "Program, bu gözlemler doğrultusunda güncellenir. Sürecin süresi kişiden kişiye değiştiği için önceden sabit bir takvim verilmez."
       ]
     },
     {
@@ -5944,14 +5595,6 @@ export const miyofasyalAgriKinesioBantlamaIcerik = {
           "metin": "Fizik tedavi kliniği yaklaşımı",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi"
         }
-      ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde hekim değerlendirmesini gerektirir. Kola ya da bacağa yayılan uyuşma ile birlikte güç kaybı, dinlenmeyle azalmayan ve geceleri belirginleşen ağrı, düşme ya da darbe sonrası başlayan şikâyetler, ateşin eşlik ettiği tablolar ve nedeni bilinmeyen kilo kaybı bunlar arasında sayılabilir. Göğüs ağrısı, nefes darlığı ve ani başlayan şiddetli baş ağrısı da fizyoterapiden önce hekim değerlendirmesi gerektiren durumlardır. Daha önce tanı konmuş bir hastalığı olan, kan sulandırıcı ilaç kullanan ya da cilt ve damar sorunu bulunan kişilerin bu bilgileri başlangıçta paylaşması, uygulamaların güvenli planlanması için önemlidir.",
-        "Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır. Fizyoterapi süreci, hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır ve teşhis yerine geçmez.",
-        "Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında da yeniden değerlendirme yapılır. Şikâyetin beklenenden farklı seyretmesi, programın gözden geçirilmesi için yeterli bir nedendir. Kadıköy miyofasyal ağrı tedavisi sürecinde hekimle iletişim gerektiğinde, bulgular kişinin onayıyla paylaşılır."
       ]
     }
   ],
@@ -5982,7 +5625,7 @@ export const miyofasyalAgriKinesioBantlamaIcerik = {
     },
     {
       "soru": "Hekim raporu ya da görüntüleme sonucu getirmem gerekir mi?",
-      "cevap": "Elinizde bir rapor veya görüntüleme sonucu varsa getirmeniz değerlendirmeye katkı sağlar. Görüntüleme isteme yetkisi hekime aittir; fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Elinizde bir rapor veya görüntüleme sonucu varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Spor sonrası kasta kalan sertlik için başvurabilir miyim?",
@@ -5995,10 +5638,6 @@ export const miyofasyalAgriKinesioBantlamaIcerik = {
     {
       "soru": "Randevu saatleri ve kliniğin konumu nedir?",
       "cevap": "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında planlanır. Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist ise değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -6023,7 +5662,7 @@ export const omuzAgrisiDonukOmuzIcerik = {
       "paragraflar": [
         "Omuz, vücutta en geniş hareket alanına sahip eklemdir ve bu özelliğini kemik yapıdan çok çevresindeki kas ve tendonlara borçludur. Üst kol kemiğinin başı, kürek kemiğindeki sığ bir yuvada durur; eklemi sabit tutan şey derin bir kemik oyuk değil, rotator manşet adı verilen kas ve tendon grubudur. Bu düzen büyük esneklik sağlar, ancak yükün yanlış dağıldığı durumlarda eklemi zorlanmaya açık hale getirir.",
         "Omuz ağrısı tek bir hastalığın adı değildir. Tendonların sıkışması, kapsülün sertleşmesi, kürek kemiği hareketinin bozulması, boyundan yansıyan bir gerginlik ya da yoğun bir efor sonrası gelişen kas yorgunluğu benzer yakınmalara yol açabilir. Bu nedenle şikâyetin adı konmadan önce hangi harekette ve hangi açıda ortaya çıktığı dikkatle ayrıştırılır.",
-        "Kadıköy omuz ağrısı fizyoterapisi sürecinde ilk amaç, ağrının kaynağına dair bir çerçeve kurmaktır. Aynı ağrı tarifi iki kişide farklı nedenlere dayanabildiği için programlar da kişiden kişiye değişir. Tanı koyma ve tedavi kararı hekime aittir; fizyoterapi bu karar çerçevesinde yürütülür."
+        "Kadıköy omuz ağrısı fizyoterapisi sürecinde ilk amaç, ağrının kaynağına dair bir çerçeve kurmaktır. Aynı ağrı tarifi iki kişide farklı nedenlere dayanabildiği için programlar da kişiden kişiye değişir."
       ]
     },
     {
@@ -6109,7 +5748,7 @@ export const omuzAgrisiDonukOmuzIcerik = {
       "paragraflar": [
         "Omuz ağrısı yalnızca omuz ekleminden kaynaklanmaz. Başın öne kayması, üst sırtın yuvarlaklaşması ve kürek kemiklerinin gövde üzerinde doğru konumlanamaması, kolun yukarı kalkarken kullanabileceği alanı daraltır. Bu durumda omuz eklemi, kendi dışındaki bölgelerin getirdiği kısıtlılığı telafi etmeye çalışır.",
         "Uzun süre ekran karşısında çalışan kişilerde boyun, omuz ve kürek kemiği arasındaki gerginlik sık birlikte görülür. Fare kullanılan taraftaki omuz, çoğu zaman diğer tarafa göre daha çok zorlanır. Masanın, klavyenin ve ekranın konumu bu nedenle omuz değerlendirmesinin doğal bir parçası olarak konuşulur.",
-        "Boyundan omuza ya da koldan elin bileğine uzanan bir yayılım tarif edildiğinde, değerlendirme bu bölgeleri de kapsar. Böyle bir durumda boyun kaynaklı bir bileşenin bulunup bulunmadığı ayrıştırılır ve gerekirse hekim yönlendirmesi önerilir. Boyun ve omuz şikâyetleri ilişkili olsa da programlar birbirinden bağımsız planlanabilir."
+        "Boyundan omuza ya da koldan elin bileğine uzanan bir yayılım tarif edildiğinde, değerlendirme bu bölgeleri de kapsar. Boyun ve omuz şikâyetleri ilişkili olsa da programlar birbirinden bağımsız planlanabilir."
       ],
       "baglantilar": [
         {
@@ -6161,21 +5800,13 @@ export const omuzAgrisiDonukOmuzIcerik = {
       "paragraflar": [
         "Değerlendirme ve seanslar, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın tarafından yürütülür. Görüşmeler Kozyatağı'nda Gülbahar Sokak'taki klinikte yapılır ve klinik Kozyatağı metro istasyonuna yürüme mesafesindedir.",
         "Kadıköy omuz ağrısı fizyoterapisi randevuları Pazartesi ile Cumartesi arasında 09:00 ve 21:00 saatleri içinde planlanır. Bu aralık, mesai öncesi ya da sonrası için uygun bir saat bulmayı kolaylaştırır. İlk görüşmede varsa görüntüleme sonuçlarını ve hekim notlarını yanınızda getirmeniz değerlendirmenin daha eksiksiz ilerlemesine yardımcı olur.",
-        "Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde yürür. Bu sayfadaki bilgiler genel bilgilendirme amaçlıdır ve hekim değerlendirmesinin yerini tutmaz. Kliniğin diğer çalışma alanlarına tedavi yaklaşımları sayfasından ulaşılabilir."
+        "Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde yürür. Kliniğin diğer çalışma alanlarına tedavi yaklaşımları sayfasından ulaşılabilir."
       ],
       "baglantilar": [
         {
           "metin": "Kadıköy fizik tedavi kliniği",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi"
         }
-      ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde hekim değerlendirmesini gerektirir. Düşme ya da darbe sonrası ani başlayan şiddetli omuz ağrısı, kolu hiç kaldıramama, omuzda belirgin şekil bozukluğu, kola yayılan uyuşma ile güç kaybı ve ateşin eşlik ettiği şişlik bunlar arasında sayılabilir.",
-        "Sol omuz ve kola yayılan, göğüste baskı hissi ya da nefes darlığı ile birlikte görülen bir ağrı omuz kaynaklı olmayabilir ve acil tıbbi değerlendirme gerektirebilir. Dinlenmeyle hiç azalmayan, geceleri giderek artan ve bilinen bir nedene bağlanamayan ağrı da hekim muayenesini gerektirir. Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır.",
-        "Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında yeniden değerlendirme yapılır. Şikâyetin beklenenden farklı seyretmesi, programın gözden geçirilmesi için yeterli bir nedendir. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez."
       ]
     }
   ],
@@ -6198,7 +5829,7 @@ export const omuzAgrisiDonukOmuzIcerik = {
     },
     {
       "soru": "Görüntüleme sonucu ya da hekim raporu getirmem gerekir mi?",
-      "cevap": "Elinizde röntgen, MR ya da ultrason sonucu veya hekim notu varsa getirmeniz değerlendirmeye katkı sağlar. Görüntüleme isteme yetkisi hekime aittir; fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Elinizde röntgen, MR ya da ultrason sonucu veya hekim notu varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Omuz ameliyatı sonrasında fizyoterapi başlatılabilir mi?",
@@ -6206,7 +5837,7 @@ export const omuzAgrisiDonukOmuzIcerik = {
     },
     {
       "soru": "Omuz ağrısı boyundan kaynaklanabilir mi?",
-      "cevap": "Evet, bazı kişilerde boyun bölgesindeki bir gerginlik ya da sinir tahrişi omuza yansıyan bir ağrı oluşturabilir. Bu nedenle değerlendirmede boyun ve üst sırt hareketleri de incelenir. Gerekli görüldüğünde hekim yönlendirmesi önerilir."
+      "cevap": "Evet, bazı kişilerde boyun bölgesindeki bir gerginlik ya da sinir tahrişi omuza yansıyan bir ağrı oluşturabilir. Bu nedenle değerlendirmede boyun ve üst sırt hareketleri de incelenir."
     },
     {
       "soru": "Seanslarda yalnızca omuza mı çalışılır?",
@@ -6219,10 +5850,6 @@ export const omuzAgrisiDonukOmuzIcerik = {
     {
       "soru": "Randevu saatleri mesai düzenine uyuyor mu?",
       "cevap": "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında planlanır. Bu aralık, mesai öncesi ya da sonrası saatlerde randevu almayı mümkün kılar. Klinik Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     },
     {
       "soru": "İlk randevuya nasıl hazırlanmalıyım?",
@@ -6318,7 +5945,7 @@ export const ortopedikRehabilitasyonIcerik = {
       "h2": "Cerrah protokolünün neden esas alındığı",
       "paragraflar": [
         "Ameliyat sonrası dönemde her doku farklı bir hızda toparlanır ve her cerrahi yöntemin kendine ait koruma gereksinimleri vardır. Dikişli bir tendon, vidalarla sabitlenmiş bir kemik ya da yeni yerleştirilmiş bir protez, aynı gün aynı yüke karşılık vermez. Bu bilgi, ameliyatı yapan ekibin elindedir ve rehabilitasyonun dayanağı da bu bilgidir.",
-        "Bu nedenle ilk randevuda cerrahın ya da ortopedi hekiminin yazdığı notlar, epikriz, görüntüleme sonuçları ve varsa yönergeler istenir. Hangi hareketin serbest, hangisinin sınırlı olduğu, yük verme düzeyi ve kontrol randevularının zamanı bu belgelerden öğrenilir. Belgeler eksikse ya da yönergeler belirsizse, gerektiğinde hekime danışılması önerilir.",
+        "Bu nedenle ilk randevuda cerrahın ya da ortopedi hekiminin yazdığı notlar, epikriz, görüntüleme sonuçları ve varsa yönergeler istenir. Hangi hareketin serbest, hangisinin sınırlı olduğu, yük verme düzeyi ve kontrol randevularının zamanı bu belgelerden öğrenilir.",
         "Fizyoterapi, bu çerçevenin içinde hareket eder ve çerçevenin dışına çıkmaz. Hekimin verdiği izinler değiştiğinde program da güncellenir. Kişinin kendisi ya da yakınları tarafından duyulan genel bir takvim, bu protokolün yerine geçmez."
       ]
     },
@@ -6327,7 +5954,7 @@ export const ortopedikRehabilitasyonIcerik = {
       "paragraflar": [
         "Süreç, yaralanmanın ya da ameliyatın nasıl gerçekleştiği, o tarihten bu yana neler yaşandığı ve şu an en çok hangi hareketin zorladığı üzerine ayrıntılı bir görüşmeyle başlar. Ardından hekim notları incelenir ve kısıtlamalar netleştirilir. Bu aşamada kişinin kendi hedefleri de dinlenir: yeniden yürümek, merdiven çıkmak, işe dönmek ya da spora başlamak gibi.",
         "Fiziksel değerlendirmede şişlik ve kesi bölgesinin durumu, eklem hareket açıklığı, kas kuvveti ve çevre ölçümleri incelenir. Yürüyüş ve geçiş hareketleri, yani oturup kalkma, basamak çıkma ve tek ayak üzerinde durma gibi, gözlenir. Hekimin izin verdiği ölçüde denge ve işlevsel testler de değerlendirmeye eklenir.",
-        "Değerlendirmenin sonunda bulgular kişiye anlatılır ve ilk dönem için bir plan oluşturulur. Bu plan sabit değildir; hekim kontrolleri ve kişinin gösterdiği yanıt doğrultusunda gözden geçirilir. Tanı ve tedavi kararının hekime ait olduğu, fizyoterapi sürecinin bu karar çerçevesinde yürüdüğü baştan paylaşılır."
+        "Değerlendirmenin sonunda bulgular kişiye anlatılır ve ilk dönem için bir plan oluşturulur. Bu plan sabit değildir; hekim kontrolleri ve kişinin gösterdiği yanıt doğrultusunda gözden geçirilir."
       ]
     },
     {
@@ -6391,14 +6018,6 @@ export const ortopedikRehabilitasyonIcerik = {
           "yol": "/kozyatagi-fizyoterapist"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi sürecinin ortasında bile hekim değerlendirmesini gerektirir. Ameliyat bölgesinde artan ısı, kızarıklık, akıntı ya da ateş, bacakta tek taraflı şişlik ve baldırda ağrı, nefes darlığı ya da göğüs ağrısı bunlar arasında sayılabilir. Alçı ya da atel altında artan ağrı, parmaklarda renk değişikliği, uyuşma veya soğukluk da yine hekime başvurmayı gerektiren işaretlerdir.",
-        "Beklenmedik bir düşme, eklemde aniden ortaya çıkan kilitlenme ya da boşalma hissi, protezin ya da implantın yerinde durmadığına dair bir şüphe ve ameliyat sonrası dönemde dinlenmekle azalmayan, gece belirginleşen ağrı da değerlendirme gerektirir. Bu durumlarda süreç durdurulur ve kişi ameliyatı yapan hekime ya da ilgili sağlık kuruluşuna yönlendirilir.",
-        "Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis ya da tedavi önerisi yerine geçmez. Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında da yeniden değerlendirme yapılır."
-      ]
     }
   ],
   "sss": [
@@ -6412,7 +6031,7 @@ export const ortopedikRehabilitasyonIcerik = {
     },
     {
       "soru": "Cerrahım protokol vermediyse ne yapılır?",
-      "cevap": "Yönerge eksik ya da belirsizse, program planlanmadan önce hekime danışılması önerilir. Fizyoterapist hekimin yerine geçerek yüklenme sınırlarını belirlemez. Ameliyat notları ve görüntüleme sonuçları eldeyse, değerlendirmede bunlar incelenir."
+      "cevap": "Fizyoterapist hekimin yerine geçerek yüklenme sınırlarını belirlemez. Ameliyat notları ve görüntüleme sonuçları eldeyse, değerlendirmede bunlar incelenir."
     },
     {
       "soru": "Kalça ya da diz protezi sonrasında hangi hareketlerden kaçınılır?",
@@ -6428,7 +6047,7 @@ export const ortopedikRehabilitasyonIcerik = {
     },
     {
       "soru": "Rapor ve görüntüleme sonuçları getirmem gerekir mi?",
-      "cevap": "Ameliyat notu, epikriz, kontrol randevusu yönergeleri ve görüntüleme sonuçları getirilirse değerlendirme daha eksiksiz ilerler. Görüntüleme isteme ve yorumlama yetkisi hekime aittir. Fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Ameliyat notu, epikriz, kontrol randevusu yönergeleri ve görüntüleme sonuçları getirilirse değerlendirme daha eksiksiz ilerler. Fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
     },
     {
       "soru": "Ev programı verilir mi?",
@@ -6441,10 +6060,6 @@ export const ortopedikRehabilitasyonIcerik = {
     {
       "soru": "Kliniğe ulaşım nasıl sağlanıyor?",
       "cevap": "Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir. Kozyatağı metro istasyonuna yürüme mesafesinde olduğu için toplu taşımayla ulaşım pratiktir. Yürüme yardımcısı kullanan kişiler için ulaşım planı randevu öncesinde konuşulabilir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Ortopedi ve fiziksel tıp ve rehabilitasyon hekimliği ayrı hekim ünvanlarıdır; tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist ise değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -6469,7 +6084,7 @@ export const pediatrikFizyoterapiBobathIcerik = {
       "paragraflar": [
         "Çocuklarda hareket gelişimi; başı kontrol etme, yuvarlanma, oturma, sürünme, ayağa kalkma ve yürüme gibi birbirini izleyen basamaklarla ilerler. Bu basamakların zamanlaması çocuktan çocuğa fark gösterir, ancak bazı çocuklarda gelişim beklenen çizgiden belirgin biçimde ayrışır. Kadıköy pediatrik fizyoterapi hizmeti, bu ayrışmanın çocuğun günlük hareketine nasıl yansıdığını anlamayı ve buna uygun bir çalışma planı kurmayı amaçlar.",
         "Çocuk fizyoterapisi, yetişkin fizyoterapisinin küçültülmüş hali değildir. Gelişmekte olan sinir sistemi, büyüyen kemik ve kas yapısı ile oyun üzerinden öğrenme biçimi, hem değerlendirmenin hem uygulamanın çerçevesini belirler. Hedef, tek bir kası güçlendirmekten çok, çocuğun kendi hareketini daha etkin, daha dengeli ve daha rahat kullanabilmesidir.",
-        "Gelişimin farklı seyretmesinin tek bir nedeni yoktur. Erken doğum, doğum sürecine bağlı etkenler, genetik ya da nörolojik tanılar, kas tonusundaki farklılıklar, duyusal bilgiyi düzenlemedeki güçlükler ve bazen belirgin bir neden saptanamaması bu tabloların arasında sayılabilir. Nedenin araştırılması ve tanı konulması hekimin görevidir; fizyoterapi ise çocuğun mevcut hareket becerisini ve bu beceriyi sınırlayan noktaları ortaya koyar."
+        "Gelişimin farklı seyretmesinin tek bir nedeni yoktur. Erken doğum, doğum sürecine bağlı etkenler, genetik ya da nörolojik tanılar, kas tonusundaki farklılıklar, duyusal bilgiyi düzenlemedeki güçlükler ve bazen belirgin bir neden saptanamaması bu tabloların arasında sayılabilir."
       ]
     },
     {
@@ -6495,7 +6110,7 @@ export const pediatrikFizyoterapiBobathIcerik = {
       "paragraflar": [
         "İlk görüşme, çocuktan çok aileyle konuşarak başlar. Gebelik ve doğum öyküsü, gelişim basamaklarının zamanları, geçirilmiş hastalıklar, uyku ve beslenme düzeni, varsa hekim raporları ve ailenin günlük hayatta en çok zorlandığı durumlar dinlenir. Çocuğun ortama alışması için bu sırada oyun alanında serbestçe dolaşmasına izin verilir.",
         "Ardından çocuğun kendiliğinden yaptığı hareketler gözlenir: nasıl yuvarlandığı, oturuşa nasıl geçtiği, ayakta ağırlığını nasıl dağıttığı, yürürken kolların ve gövdenin harekete nasıl eşlik ettiği. Kas tonusu, eklem hareket açıklığı, denge tepkileri, duyusal tepkiler ve yaşa uygun gelişim ölçütleri de bu gözlemin parçasıdır. Çocuğa zorlayıcı bir test yaptırılmaz, mümkün olduğunca oyun içinde ilerlenir.",
-        "Değerlendirme sonunda bulgular aileye anlaşılır bir dille anlatılır ve hedefler birlikte belirlenir. Hedefler genellikle gündelik hayattaki somut bir işleve bağlanır; desteksiz oturmak, merdiveni tutunmadan çıkmak ya da giyinirken sürece katılmak gibi. Tanı ve tedavi kararının hekime ait olduğu, fizyoterapinin bu karar çerçevesinde yürüdüğü baştan paylaşılır."
+        "Değerlendirme sonunda bulgular aileye anlaşılır bir dille anlatılır ve hedefler birlikte belirlenir. Hedefler genellikle gündelik hayattaki somut bir işleve bağlanır; desteksiz oturmak, merdiveni tutunmadan çıkmak ya da giyinirken sürece katılmak gibi."
       ],
       "baglantilar": [
         {
@@ -6597,14 +6212,6 @@ export const pediatrikFizyoterapiBobathIcerik = {
         "Randevular Pazartesi ile Cumartesi arasında 09:00 ile 21:00 saatleri içinde planlanır. Çocukların uyku ve beslenme saatleri düşünülerek gün içinde uygun bir aralık seçilmesi, seansın verimi açısından önemlidir. Okul çağındaki çocuklar için okul sonrası saatler de konuşulabilir.",
         "İlk randevuya çocuğun rahat kıyafetle gelmesi, varsa hekim raporlarının, görüntüleme sonuçlarının ve gelişim izlem notlarının getirilmesi yararlıdır. Çocuğun sevdiği bir oyuncağın yanında olması ortama uyumunu kolaylaştırabilir. Seansa, çocuğu günlük yaşamında en yakından tanıyan kişinin eşlik etmesi tercih edilir. Kardeşlerin ya da yakın akrabaların da gelmesi mümkündür; ancak çocuğun dikkatini dağıtmayacak sakin bir ortam, seansın verimi için daha uygun olur."
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde ya da sırasında hekim değerlendirmesini gerektirir. Daha önce yapılan bir becerinin yitirilmesi, nöbet şüphesi, ateşle birlikte seyreden ya da giderek artan güç kaybı, yürüyüşte ani değişiklik, belirgin tek taraflı güçsüzlük ve geceleri uyandıran ağrı bunlar arasında sayılabilir.",
-        "Emme ve yutma güçlüğü, nefes alıp vermede zorlanma, kemik ya da eklemde şişlik ve kızarıklık, darbe sonrası başlayan topallama ya da sırtta kısa sürede artan eğrilik görüldüğünde de önce hekime başvurulması uygundur. Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır.",
-        "Fizyoterapi süreci, hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler genel bilgilendirme amaçlıdır, teşhis yerine geçmez. Süreç boyunca fark edilen yeni bir bulgu, programın gözden geçirilmesi için yeterli bir nedendir."
-      ]
     }
   ],
   "sss": [
@@ -6618,7 +6225,7 @@ export const pediatrikFizyoterapiBobathIcerik = {
     },
     {
       "soru": "Duyu bütünleme çalışması neleri kapsar?",
-      "cevap": "Dokunma, denge ve vücut konumu gibi duyu girdilerine çocuğun daha dengeli yanıt vermesini hedefleyen, oyun temelli ve derecelendirilmiş etkinlikleri kapsar. İçerik çocuğun tepkisine göre ayarlanır ve duyusal farklılıkların tanısı hekime aittir."
+      "cevap": "Dokunma, denge ve vücut konumu gibi duyu girdilerine çocuğun daha dengeli yanıt vermesini hedefleyen, oyun temelli ve derecelendirilmiş etkinlikleri kapsar."
     },
     {
       "soru": "Seanslar kaç hafta ya da kaç seans sürer?",
@@ -6634,7 +6241,7 @@ export const pediatrikFizyoterapiBobathIcerik = {
     },
     {
       "soru": "Hekim raporu ya da görüntüleme sonucu getirmem gerekir mi?",
-      "cevap": "Varsa hekim raporlarını, görüntüleme sonuçlarını ve gelişim izlem notlarını getirmeniz değerlendirmeye katkı sağlar. Tanı koyma ve görüntüleme isteme yetkisi hekime aittir; fizyoterapi mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Varsa hekim raporlarını, görüntüleme sonuçlarını ve gelişim izlem notlarını getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Çocuğumda düz taban ya da duruş bozukluğu şüphesi var, buraya başvurabilir miyim?",
@@ -6647,10 +6254,6 @@ export const pediatrikFizyoterapiBobathIcerik = {
     {
       "soru": "Randevu saatleri ve kliniğe ulaşım nasıl?",
       "cevap": "Randevular Pazartesi ile Cumartesi arasında 09:00-21:00 saatleri içinde planlanır. Klinik Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekime aittir. Fizyoterapist değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -6673,7 +6276,7 @@ export const solunumFizyoterapisiIcerik = {
     {
       "h2": "Nefes almak bir kas ve hareket işidir",
       "paragraflar": [
-        "Solunum çoğu zaman kendiliğinden işleyen bir işlev olarak düşünülür, oysa her nefes diyaframın, kaburgalar arasındaki kasların ve göğüs kafesinin birlikte hareket etmesine dayanır. Kadıköy solunum fizyoterapisi bu hareket tarafını ele alır: nefesin hangi bölgeye gittiği, göğüs kafesinin ne kadar genişlediği, nefes alırken boyun ve omuz kaslarının ne kadar devreye girdiği incelenir. Akciğerin kendi hastalıklarına yönelik tanı ve ilaç tedavisi ise hekimin alanındadır.",
+        "Solunum çoğu zaman kendiliğinden işleyen bir işlev olarak düşünülür, oysa her nefes diyaframın, kaburgalar arasındaki kasların ve göğüs kafesinin birlikte hareket etmesine dayanır. Kadıköy solunum fizyoterapisi bu hareket tarafını ele alır: nefesin hangi bölgeye gittiği, göğüs kafesinin ne kadar genişlediği, nefes alırken boyun ve omuz kaslarının ne kadar devreye girdiği incelenir.",
         "Diyafram, göğüs kafesinin altında kubbe biçiminde uzanan ve nefesin asıl yükünü taşıyan kastır. Nefes alırken aşağı doğru inerek akciğerlere yer açar, nefes verirken yeniden yukarı çıkar. Kaburgalar da bu sırada bir kova sapı gibi yukarı ve yana doğru açılır; bu hareketlerden biri kısıtlandığında nefes yüzeyselleşir ve yardımcı kaslar işe karışır.",
         "Nefes düzeninin bozulmasında tek bir neden aranmaz. Uzun süre yatakta kalmak, ağrı nedeniyle derin nefesten kaçınmak, göğüs kafesindeki sertlik, öne eğik duruş, omurga eğrilikleri, stresli dönemlerde göğüs üstüne taşınan nefes alışkanlığı ve kronik akciğer hastalıkları bu tabloya katkıda bulunabilir. Bu nedenle değerlendirme, nefesi tek başına değil gövdenin bütünü içinde ele alır."
       ]
@@ -6683,7 +6286,7 @@ export const solunumFizyoterapisiIcerik = {
       "paragraflar": [
         "Solunum fizyoterapisi genellikle hekimin yönlendirmesiyle ya da kişinin nefes alırken zorlandığını fark etmesiyle gündeme gelir. KOAH ve astım gibi kronik akciğer hastalıklarının izlendiği dönemlerde, göğüs ve karın ameliyatları sonrasında, uzun süren yatış veya hareketsizlik sonrasında bu yaklaşım düşünülebilir. Kişinin yaşadığı tablo ne olursa olsun, ilk adım hekimin değerlendirmesinin bilinmesidir.",
         "Akciğerle doğrudan ilgili olmayan nedenlerle de nefes düzeni bozulabilir. Skolyoz gibi omurga eğriliklerinde göğüs kafesinin bir yanı daha az genişleyebilir, nörolojik hastalıklarda solunum kaslarının gücü ve koordinasyonu etkilenebilir, ileri yaşta göğüs kafesi esnekliği azalabilir. Yoğun tempoda sürekli sığ ve hızlı nefes alan kişilerde ise boyun ve omuz çevresindeki gerginlik nefes alışkanlığıyla birlikte konuşulur.",
-        "Nefesin yetersiz kaldığı, öksürükle sık sık zorlanıldığı ya da merdiven çıkarken çabuk yorulunduğu gibi şikâyetler her zaman aynı kökenden gelmez. Bu yüzden kişinin yakınması hekim bilgisiyle birlikte yorumlanır. Fizyoterapi, tıbbi tanının yerine geçmez, onu destekleyen hareket ve egzersiz tarafını üstlenir."
+        "Nefesin yetersiz kaldığı, öksürükle sık sık zorlanıldığı ya da merdiven çıkarken çabuk yorulunduğu gibi şikâyetler her zaman aynı kökenden gelmez. Bu yüzden kişinin yakınması hekim bilgisiyle birlikte yorumlanır."
       ],
       "baglantilar": [
         {
@@ -6695,7 +6298,7 @@ export const solunumFizyoterapisiIcerik = {
     {
       "h2": "Değerlendirme nasıl ilerler",
       "paragraflar": [
-        "Süreç, yakınmanın ne zaman başladığı, hangi etkinliklerde arttığı ve gün içinde nasıl değiştiği üzerine ayrıntılı bir görüşmeyle açılır. Varsa hekim raporları, akciğer görüntüleri, solunum fonksiyon test sonuçları ve kullanılan ilaçlar hakkındaki bilgiler bu aşamada dikkate alınır. Fizyoterapist bu sonuçları yorumlayarak tanı koymaz; programı bu bilgilerin çerçevesine yerleştirir.",
+        "Süreç, yakınmanın ne zaman başladığı, hangi etkinliklerde arttığı ve gün içinde nasıl değiştiği üzerine ayrıntılı bir görüşmeyle açılır. Varsa hekim raporları, akciğer görüntüleri, solunum fonksiyon test sonuçları ve kullanılan ilaçlar hakkındaki bilgiler bu aşamada dikkate alınır.",
         "Ardından beden gözlenir. Dinlenme halinde nefes alıp verme sıklığı, nefesin karına mı göğse mi gittiği, omuz ve boyun kaslarının solunuma ne kadar eşlik ettiği, kaburgaların her iki yanda eşit açılıp açılmadığı izlenir. Göğüs kafesi çevresi, omurga hareketliliği, karın ve sırt kaslarının çalışma düzeni ile duruş da değerlendirmeye dahil edilir.",
         "Değerlendirme sonunda bulgular kişiye anlatılır ve program bu bulgulara göre planlanır. Kadıköy solunum fizyoterapisi sürecinde program sabit bir şablon olarak sunulmaz; ara değerlendirmelerle içeriği ve yoğunluğu güncellenir. Egzersiz sırasında nefes darlığı ve yorgunluk hissinin nasıl seyrettiği de kişiyle birlikte konuşulur."
       ]
@@ -6725,7 +6328,7 @@ export const solunumFizyoterapisiIcerik = {
     {
       "h2": "Kronik akciğer hastalıkları ve ameliyat sonrası dönemde fizyoterapinin çerçevesi",
       "paragraflar": [
-        "KOAH ve astım gibi kronik akciğer hastalıklarında ilaç tedavisi ve takip hekime aittir. Fizyoterapi bu çerçevenin dışına çıkmaz; nefes darlığıyla baş etmeye yardımcı egzersiz alışkanlığı kazandırmak, solunum kaslarını ve genel dayanıklılığı hekimin uygun gördüğü sınırlar içinde çalışmak ve kişinin gündelik işlerde enerjisini daha verimli kullanmasına destek olmak gibi hedefler taşır. Egzersizin yoğunluğu, belirtilerin seyrine göre dikkatle ayarlanır.",
+        "Fizyoterapi bu çerçevenin dışına çıkmaz; nefes darlığıyla baş etmeye yardımcı egzersiz alışkanlığı kazandırmak, solunum kaslarını ve genel dayanıklılığı hekimin uygun gördüğü sınırlar içinde çalışmak ve kişinin gündelik işlerde enerjisini daha verimli kullanmasına destek olmak gibi hedefler taşır. Egzersizin yoğunluğu, belirtilerin seyrine göre dikkatle ayarlanır.",
         "Göğüs ya da karın ameliyatı sonrasında ağrı nedeniyle derin nefes alınmadığında akciğerin alt bölgeleri yeterince havalanmayabilir. Bu dönemde cerrahın belirlediği protokol esas alınır; yastıkla yara bölgesini destekleyerek öksürme, yönlendirilmiş derin nefes ve erken hareketlilik gibi uygulamalar genel kabul gören yaklaşımlar arasındadır. Uygulama zamanlaması ve sınırları cerrah ya da hekimle uyum içinde belirlenir.",
         "Ameliyat sonrası süreç yalnızca solunumla sınırlı değildir; eklem hareketi, kas gücü ve günlük işlevler de aynı planın parçasıdır. Solunum çalışması, bu büyük resim içinde kendi yerini alır. Hekim kontrolünün ve operasyona özgü kısıtlamaların bilinmesi, programın güvenle kurulabilmesi için baştan paylaşılması gereken bilgilerdendir."
       ],
@@ -6808,20 +6411,12 @@ export const solunumFizyoterapisiIcerik = {
           "yol": "/tedavi-yaklasimlarimiz/rehabilitasyon-merkezi"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde ya da sırasında hekim değerlendirmesini gerektirir. Ani başlayan ve giderek artan nefes darlığı, göğüs ağrısı, dudaklarda ya da parmak uçlarında morarma, kanlı balgam, yüksek ateşin eşlik ettiği öksürük, bacakta tek taraflı şişlik ve ağrı bunlar arasında sayılabilir. Bu belirtilerden biri varsa önce sağlık kuruluşuna başvurulması gerekir.",
-        "Böyle bir tablo tarif edildiğinde değerlendirme durdurulur ve hekime yönlendirme yapılır. Fizyoterapi süreci, hekimin tanı ve tedavi kararı çerçevesinde ilerler. Bu sayfadaki bilgiler genel bilgilendirme amaçlıdır, teşhis ya da tedavi önerisi yerine geçmez.",
-        "Program süresince yeni bir belirti ortaya çıkarsa ya da mevcut şikâyet beklenenden farklı seyrederse bu durum paylaşılmalıdır. Böyle bir değişiklik, programın gözden geçirilmesi ve gerekirse hekimle yeniden görüşülmesi için yeterli bir nedendir."
-      ]
     }
   ],
   "sss": [
     {
       "soru": "Solunum fizyoterapisi nedir?",
-      "cevap": "Nefes alıp verme düzenini, diyaframın ve göğüs kafesinin hareketini değerlendiren, bulgulara göre egzersiz ve elle uygulamalarla destekleyen bir fizyoterapi alanıdır. Akciğer hastalıklarının tanısı ve ilaç tedavisi hekime aittir, fizyoterapi bu çerçevenin yanında çalışır."
+      "cevap": "Nefes alıp verme düzenini, diyaframın ve göğüs kafesinin hareketini değerlendiren, bulgulara göre egzersiz ve elle uygulamalarla destekleyen bir fizyoterapi alanıdır."
     },
     {
       "soru": "Hangi şikâyetlerde solunum fizyoterapisi düşünülür?",
@@ -6833,7 +6428,7 @@ export const solunumFizyoterapisiIcerik = {
     },
     {
       "soru": "Nefes egzersizleri ilaç tedavisinin yerini tutar mı?",
-      "cevap": "Hayır. Nefes egzersizleri ilacın ya da hekim kontrolünün yerine geçmez. Tamamlayıcı bir çalışma olarak değerlendirilir ve hekimin tedavi planıyla birlikte yürütülür."
+      "cevap": "Hayır. Tamamlayıcı bir çalışma olarak değerlendirilir ve hekimin tedavi planıyla birlikte yürütülür."
     },
     {
       "soru": "Ameliyat sonrası solunum egzersizleri ne zaman başlar?",
@@ -6862,10 +6457,6 @@ export const solunumFizyoterapisiIcerik = {
     {
       "soru": "Randevu saatleri ve klinik adresi nedir?",
       "cevap": "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında planlanır. Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir ve Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -6932,7 +6523,7 @@ export const sporMasajiKlinikMasajIcerik = {
       "paragraflar": [
         "Masaj tek başına bir tedavi yöntemi değildir; fizyoterapide elle uygulanan teknikler içinde yer alır ve kasların ve yumuşak dokunun durumunu etkilemeye yardımcı olabilir. Etkisi çoğu zaman geçici bir rahatlama ve hareket kolaylığı olarak tarif edilir. Bu rahatlamanın kalıcı olması için gerginliğin kaynağına yönelik egzersiz ve alışkanlık düzenlemesi gerekir.",
         "Bir kasın sürekli gergin kalması, çoğu zaman o kasın başka bir bölgenin zayıflığını telafi etmesinden kaynaklanır. Sorun kuvvet eksikliği, kontrol sorunu ya da eklem hareketindeki kısıtlılık olduğunda sadece masaj yapmak aynı gerginliğin kısa sürede geri dönmesine yol açabilir. Bu yüzden program, masajı egzersiz ve hareket eğitimiyle birlikte kurar.",
-        "Masajın sınırlarının bilinmesi de önemlidir. Kemik, sinir ve eklem kaynaklı sorunlar masajla giderilemez; tanı ve tedavi kararı hekime aittir. Fizyoterapist değerlendirmesi, bulguların masaj için uygun olup olmadığını ve hekime yönlendirme gerekip gerekmediğini belirlemeye de hizmet eder. Masajın bu rolü doğru konumlandırıldığında, kişi hem seans içinde hem seans dışında neyi yapması gerektiğini bilir. Süreç, pasif bir uygulama olmaktan çıkıp birlikte yürütülen bir çalışmaya dönüşür."
+        "Masajın sınırlarının bilinmesi de önemlidir. Kemik, sinir ve eklem kaynaklı sorunlar masajla giderilemez. Masajın bu rolü doğru konumlandırıldığında, kişi hem seans içinde hem seans dışında neyi yapması gerektiğini bilir. Süreç, pasif bir uygulama olmaktan çıkıp birlikte yürütülen bir çalışmaya dönüşür."
       ],
       "baglantilar": [
         {
@@ -7022,14 +6613,6 @@ export const sporMasajiKlinikMasajIcerik = {
           "yol": "/iletisim"
         }
       ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular masajdan önce hekim değerlendirmesini gerektirir. Bacakta ya da kolda şişlik, ısı artışı ve kızarıklık, özellikle tek taraflı baldır ağrısı, dinlenmeyle azalmayan ve geceleri belirginleşen ağrı, ateşin eşlik ettiği tablolar bunlar arasında sayılabilir. Darbe ya da düşme sonrası başlayan ağrı, kas yırtığı şüphesi ve uyuşma ile güç kaybı da aynı gruba girer.",
-        "Pıhtılaşmayı etkileyen ilaç kullanımı, deride açık yara ya da enfeksiyon, yeni geçirilmiş bir cerrahi gibi durumlar da masaj öncesinde hekimle paylaşılması gereken konulardır. Bu tür bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır. Fizyoterapi süreci hekimin tanı ve tedavi kararı çerçevesinde yürür.",
-        "Bu sayfadaki bilgiler bilgilendirme amaçlıdır ve teşhis yerine geçmez. Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında yeniden değerlendirme yapılır. Beklenenden farklı seyreden her tablo, programın gözden geçirilmesi için yeterli bir nedendir. Kişinin bulguları ve ilaç kullanımı hakkında verdiği bilgi, uygulamanın güvenle planlanması için temel oluşturur. Şüphe duyulan her durumda önce hekim görüşü esas alınır."
-      ]
     }
   ],
   "sss": [
@@ -7063,11 +6646,7 @@ export const sporMasajiKlinikMasajIcerik = {
     },
     {
       "soru": "Yaralanma sonrası ne zaman masaj yapılabilir?",
-      "cevap": "Bu, yaralanmanın türüne, evresine ve hekim değerlendirmesine bağlıdır. Akut dönemde bazı bölgelere masaj uygun olmayabilir. Hekim bilgisi ve değerlendirme bulguları birlikte ele alınarak karar verilir."
-    },
-    {
-      "soru": "Masajdan önce hekime danışmam gereken durumlar var mı?",
-      "cevap": "Evet. Kan sulandırıcı kullanımı, bacakta tek taraflı şişlik ve ağrı, açık yara, ateş ve yakın zamanda geçirilmiş cerrahi gibi durumlar masajdan önce hekimle paylaşılmalıdır. Böyle bir durumda değerlendirme sonrasında yönlendirme yapılır."
+      "cevap": "Akut dönemde bazı bölgelere masaj uygun olmayabilir. Hekim bilgisi ve değerlendirme bulguları birlikte ele alınarak karar verilir."
     },
     {
       "soru": "İlk randevuya nasıl hazırlanmalıyım?",
@@ -7076,10 +6655,6 @@ export const sporMasajiKlinikMasajIcerik = {
     {
       "soru": "Randevu saatleri antrenman ve mesai düzenine uyuyor mu?",
       "cevap": "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında planlanır. Bu aralık, antrenmandan önce ya da mesai çıkışında randevu almayı mümkün kılar. Klinik Kozyatağı metro istasyonuna yürüme mesafesindedir."
-    },
-    {
-      "soru": "Fizyoterapist ile hekim arasındaki fark nedir?",
-      "cevap": "Tanı koyma ve tedavi kararı verme yetkisi hekimdedir. Fizyoterapist ise değerlendirme yaparak fizyoterapi ve rehabilitasyon uygulamalarını yürütür. Onur Yalçın, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu bir fizyoterapisttir."
     }
   ],
   "gorselAltMetinleri": [
@@ -7104,7 +6679,7 @@ export const sporcuPerformansDegerlendirmesiIcerik = {
       "paragraflar": [
         "Sporcu performans değerlendirmesi, bir kişinin sporunun gerektirdiği hareketleri ne kadar dengeli, kontrollü ve yüklenmeye dayanıklı biçimde yapabildiğini gözlemlemeye dayanan bir fizyoterapi görüşmesidir. Amaç bir derece ya da puan vermek değil, hareketin hangi noktada zorlandığını ve hangi bölgenin yükü fazla taşıdığını görmektir. Elde edilen bilgi, antrenman programına eklenecek ya da geçici olarak sadeleştirilecek hareketlerin seçilmesine yardımcı olur.",
         "Yaralanma çoğu zaman tek bir kötü harekette ortaya çıkmış gibi görünür, ancak arka planında haftalar süren küçük dengesizlikler bulunabilir. Bir bacağın diğerinden daha az kuvvet üretmesi, ayak bileğinin sınırlı hareket etmesi ya da kalçanın gövdeyi yeterince desteklememesi bunlara örnek verilebilir. Bu dengesizlikler antrenman düzeni sürdükçe fark edilmeden birikebilir.",
-        "Değerlendirme hem hiç yaralanma geçirmemiş sporcular hem de bir sakatlık sonrası spora dönmeyi planlayan kişiler için anlamlıdır. Kadıköy sporcu performans değerlendirmesi, Kozyatağı'ndaki klinikte bu iki gruba da uygulanabilecek biçimde, kişinin branşı ve haftalık antrenman düzeni dikkate alınarak planlanır. Tanı ve tedavi kararının hekime ait olduğu baştan paylaşılır."
+        "Değerlendirme hem hiç yaralanma geçirmemiş sporcular hem de bir sakatlık sonrası spora dönmeyi planlayan kişiler için anlamlıdır. Kadıköy sporcu performans değerlendirmesi, Kozyatağı'ndaki klinikte bu iki gruba da uygulanabilecek biçimde, kişinin branşı ve haftalık antrenman düzeni dikkate alınarak planlanır."
       ]
     },
     {
@@ -7228,7 +6803,7 @@ export const sporcuPerformansDegerlendirmesiIcerik = {
       "paragraflar": [
         "Yanlış anlamalardan biri, ağrı yoksa her şeyin yolunda olduğu düşüncesidir. Ağrı olmadan da sağ ve sol arasında kuvvet farkı, hareket kısıtlılığı ya da kontrol eksikliği bulunabilir. Değerlendirme bu nedenle şikâyet yokken de anlamlı olabilir, çünkü amaç sorunu ortaya çıkmadan görmeye çalışmaktır.",
         "Bir diğeri, daha fazla esnemenin her zaman daha iyi olduğu düşüncesidir. Aşırı esnek bir eklemin kontrolü yeterli olmayabilir; bazı kişilerde hedef esnetmek değil güçlendirmek ve kontrolü artırmaktır. Benzer biçimde yalnızca masajla ya da yalnızca germeyle hareketin düzeltilebileceği düşüncesi de eksik kalır.",
-        "Üçüncü yanlış anlama, hızlı dönüşün tek amaç sayılmasıdır. Ağrı azalır azalmaz tam yükle antrenmana dönmek, aynı bölgenin yeniden zorlanma olasılığını artırabilir. Ölçütlerin karşılandığı görülmeden verilen bir dönüş kararı, programın en kırılgan noktası olabilir. Ayrıca bu değerlendirme, hekim muayenesinin yerine geçmez."
+        "Üçüncü yanlış anlama, hızlı dönüşün tek amaç sayılmasıdır. Ağrı azalır azalmaz tam yükle antrenmana dönmek, aynı bölgenin yeniden zorlanma olasılığını artırabilir. Ölçütlerin karşılandığı görülmeden verilen bir dönüş kararı, programın en kırılgan noktası olabilir."
       ]
     },
     {
@@ -7247,14 +6822,6 @@ export const sporcuPerformansDegerlendirmesiIcerik = {
           "metin": "Spor masaj terapisti ve spor odaklı yaklaşım",
           "yol": "/tedavi-yaklasimlarimiz/spor-masaj-terapisti"
         }
-      ]
-    },
-    {
-      "h2": "Hekim değerlendirmesi gerektiren durumlar",
-      "paragraflar": [
-        "Bazı bulgular fizyoterapi öncesinde hekim değerlendirmesini gerektirir. Yaralanma anında duyulan çıtırtı ile birlikte hızla gelişen şişlik, eklemin kilitlenmesi ya da yük vermeyi engelleyen ağrı, kola ya da bacağa yayılan uyuşma ve güç kaybı, dinlenmeyle azalmayan ve geceleri belirginleşen ağrı bu bulgular arasında sayılabilir.",
-        "Egzersiz sırasında göğüs ağrısı, çarpıntı, nefes darlığı veya bayılma hissi yaşanması da öncelikle hekim değerlendirmesi gerektirir. Böyle bir tablo tarif edildiğinde değerlendirmenin ardından yönlendirme yapılır. Fizyoterapi süreci, hekimin tanı ve tedavi kararı çerçevesinde ilerler.",
-        "Bu sayfadaki bilgiler bilgilendirme amaçlıdır, teşhis yerine geçmez. Süreç boyunca ortaya çıkan yeni bir bulgu paylaşıldığında yeniden değerlendirme yapılır. Şikâyetin beklenenden farklı seyretmesi, programın gözden geçirilmesi için yeterli bir nedendir."
       ]
     }
   ],

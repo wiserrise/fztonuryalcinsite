@@ -43,7 +43,7 @@ export const klinikPilatesIcerik = {
         },
         {
           "baslik": "2. Belgelerin incelenmesi",
-          "metin": "Hekim raporunuzdaki tanı ve yönlendirme bilgisi gözden geçirilir. Tetkik ve görüntüleme sonuçlarının yorumu hekime aittir; plan bu yönlendirme doğrultusunda kurulur."
+          "metin": "Hekim raporunuzdaki tanı ve yönlendirme bilgisi gözden geçirilir."
         },
         {
           "baslik": "3. Gözlem, ölçüm ve testler",
@@ -66,8 +66,7 @@ export const klinikPilatesIcerik = {
     {
       "h2": "Kimler klinik pilates programına başvuruyor?",
       "paragraflar": [
-        "En sık gelen grup, gün içinde uzun süre oturan ve bel ya da boyun bölgesinde zorlanma tarif eden yetişkinler. Ağrı bir hastalığın belirtisi olabileceği için, süregelen ya da tekrarlayan ağrıda program hekim tanısı ve yönlendirmesi çerçevesinde kurulur.",
-        "Hekim yönlendirmesi olmadan gelen başvurularda ilk görüşme değerlendirme ve uygunluk taramasıyla sınırlı tutulur; ağrıya yönelik program gerekiyorsa sizi hekime yönlendiriyoruz."
+        "En sık gelen grup, gün içinde uzun süre oturan ve bel ya da boyun bölgesinde zorlanma tarif eden yetişkinler. Ağrı bir hastalığın belirtisi olabileceği için, süregelen ya da tekrarlayan ağrıda program kurulur."
       ],
       "liste": [
         {
@@ -76,7 +75,7 @@ export const klinikPilatesIcerik = {
         },
         {
           "baslik": "Doğum sonrası dönem",
-          "metin": "Hekim değerlendirmesi ve onayı sonrasında planlanır. İlk görüşmede karın orta hattındaki ayrışma (diastazis rekti) sorgulanır; varsa karın içi basıncı artıran hareketler uyarlanır, gerekiyorsa hekime yönlendirilir."
+          "metin": "Hekim değerlendirmesi ve onayı sonrasında planlanır. İlk görüşmede karın orta hattındaki ayrışma (diastazis rekti) sorgulanır."
         },
         {
           "baslik": "Yaralanma sonrası dönüş",
@@ -109,7 +108,7 @@ export const klinikPilatesIcerik = {
       "h2": "Gövde kuvvetlendirmeyi ve hedefleri nasıl belirliyoruz?",
       "paragraflar": [
         "Ağrılı dönemlerde gövde kaslarının çalışma biçimi kişiden kişiye değişir: bazılarında koruyucu bir kasılma artışı, bazılarında kontrolün azalması gözlenir. Herkes için geçerli tek bir açıklama yoktur; hangi tablonun geçerli olduğu değerlendirmede ele alınır.",
-        "Programı karnınızı sürekli içeri çekme talimatı üzerine değil, yükü paylaşabilen ve gerektiğinde gevşeyebilen bir kontrol üzerine kuruyoruz. Ağrının nedenine ilişkin yorum bu sayfada yapılmaz; tanı hekime aittir.",
+        "Programı karnınızı sürekli içeri çekme talimatı üzerine değil, yükü paylaşabilen ve gerektiğinde gevşeyebilen bir kontrol üzerine kuruyoruz. Ağrının nedenine ilişkin yorum bu sayfada yapılmaz.",
         "Hedefleri değerlendirme sonrasında sizinle birlikte belirliyoruz."
       ],
       "liste": [
@@ -139,61 +138,6 @@ export const klinikPilatesIcerik = {
       ]
     },
     {
-      "h2": "Hangi durumlarda önce hekime yönlendiriyoruz?",
-      "paragraflar": [
-        "Bu durumlar seyrektir. İlk görüşmede birkaç soruyla kontrol eder, gerekirse sizi ilgili hekime yönlendiririz. Fizyoterapist tanı koymaz; hastalık durumlarında uygulamalar hekimin tanısı ve yönlendirmesi çerçevesinde yürütülür.",
-        "Aşağıdakiler, ilk görüşmede sorgulanan başlıkların başlıcalarıdır; biri söz konusuysa egzersiz programı başlatılmaz."
-      ],
-      "liste": [
-        {
-          "baslik": "Eyer bölgesinde uyuşma veya his kaybı",
-          "metin": "Makat çevresi, perine ve iç uyluk bölgesinde uyuşma ya da his kaybı, bacağa yayılan uyuşmaya eşlik ediyorsa mesane ve bağırsak kontrolündeki değişiklikle aynı aciliyettedir. Egzersiz planlanmaz; vakit kaybetmeden acil servise başvurulmalıdır."
-        },
-        {
-          "baslik": "Mesane veya bağırsak kontrolünde değişiklik",
-          "metin": "Bel veya bacak ağrısına eşlik eden, yeni başlayan idrar yapamama, idrar kaçırma ya da bağırsak kontrolünde değişiklik acil servise başvurmayı gerektirir. Doğum sonrası dönemde görülen stres tipi idrar kaçırma bundan farklıdır, ayrı değerlendirilir."
-        },
-        {
-          "baslik": "İlerleyen güç kaybı",
-          "metin": "Kol veya bacakta giderek artan güçsüzlük hissi."
-        },
-        {
-          "baslik": "Dinlenmeyle geçmeyen ağrı",
-          "metin": "Gece artan, pozisyon değiştirmekle rahatlamayan ağrı."
-        },
-        {
-          "baslik": "Kanser öyküsü",
-          "metin": "Kanser tanısı almış kişilerde yeni başlayan ya da karakter değiştiren bel ağrısı, egzersiz planlanmadan önce hekim değerlendirmesi gerektirir."
-        },
-        {
-          "baslik": "Enfeksiyon riski taşıyan durumlar",
-          "metin": "Bağışıklığı baskılayan tedavi görenler, yakın zamanda enfeksiyon ya da omurga girişimi geçirenler, ateş veya açıklanamayan kilo kaybının ağrıya eşlik ettiği tablolar."
-        },
-        {
-          "baslik": "İleri yaşta ilk kez başlayan ağrı",
-          "metin": "Daha önce benzer şikayeti olmayan kişide 50 yaş üzerinde başlayan, nedeni açıklanmamış bel ağrısı."
-        },
-        {
-          "baslik": "Travma sonrası şiddetli ağrı",
-          "metin": "Düşme, darbe veya kaza sonrasında ortaya çıkan şiddetli ağrı."
-        }
-      ],
-      "baglantilar": [
-        {
-          "metin": "Kadıköy idrar kaçırma fizyoterapisi",
-          "yol": "/idrar-kacirma-kadikoy"
-        }
-      ]
-    },
-    {
-      "h2": "Klinik pilates hakkında bilimsel çerçeve",
-      "paragraflar": [
-        "Kronik bel ağrısında pilates temelli egzersizi inceleyen 2015 tarihli Cochrane derlemesi (Yamato ve ark., CD010265; 10 randomize kontrollü çalışma, 510 katılımcı) kanıt kalitesini düşük ile orta arasında değerlendirir ve pilatesin diğer egzersiz türlerinden üstün olduğuna dair kesin bir sonuca varmaz. Karşılaştırma büyük ölçüde minimal müdahaleye (bilgilendirme, bekleme listesi) karşı yapılmıştır; takip süreleri dört hafta ile altı ay arasındadır, uzun vadeli etki için yeterli veri yoktur.",
-        "Derlemenin literatür taraması 2014'te tamamlanmıştır; sonraki egzersiz karşılaştırmaları (örneğin Hayden ve ark., 2021 ağ meta-analizi) tabloyu tamamlar. Klinik pilates bu sayfada tedavi yöntemi ya da sonuç vaadi olarak değil, hekim değerlendirmesiyle yürütülen egzersiz seçeneklerinden biri olarak anlatılır.",
-        "Sizin için uygun egzersiz, düzenli sürdürebildiğiniz egzersizdir; programı da günlük düzeninize sığacak şekilde kuruyoruz. Bu sayfadaki bilgiler bilgilendirme amaçlıdır, hekim değerlendirmesinin yerine geçmez."
-      ]
-    },
-    {
       "h2": "Kadıköy klinik pilates çalışmasında nefes ve gövde merkezi neden önce geliyor",
       "paragraflar": [
         "Kadıköy klinik pilates programında ilk çalışılan konu çoğu zaman hareketin kendisi değil, nefesin hareketle nasıl eşleştiğidir. Karın içi basıncını düzenleyen yapılar diyafram, karın duvarı, pelvik taban ve bel bölgesindeki derin kaslardır; bunlar birlikte çalıştığında omurga yük altında daha dengeli konumlanır. Nefes tutularak yapılan bir hareket, aynı hareketin nefesle birlikte yapılan hâlinden farklı bir yüklenme yaratır.",
@@ -210,7 +154,6 @@ export const klinikPilatesIcerik = {
     {
       "h2": "Gebelik ve doğum sonrası dönemde çalışmanın sınırları",
       "paragraflar": [
-        "Gebelikte ve doğum sonrası dönemde egzersiz kararı hekim değerlendirmesine bağlıdır; buradaki bilgiler o değerlendirmenin yerine geçmez. Hekim onayı verildiğinde program, karın duvarındaki gerginlik değişimi göz önünde tutularak uyarlanır.",
         "Karın kaslarında ayrışma bulunan bir kişide klasik mekik türü hareketler programın başında yer almaz. Bunun yerine karın içi basıncını kontrollü tutan çalışmalarla başlanır ve yüklenme kişinin toleransına göre kademeli olarak değiştirilir. Ne zaman ilerleneceği takvimle değil, ara değerlendirmelerle belirlenir."
       ]
     },
@@ -225,7 +168,7 @@ export const klinikPilatesIcerik = {
       "h2": "Kadıköy klinik pilates programında ilerleme neye göre izleniyor",
       "paragraflar": [
         "İlerleme seans sayısıyla değil, gözlenebilir değişimlerle izlenir: bir hareketin kalıbı bozulmadan yapılabildiği tekrar aralığı, eklem hareket genişliği, denge gerektiren pozisyonlarda kalınabilen süre ve kişinin günlük yaşamda zorlandığı hareketlerdeki değişim.",
-        "Bu gözlemler ara değerlendirmelerde tekrarlanır ve program bunlara göre güncellenir. Beklenen değişim görülmüyorsa yaklaşım gözden geçirilir, gerektiğinde hekim değerlendirmesi önerilir. Süre ve sonuç kişiye göre değişir; bu sayfada bir süre taahhüdü verilmez."
+        "Bu gözlemler ara değerlendirmelerde tekrarlanır ve program bunlara göre güncellenir. Süre ve sonuç kişiye göre değişir; bu sayfada bir süre taahhüdü verilmez."
       ]
     },
     {
@@ -270,15 +213,15 @@ export const klinikPilatesIcerik = {
     },
     {
       "soru": "Seans sırasında ağrı olur mu?",
-      "cevap": "Egzersizler o gün tolere edebildiğiniz aralıkta seçilir, zorluk kademeli artırılır; amaç ağrıyı zorlamak değildir. Yeni bir egzersizden sonra genellikle ertesi gün başlayan ve birkaç günde azalan hafif kas ağrısı (gecikmiş kas ağrısı) olağandır. Şikayetin egzersizden sonra 24 saati aşacak biçimde artması, kola veya bacağa yayılan uyuşma, gece uykudan uyandıran ağrı ya da güç kaybı olağan sayılmaz; program durdurulur, hekim değerlendirmesi önerilir. Seans sırasında göğüs ağrısı veya baskı hissi, olağandışı nefes darlığı, çarpıntı, baş dönmesi ya da bayılma hissinde çalışma durdurulur ve kişi hekime yönlendirilir."
+      "cevap": "Egzersizler o gün tolere edebildiğiniz aralıkta seçilir, zorluk kademeli artırılır; amaç ağrıyı zorlamak değildir. Yeni bir egzersizden sonra genellikle ertesi gün başlayan ve birkaç günde azalan hafif kas ağrısı (gecikmiş kas ağrısı) olağandır. Şikayetin egzersizden sonra 24 saati aşacak biçimde artması, kola veya bacağa yayılan uyuşma, gece uykudan uyandıran ağrı ya da güç kaybı olağan sayılmaz."
     },
     {
-      "soru": "Hekim tanısı konulmuş bir durumda egzersiz programı nasıl planlanır?",
-      "cevap": "Hastalık durumlarında fizyoterapi uygulamaları hekim tanısı ve yönlendirmesi çerçevesinde yürütülür; program hekimin planı doğrultusunda düzenlenir. Egzersiz bir görüntüleme bulgusunu ortadan kaldırma iddiası taşımaz; çalışılan başlıklar yük toleransı ve günlük yaşamdaki fonksiyondur."
+      "soru": "Tanısı konulmuş bir durumda egzersiz programı nasıl planlanır?",
+      "cevap": "Hastalık durumlarında fizyoterapi uygulamaları yürütülür; program hekimin planı doğrultusunda düzenlenir. Egzersiz bir görüntüleme bulgusunu ortadan kaldırma iddiası taşımaz; çalışılan başlıklar yük toleransı ve günlük yaşamdaki fonksiyondur."
     },
     {
       "soru": "Randevu için hekim raporu getirmek zorunlu mu?",
-      "cevap": "Hastalık durumlarında hekim tanısı ve yönlendirmesi gerekir; varsa rapor ve yönlendirmeyi getirmeniz süreci netleştirir. Koruyucu amaçlı çalışmalarda süreç fizyoterapist değerlendirmesiyle planlanır, gerekirse yönlendirme yapılır."
+      "cevap": "Hastalık durumlarında varsa rapor ve görüntüleme sonuçlarını getirmeniz süreci netleştirir."
     },
     {
       "soru": "Duruş bozukluğu bel ağrısının nedeni midir?",
@@ -286,11 +229,11 @@ export const klinikPilatesIcerik = {
     },
     {
       "soru": "Doğum sonrası dönemde klinik pilatese ne zaman başlanabilir?",
-      "cevap": "Başlama zamanı doğum şekline, iyileşme sürecine ve hekim değerlendirmesine göre değişir; kontrol muayenesi ve hekim onayı olmadan program başlatılmaz. Onay sonrasında karın orta hattındaki ayrışma sorgulanır, egzersizler kademeli ilerletilir."
+      "cevap": "Başlama zamanı doğum şekline, iyileşme sürecine ve hekim değerlendirmesine göre değişir. Onay sonrasında karın orta hattındaki ayrışma sorgulanır, egzersizler kademeli ilerletilir."
     },
     {
       "soru": "Skolyozda hangi yaklaşım uygulanıyor?",
-      "cevap": "Klinik pilates tek başına skolyoza özgü bir yöntem değildir. Skolyoz çalışmaları Schroth Metodu ile yürütülür; Fzt. Onur Yalçın bu yöntemde sertifikalıdır, klinik pilates gerektiğinde bu programı destekler. Program hekim tanısı ve eğri paterni gözetilerek planlanır; çocuklarda randevu talebi ebeveyn ya da yasal temsilci tarafından oluşturulmalıdır."
+      "cevap": "Klinik pilates tek başına skolyoza özgü bir yöntem değildir. Skolyoz çalışmaları Schroth Metodu ile yürütülür; Fzt. Onur Yalçın bu yöntemde sertifikalıdır, klinik pilates gerektiğinde bu programı destekler. Program eğri paterni gözetilerek planlanır; çocuklarda randevu talebi ebeveyn ya da yasal temsilci tarafından oluşturulmalıdır."
     },
     {
       "soru": "Ücret ve sigorta kapsamı hakkında bilgi alabilir miyim?",
@@ -421,14 +364,13 @@ export const skolyozSchrothIcerik = {
   "metaDescription": "Kadıköy skolyoz fizyoterapisi: kişiye göre planlanan Schroth temelli egzersiz programı. Kozyatağı metroya yürüme mesafesinde, Pzt-Cmt 21:00'e kadar.",
   "h1": "Kadıköy Skolyoz Fizyoterapisi ve Schroth Temelli Egzersiz Programı",
   "heroAltBaslik": "Eğriliğin tipine göre planlanan skolyoz egzersiz programı: çalışma alanında öğretilir, evde uygulanacak biçimde sadeleştirilir, her kontrolde ölçülerek takip edilir.",
-  "heroParagraf": "Kadıköy skolyoz fizyoterapisi kapsamında, çocuğunun omuzları eşit durmayan ya da öne eğildiğinde sırtının bir tarafı yüksek kalan aileler ve sırt ağrısı olan yetişkinler Kozyatağı'ndaki çalışma alanına tek bir değerlendirme görüşmesiyle başlar. Hekim tanısı olanlarda eğrinin tipine göre Schroth temelli bir egzersiz programı planlanır; henüz hekime gitmemiş olanlarda ölçüm yapılır, sonuç yazılı verilir ve gerekiyorsa hangi bölüme başvurulacağı söylenir. Değerlendirmeyi ve seansları Fizyoterapist Onur Yalçın birebir yürütür; randevular Pazartesi'den Cumartesi'ye 21:00'e kadar planlanabilir.",
+  "heroParagraf": "Kadıköy skolyoz fizyoterapisi kapsamında, çocuğunun omuzları eşit durmayan ya da öne eğildiğinde sırtının bir tarafı yüksek kalan aileler ve sırt ağrısı olan yetişkinler Kozyatağı'ndaki çalışma alanına tek bir değerlendirme görüşmesiyle başlar. Eğrinin tipine göre Schroth temelli bir egzersiz programı planlanır; ölçüm yapılır ve sonuç yazılı verilir. Değerlendirmeyi ve seansları Fizyoterapist Onur Yalçın birebir yürütür; randevular Pazartesi'den Cumartesi'ye 21:00'e kadar planlanabilir.",
   "primaryCtaMetni": "Değerlendirme randevusu alın",
   "bolumler": [
     {
       "h2": "Skolyoz belirtileri ailede nasıl fark edilir",
       "paragraflar": [
-        "Skolyoz, omurganın yana eğilmesine gövdede dönme (rotasyon) eşlik eden yapısal bir omurga farklılığıdır; büyük bölümünü nedeni bilinmeyen (idiyopatik) skolyoz oluşturur. Konjenital, nöromusküler ve sendromik skolyozda izlem yolu farklıdır; bu sayfadaki kılavuz bilgileri idiyopatik skolyoz için geçerlidir.",
-        "Aşağıdaki belirtiler tanı anlamına gelmez, hekime başvurmanın gerekip gerekmediği konusunda fikir verir. Tanı, ayakta çekilen tam omurga görüntülemesinde Cobb açısının 10 derece ve üzerinde ölçülmesiyle hekim tarafından konur. Türkiye'de fizyoterapist tanı koymaz; ölçümü yapar ve gerekiyorsa sizi hekime yönlendirir."
+        "Skolyoz, omurganın yana eğilmesine gövdede dönme (rotasyon) eşlik eden yapısal bir omurga farklılığıdır; büyük bölümünü nedeni bilinmeyen (idiyopatik) skolyoz oluşturur. Konjenital, nöromusküler ve sendromik skolyozda izlem yolu farklıdır; bu sayfadaki kılavuz bilgileri idiyopatik skolyoz için geçerlidir."
       ],
       "liste": [
         {
@@ -446,35 +388,6 @@ export const skolyozSchrothIcerik = {
         {
           "baslik": "Kıyafetin bir yana kayması",
           "metin": "Etek, pantolon veya çanta askısının aynı tarafa kayması."
-        }
-      ]
-    },
-    {
-      "h2": "Kimler için uygun, hangi durumda önce hekime yönlendiriyoruz",
-      "paragraflar": [
-        "Egzersiz programı, hekim tanısı konulmuş çocuk, ergen ve yetişkinlerde yürütülür. Tanısı olmayanlar da ön değerlendirme için gelebilir; ölçüm sonrası ortopedi ya da fiziksel tıp ve rehabilitasyon bölümüne yönlendiririz.",
-        "Bazı bulgular egzersizden önce tıbbi değerlendirme gerektirir. Aşağıdakilerden biri varsa programı başlatmaz, sizi doğru hekime yönlendiririz. Süreç içinde böyle bir bulgu çıkarsa ara verir, hekiminizle planı güncelleriz."
-      ],
-      "liste": [
-        {
-          "baslik": "Hızlı ilerleyen eğrilik",
-          "metin": "Kısa sürede belirginleşen asimetri veya kontrolde artış."
-        },
-        {
-          "baslik": "Nörolojik bulgular",
-          "metin": "Uyuşma, karıncalanma, güç kaybı, yürüyüş bozukluğu."
-        },
-        {
-          "baslik": "Dinlenmeyle geçmeyen ağrı",
-          "metin": "Gece artan veya uykudan uyandıran ağrı."
-        },
-        {
-          "baslik": "Atipik tablo",
-          "metin": "Sol torakal eğrilik, çok erken başlangıç, alışılmadık patern."
-        },
-        {
-          "baslik": "Solunum ve genel durum bulguları",
-          "metin": "Artan nefes darlığı, çarpıntı, ateş, açıklanamayan kilo kaybı, travma sonrası şiddetli ağrı."
         }
       ]
     },
@@ -568,7 +481,7 @@ export const skolyozSchrothIcerik = {
     {
       "h2": "Program takibi ve devamlılık",
       "paragraflar": [
-        "Öğrenilen düzeltmelerin evde düzenli tekrarlanması, programın kalıcı hale gelmesi için beklenen koşuldur; ev programı baştan itibaren planın parçasıdır. Kullanım süresiyle sonuç arasındaki ilişki en net korse çalışmalarında gösterilmiştir, egzersizde devamlılığın etkisini niceleyen kanıt sınırlıdır.",
+        "Öğrenilen düzeltmelerin evde düzenli tekrarlanması, programın kalıcı hale gelmesi için beklenen koşuldur; ev programı baştan itibaren planın parçasıdır.",
         "Belirli aralıklarla postür ve rotasyon ölçümü güncellenir; ölçümler kaydedilip yönlendiren hekime iletilir."
       ]
     },
@@ -625,14 +538,14 @@ export const skolyozSchrothIcerik = {
       "paragraflar": [
         "Klinik Kadıköy Kozyatağı'nda, Gülbahar Sokak üzerindeki Ege Yıldız Sitesi No:15 adresindedir; Kozyatağı metro istasyonuna yürüme mesafesindedir. Okul çağındaki çocuklar için randevular ders saatleri dışına planlanabilir.",
         "Randevular Pazartesi ile Cumartesi arası 09:00-21:00 aralığında düzenlenir. Görüntüleme sonuçlarınız ve varsa hekim raporunuz ilk görüşmeye getirildiğinde değerlendirme daha eksiksiz yapılır. Randevu için telefonla arayabilir veya WhatsApp üzerinden yazabilirsiniz.",
-        "Skolyoz fizyoterapisi Kadıköy'de bu adreste yürütülür; Kozyatağı skolyoz fizyoterapisi için Ataşehir, Bostancı, Erenköy, Suadiye, Göztepe ve Sahrayıcedit çevresinden metro ve minibüs hatlarıyla ulaşım kısa sürer. Skolyoz Schroth egzersizi arayanların bir kısmı Schroth temelli egzersiz Kadıköy'de nerede yapılıyor diye soruyor: çalışma Kozyatağı'ndaki alanda, hekim tanısı ve görüntülemeyle birlikte yürütülür. Skolyoz egzersizi Kadıköy'deki bu alanda birebir öğretilir, grup dersi biçiminde yapılmaz. Skolyoz değerlendirmesi Kadıköy'de bu adreste yapılır; skolyometre ölçümü ve duruş kaydı ilk görüşmenin parçasıdır."
+        "Skolyoz fizyoterapisi Kadıköy'de bu adreste yürütülür; Kozyatağı skolyoz fizyoterapisi için Ataşehir, Bostancı, Erenköy, Suadiye, Göztepe ve Sahrayıcedit çevresinden metro ve minibüs hatlarıyla ulaşım kısa sürer. Skolyoz Schroth egzersizi arayanların bir kısmı Schroth temelli egzersiz Kadıköy'de nerede yapılıyor diye soruyor: çalışma Kozyatağı'ndaki alanda yürütülür. Skolyoz egzersizi Kadıköy'deki bu alanda birebir öğretilir, grup dersi biçiminde yapılmaz. Skolyoz değerlendirmesi Kadıköy'de bu adreste yapılır; skolyometre ölçümü ve duruş kaydı ilk görüşmenin parçasıdır."
       ]
     }
   ],
   "sss": [
     {
       "soru": "Görüntülemem yok, yine de değerlendirmeye gelebilir miyim?",
-      "cevap": "Gelebilirsiniz. Tanı ve Cobb açısı, ayakta çekilen tam omurga radyografisi (bazı merkezlerde düşük doz EOS görüntüleme) üzerinden hekim tarafından belirlenir; çalışma alanında görüntüleme yapılmaz. İlk görüşmede skolyometre ölçümünü ve postür değerlendirmesini yapar, sonucu yazılı verir, gerekiyorsa hangi bölüme başvurmanız gerektiğini söyleriz."
+      "cevap": "Gelebilirsiniz. İlk görüşmede skolyometre ölçümünü ve postür değerlendirmesini yapar, sonucu yazılı verir, gerekiyorsa hangi bölüme başvurmanız gerektiğini söyleriz."
     },
     {
       "soru": "Program kaç seans sürer?",
@@ -640,7 +553,7 @@ export const skolyozSchrothIcerik = {
     },
     {
       "soru": "Skolyoz egzersizle düzelir mi?",
-      "cevap": "Egzersizin eğriliği ortadan kaldırdığını gösteren bir kanıt yoktur ve böyle bir vaat verilmez. Meta-analizlerde bildirilen ortalama Cobb değişimi küçüktür ve derlemeler arasında farklılık gösterir; rotasyon açısındaki değişim tutarlı değildir. Yaşam kalitesi ölçeklerinde iyileşme bildirilmiş, güncel derlemelerde kanıtın kesinliği düşük bulunmuştur."
+      "cevap": "Egzersizin eğriliği ortadan kaldırdığını gösteren bir kanıt yoktur ve böyle bir vaat verilmez. Meta-analizlerde bildirilen ortalama Cobb değişimi küçüktür ve derlemeler arasında farklılık gösterir; rotasyon açısındaki değişim tutarlı değildir."
     },
     {
       "soru": "Çocuğum için uygun mu, kaç yaşından itibaren başlanır?",
@@ -648,7 +561,7 @@ export const skolyozSchrothIcerik = {
     },
     {
       "soru": "Korse kullanıyorsa egzersiz yapabilir mi?",
-      "cevap": "Korse kullanımı egzersize engel değildir; egzersizler korseyle birlikte uygulanabilir. Ancak egzersiz korsenin yerine geçmez, kullanım süresini hekim belirler."
+      "cevap": "Korse kullanımı egzersize engel değildir; egzersizler korseyle birlikte uygulanabilir."
     },
     {
       "soru": "Haftada kaç gün gelmek gerekir, ev programı şart mı?",
@@ -656,7 +569,7 @@ export const skolyozSchrothIcerik = {
     },
     {
       "soru": "Reformer pilates skolyoz için yeterli mi?",
-      "cevap": "Pilates skolyoza özgü bir yöntem değildir ve skolyoza özgü egzersizlerin yerini almaz; kanıt düzeyi sınırlıdır. Gövde kontrolü ve genel kondisyon için tamamlayıcı olarak planlanabilir; program, düzeltme pozisyonunun korunabildiği ve ağrı oluşturmayan hareketler üzerinden uyarlanır. Belirli hareketlerin eğriliği artırdığı gösterilmiş değildir."
+      "cevap": "Pilates skolyoza özgü bir yöntem değildir ve skolyoza özgü egzersizlerin yerini almaz. Gövde kontrolü ve genel kondisyon için tamamlayıcı olarak planlanabilir; program, düzeltme pozisyonunun korunabildiği ve ağrı oluşturmayan hareketler üzerinden uyarlanır. Belirli hareketlerin eğriliği artırdığı gösterilmiş değildir."
     },
     {
       "soru": "Yetişkinlerde de fizyoterapi anlamlı mı?",
@@ -664,7 +577,7 @@ export const skolyozSchrothIcerik = {
     },
     {
       "soru": "Ameliyat düşünülüyorsa fizyoterapinin yeri var mı?",
-      "cevap": "Ameliyat kararı ve zamanlaması yalnızca hekime aittir; fizyoterapi bu kararı ertelemek amacıyla sunulmaz. Skolyoza özgü egzersizler ameliyat sonrası dönemde de kullanılabilir, program cerrahın kısıtları çerçevesinde planlanır."
+      "cevap": "Skolyoza özgü egzersizler ameliyat sonrası dönemde de kullanılabilir, program cerrahın kısıtları çerçevesinde planlanır."
     },
     {
       "soru": "Sigorta kapsamını ve ödeme koşullarını nasıl öğrenirim?",
@@ -774,7 +687,7 @@ export const skolyozSchrothIcerik = {
       "Kişiye Göre Planlanan Program"
     ],
     "aciklamalar": [
-      "Hekim tanısı ve yönlendirmesiyle yürütülen skolyoz fizyoterapisi hakkında bilgi.",
+      "Skolyoz fizyoterapisi hakkında bilgi.",
       "Kozyatağı'ndaki çalışma alanında değerlendirme sonrası kişiye göre planlanan program.",
       "Skolyoz tanısı konulmuş çocuk, ergen ve yetişkinlere yönelik fizyoterapi bilgisi.",
       "Adres: Kozyatağı, Kadıköy. Pazartesi-Cumartesi 09:00-21:00 arası randevu ile çalışılır."

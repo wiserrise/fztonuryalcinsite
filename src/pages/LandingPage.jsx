@@ -623,7 +623,6 @@ export default function LandingPage({ slug: slugProp }) {
                 güncelleme tarihinin ve içerik sorumlusuna ulaşılacak iletişim
                 bilgisinin açıkça belirtilmesini istiyor. */}
             <p style={{ marginTop: '3rem', paddingTop: '1.5rem', borderTop: '1px solid var(--border)', color: 'var(--text-light)', fontSize: '0.85rem', lineHeight: 1.7 }}>
-              Bu sayfadaki bilgiler bilgilendirme amaçlıdır ve hekim değerlendirmesinin yerine geçmez.
               İçerik sorumlusu: Onur Yalçın, Fizyoterapist ({' '}
               <a href="mailto:fztonuryalcin@gmail.com" style={{ color: 'var(--secondary)' }}>fztonuryalcin@gmail.com</a>
               {' '}). Son güncelleme: {SON_GUNCELLEME}.

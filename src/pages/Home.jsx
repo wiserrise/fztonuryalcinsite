@@ -26,7 +26,7 @@ export default function Home() {
           <p style={{textTransform: 'uppercase', letterSpacing: '0.08em', fontSize: '0.85rem', fontWeight: '700', color: 'var(--secondary)', marginBottom: '2rem'}}>Öne çıkan çalışma alanları</p>
           <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.5rem'}}>
             {[
-              {baslik: 'Erkeklerde Pelvik Taban Fizyoterapisi', yol: '/erkek-pelvik-taban-kadikoy', metin: 'Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıkları hekim tanısı çerçevesinde ele alınır.'},
+              {baslik: 'Erkeklerde Pelvik Taban Fizyoterapisi', yol: '/erkek-pelvik-taban-kadikoy', metin: 'Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıkları ele alınır.'},
               {baslik: 'Klinik Pilates', yol: '/klinik-pilates-kadikoy', metin: 'Reformer ve mat çalışmaları, değerlendirme sonrasında kişiye göre planlanır; postür ve gövde stabilizasyonu üzerine kurulur.'},
               {baslik: 'Skolyoz (Schroth)', yol: '/skolyoz-schroth-kadikoy', metin: 'Omurga eğriliğinde üç boyutlu yaklaşım: eğrilik paternine göre egzersiz, solunum ve postür çalışması.'},
               {baslik: 'Manuel Terapi', yol: '/tedavi-yaklasimlarimiz/fizik-tedavi-klinigi', metin: 'Eklem ve yumuşak dokuya yönelik elle uygulanan teknikler; boyun, sırt ve bel şikâyetlerinde değerlendirmeye göre kullanılır.'},

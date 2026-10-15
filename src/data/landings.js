@@ -78,7 +78,6 @@ export const landings = [
     },
     guvenMaddeleri: [
       'Sertifikalı Schroth yaklaşımıyla eğrilik tipine göre kurgulanan program',
-      'Hekim tanısı ve radyolojik takiple birlikte yürütülür',
       'Çocuk, ergen ve yetişkin için ayrı hedeflerle planlama',
     ],
     araCtaBaslik: 'Elinizdeki raporla birlikte değerlendirelim',
@@ -112,7 +111,6 @@ export const landings = [
         "Manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
         "Sertifikalı Schroth uygulayıcısı",
         "Değerlendirme sonrası kişiye özel planlanan program ve yazılı ev egzersizleri",
-        "Tanı ve tedavi kararı hekime aittir; gerekli görülen durumlarda hekime yönlendirme yapılır",
         "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu"
     ],
     "araCtaBaslik": "Bel ve bacak ağrınız için değerlendirme randevusu",
@@ -166,7 +164,6 @@ export const landings = [
     "guvenMaddeleri": [
         "Süreç, İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın tarafından yürütülür.",
         "Program hazır bir paket olarak değil, öykü alma ve fiziksel değerlendirme sonrası kişiye özel planlanır.",
-        "Tanı ve tedavi kararı hekime aittir; hekim değerlendirmesi gerektiren bulgularda yönlendirme yapılır.",
         "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları tek noktada yürütülür.",
         "Kadıköy Kozyatağı'nda, metro çıkışına yürüme mesafesinde; Pazartesi'den Cumartesi'ye 09:00-21:00 arasında randevu."
     ],
@@ -221,7 +218,6 @@ export const landings = [
     "waMesaj": "Merhaba, Kadıköy nörolojik rehabilitasyon hakkında bilgi almak ve değerlendirme randevusu oluşturmak istiyorum.",
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
-        "Hekim tanısı ve yönlendirmesiyle uyumlu çalışma",
         "Değerlendirme sonrası kişiye özel program planlanır",
         "Ev programı ve yakınlara güvenli destek yöntemlerinin gösterilmesi",
         "Kozyatağı metrosuna yürüme mesafesi",
@@ -276,7 +272,6 @@ export const landings = [
     "waMesaj": "Merhaba, ameliyat sonrası rehabilitasyon için randevu almak istiyorum.",
     "guvenMaddeleri": [
         "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu Fizyoterapist Onur Yalçın tarafından yürütülür",
-        "Program cerrahınızın protokolüne göre planlanır; tanı ve tedavi kararı hekime aittir",
         "Manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları klinik içinde yapılır",
         "Sertifikalı Schroth uygulayıcısı",
         "Kozyatağı metro durağına yürüme mesafesi, randevular Pazartesi ile Cumartesi arasında 09:00 ile 21:00 saatleri arasında"
@@ -338,7 +333,6 @@ export const landings = [
         "Manuel terapi, fasyal manipülasyon ve klinik reformer pilates çalışmalarıyla desteklenen değerlendirme.",
         "Sertifikalı Schroth uygulayıcısı.",
         "Program değerlendirme sonrasında kişiye özel planlanır; önceden sabit seans sayısı verilmez.",
-        "Tanı ve tedavi kararı hekime aittir; süreç diş hekimi takibiyle birlikte yürütülebilir.",
         "Kadıköy Kozyatağı, Kozyatağı metro durağına yürüme mesafesinde. Pazartesi ile Cumartesi arası 09:00-21:00."
     ],
     "araCtaBaslik": "Çene ağrısı ve kilitlenme için değerlendirme",
@@ -454,7 +448,6 @@ export const landings = [
         "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
         "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
         "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-        "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
     ],
     "araCtaBaslik": "Masa başı şikâyetlerinizi birlikte değerlendirelim",
     "araCtaMetin": "Boyun, omuz veya bel şikâyetiniz mesai ilerledikçe artıyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, şikâyetin ne zaman ve hangi hareketle ortaya çıktığını anlamakla başlar.",
@@ -510,10 +503,8 @@ export const landings = [
       "guvenMaddeleri": [
           "İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon mezunu fizyoterapist",
           "Manuel terapi, fasyal ve visseral manipülasyon uygulamaları",
-          "Süreç hekim teşhisi ve tetkik bulguları üzerine kurulur",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Sindirim şikayetlerinizi birlikte değerlendirelim",
       "araCtaMetin": "Reflü, mide ağrısı, şişkinlik ya da göbek düşmesi şikayetleriniz geçmiyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, doktor teşhisleriniz ve tetkik bulgularınızın incelenmesiyle başlar.",
@@ -563,7 +554,6 @@ export const landings = [
       "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
       "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
       "Gülbahar Sokak, Ege Yıldız Sitesi No:15; Kozyatağı metrosuna yürüme mesafesi",
-      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
     ],
     "araCtaBaslik": "Kozyatağı'ndaki klinikte değerlendirme randevusu",
     "araCtaMetin": "Şikâyetinizin nereden geldiğini anlamak için bir değerlendirme görüşmesiyle başlayabilirsiniz. Program bu görüşmenin sonucuna göre kurulur; hazır bir egzersiz listesi üzerinden ilerlenmez.",
@@ -619,7 +609,6 @@ export const landings = [
       "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
       "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
       "Komşu mahalle Kozyatağı'nda klinik; Pazartesi-Cumartesi 09:00-21:00 randevu",
-      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
     ],
     "araCtaBaslik": "Sahrayıcedit'ten kısa mesafede değerlendirme randevusu",
     "araCtaMetin": "Çocuğunuzun duruşu, doğum sonrası dönem ya da ev içi yüklenmelere bağlı şikâyetler için değerlendirme görüşmesiyle başlayabilirsiniz. Program bu görüşmenin sonucuna göre kurulur.",
@@ -668,7 +657,6 @@ export const landings = [
       "Klinik reformer pilates ve gövde kontrolü çalışmaları",
       "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
       "Kozyatağı'ndaki klinik, metroya yürüme mesafesinde; Pazartesi-Cumartesi 09:00-21:00",
-      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
     ],
     "araCtaBaslik": "Boyun, bel veya çene şikâyetiniz için değerlendirme",
     "araCtaMetin": "Şikâyetinizin nereden geldiğini anlamak için bir değerlendirme görüşmesiyle başlayabilirsiniz. Program bu görüşmenin sonucuna göre kurulur; hazır bir egzersiz listesi üzerinden ilerlenmez.",
@@ -721,7 +709,6 @@ export const landings = [
       "Spora kademeli dönüş planı ölçütlerle ilerler, takvimle değil",
       "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
       "Kozyatağı'ndaki klinik, metroya yürüme mesafesinde; Pazartesi-Cumartesi 09:00-21:00",
-      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
     ],
     "araCtaBaslik": "Spor kaynaklı şikâyetiniz için değerlendirme",
     "araCtaMetin": "Koşu, yürüyüş, tenis ya da salon çalışması sırasında ortaya çıkan bir şikâyet için değerlendirme görüşmesiyle başlayabilirsiniz. Dönüş planı ölçütlerle kurulur.",
@@ -774,7 +761,6 @@ export const landings = [
       "Ameliyat sonrası programlar cerrahın protokolü çerçevesinde yürütülür",
       "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
       "Kozyatağı'ndaki klinik, metroya yürüme mesafesinde; Pazartesi-Cumartesi 09:00-21:00",
-      "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
     ],
     "araCtaBaslik": "Uzun soluklu bir program için değerlendirme",
     "araCtaMetin": "Nörolojik rehabilitasyon ya da ameliyat sonrası dönem için değerlendirme görüşmesiyle başlayabilirsiniz. Hedefler günlük yaşamdaki somut hareketler üzerinden konur.",
@@ -821,14 +807,13 @@ export const landings = [
     "gorselAlt": "Kadıköy İdrar Kaçırma Fizyoterapisi bilgi kartı: pelvik taban değerlendirmesi, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Kadıköy idrar kaçırma fizyoterapisi için bilgi almak istiyorum.",
     "teklif": {
-      "kimIcin": "Hekim yönlendirmesiyle gelen, idrar kaçırma şikayeti olan erkekler; prostat cerrahisi sonrası dönem dahil",
+      "kimIcin": "İdrar kaçırma şikayeti olan erkekler; prostat cerrahisi sonrası dönem dahil",
       "neIcin": "Zorlanma tipi, ani sıkışma tipi ve karışık tip kaçırma ile pelvik taban işlev bozuklukları",
-      "neYapilir": "Onayınızla yürütülen değerlendirme sonrası, hekim tanısı çerçevesinde planlanan kişiye özel program"
+      "neYapilir": "Onayınızla yürütülen değerlendirme sonrası planlanan kişiye özel program"
     },
     "guvenMaddeleri": [
       "Değerlendirmede ne yapılacağı önceden anlatılır, onayınız alınır",
       "Görüşmeye yanınızda bir yakınınızla gelebilirsiniz",
-      "Program hekim tanısı ve yönlendirmesi çerçevesinde planlanır"
     ],
     "araCtaBaslik": "Sorularınızı randevu almadan da sorabilirsiniz",
     "araCtaMetin": "Sürecin nasıl ilerlediğini ve size uygun olup olmadığını konuşmak için önce yazabilirsiniz. Ayrıntı paylaşmak zorunda değilsiniz.",
@@ -850,12 +835,11 @@ export const landings = [
     "gorselAlt": "Kadıköy Hamilelik Fizyoterapisi bilgi kartı: gebelik dönemi egzersiz programı, Kozyatağı Kadıköy, Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Kadıköy hamilelik fizyoterapisi için bilgi almak istiyorum.",
     "teklif": {
-      "kimIcin": "Takibi yürüten hekiminin onayını almış, gebeliğin herhangi bir döneminde olan kişiler",
+      "kimIcin": "Gebeliğin herhangi bir döneminde olan kişiler",
       "neIcin": "Gebelikte bel ve kasık ağrısı, duruş zorlanmaları ve doğuma hazırlık",
-      "neYapilir": "Hekim onayı çerçevesinde, gebelik haftasına göre uyarlanan değerlendirme ve kişiye özel program"
+      "neYapilir": "Gebelik haftasına göre uyarlanan değerlendirme ve kişiye özel program"
     },
     "guvenMaddeleri": [
-      "Çalışma, takibi yürüten hekimin onayı alındıktan sonra başlar",
       "Değerlendirmede ne yapılacağı önceden anlatılır, onayınız alınır",
       "Görüşmeye yanınızda bir yakınınızla gelebilirsiniz"
     ],
@@ -885,14 +869,13 @@ export const landings = [
     "gorselAlt": "Kadıköy Erkek Pelvik Taban Fizyoterapisi bilgi kartı: erkeklerde pelvik taban rehabilitasyonu, Kozyatağı Kadıköy, Kadıköy Fizyoterapist Onur Yalçın",
     "waMesaj": "Merhaba, Kadıköy erkek pelvik taban fizyoterapisi için bilgi almak istiyorum.",
     "teklif": {
-      "kimIcin": "Hekim tanısı ve yönlendirmesiyle gelen erkek danışanlar",
+      "kimIcin": "Pelvik taban şikayeti olan erkek danışanlar",
       "neIcin": "Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve pelvik taban işlev bozuklukları",
-      "neYapilir": "Onayınızla yürütülen değerlendirme sonrası, hekim tanısı çerçevesinde planlanan kişiye özel program"
+      "neYapilir": "Onayınızla yürütülen değerlendirme sonrası planlanan kişiye özel program"
     },
     "guvenMaddeleri": [
       "Ne yapılacağı önceden anlatılır, onayınız her aşamada geri alınabilir",
       "Görüşmeye yanınızda bir yakınınızla gelebilirsiniz",
-      "Program hekim tanısı ve yönlendirmesi çerçevesinde planlanır"
     ],
     "araCtaBaslik": "Sorularınızı randevu almadan da sorabilirsiniz",
     "araCtaMetin": "Sürecin nasıl ilerlediğini ve size uygun olup olmadığını konuşmak için önce yazabilirsiniz. Ayrıntı paylaşmak zorunda değilsiniz.",
@@ -920,7 +903,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Ayak bileği ve topuk şikâyetinizi birlikte değerlendirelim",
       "araCtaMetin": "Burkulma sonrası eklemine güvenemiyorsanız ya da sabah ilk adımlarda topuğunuz ağrıyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, şikâyetin nasıl başladığını ve ayağın yürürken nasıl çalıştığını anlamakla başlar.",
@@ -972,7 +954,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Baş ağrınızın boyun ve çene ile ilişkisini birlikte değerlendirelim",
       "araCtaMetin": "Baş ağrınız ense gerginliği, uzun süreli ekran başı çalışma ya da çene sıkma ile birlikte seyrediyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının nerede başladığını ve hangi hareketle değiştiğini anlamakla başlar.",
@@ -1024,7 +1005,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Şikâyetinizi bütün olarak değerlendirelim",
       "araCtaMetin": "Şikâyetiniz birden fazla bölgeye yayılıyorsa ya da nereden başlayacağınızı bilmiyorsanız Kozyatağı'ndaki klinikten ilk seans için randevu alabilirsiniz. Süreç, öykünüzün dinlenmesi ve hareketlerinizin ayrıntılı incelenmesiyle başlar.",
@@ -1077,7 +1057,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Diz şikâyetinizi birlikte değerlendirelim",
       "araCtaMetin": "Merdiven çıkarken, çömelirken ya da yürürken dizinizde ağrı veya güvensizlik hissediyorsanız Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının hangi hareketle ve dizin hangi bölgesinde ortaya çıktığını anlamakla başlar.",
@@ -1131,7 +1110,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Duruşunuzu birlikte değerlendirelim",
       "araCtaMetin": "Omuzlarınızın öne düştüğünü, sırtınızın yuvarlaklaştığını ya da bel çukurunun arttığını düşünüyorsanız Kozyatağı'ndaki klinikten postür değerlendirmesi için randevu alabilirsiniz. Süreç, duruşun nedenini anlamak için ayrıntılı bir gözlem ve hareket incelemesiyle başlar.",
@@ -1184,7 +1162,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Egzersiz programınızı bulgularınıza göre planlayalım",
       "araCtaMetin": "Evde ne yapacağınızı bilmiyorsanız ya da internetten bulduğunuz hareketlerden emin değilseniz Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Program, hareketlerinizin ve gününüzün incelenmesinin ardından kişiye göre kurulur.",
@@ -1239,7 +1216,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Yaygın ağrınızı birlikte değerlendirelim",
       "araCtaMetin": "Vücudun birçok bölgesinde süren ağrı, yorgunluk ve bozulan uyku düzeni günlük hayatı zorluyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının gün içindeki seyrini ve neleri zorlaştırdığını dinlemekle başlar.",
@@ -1291,7 +1267,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Hareket güvenini birlikte değerlendirelim",
       "araCtaMetin": "Kendiniz ya da yakınınız için denge, kas gücü veya osteoporoz egzersizi konusunda değerlendirme randevusu alabilirsiniz. Süreç, günlük yaşamda hangi hareketlerin zorlandığını anlamakla başlar.",
@@ -1344,7 +1319,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Kalça şikâyetinizi birlikte değerlendirelim",
       "araCtaMetin": "Yürürken, merdiven çıkarken ya da yan yatarken artan kalça ağrısı için Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının hangi hareketle ve hangi bölgede ortaya çıktığını anlamakla başlar.",
@@ -1396,7 +1370,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Bilek ve dirsek yakınmalarınızı birlikte değerlendirelim",
       "araCtaMetin": "Elinizde uyuşma, bilekte sızı ya da dirsek dış veya iç yüzünde ağrı varsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, yakınmanın hangi hareketle ve günün hangi saatinde belirginleştiğini anlamakla başlar.",
@@ -1448,7 +1421,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Şişlik şikâyetinizi birlikte değerlendirelim",
       "araCtaMetin": "Kolunuzda ya da bacağınızda süren bir şişlik varsa, hekim raporunuzla birlikte Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, şişliğin ne zaman ve hangi olaydan sonra başladığını anlamakla açılır.",
@@ -1500,7 +1472,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Hareket kısıtlılığınızı birlikte değerlendirelim",
       "araCtaMetin": "Boyun, bel, omuz ya da çene bölgesinde hareketin sınırlandığını hissediyorsanız Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Elle uygulama kararı, ancak ayrıntılı bir değerlendirmenin ardından verilir.",
@@ -1556,7 +1527,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Gövde kontrolünüzü birlikte değerlendirelim",
       "araCtaMetin": "Core kuvvetlendirme ve mat pilates programına başlamadan önce Kozyatağı'ndaki klinikte hareket kaliteniz ayrıntılı biçimde değerlendirilebilir. Program, bu değerlendirmenin bulgularına göre kişiye özel planlanır.",
@@ -1609,7 +1579,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Kas ve fasya kaynaklı ağrınızı birlikte değerlendirelim",
       "araCtaMetin": "Dokunulduğunda belirli bir noktası sızlayan, hareketle ya da uzun oturmayla artan kas ağrınız varsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının hangi hareketle ve hangi bölgede ortaya çıktığını anlamakla başlar.",
@@ -1664,7 +1633,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Omuz şikâyetinizi birlikte değerlendirelim",
       "araCtaMetin": "Kolunuzu kaldırırken, saç tararken ya da gece yan yatarken omzunuz zorlanıyorsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, ağrının hangi harekette ve ne zaman ortaya çıktığını anlamakla başlar.",
@@ -1719,7 +1687,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Ortopedik sürecinizi cerrah protokolüyle birlikte planlayalım",
       "araCtaMetin": "Kırık, alçı, protez ya da bağ ve menisküs işlemi sonrasında hareketinizi güvenle geri kazanmak için Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Cerrahınızın verdiği kısıtlamalar ve talimatlar, planın başlangıç noktasıdır.",
@@ -1772,7 +1739,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Çocuğunuzun hareket gelişimini birlikte değerlendirelim",
       "araCtaMetin": "Çocuğunuzun oturma, yürüme, denge ya da duruşuyla ilgili bir sorunuz varsa Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, çocuğun gelişim öyküsünü ve günlük hareketlerini ailesiyle birlikte anlamakla başlar.",
@@ -1824,7 +1790,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Nefes düzeninizi birlikte değerlendirelim",
       "araCtaMetin": "Nefes alırken zorlanıyor, göğsünüzde sıkışma hissediyor ya da ameliyat sonrası solunum egzersizlerine ihtiyaç duyuyorsanız Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, nefesin nasıl kullanıldığını ve göğüs kafesinin nasıl hareket ettiğini anlamakla başlar.",
@@ -1877,7 +1842,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Kas gerginliğinizi önce birlikte değerlendirelim",
       "araCtaMetin": "Antrenman sonrası geçmeyen sertlik ya da belirli bir kasta tekrarlayan gerginlik için Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Masaj, bulgulara göre planlanan programın bir parçası olarak ele alınır.",
@@ -1929,7 +1893,6 @@ export const landings = [
           "Erkek pelvik taban rehabilitasyonu, manuel terapi, klinik reformer pilates ve fasyal manipülasyon uygulamaları",
           "Değerlendirme sonrası kişiye özel planlanan program, ara kontrollerle güncellenir",
           "Kozyatağı metrosuna yürüme mesafesi, Pazartesi ile Cumartesi arası 09:00-21:00 randevu",
-          "İçerik bilgilendirme amaçlıdır; tanı ve tedavi kararı hekime aittir"
       ],
       "araCtaBaslik": "Hareketinizi sporunuza göre birlikte değerlendirelim",
       "araCtaMetin": "Antrenman düzeniniz, geçmiş yaralanmalarınız veya spora dönüş planınız için Kozyatağı'ndaki klinikten değerlendirme randevusu alabilirsiniz. Süreç, branşınızın gerektirdiği hareketlerin sağ ve sol tarafta nasıl yapıldığını gözlemlemekle başlar.",

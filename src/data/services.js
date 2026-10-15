@@ -185,7 +185,7 @@ export const serviceCategories = [
       },
       {
         "name": "Erkeklerde Pelvik Taban Rehabilitasyonu",
-        "description": "Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıklarında hekim tanısı sonrası planlanan program.",
+        "description": "Prostat cerrahisi sonrası dönem, leğen bölgesinde süregelen ağrı ve gevşeyemeyen pelvik taban başlıklarında planlanan program.",
         "sayfa": "/erkek-pelvik-taban-kadikoy"
       },
       {
