@@ -8,7 +8,7 @@ export const serviceCategories = [
     "name": "Fizik Tedavi Kliniği",
     "slug": "fizik-tedavi-klinigi",
     "gorsel": "/assets/kategori-fizik-tedavi-klinigi",
-    "gorselAlt": "Fizyoterapist klinikte hastanın sırt ve omuz bölgesine manuel uygulama yapıyor",
+    "gorselAlt": "Ahşap tedavi masası ve bitkisiyle sakin, aydınlık bir fizyoterapi odası",
     "intro": "Kadıköy Kozyatağı'ndaki kliniğimizde boyun ve bel ağrısından postür bozukluklarına, TME'den spor kaynaklı şikayetlere kadar kas-iskelet sistemi sorunlarında; değerlendirme sonrası kişiye özel fizyoterapi uyguluyoruz.",
     "services": [
       {
@@ -116,7 +116,7 @@ export const serviceCategories = [
     "name": "Rehabilitasyon Merkezi",
     "slug": "rehabilitasyon-merkezi",
     "gorsel": "/assets/kategori-rehabilitasyon-merkezi",
-    "gorselAlt": "Fizyoterapist, paralel barlarda yürüme egzersizi yapan hastayı yönlendiriyor",
+    "gorselAlt": "Hareket ve yürüme desteği için tekerlekli yürüteç (rollatör)",
     "intro": "Ameliyat sonrası, ortopedik ve nörolojik rehabilitasyondan spor yaralanmalarına kadar; hareket, kuvvet ve fonksiyon kazanımına yönelik kişiye özel rehabilitasyon programları.",
     "services": [
       {
@@ -209,7 +209,7 @@ export const serviceCategories = [
     "name": "Fizik Tedavi Uzmanı",
     "slug": "fizik-tedavi-uzmani",
     "gorsel": "/assets/kategori-fizik-tedavi-uzmani",
-    "gorselAlt": "Fizyoterapist tedavi masasında hastanın diz hareketini değerlendiriyor",
+    "gorselAlt": "Omurga (vertebra) anatomik modeli",
     "intro": "Ayrıntılı değerlendirme sonrası manuel terapi, fasyal ve visseral manipülasyon, egzersiz terapisi ve kronik ağrı yönetimi gibi uygulamalarla ağrının kaynağına yöneliyoruz.",
     "services": [
       {
@@ -293,7 +293,7 @@ export const serviceCategories = [
     "name": "Pilates Salonu",
     "slug": "pilates-salonu",
     "gorsel": "/assets/kategori-pilates-salonu",
-    "gorselAlt": "Reformer cihazında klinik pilates egzersizi yapan kadın",
+    "gorselAlt": "Reformer cihazlarının sıralandığı aydınlık pilates stüdyosu",
     "intro": "Fizyoterapist kontrolünde, değerlendirmeye dayalı klinik pilates ve reformer programlarıyla postür, gövde (core) kuvveti ve omurga sağlığını destekliyoruz.",
     "services": [
       {
@@ -322,7 +322,7 @@ export const serviceCategories = [
     "name": "Spor Masaj Terapisti",
     "slug": "spor-masaj-terapisti",
     "gorsel": "/assets/kategori-spor-masaj-terapisti",
-    "gorselAlt": "Baldır kasına uygulanan derin doku spor masajı",
+    "gorselAlt": "Spor sonrası toparlanma ve kas gevşetme için dokulu köpük rulo (foam roller)",
     "intro": "Antrenman öncesi ve sonrası hazırlık ile toparlanma, kronik kas gerginliği ve dolaşım için spor masajı ve derin doku uygulamaları.",
     "services": [
       {
@@ -346,7 +346,7 @@ export const serviceCategories = [
     "name": "Yoga Stüdyosu",
     "slug": "yoga-studyosu",
     "gorsel": "/assets/kategori-yoga-studyosu",
-    "gorselAlt": "Yoga matında öne eğilme esnemesi yapan kadın",
+    "gorselAlt": "Yoga matlarının serildiği, ahşap tavanlı sakin yoga stüdyosu",
     "intro": "Nörogelişimsel yaklaşımla beden farkındalığı, esneklik ve nefes çalışmalarını destekleyen yoga ve germe programları.",
     "services": [
       {

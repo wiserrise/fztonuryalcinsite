@@ -1,7 +1,7 @@
-Kategori kartı görselleri: Unsplash (ücretsiz lisans, ticari kullanım serbest, atıf zorunlu değil).
-fizik-tedavi-klinigi     https://unsplash.com/photos/a-woman-getting-a-back-massage-from-a-man-uLWW09LLG04
-rehabilitasyon-merkezi   https://unsplash.com/photos/a-woman-standing-next-to-a-woman-on-a-treadmill-7vXHRcMGETQ
-fizik-tedavi-uzmani      https://unsplash.com/photos/a-man-getting-his-leg-examined-by-a-doctor-pbUWW-CBoqY
-pilates-salonu           https://unsplash.com/photos/woman-doing-pilates-on-a-reformer-machine-Zp4APUiwEsM
-spor-masaj-terapisti     https://unsplash.com/photos/persons-feet-on-blue-towel-J1trUf0Lj3Q
-yoga-studyosu            https://unsplash.com/photos/woman-in-yoga-pants-sits-on-mat-EZlGYH-e93c
+Kategori kartı görselleri: Unsplash (ücretsiz lisans, ticari kullanım serbest, atıf zorunlu değil). İnsansız, konuya atıf yapan görseller.
+fizik-tedavi-klinigi     https://unsplash.com/photos/a-massage-table-in-a-spa-room-with-orange-walls-NTU761-D3i4
+rehabilitasyon-merkezi   https://unsplash.com/photos/a-green-walker-with-four-wheels-on-grass-2mfAAKwU0-E
+fizik-tedavi-uzmani      https://unsplash.com/photos/white-pasta-on-white-paper-OijVdM3Zx4I
+pilates-salonu           https://unsplash.com/photos/a-room-filled-with-lots-of-different-types-of-equipment-2sXYx7sd-kg
+spor-masaj-terapisti     https://unsplash.com/photos/a-close-up-of-a-black-object-on-a-wooden-table-7tP8sNQdYpk
+yoga-studyosu            https://unsplash.com/photos/a-large-room-with-a-lot-of-yoga-mats-on-the-floor-dwka5DDrnY0
