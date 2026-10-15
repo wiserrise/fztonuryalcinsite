@@ -1,7 +1,7 @@
-Kategori kartı görselleri: Unsplash (ücretsiz lisans, ticari kullanım serbest, atıf zorunlu değil). İnsansız, konuya atıf yapan görseller.
-fizik-tedavi-klinigi     https://unsplash.com/photos/a-massage-table-in-a-spa-room-with-orange-walls-NTU761-D3i4
+Kategori kartı görselleri: Unsplash (ücretsiz lisans, ticari kullanım serbest, atıf zorunlu değil). İnsansız, nesne/ekipman yakın çekimi; kliniğin kendi mekânı değildir.
+fizik-tedavi-klinigi     https://unsplash.com/photos/dumbbells-and-resistance-band-workout-IZOAOjvwhaM
 rehabilitasyon-merkezi   https://unsplash.com/photos/a-green-walker-with-four-wheels-on-grass-2mfAAKwU0-E
 fizik-tedavi-uzmani      https://unsplash.com/photos/white-pasta-on-white-paper-OijVdM3Zx4I
-pilates-salonu           https://unsplash.com/photos/a-room-filled-with-lots-of-different-types-of-equipment-2sXYx7sd-kg
+pilates-salonu           https://unsplash.com/photos/pilates-reformer-with-padded-headrest-and-straps-bP9Ckw-gs_Q
 spor-masaj-terapisti     https://unsplash.com/photos/a-close-up-of-a-black-object-on-a-wooden-table-7tP8sNQdYpk
-yoga-studyosu            https://unsplash.com/photos/a-large-room-with-a-lot-of-yoga-mats-on-the-floor-dwka5DDrnY0
+yoga-studyosu            https://unsplash.com/photos/a-yoga-mat-with-two-blocks-on-top-of-it-b8Q5fHBsyik

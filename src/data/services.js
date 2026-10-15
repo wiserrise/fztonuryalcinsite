@@ -8,7 +8,7 @@ export const serviceCategories = [
     "name": "Fizik Tedavi Kliniği",
     "slug": "fizik-tedavi-klinigi",
     "gorsel": "/assets/kategori-fizik-tedavi-klinigi",
-    "gorselAlt": "Ahşap tedavi masası ve bitkisiyle sakin, aydınlık bir fizyoterapi odası",
+    "gorselAlt": "Ahşap zeminde dambıllar ve direnç bandı, egzersiz terapisi ekipmanı",
     "intro": "Kadıköy Kozyatağı'ndaki kliniğimizde boyun ve bel ağrısından postür bozukluklarına, TME'den spor kaynaklı şikayetlere kadar kas-iskelet sistemi sorunlarında; değerlendirme sonrası kişiye özel fizyoterapi uyguluyoruz.",
     "services": [
       {
@@ -293,7 +293,7 @@ export const serviceCategories = [
     "name": "Pilates Salonu",
     "slug": "pilates-salonu",
     "gorsel": "/assets/kategori-pilates-salonu",
-    "gorselAlt": "Reformer cihazlarının sıralandığı aydınlık pilates stüdyosu",
+    "gorselAlt": "Pilates reformer cihazının baş ve omuz destek yastıkları",
     "intro": "Fizyoterapist kontrolünde, değerlendirmeye dayalı klinik pilates ve reformer programlarıyla postür, gövde (core) kuvveti ve omurga sağlığını destekliyoruz.",
     "services": [
       {
@@ -346,7 +346,7 @@ export const serviceCategories = [
     "name": "Yoga Stüdyosu",
     "slug": "yoga-studyosu",
     "gorsel": "/assets/kategori-yoga-studyosu",
-    "gorselAlt": "Yoga matlarının serildiği, ahşap tavanlı sakin yoga stüdyosu",
+    "gorselAlt": "Yoga matı üzerinde mantar yoga blokları",
     "intro": "Nörogelişimsel yaklaşımla beden farkındalığı, esneklik ve nefes çalışmalarını destekleyen yoga ve germe programları.",
     "services": [
       {
