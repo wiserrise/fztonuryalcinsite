@@ -279,7 +279,11 @@ yaz(
 // şablonudur (sablon betiğin başında okundu). Şablonda JSON-LD yoktur; kliniğin tam kaydı
 // şablonda dursaydı her sayfaya basılırdı. Ana sayfanın grafiği yalnız buraya eklenir;
 // başlık, açıklama ve canonical şablondaki gibi kalır.
-const anaSayfa = sablon.replace('</head>', `  ${jsonLdEtiketi(anaSayfaSemasi(serviceCategories))}\n  </head>`)
+// Hero portresi ana sayfanın en büyük öğesi (LCP): tarayıcı onu JS'i beklemeden indirsin.
+const heroOnYukle = '<link rel="preload" as="image" type="image/webp" fetchpriority="high" ' +
+  'imagesrcset="/assets/hero-onur-yalcin-480.webp 480w, /assets/hero-onur-yalcin-720.webp 720w, /assets/hero-onur-yalcin-1080.webp 1080w" ' +
+  'imagesizes="(min-width: 992px) 560px, 92vw" />'
+const anaSayfa = sablon.replace('</head>', `  ${heroOnYukle}\n  ${jsonLdEtiketi(anaSayfaSemasi(serviceCategories))}\n  </head>`)
 writeFileSync(resolve(distDir, 'index.html'), await govdeEkle(anaSayfa, '/'), 'utf-8')
 
 const toplam =

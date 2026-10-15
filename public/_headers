@@ -1,0 +1,8 @@
+# Önbellek kuralları (Cloudflare Workers static assets).
+# Vite'in ürettiği JS/CSS dosya adları içerik hash'i taşır; içerik değişince adı da değişir.
+# Görsellerin bir kısmı hash'siz olduğu için /assets/* 7 gün tutulur, arka planda tazelenir.
+/assets/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
