@@ -322,3 +322,31 @@ main + .floating-container { pointer-events: auto; }
   /* Sağ alttaki yüzen butonlar alt çubukla çakışmasın */
   .floating-container.reklam-yuzen { display: none !important; }
 }
+
+/* Tedavi yaklaşımları ve hizmet kartları */
+.kt-grid{display:grid;gap:1.5rem}
+.kt-grid--kategori{grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr))}
+.kt-grid--hizmet{grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:1.25rem}
+.kt-card{position:relative;display:flex;flex-direction:column;overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.75rem;box-shadow:var(--shadow-sm);color:inherit;transition:var(--transition)}
+.kt-card::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:linear-gradient(90deg,var(--secondary),var(--primary-light));transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+a.kt-card:hover,a.kt-card:focus-visible{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:#cbd5e1}
+a.kt-card:hover::before,a.kt-card:focus-visible::before{transform:scaleX(1)}
+a.kt-card:focus-visible{outline:2px solid var(--secondary);outline-offset:2px}
+.kt-ust{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1.1rem}
+.kt-icon{display:grid;place-items:center;width:48px;height:48px;flex:none;border-radius:12px;color:var(--primary);background:linear-gradient(135deg,rgb(0 212 255/.16),rgb(10 37 64/.06));transition:var(--transition)}
+.kt-icon svg{width:24px;height:24px}
+a.kt-card:hover .kt-icon{background:var(--primary);color:var(--secondary)}
+.kt-sayi{font-size:.8rem;font-weight:700;letter-spacing:.06em;color:#94a3b8;font-variant-numeric:tabular-nums}
+.kt-rozet{display:inline-block;align-self:flex-start;padding:.2rem .7rem;border-radius:30px;background:rgb(0 212 255/.12);color:#0a6f87;font-size:.8rem;font-weight:600;margin-bottom:.9rem}
+.kt-baslik{font-size:1.15rem;font-weight:700;line-height:1.35;color:var(--primary);margin:0 0 .6rem}
+.kt-kategori .kt-baslik{font-size:1.3rem}
+.kt-metin{flex-grow:1;margin:0;color:var(--text-light);font-size:.95rem;line-height:1.7}
+.kt-alt{display:flex;align-items:center;gap:.4rem;margin-top:1.25rem;padding-top:1rem;border-top:1px solid var(--border);color:#0a6f87;font-weight:600;font-size:.92rem}
+.kt-ok{width:18px;height:18px;transition:transform .25s ease}
+a.kt-card:hover .kt-ok{transform:translateX(4px)}
+.kt-link{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:1.1rem 1.4rem;border-radius:var(--radius);border:1px solid var(--border);color:var(--primary);font-weight:600;background:var(--surface);box-shadow:var(--shadow-sm);transition:var(--transition)}
+.kt-link--zemin{background:var(--background)}
+.kt-link .kt-ok{color:#94a3b8;flex:none}
+.kt-link:hover,.kt-link:focus-visible{transform:translateY(-2px);box-shadow:var(--shadow);border-color:var(--secondary)}
+.kt-link:hover .kt-ok{color:#0a6f87;transform:translateX(4px)}
+@media (prefers-reduced-motion:reduce){.kt-card,.kt-link,.kt-icon,.kt-ok,.kt-card::before{transition:none}a.kt-card:hover,.kt-link:hover{transform:none}}

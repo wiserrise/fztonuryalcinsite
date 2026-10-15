@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
+import KartIkon, { OkIkon } from '../components/KartIkon.jsx'
 import { serviceCategories } from '../data/services.js'
 // Hub listeleri landings.js'ten TÜRETİLİR; şema (siteSchema.js) da aynı listeleri kullanır.
 import { bolgeSayfalari, hizmetSayfalari } from '../data/landings.js'
@@ -43,54 +44,17 @@ export default function TedaviYaklasimlari() {
 
         <section className="section" style={{ padding: '4rem 0' }}>
           <div className="container">
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(min(320px, 100%), 1fr))',
-                gap: '1.5rem',
-              }}
-            >
+            <div className="kt-grid kt-grid--kategori">
               {serviceCategories.map((cat, i) => (
-                <Link
-                  key={cat.slug}
-                  to={`/tedavi-yaklasimlarimiz/${cat.slug}`}
-                  style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    backgroundColor: 'var(--surface)',
-                    border: '1px solid var(--border)',
-                    borderRadius: 'var(--radius)',
-                    boxShadow: 'var(--shadow-sm)',
-                    overflow: 'hidden',
-                    transition: 'var(--transition)',
-                  }}
-                >
-                  {cat.gorsel && (
-                    <picture>
-                      <source srcSet={`${cat.gorsel}.webp`} type="image/webp" />
-                      <img
-                        src={`${cat.gorsel}.jpg`}
-                        alt={cat.gorselAlt}
-                        width="960"
-                        height="600"
-                        loading={i < 3 ? 'eager' : 'lazy'}
-                        decoding="async"
-                        style={{ display: 'block', width: '100%', height: 'auto', aspectRatio: '16 / 10', objectFit: 'cover' }}
-                      />
-                    </picture>
-                  )}
-                  <div style={{ display: 'flex', flexDirection: 'column', flexGrow: 1, padding: '1.75rem 2rem 2rem' }}>
-                    <h2 style={{ fontSize: '1.35rem', fontWeight: 700, marginBottom: '0.35rem' }}>{cat.name}</h2>
-                    <span style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '0.85rem', marginBottom: '1rem' }}>
-                      {cat.services.length} hizmet
-                    </span>
-                    <p style={{ color: 'var(--text-light)', fontSize: '0.95rem', lineHeight: 1.7, flexGrow: 1 }}>
-                      {cat.intro}
-                    </p>
-                    <span style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '0.95rem', marginTop: '1.25rem' }}>
-                      İncele →
-                    </span>
+                <Link key={cat.slug} to={`/tedavi-yaklasimlarimiz/${cat.slug}`} className="kt-card kt-kategori">
+                  <div className="kt-ust">
+                    <KartIkon slug={cat.slug} />
+                    <span className="kt-sayi">{String(i + 1).padStart(2, '0')}</span>
                   </div>
+                  <span className="kt-rozet">{cat.services.length} hizmet</span>
+                  <h2 className="kt-baslik">{cat.name}</h2>
+                  <p className="kt-metin">{cat.intro}</p>
+                  <span className="kt-alt">İncele <OkIkon /></span>
                 </Link>
               ))}
             </div>
@@ -106,16 +70,9 @@ export default function TedaviYaklasimlari() {
             </p>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem' }}>
               {hizmetSayfalari.map((l) => (
-                <Link
-                  key={l.slug}
-                  to={`/${l.slug}`}
-                  style={{
-                    display: 'block', padding: '1.25rem 1.5rem', borderRadius: 'var(--radius)',
-                    backgroundColor: 'var(--background)', boxShadow: 'var(--shadow)',
-                    color: 'var(--primary)', fontWeight: 600, transition: 'var(--transition)',
-                  }}
-                >
-                  {l.servisAdi}
+                <Link key={l.slug} to={`/${l.slug}`} className="kt-link kt-link--zemin">
+                  <span>{l.servisAdi}</span>
+                  <OkIkon />
                 </Link>
               ))}
             </div>
@@ -132,16 +89,9 @@ export default function TedaviYaklasimlari() {
             </p>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem' }}>
               {bolgeSayfalari.map((l) => (
-                <Link
-                  key={l.slug}
-                  to={`/${l.slug}`}
-                  style={{
-                    display: 'block', padding: '1.25rem 1.5rem', borderRadius: 'var(--radius)',
-                    backgroundColor: 'var(--surface)', boxShadow: 'var(--shadow)',
-                    color: 'var(--primary)', fontWeight: 600, transition: 'var(--transition)',
-                  }}
-                >
-                  {l.breadcrumbAdi} Fizyoterapist
+                <Link key={l.slug} to={`/${l.slug}`} className="kt-link">
+                  <span>{l.breadcrumbAdi} Fizyoterapist</span>
+                  <OkIkon />
                 </Link>
               ))}
             </div>

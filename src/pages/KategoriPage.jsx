@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
+import KartIkon, { OkIkon } from '../components/KartIkon.jsx'
 import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { getCategoryBySlug, serviceCategories } from '../data/services.js'
 import { LOCATION, BRAND_KISA } from '../config/site.js'
@@ -75,40 +76,26 @@ export default function KategoriPage() {
 
         <section className="section" style={{ padding: '4rem 0' }}>
           <div className="container">
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-                gap: '1.25rem',
-              }}
-            >
-              {cat.services.map((s) => (
-                <div
-                  key={s.name}
-                  style={{
-                    backgroundColor: 'var(--surface)',
-                    border: '1px solid var(--border)',
-                    borderRadius: 'var(--radius)',
-                    boxShadow: 'var(--shadow-sm)',
-                    padding: '1.5rem',
-                    display: 'flex',
-                    flexDirection: 'column',
-                  }}
-                >
-                  <h2 style={{ fontSize: '1.1rem', fontWeight: 600, marginBottom: '0.6rem' }}>{s.name}</h2>
-                  <p style={{ color: 'var(--text-light)', fontSize: '0.95rem', lineHeight: 1.65, flexGrow: 1 }}>
-                    {s.description}
-                  </p>
-                  {hizmetYolu(s) && (
-                    <Link
-                      to={hizmetYolu(s)}
-                      style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '0.9rem', marginTop: '1rem' }}
-                    >
-                      Detaylı bilgi →
-                    </Link>
-                  )}
-                </div>
-              ))}
+            <div className="kt-grid kt-grid--hizmet">
+              {cat.services.map((s, i) => {
+                const yol = hizmetYolu(s)
+                const icerik = (
+                  <>
+                    <div className="kt-ust">
+                      <KartIkon slug={cat.slug} />
+                      <span className="kt-sayi">{String(i + 1).padStart(2, '0')}</span>
+                    </div>
+                    <h2 className="kt-baslik">{s.name}</h2>
+                    <p className="kt-metin">{s.description}</p>
+                    {yol && <span className="kt-alt">Detaylı bilgi <OkIkon /></span>}
+                  </>
+                )
+                return yol ? (
+                  <Link key={s.name} to={yol} className="kt-card">{icerik}</Link>
+                ) : (
+                  <div key={s.name} className="kt-card">{icerik}</div>
+                )
+              })}
             </div>
 
             {/* CTA */}
