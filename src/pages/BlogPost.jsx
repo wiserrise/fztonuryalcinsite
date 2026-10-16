@@ -11,6 +11,9 @@ import { useSectionNav } from '../hooks/useSectionNav.js'
 import { blogSemasi, noindexSemasi } from '../lib/siteSchema.js'
 import { OkIkon } from '../components/KartIkon.jsx'
 import YazarKarti, { YazarSatiri } from '../components/YazarKarti.jsx'
+import Icindekiler from '../components/Icindekiler.jsx'
+import OkumaCubugu from '../components/OkumaCubugu.jsx'
+import { baslikId, duzMetin, markdownBasliklari } from '../lib/baslikId.js'
 
 // Dakikada ~200 kelime; en az 1 dk.
 const okumaSuresi = (metin = '') => Math.max(1, Math.round(metin.split(/\s+/).filter(Boolean).length / 200))
@@ -19,6 +22,8 @@ const okumaSuresi = (metin = '') => Math.max(1, Math.round(metin.split(/\s+/).fi
 // router bağlantısına çevrilir. Dış bağlantılar (WhatsApp, kurum siteleri)
 // olduğu gibi kalır ve yeni sekmede açılır.
 const markdownBilesenleri = {
+  // Ara başlıklar içindekiler listesinden bağlantı alabilsin diye kimlik taşır.
+  h2: ({ children, node, ...rest }) => <h2 id={baslikId(duzMetin(children))} {...rest}>{children}</h2>,
   a: ({ href = '', children, ...rest }) => {
     if (href.startsWith('/')) {
       return <Link to={href} {...rest}>{children}</Link>
@@ -68,6 +73,7 @@ export default function BlogPost() {
   const secilmis = (post.ilgili || [])
     .map((pid) => blogPosts.find((p) => p.id === pid))
     .filter((p) => p && p.id !== post.id)
+  const basliklar = markdownBasliklari(post.content)
   const related = secilmis.length > 0
     ? secilmis
     : blogPosts.filter((p) => p.id !== post.id).slice(0, 3)
@@ -75,20 +81,32 @@ export default function BlogPost() {
   return (
     <>
     <Navbar />
+    <OkumaCubugu hedefId="yazi-metni" />
     <article className="yazi">
       {/* Başlık alanı */}
       <header className="yazi-ust">
-        <div className="container yazi-dar">
-          <a href="/" onClick={(e) => goToSection('blog', e)} className="yazi-geri">← Tüm Yazılar</a>
+        <div className="container yazi-izgara-ust">
+          {/* Kırıntı: şemadaki BreadcrumbList ile aynı adımlar (Ana Sayfa / Blog / yazı) */}
+          <nav className="yazi-kirinti" aria-label="Sayfa konumu">
+            <Link to="/">Ana Sayfa</Link>
+            <span aria-hidden="true">/</span>
+            <a href="/" onClick={(e) => goToSection('blog', e)}>Blog</a>
+            <span aria-hidden="true">/</span>
+            <span aria-current="page">{post.title}</span>
+          </nav>
           <span className="yazi-kategori">{post.category}</span>
           <h1>{post.title}</h1>
           <YazarSatiri dk={okumaSuresi(post.content)} />
         </div>
       </header>
 
-      {/* İçerik */}
-      <div className="container yazi-dar yazi-govde">
-        <div className="blog-content">
+      {/* İçerik: geniş ekranda sağda sabit içindekiler, dar ekranda metnin üstünde */}
+      <div className="container yazi-izgara yazi-govde">
+        <aside className="yazi-yan">
+          <Icindekiler basliklar={basliklar} />
+        </aside>
+        <div className="yazi-ana">
+        <div className="blog-content" id="yazi-metni">
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownBilesenleri}>{post.content}</ReactMarkdown>
         </div>
 
@@ -122,6 +140,7 @@ export default function BlogPost() {
             </div>
           </div>
         )}
+        </div>
       </div>
     </article>
     <Footer />

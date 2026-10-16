@@ -22,6 +22,8 @@ import { GOOGLE_PUAN, GOOGLE_YORUMLARI, KLINIK_FOTOGRAFLARI } from '../data/guve
 // ve ilk render'da boş ekran görülmez. Sunucu render'ı ve hidrasyon da aynı önbelleği
 // önceden doldurur (bkz. lib/icerikOnbellek.js).
 import { icerikOnbellek } from '../lib/icerikOnbellek.js'
+import Icindekiler from '../components/Icindekiler.jsx'
+import { baslikId } from '../lib/baslikId.js'
 
 // İçeriğin en son gözden geçirildiği tarih. Metin güncellendikçe burası da güncellenir.
 const SON_GUNCELLEME = '4 Eylül 2026'
@@ -360,7 +362,7 @@ export default function LandingPage({ slug: slugProp }) {
           </details>
         ) : (
           <>
-            <h2 className="icerik-h2">{b.h2}</h2>
+            <h2 className="icerik-h2" id={baslikId(b.h2)}>{b.h2}</h2>
             <BolumIcerik b={b} />
           </>
         )}
@@ -541,6 +543,16 @@ export default function LandingPage({ slug: slugProp }) {
                   className="icerik-kapak"
                 />
               </figure>
+            )}
+            {/* Reklam sayfalarında akış bilinçli olarak sade tutulur; içindekiler yalnız diğer sayfalarda. */}
+            {!reklam && (
+              <Icindekiler
+                baslik="Bu sayfada"
+                className="toc--sayfa"
+                basliklar={icerik.bolumler
+                  .filter((b, i) => !blokSiralar.includes(i) && !(aralik && i >= aralik[0] && i <= aralik[1]))
+                  .map((b) => ({ metin: b.h2, id: baslikId(b.h2) }))}
+              />
             )}
             {icerik.bolumler.map((b, i) => (blokSiralar.includes(i) ? null : bolumuBas(b, i)))}
           </div>

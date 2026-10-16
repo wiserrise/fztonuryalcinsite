@@ -509,3 +509,36 @@ a.kt-one-cikan:hover .kt-no{background:var(--secondary);color:var(--primary)}
 .yazar-metin{margin:0;color:var(--text-body);line-height:1.75;font-size:.98rem}
 .yazar-link{align-self:flex-start;border-top:none;padding-top:0;margin-top:var(--sp-4)}
 @media (max-width:560px){.yazar-karti{flex-direction:column;gap:var(--sp-4);padding:var(--sp-6)}}
+
+/* ===== Okuma deneyimi: içindekiler, kırıntı, ilerleme çubuğu ===== */
+.blog-content h2,.icerik-h2{scroll-margin-top:96px}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.okuma-cubugu{position:fixed;top:0;left:0;right:0;height:3px;z-index:1001;transform-origin:0 50%;background:linear-gradient(90deg,var(--secondary),var(--teal-ink));pointer-events:none}
+
+.toc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:var(--sp-5) var(--sp-5) var(--sp-4);box-shadow:var(--shadow-card)}
+.toc-baslik{margin:0 0 var(--sp-3);font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--teal-ink)}
+.toc ol{list-style:none;margin:0;padding:0;counter-reset:toc;display:grid;gap:2px}
+.toc li{counter-increment:toc}
+.toc a{display:grid;grid-template-columns:1.6rem 1fr;gap:.35rem;padding:.45rem .5rem;border-radius:var(--radius-sm);color:var(--text-body);font-size:.92rem;line-height:1.45;transition:background .15s,color .15s}
+.toc a::before{content:counter(toc,decimal-leading-zero);color:var(--muted);font-weight:700;font-size:.78rem;padding-top:.12rem;font-variant-numeric:tabular-nums}
+.toc a:hover{background:var(--background);color:var(--primary)}
+.toc a.toc-aktif{background:rgb(0 212 255/.1);color:var(--primary);font-weight:600}
+.toc a.toc-aktif::before{color:var(--teal-ink)}
+.toc--sayfa{margin-bottom:var(--sp-12)}
+@media (min-width:760px){.toc--sayfa ol{grid-template-columns:1fr 1fr;column-gap:var(--sp-4)}}
+
+/* Blog düzeni: geniş ekranda metin + sağda yapışkan içindekiler */
+.yazi-izgara,.yazi-izgara-ust{max-width:744px}
+.yazi-yan{margin-bottom:var(--sp-10)}
+@media (min-width:1200px){
+  .yazi-izgara,.yazi-izgara-ust{max-width:1120px}
+  .yazi-izgara{display:grid;grid-template-columns:minmax(0,744px) 280px;justify-content:space-between;align-items:start;gap:var(--sp-12)}
+  .yazi-izgara-ust > *{max-width:744px}
+  .yazi-yan{order:2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+  .yazi-ana{order:1;min-width:0}
+}
+.yazi-kirinti{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;font-size:.88rem;color:rgba(255,255,255,.62)}
+.yazi-kirinti a{color:rgba(255,255,255,.75)}
+.yazi-kirinti a:hover{color:var(--secondary)}
+.yazi-kirinti [aria-current]{color:#fff;max-width:36ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
