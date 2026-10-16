@@ -49,3 +49,21 @@ export default function YazarKarti() {
     </aside>
   )
 }
+
+/** Geniş ekranda yazının sol sütunundaki kısa yazar profili. */
+export function YazarMini() {
+  return (
+    <div className="yazar-mini">
+      <span className="yazar-etiket">Yazar</span>
+      <Link to={YAZAR.profil} className="yazar-mini-ust">
+        <Avatar boyut={56} className="yazar-avatar yazar-avatar--orta" />
+        <span>
+          <span className="yazar-mini-ad">{YAZAR.ad}</span>
+          <span className="yazar-mini-unvan">{YAZAR.unvan}</span>
+        </span>
+      </Link>
+      <p className="yazar-mini-metin">İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon bölümü mezunu (2015).</p>
+      <Link to={YAZAR.profil} className="yazar-mini-link">Profili gör <OkIkon /></Link>
+    </div>
+  )
+}

@@ -10,7 +10,7 @@ import { BRAND_KISA } from '../config/site.js'
 import { useSectionNav } from '../hooks/useSectionNav.js'
 import { blogSemasi, noindexSemasi } from '../lib/siteSchema.js'
 import { OkIkon } from '../components/KartIkon.jsx'
-import YazarKarti, { YazarSatiri } from '../components/YazarKarti.jsx'
+import YazarKarti, { YazarSatiri, YazarMini } from '../components/YazarKarti.jsx'
 import Icindekiler from '../components/Icindekiler.jsx'
 import OkumaCubugu from '../components/OkumaCubugu.jsx'
 import { baslikId, duzMetin, markdownBasliklari } from '../lib/baslikId.js'
@@ -77,6 +77,10 @@ export default function BlogPost() {
   const related = secilmis.length > 0
     ? secilmis
     : blogPosts.filter((p) => p.id !== post.id).slice(0, 3)
+  // Sol sütundaki "konuyla ilgili" listesi: önce yazının seçtikleri, sonra aynı kategoridekiler.
+  const yakin = [...related, ...blogPosts.filter((p) => p.id !== post.id && p.category === post.category)]
+    .filter((p, i, a) => a.findIndex((q) => q.id === p.id) === i)
+    .slice(0, 5)
 
   return (
     <>
@@ -102,6 +106,26 @@ export default function BlogPost() {
 
       {/* İçerik: geniş ekranda sağda sabit içindekiler, dar ekranda metnin üstünde */}
       <div className="container yazi-izgara yazi-govde">
+        {/* Çok geniş ekranda sol sütun: yazar profili ve konuya yakın yazılar (dar ekranda gizli;
+            aynı bilgiler yazının sonunda yazar kartı ve "Diğer Yazılar" olarak zaten var) */}
+        <aside className="yazi-sol" aria-label="Yazar ve ilgili yazılar">
+          <YazarMini />
+          {yakin.length > 0 && (
+            <nav className="yazi-yakin" aria-label="Konuyla ilgili yazılar">
+              <p className="toc-baslik">Konuyla ilgili yazılar</p>
+              <ul>
+                {yakin.map((p) => (
+                  <li key={p.id}>
+                    <Link to={`/blog/${p.id}`}>
+                      <span className="yazi-yakin-kat">{p.category}</span>
+                      <span className="yazi-yakin-baslik">{p.title}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+        </aside>
         <aside className="yazi-yan">
           <Icindekiler basliklar={basliklar} />
         </aside>
