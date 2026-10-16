@@ -40,7 +40,7 @@ export default function YazarKarti() {
       <div className="yazar-govde">
         <span className="yazar-etiket">Yazar</span>
         <p className="yazar-ad">{YAZAR.ad}</p>
-        <p className="yazar-unvan">{YAZAR.unvan} · Kadıköy Kozyatağı</p>
+        <p className="yazar-unvan">{YAZAR.unvan}</p>
         <p className="yazar-metin">
           İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon bölümü mezunu (2015).
         </p>
