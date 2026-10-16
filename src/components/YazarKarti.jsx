@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { OkIkon } from './KartIkon.jsx'
 
 // Blog yazılarının yazarı. Bilgiler Hakkımda sayfasında yazanlarla aynıdır
-// (mezuniyet, klinik, çalışma alanları); burada yeni bir iddia eklenmez.
+// (unvan, mezuniyet); çalışma alanları kartta yazılmaz, burada yeni bir iddia eklenmez.
 // Şemadaki author kaydı (siteSchema.js kisiOzeti) aynı kişiyi ve aynı profil adresini gösterir.
 export const YAZAR = {
   ad: 'Onur Yalçın',
@@ -42,9 +42,7 @@ export default function YazarKarti() {
         <p className="yazar-ad">{YAZAR.ad}</p>
         <p className="yazar-unvan">{YAZAR.unvan} · Kadıköy Kozyatağı</p>
         <p className="yazar-metin">
-          2015 yılında İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon bölümünden mezun oldu.
-          Kozyatağı'ndaki kliniğinde erkek pelvik taban fizyoterapisi, manuel terapi ve bütüncül,
-          kaynak odaklı fizyoterapi uyguluyor.
+          İstanbul Üniversitesi Fizyoterapi ve Rehabilitasyon bölümü mezunu (2015).
         </p>
         <Link to={YAZAR.profil} className="kt-alt yazar-link">Onur Yalçın hakkında <OkIkon /></Link>
       </div>
