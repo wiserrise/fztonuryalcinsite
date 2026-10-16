@@ -9,6 +9,10 @@ import { useSeo, SITE_URL } from '../hooks/useSeo.js'
 import { BRAND_KISA } from '../config/site.js'
 import { useSectionNav } from '../hooks/useSectionNav.js'
 import { blogSemasi, noindexSemasi } from '../lib/siteSchema.js'
+import { OkIkon } from '../components/KartIkon.jsx'
+
+// Dakikada ~200 kelime; en az 1 dk.
+const okumaSuresi = (metin = '') => Math.max(1, Math.round(metin.split(/\s+/).filter(Boolean).length / 200))
 
 // Yazı gövdesindeki site içi bağlantılar tam sayfa yenilemesi yapmasın diye
 // router bağlantısına çevrilir. Dış bağlantılar (WhatsApp, kurum siteleri)
@@ -70,59 +74,30 @@ export default function BlogPost() {
   return (
     <>
     <Navbar />
-    <article style={{ background: 'var(--background)' }}>
+    <article className="yazi">
       {/* Başlık alanı */}
-      <header
-        style={{
-          background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%)',
-          color: '#fff',
-          padding: '7rem 0 4rem',
-        }}
-      >
-        <div className="container" style={{ maxWidth: 820 }}>
-          <a href="/" onClick={(e) => goToSection('blog', e)} style={{ color: 'var(--secondary)', fontWeight: 600, fontSize: '.95rem', cursor: 'pointer' }}>
-            ← Tüm Yazılar
-          </a>
-          <span
-            style={{
-              display: 'inline-block',
-              marginTop: '1.5rem',
-              background: 'rgba(0,212,255,0.15)',
-              color: 'var(--secondary)',
-              padding: '.35rem 1rem',
-              borderRadius: 30,
-              fontSize: '.8rem',
-              fontWeight: 600,
-              textTransform: 'uppercase',
-              letterSpacing: '.5px',
-            }}
-          >
-            {post.category}
-          </span>
-          <h1 style={{ color: '#fff', fontSize: '2.4rem', marginTop: '1rem', lineHeight: 1.2 }}>
-            {post.title}
-          </h1>
-          <p style={{ marginTop: '1rem', opacity: 0.8 }}>{post.date}</p>
+      <header className="yazi-ust">
+        <div className="container yazi-dar">
+          <a href="/" onClick={(e) => goToSection('blog', e)} className="yazi-geri">← Tüm Yazılar</a>
+          <span className="yazi-kategori">{post.category}</span>
+          <h1>{post.title}</h1>
+          <p className="yazi-meta">
+            <span>Fizyoterapist Onur Yalçın</span>
+            <span aria-hidden="true">·</span>
+            <span>{okumaSuresi(post.content)} dk okuma</span>
+          </p>
         </div>
       </header>
 
       {/* İçerik */}
-      <div className="container" style={{ maxWidth: 820, padding: '4rem 1.5rem' }}>
+      <div className="container yazi-dar yazi-govde">
         <div className="blog-content">
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownBilesenleri}>{post.content}</ReactMarkdown>
         </div>
 
-        <div
-          style={{
-            marginTop: '3rem',
-            padding: '2rem',
-            background: 'var(--surface)',
-            borderRadius: 'var(--radius)',
-            boxShadow: 'var(--shadow)',
-            textAlign: 'center',
-          }}
-        >
-          <h2 style={{ fontSize: '1.17rem', marginBottom: '1rem' }}>Randevu ve Bilgi İçin</h2>
+        <div className="cta-kutu yazi-cta">
+          <h2>Randevu ve Bilgi İçin</h2>
+          <p>Şikayetinizi paylaşın, değerlendirme ve programı birlikte planlayalım.</p>
           <a
             href="https://wa.me/905072949900?text=Merhaba,%20web%20sitenizden%20ulaşıyorum.%20Randevu/bilgi%20almak%20istiyorum."
             className="btn btn-primary"
@@ -135,26 +110,14 @@ export default function BlogPost() {
 
         {/* İlgili yazılar */}
         {related.length > 0 && (
-          <div style={{ marginTop: '4rem' }}>
-            <h2 style={{ fontSize: '1.17rem', marginBottom: '1.5rem' }}>Diğer Yazılar</h2>
-            <div style={{ display: 'grid', gap: '1rem' }}>
+          <div className="yazi-ilgili">
+            <h2>Diğer Yazılar</h2>
+            <div className="kt-grid yazi-ilgili-grid">
               {related.map((p) => (
-                <Link
-                  key={p.id}
-                  to={`/blog/${p.id}`}
-                  style={{
-                    display: 'block',
-                    padding: '1.25rem 1.5rem',
-                    background: 'var(--surface)',
-                    borderRadius: 'var(--radius)',
-                    boxShadow: 'var(--shadow-sm)',
-                    border: '1px solid var(--border)',
-                  }}
-                >
-                  <span style={{ color: 'var(--text-light)', fontSize: '.8rem' }}>{p.category}</span>
-                  <div style={{ color: 'var(--primary)', fontWeight: 600, marginTop: '.25rem' }}>
-                    {p.title}
-                  </div>
+                <Link key={p.id} to={`/blog/${p.id}`} className="kt-card yazi-ilgili-kart">
+                  <span className="kt-rozet">{p.category}</span>
+                  <h3 className="kt-baslik">{p.title}</h3>
+                  <span className="kt-alt">Yazıyı oku <OkIkon /></span>
                 </Link>
               ))}
             </div>

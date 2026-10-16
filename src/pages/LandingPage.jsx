@@ -65,7 +65,7 @@ const MinusIcon = () => (
   </svg>
 )
 const CheckIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={{ flexShrink: 0, marginTop: 4 }}>
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     <path d="M20 6 9 17l-5-5" />
   </svg>
 )
@@ -185,28 +185,28 @@ function BolumIcerik({ b }) {
   return (
     <>
       {b.paragraflar.map((p, j) => (
-        <p key={j} style={{ color: 'var(--text-light)', lineHeight: 1.9, marginBottom: '1.1rem', fontSize: '1.03rem' }}>{p}</p>
+        <p key={j} className="icerik-p">{p}</p>
       ))}
       {b.liste && b.liste.length > 0 && (
-        <div style={{ display: 'grid', gap: '0.9rem', marginTop: '1.25rem' }}>
+        <div className="icerik-liste">
           {b.liste.map((l) => (
-            <div key={l.baslik} style={{ display: 'flex', gap: '0.8rem', alignItems: 'flex-start', backgroundColor: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius)', padding: '1.1rem 1.25rem' }}>
-              <CheckIcon />
+            <div key={l.baslik} className="icerik-madde">
+              <span className="icerik-tik"><CheckIcon /></span>
               <div>
-                <strong style={{ color: 'var(--primary)', display: 'block', marginBottom: '0.25rem' }}>{l.baslik}</strong>
-                <span style={{ color: 'var(--text-light)', lineHeight: 1.75 }}>{l.metin}</span>
+                <strong>{l.baslik}</strong>
+                <span>{l.metin}</span>
               </div>
             </div>
           ))}
         </div>
       )}
       {b.baglantilar && b.baglantilar.length > 0 && (
-        <p style={{ marginTop: '1rem', fontSize: '0.97rem', color: 'var(--text-light)', lineHeight: 1.9 }}>
+        <p className="icerik-baglanti">
           {b.baglantilar.every((bl) => bl.yol.startsWith('/blog/')) ? 'Ayrıntılı yazı:' : 'İlgili sayfa:'}{' '}
           {b.baglantilar.map((bl, k) => (
             <span key={bl.yol}>
               {k > 0 && ', '}
-              <Link to={bl.yol} style={{ color: 'var(--primary)', fontWeight: 600 }}>{bl.metin}</Link>
+              <Link to={bl.yol}>{bl.metin}</Link>
             </span>
           ))}
         </p>
@@ -234,7 +234,7 @@ function Sss({ sss }) {
       {sss.map((item, i) => {
         const isOpen = acik === i
         return (
-          <div key={i} style={{ backgroundColor: 'var(--surface)', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow-sm)', border: '1px solid rgba(0, 212, 255, 0.15)', overflow: 'hidden' }}>
+          <div key={i} className={`sss-madde${isOpen ? ' sss-madde--acik' : ''}`}>
             <button
               onClick={() => setAcik(isOpen ? -1 : i)}
               aria-expanded={isOpen}
@@ -269,13 +269,10 @@ function CtaBlogu({ landing, icerik, reklam, source, baslik, metin }) {
   return (
     <div
       data-cta-source={source}
-      style={{
-        background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%)',
-        color: '#fff', borderRadius: 'var(--radius)', padding: '2.5rem 2rem', textAlign: 'center',
-      }}
+      className="cta-kutu"
     >
-      <h2 style={{ color: '#fff', fontSize: '1.5rem', marginBottom: '0.75rem' }}>{baslik}</h2>
-      <p style={{ color: 'rgba(255,255,255,0.85)', lineHeight: 1.75, maxWidth: 620, margin: '0 auto 1.75rem' }}>{metin}</p>
+      <h2>{baslik}</h2>
+      <p>{metin}</p>
       {reklam ? (
         // Reklam sayfası: tek birincil eylem (mobilde ara), masaüstünde WhatsApp
         <div style={{ display: 'flex', gap: '0.9rem', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -353,7 +350,7 @@ export default function LandingPage({ slug: slugProp }) {
     const katli = Boolean(aralik) && i >= aralik[0] && i <= aralik[1]
     const sonKatli = Boolean(aralik) && i === aralik[1]
     return (
-      <div key={b.h2} style={{ marginBottom: katli && !sonKatli ? '0.85rem' : '3rem' }}>
+      <div key={b.h2} className={katli && !sonKatli ? 'icerik-bolum icerik-bolum--katli' : 'icerik-bolum'}>
         {katli ? (
           // Katlanan bölümün metni belgede kalır (arama motoru okur); yalnızca
           // görsel olarak kapalı başlar. <details> JavaScript olmadan da çalışır.
@@ -363,7 +360,7 @@ export default function LandingPage({ slug: slugProp }) {
           </details>
         ) : (
           <>
-            <h2 style={{ fontSize: 'clamp(1.35rem, 2.5vw, 1.7rem)', marginBottom: '1.1rem', lineHeight: 1.3 }}>{b.h2}</h2>
+            <h2 className="icerik-h2">{b.h2}</h2>
             <BolumIcerik b={b} />
           </>
         )}
@@ -470,7 +467,7 @@ export default function LandingPage({ slug: slugProp }) {
                 <ul style={{ margin: '1.75rem 0 0', display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
                   {landing.guvenMaddeleri.map((m) => (
                     <li key={m} style={{ display: 'flex', gap: '0.7rem', color: 'rgba(255,255,255,0.92)', lineHeight: 1.6 }}>
-                      <CheckIcon />
+                      <span className="hero-tik"><CheckIcon /></span>
                       <span>{m}</span>
                     </li>
                   ))}
@@ -541,7 +538,7 @@ export default function LandingPage({ slug: slugProp }) {
                   loading={reklam ? 'lazy' : 'eager'}
                   fetchPriority={reklam ? 'auto' : 'high'}
                   decoding="async"
-                  style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow-lg)' }}
+                  className="icerik-kapak"
                 />
               </figure>
             )}
@@ -553,7 +550,7 @@ export default function LandingPage({ slug: slugProp }) {
         {icerik.sss && icerik.sss.length > 0 && (
         <section className="section" style={{ backgroundColor: 'var(--background)', padding: '4rem 0' }}>
           <div className="container">
-            <h2 className="section-title" style={{ fontSize: 'clamp(1.6rem, 3vw, 2.1rem)' }}>Sıkça Sorulan Sorular</h2>
+            <h2 className="section-title">Sıkça Sorulan Sorular</h2>
             <div style={{ marginTop: '3.5rem' }}>
               <Sss sss={icerik.sss} />
             </div>
