@@ -25,9 +25,38 @@ export default function Icindekiler({ basliklar, baslik = 'Bu yazıda', classNam
     return () => gozlem.disconnect()
   }, [basliklar])
 
+  // Liste yapışkan kutuya sığmazsa: aktif madde kutu içinde görünür tutulur ve altta devamı
+  // olduğunu gösteren solma uygulanır (yalnız kutunun kendi kaydırması; sayfa kaymaz).
+  useEffect(() => {
+    const nav = document.querySelector('.toc[data-toc]')
+    const kutu = nav && nav.parentElement
+    if (!kutu) return
+    const isaretle = () => {
+      const tasiyor = kutu.scrollHeight > kutu.clientHeight + 2
+      const sonda = kutu.scrollTop + kutu.clientHeight >= kutu.scrollHeight - 4
+      kutu.classList.toggle('toc-devami', tasiyor && !sonda)
+    }
+    if (aktif) {
+      const a = nav.querySelector('.toc-aktif')
+      if (a && kutu.scrollHeight > kutu.clientHeight) {
+        const ar = a.getBoundingClientRect()
+        const kr = kutu.getBoundingClientRect()
+        if (ar.bottom > kr.bottom - 24) kutu.scrollTop += ar.bottom - kr.bottom + 48
+        else if (ar.top < kr.top + 8) kutu.scrollTop -= kr.top - ar.top + 48
+      }
+    }
+    isaretle()
+    kutu.addEventListener('scroll', isaretle, { passive: true })
+    window.addEventListener('resize', isaretle)
+    return () => {
+      kutu.removeEventListener('scroll', isaretle)
+      window.removeEventListener('resize', isaretle)
+    }
+  }, [aktif])
+
   if (!basliklar || basliklar.length < 3) return null
   return (
-    <nav className={className ? `toc ${className}` : 'toc'} aria-label={baslik}>
+    <nav className={className ? `toc ${className}` : 'toc'} aria-label={baslik} data-toc="">
       <p className="toc-baslik">{baslik}</p>
       <ol>
         {basliklar.map((b) => (

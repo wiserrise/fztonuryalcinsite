@@ -502,7 +502,9 @@ export default function LandingPage({ slug: slugProp }) {
         {/* Şikâyet bloğu: açılır şikâyetler hero'nun hemen altında (landings.js `katlanir.konum`) */}
         {ustBlok && (
           <section className="section" style={{ padding: '3rem 0 1rem' }}>
-            <div className="container" style={{ maxWidth: 860 }}>
+            {/* Alttaki gövdeyle aynı ızgara: geniş ekranda metin sütunlarının sol kenarı hizalı kalır */}
+            <div className={reklam ? 'container' : 'container sayfa-izgara'} style={reklam ? { maxWidth: 860 } : undefined}>
+              <div className="sayfa-ana">
               {blokSiralar.map((i) => bolumuBas(icerik.bolumler[i], i))}
               <div style={{ margin: '2.75rem 0 0.5rem' }}>
                 <CtaBlogu
@@ -514,6 +516,7 @@ export default function LandingPage({ slug: slugProp }) {
                   metin={landing.araCtaMetin}
                 />
               </div>
+              </div>
             </div>
           </section>
         )}
@@ -522,7 +525,21 @@ export default function LandingPage({ slug: slugProp }) {
 
         {/* Gövde bölümleri */}
         <section className="section" style={{ padding: '4rem 0 1rem' }}>
-          <div className="container" style={{ maxWidth: 860 }}>
+          <div className={reklam ? 'container' : 'container sayfa-izgara'} style={reklam ? { maxWidth: 860 } : undefined}>
+            {/* Reklam sayfalarında akış bilinçli olarak sade tutulur; içindekiler yalnız diğer sayfalarda.
+                Geniş ekranda sağ sütunda dikey ve yapışkan, dar ekranda metnin üstünde. */}
+            {!reklam && (
+              <aside className="sayfa-yan">
+                <Icindekiler
+                  baslik="Bu sayfada"
+                  className="toc--sayfa"
+                  basliklar={icerik.bolumler
+                    .filter((b, i) => !blokSiralar.includes(i) && !(aralik && i >= aralik[0] && i <= aralik[1]))
+                    .map((b) => ({ metin: b.h2, id: baslikId(b.h2) }))}
+                />
+              </aside>
+            )}
+            <div className="sayfa-ana">
             {/*
               Sayfa kapak kartı (w7-gorsel). `gorsel` aynı zamanda og:image'dir; kart 1200x630
               olduğu için ikisi tek dosyadan beslenir. width/height CLS için sabit; alt metin
@@ -544,17 +561,8 @@ export default function LandingPage({ slug: slugProp }) {
                 />
               </figure>
             )}
-            {/* Reklam sayfalarında akış bilinçli olarak sade tutulur; içindekiler yalnız diğer sayfalarda. */}
-            {!reklam && (
-              <Icindekiler
-                baslik="Bu sayfada"
-                className="toc--sayfa"
-                basliklar={icerik.bolumler
-                  .filter((b, i) => !blokSiralar.includes(i) && !(aralik && i >= aralik[0] && i <= aralik[1]))
-                  .map((b) => ({ metin: b.h2, id: baslikId(b.h2) }))}
-              />
-            )}
             {icerik.bolumler.map((b, i) => (blokSiralar.includes(i) ? null : bolumuBas(b, i)))}
+            </div>
           </div>
         </section>
 

@@ -525,8 +525,14 @@ html{scroll-behavior:smooth}
 .toc a:hover{background:var(--background);color:var(--primary)}
 .toc a.toc-aktif{background:rgb(0 212 255/.1);color:var(--primary);font-weight:600}
 .toc a.toc-aktif::before{color:var(--teal-ink)}
-.toc--sayfa{margin-bottom:var(--sp-12)}
-@media (min-width:760px){.toc--sayfa ol{grid-template-columns:1fr 1fr;column-gap:var(--sp-4)}}
+.sayfa-izgara{max-width:860px}
+.sayfa-yan{margin-bottom:var(--sp-12)}
+@media (min-width:760px) and (max-width:1199px){.toc--sayfa ol{grid-template-columns:1fr 1fr;column-gap:var(--sp-4)}}
+@media (min-width:1200px){
+  .sayfa-izgara{max-width:1200px;display:grid;grid-template-columns:minmax(0,780px) 320px;justify-content:space-between;align-items:start;gap:var(--sp-12)}
+  .sayfa-yan{order:2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 240px);overflow:auto;overscroll-behavior:contain}
+  .sayfa-ana{order:1;min-width:0}
+}
 
 /* Blog düzeni: geniş ekranda metin + sağda yapışkan içindekiler */
 .yazi-izgara,.yazi-izgara-ust{max-width:744px}
@@ -535,10 +541,20 @@ html{scroll-behavior:smooth}
   .yazi-izgara,.yazi-izgara-ust{max-width:1120px}
   .yazi-izgara{display:grid;grid-template-columns:minmax(0,744px) 280px;justify-content:space-between;align-items:start;gap:var(--sp-12)}
   .yazi-izgara-ust > *{max-width:744px}
-  .yazi-yan{order:2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 120px);overflow:auto}
+  .yazi-yan{order:2;position:sticky;top:96px;margin:0;max-height:calc(100vh - 240px);overflow:auto;overscroll-behavior:contain}
   .yazi-ana{order:1;min-width:0}
 }
 .yazi-kirinti{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;font-size:.88rem;color:rgba(255,255,255,.62)}
 .yazi-kirinti a{color:rgba(255,255,255,.75)}
 .yazi-kirinti a:hover{color:var(--secondary)}
 .yazi-kirinti [aria-current]{color:#fff;max-width:36ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* Yapışkan içindekiler sağ alttaki yüzen arama/WhatsApp butonlarının altında kalmasın */
+@media (min-width:1200px){
+  .sayfa-yan .toc,.yazi-yan .toc{padding:var(--sp-4)}
+  .sayfa-yan .toc a,.yazi-yan .toc a{grid-template-columns:1.45rem 1fr;padding:.32rem .45rem;font-size:.86rem;line-height:1.4}
+  .sayfa-yan,.yazi-yan{scrollbar-width:thin}
+}
+@media (min-width:1200px){
+  .sayfa-yan.toc-devami,.yazi-yan.toc-devami{-webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 56px),transparent);mask-image:linear-gradient(to bottom,#000 calc(100% - 56px),transparent)}
+  .sayfa-yan,.yazi-yan{scroll-behavior:smooth;border-radius:var(--radius)}
+}
