@@ -493,3 +493,19 @@ a.kt-one-cikan:hover .kt-no{background:var(--secondary);color:var(--primary)}
 .blog-content strong{color:var(--text)}
 .hero-tik{display:inline-flex;flex:none;margin-top:4px;color:var(--secondary)}
 .yazi-ilgili-kart .kt-baslik{flex-grow:1}
+
+/* Yazar */
+.yazar-avatar{display:block;flex:none;width:88px;height:88px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 3px var(--surface),0 0 0 5px rgb(0 212 255/.45)}
+.yazar-avatar img{width:100%;height:100%;object-fit:cover}
+.yazar-avatar--kucuk{width:32px;height:32px;box-shadow:0 0 0 2px rgb(0 212 255/.55)}
+.yazi-meta{align-items:center}
+.yazi-meta-yazar{display:inline-flex;align-items:center;gap:var(--sp-2);color:#fff;font-weight:600}
+.yazi-meta-yazar:hover span{text-decoration:underline;text-underline-offset:3px}
+.yazar-karti{display:flex;gap:var(--sp-6);align-items:flex-start;margin-top:var(--sp-12);padding:var(--sp-8);background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow-card)}
+.yazar-govde{display:flex;flex-direction:column;min-width:0}
+.yazar-etiket{font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--teal-ink)}
+.yazar-ad{margin:var(--sp-1) 0 0;font-size:1.3rem;font-weight:700;color:var(--primary);line-height:1.3}
+.yazar-unvan{margin:2px 0 var(--sp-3);color:var(--muted);font-size:.92rem;font-weight:500}
+.yazar-metin{margin:0;color:var(--text-body);line-height:1.75;font-size:.98rem}
+.yazar-link{align-self:flex-start;border-top:none;padding-top:0;margin-top:var(--sp-4)}
+@media (max-width:560px){.yazar-karti{flex-direction:column;gap:var(--sp-4);padding:var(--sp-6)}}

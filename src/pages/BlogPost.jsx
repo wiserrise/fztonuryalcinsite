@@ -10,6 +10,7 @@ import { BRAND_KISA } from '../config/site.js'
 import { useSectionNav } from '../hooks/useSectionNav.js'
 import { blogSemasi, noindexSemasi } from '../lib/siteSchema.js'
 import { OkIkon } from '../components/KartIkon.jsx'
+import YazarKarti, { YazarSatiri } from '../components/YazarKarti.jsx'
 
 // Dakikada ~200 kelime; en az 1 dk.
 const okumaSuresi = (metin = '') => Math.max(1, Math.round(metin.split(/\s+/).filter(Boolean).length / 200))
@@ -81,11 +82,7 @@ export default function BlogPost() {
           <a href="/" onClick={(e) => goToSection('blog', e)} className="yazi-geri">← Tüm Yazılar</a>
           <span className="yazi-kategori">{post.category}</span>
           <h1>{post.title}</h1>
-          <p className="yazi-meta">
-            <span>Fizyoterapist Onur Yalçın</span>
-            <span aria-hidden="true">·</span>
-            <span>{okumaSuresi(post.content)} dk okuma</span>
-          </p>
+          <YazarSatiri dk={okumaSuresi(post.content)} />
         </div>
       </header>
 
@@ -94,6 +91,8 @@ export default function BlogPost() {
         <div className="blog-content">
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownBilesenleri}>{post.content}</ReactMarkdown>
         </div>
+
+        <YazarKarti />
 
         <div className="cta-kutu yazi-cta">
           <h2>Randevu ve Bilgi İçin</h2>
