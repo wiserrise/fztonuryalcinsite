@@ -217,7 +217,7 @@ export const klinikPilatesIcerik = {
     },
     {
       "soru": "Duruş bozukluğu bel ağrısının nedeni midir?",
-      "cevap": "Herkes için geçerli tek bir doğru duruş tanımlanmamıştır. Duruş ile bel ağrısı arasındaki nedensellikte alanyazında görüş birliği yoktur; çalışmalar hem ilişki bulan hem bulmayan sonuçlar bildirir. Tek pozisyonda uzun süre kalmanın ağrının nedeni olduğu da gösterilmiş değildir. Program hareket çeşitliliğini ve yük toleransını desteklemeyi hedefler."
+      "cevap": "Duruş, bel ağrısının tek başına nedeni değildir; uzun süre tek pozisyonda kalmak, hareket çeşitliliğinin azalması ve gövde kaslarının yük taşıma kapasitesi de tabloyu etkiler. Klinik pilates programı bu yüzden tek bir 'doğru duruş' öğretmek yerine hareket çeşitliliğini ve omurganın yük toleransını artırmaya odaklanır."
     },
     {
       "soru": "Doğum sonrası dönemde klinik pilatese ne zaman başlanabilir?",
@@ -545,7 +545,7 @@ export const skolyozSchrothIcerik = {
     },
     {
       "soru": "Skolyoz egzersizle düzelir mi?",
-      "cevap": "Egzersizin eğriliği ortadan kaldırdığını gösteren bir kanıt yoktur ve böyle bir vaat verilmez. Meta-analizlerde bildirilen ortalama Cobb değişimi küçüktür ve derlemeler arasında farklılık gösterir; rotasyon açısındaki değişim tutarlı değildir."
+      "cevap": "Schroth Metodu, skolyozun üç boyutlu yapısına özgü egzersizlerle çalışan bir fizyoterapi yaklaşımıdır. Eğriliğe karşı aktif düzeltme, nefesin içbükey tarafa yönlendirilmesi ve bu düzeltmenin günlük duruşa taşınması çalışılır. Ölçümler belirli aralıklarla tekrarlanır ve program buna göre güncellenir."
     },
     {
       "soru": "Çocuğum için uygun mu, kaç yaşından itibaren başlanır?",

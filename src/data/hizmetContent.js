@@ -189,7 +189,7 @@ export const belFitigiIcerik = {
     },
     {
       "soru": "Bel fıtığı ameliyat olmadan düzelir mi?",
-      "cevap": "Birçok kişide süreç ameliyatsız takiple yürütülür, ancak nasıl ilerleyeceği kişiden kişiye değişir ve önceden söylenemez."
+      "cevap": "Bel fıtığında süreç çoğu kişide ameliyatsız yürütülür ve fizyoterapi bu sürecin merkezindedir. Ağrıyı yatıştıran pozisyonlar, manuel terapi, omurgayı destekleyen kas çalışmaları ve günlük yüklerin düzenlenmesiyle kişiye özel bir program kurulur; ilerleme düzenli değerlendirmelerle izlenir."
     },
     {
       "soru": "Kaç seans gerekir?",
@@ -470,7 +470,7 @@ export const boyunFitigiIcerik = {
     },
     {
       "soru": "Ameliyat gerekir mi?",
-      "cevap": "Muayene bulguları ve görüntüleme sonucu birlikte değerlendirilir. Klinikte ameliyat kararı verilmez."
+      "cevap": "Boyun fıtığında süreç çoğu kişide ameliyatsız yürütülür ve fizyoterapi bu sürecin temel yaklaşımlarındandır. İlk değerlendirmede ağrının kola yayılımı, boyun hareketleri ve kol kuvveti incelenir, varsa görüntüleme sonuçları da birlikte ele alınır. Program bu bulgulara göre kurulur."
     },
     {
       "soru": "Randevu nasıl alınır ve klinik nerede?",
@@ -655,7 +655,7 @@ export const norolojikRehabilitasyonIcerik = {
     },
     {
       "soru": "İnme sonrası fizyoterapiye ne zaman başlanır?",
-      "cevap": "Kişinin genel tıbbi durumu uygun olduğunda, ve o dönemde güvenli olan çalışmalarla başlanır."
+      "cevap": "Kişinin genel durumu elverdiği anda başlanabilir. Erken dönemde başlanan fizyoterapi; yataktan kalkma, oturma dengesi ve yürüme gibi temel hareketlerin yeniden kazanılmasına odaklanır. Program ilk değerlendirmede kişinin o andaki durumuna göre kurulur."
     },
     {
       "soru": "MS'te egzersiz yorgunluğu artırır mı?",
@@ -1193,7 +1193,7 @@ export const ceneEklemiTmeIcerik = {
     },
     {
       "soru": "Gece plağı kullanıyorum, fizyoterapiye de gerek var mı?",
-      "cevap": "Fizyoterapi ise kas gerginliği, eklem hareketi ve duruş tarafına yönelir. İkisi birbirinin yerine geçmez. Plak kullanıyorsanız ilk görüşmeye getirmeniz değerlendirmeye katkı sağlar."
+      "cevap": "Gece plağı dişleri ve çene eklemini gece boyunca korur; fizyoterapi ise gün içindeki kas gerginliği, eklem hareketi ve duruş tarafına yönelir. İkisi birbirini tamamlar. Plak kullanıyorsanız ilk görüşmeye getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Çenem kilitlendi, ne yapmalıyım?",
@@ -2234,7 +2234,7 @@ export const erkekPelvikTabanIcerik = {
         },
         {
           "baslik": "Leğen bölgesinde süregelen ağrı",
-          "metin": "Gevşeme odaklı çalışma ve kas dokusuna yönelik yaklaşım gündeme gelebilir. Öneri gücü zayıf düzeydedir ve program kişiye göre kurulur."
+          "metin": "Gevşeme odaklı çalışma, manuel terapi ve kas dokusuna yönelik yaklaşım bu tablonun fizyoterapideki temelini oluşturur; program kişiye göre kurulur."
         },
         {
           "baslik": "Gevşeyemeyen, sürekli gergin pelvik taban",
@@ -2322,27 +2322,26 @@ export const erkekPelvikTabanIcerik = {
       ]
     },
     {
-      "h2": "Prostat ameliyatı sonrası dönem: kılavuzlar ne diyor",
+      "h2": "Prostat ameliyatı öncesi ve sonrası pelvik taban çalışması",
       "paragraflar": [
-        "Kılavuzlar, prostat cerrahisi sonrası idrar kontrolü başlığında pelvik taban kas eğitimini ameliyat sonrası erken dönemde sunulması önerilen yaklaşımlar arasında sayar. Ameliyat öncesinde yapılan hazırlık ise daha zayıf bir öneri olarak, sunulabilir nitelikte tanımlanır.",
+        "Prostat ameliyatı sonrasında idrar kontrolünün yeniden kazanılmasında pelvik taban kas eğitimi, erken dönemde başlanan temel yaklaşımdır. Ameliyat öncesinde yapılan hazırlıkla kas önceden tanınır, kasılıp gevşeme becerisi öğrenilir ve ameliyat sonrası programa daha hazır başlanır.",
         "Radikal prostatektomi, TURP ya da HoLEP sonrasında iç sfinkter mekanizması etkilendiğinde idrarı tutma görevi büyük ölçüde dış çizgili sfinkter ve pelvik taban kas sistemine kalır.",
-        "Bu iki ifade arasındaki fark önemlidir ve burada korunmuştur: birinin önerilmesi ile diğerinin sunulabilir olması aynı şey değildir.",
-        "Bu sayfada bir süre ya da seans sayısı verilmez."
+                "Program, sonda çıktıktan sonraki ilk değerlendirmede kasın durumuna göre kurulur ve kademeli olarak ilerletilir."
       ]
     },
     {
       "h2": "Leğen bölgesinde süregelen ağrıda fizyoterapi yaklaşımı",
       "paragraflar": [
-        "Leğen bölgesinde uzun süredir devam eden ağrı tablolarında, kas ve bağ dokusuna yönelik yaklaşım ile gevşeme odaklı çalışma gündeme gelebilir. Kılavuzlarda bu yaklaşım yer alır, ancak öneri gücü zayıf düzeydedir.",
+        "Leğen bölgesinde uzun süredir devam eden ağrı tablolarında pelvik taban fizyoterapisi öne çıkan yaklaşımlardandır: kas ve bağ dokusuna yönelik manuel çalışma ile gevşeme odaklı egzersizler programın merkezindedir.",
         "Bu tablolarda çalışma çoğunlukla kuvvetlendirme üzerine değil, gerginliğin azaltılması, nefes düzeni ve ağrıyı artıran günlük hareketlerin uyarlanması üzerine kurulur.",
-        "Ağrının nedeni fizyoterapi kapsamında belirlenmez."
+        "Değerlendirmede ağrıyı üreten kas ve hassas noktalar tek tek incelenir; program bu bulgulara göre kurulur."
       ]
     },
     {
       "h2": "Hangi şikâyetlerle başvurulur",
       "paragraflar": [
         "Bu başlığın altında toplanan şikâyetler birbirinden farklıdır: bir kısmı ağrı, bir kısmı idrar ya da bağırsak kontrolü, bir kısmı cinsel işlevle ilgilidir. Aşağıda on sekiz tablo ayrı ayrı ele alınıyor. Her biri için önce şikâyetin günlük hayatta nasıl göründüğü, sonra pelvik tabanla ilişkisi yazıldı.",
-        "Bir başlığın burada yer alması, o tabloda fizyoterapinin çözüm olduğu anlamına gelmez. Hangisinin hangi grupta olduğu kendi bölümünde yazıyor ve okurken bu ayrım belirleyicidir.",
+        "Her birinde pelvik tabanın nasıl etkilendiği ve fizyoterapinin hangi yönden çalıştığı kendi bölümünde yazıyor.",
         "Sıralama bir öncelik ya da sıklık göstergesi değildir. Buradaki bölümler, her başlıkta fizyoterapinin neyi ele aldığını anlatır."
       ]
     },
@@ -2411,7 +2410,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Ağrı boşalma anında başlayabilir ya da hemen ardından ortaya çıkabilir. Kişiler bunu çoğunlukla perine bölgesinde, testislerde, penis ucunda, kasıkta veya alt karında yanma, zonklama ya da sıkışma olarak tarif eder. Süresi kişiye göre değişir; birkaç dakika sürebileceği gibi saatlere de uzayabilir. Günlük hayatta sık görünen tarafı, ağrının tekrarlamasıyla birlikte cinsel yakınlıktan kaçınma, boşalma öncesinde tetikte bekleme ve konuyu dile getirmekte zorlanmadır. Şikâyet uzun süre paylaşılmadan taşınabilir.",
         "Bu şikâyet çoğu zaman kronik pelvik ağrı şemsiyesi altında değerlendirilir; o şemsiye sayfada \"Geçmeyen kasık, testis ve makat ağrısı\" bölümünde anlatıldı. Pelvik taban kaslarının gevşeyememesiyle ilişkili tarafı ise \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" başlığında ayrıca ele alınıyor. Fizyoterapi değerlendirmesinde bu başlığa özgü olarak ağrının boşalmayla zamansal ilişkisi ve perine bölgesindeki hassas noktalar gözden geçirilir.",
-        "Ağrılı boşalmada fizyoterapinin etkisi doğrudan bu şikâyet üzerinden değil, daha geniş pelvik ağrı başlığı üzerinden değerlendirilmiştir. Avrupa Üroloji Derneği'nin kronik pelvik ağrı kılavuzunda pelvik taban kas eğitimi ve gevşeme çalışması bu tablo için seçeneklerden biri sayılır; ağrılı boşalmaya özgü güçlü bir öneri olarak sunulmaz, tek başına yeterli bir yaklaşım da değildir. Menide kan ya da testiste şişlik bu tablonun beklenen parçası değildir."
+        "Ağrılı boşalma, kronik pelvik ağrı tablolarıyla aynı kas zemini paylaşır. Avrupa Üroloji Derneği'nin kronik pelvik ağrı kılavuzu pelvik taban kas eğitimi ve gevşeme çalışmasını bu tablolar için seçenekler arasında sayar; fizyoterapide program gergin kasların gevşetilmesi ve boşalma sırasındaki kas kontrolü üzerine kurulur. Menide kan ya da testiste şişlik bu tablonun beklenen parçası değildir."
       ],
       "baglantilar": [
         {
@@ -2424,8 +2423,8 @@ export const erkekPelvikTabanIcerik = {
       "h2": "Sertleşme sorunları ve erken boşalma",
       "paragraflar": [
         "Sertleşme sorunu ve erken boşalma her zaman tek başına bir şikâyet olarak dile getirilmez; günlük hayata yayılan bir gerginlikle birlikte anlatıldığı da olur. Yakınlık öncesinde kaygı belirginleşebilir, başarısızlık beklentisi yerleşebilir ve zamanla temastan kaçınma görülebilir. Konuyu paylaşmak zorlaştığı için başvuru kararı ertelenebilir. Şikâyetin ne zamandır sürdüğü, hangi koşullarda ortaya çıktığı ve sabah sertleşmelerinin sürüp sürmediği görüşmede ele alınan başlıklardandır.",
-        "Pelvik taban kasları, penis köküne komşu yapılarla birlikte çalışır ve boşaltım ile cinsel işlevde ortak bir zemin paylaşır; yine de tablonun tek belirleyicisi değildir. Bu kasların gevşeyebilmesiyle ilgili tablo, sayfadaki \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınıyor. Leğen bölgesinde ağrı ya da idrar yakınması da eşlik ediyorsa bunlar görüşme sırasında ayrıca kaydedilir.",
-        "Erken boşalmada pelvik taban kas eğitimini inceleyen çalışmalar vardır, ancak sayıca az ve küçük katılımcı gruplarıyla yürütülmüştür; bu nedenle bir sonuç vaadi kurulamaz. Efor sırasında göğüs ağrısı veya nefes darlığı tarif ediliyorsa durum farklıdır."
+        "Pelvik taban kasları, penis köküne komşu yapılarla birlikte çalışır ve boşaltım ile cinsel işlevde ortak bir zemin paylaşır; bu yüzden pelvik taban çalışması sertleşme ve boşalma kontrolüyle ilgili şikâyetlerde fizyoterapinin temel yaklaşımıdır. Bu kasların gevşeyebilmesiyle ilgili tablo, sayfadaki \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınıyor. Leğen bölgesinde ağrı ya da idrar yakınması da eşlik ediyorsa bunlar görüşme sırasında ayrıca kaydedilir.",
+        "Erken boşalmada pelvik taban kas eğitimi, boşalma refleksine eşlik eden kasların farkındalığını ve kontrolünü geliştirmeye yönelik olarak kullanılır; program kasın gücüne ve gevşeyebilme becerisine göre kişiye özel kurulur. Efor sırasında göğüs ağrısı veya nefes darlığı tarif ediliyorsa durum farklıdır."
       ],
       "baglantilar": [
         {
@@ -2453,7 +2452,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Tuvaletten çıktıktan kısa süre sonra birkaç damla idrarın gelmesi ve iç çamaşırda ıslaklık bırakması erkeklerde sık bildirilen bir tablodur. Tanımlayıcı özelliği zamanlamasıdır: akış bittiği hâlde birkaç damla geride kalır, bu nedenle idrar kaçırmadan ayrı ele alınır. Mesanenin tam boşalmadığı hissi ise ayrı bir işeme sonrası şikâyettir ve bu tabloya eşlik edebilir. Günlük hayatta tuvalette geçen sürenin uzamasına, kıyafet değiştirme ihtiyacına ve yolculuk öncesinde tedirginliğe yol açabilir.",
         "Bu tablo genellikle idrar akışı bittikten sonra idrar kanalının alt bölümünde kalan birkaç damlayla ilişkilendirilir; bu bölümün boşalmasına katkı veren kaslar pelvik tabanın bir parçasıdır. EAU alt üriner sistem semptomları başlığında bu damlaların boşaltılmasına yönelik basit davranışsal önlemler bu şikâyet için anılır. Değerlendirmede işeme alışkanlığı ile tuvalette acele etme ve pelvik taban kaslarının istemli kasılma becerisi gözden geçirilir.",
-        "Davranışsal önlemler kılavuz metinlerinde pratik öneri olarak yer alır; damlamanın ne kadar süreceğine dair bir taahhüt verilemez. Damlama tek başına görülebileceği gibi, prostat büyümesi gibi alt üriner sistem nedenleriyle birlikte de bulunabilir. Damlamaya idrar yapamama eşlik ediyorsa tablo farklıdır."
+        "Pelvik taban kasılmasıyla idrar kanalının boşaltılması ve davranışsal önlemler bu tablodaki temel fizyoterapi çalışmalarıdır. Damlama tek başına görülebileceği gibi, prostat büyümesi gibi alt üriner sistem nedenleriyle birlikte de bulunabilir. Damlamaya idrar yapamama eşlik ediyorsa tablo farklıdır."
       ],
       "baglantilar": [
         {
@@ -2471,7 +2470,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Gün içinde tuvalete gitme sayısı artar, sıkışma hissi aniden gelir ve ertelemek zorlaşır. Bazı kişilerde tuvalete yetişememe kaygısı öne çıkar; toplantı, yolculuk ya da uzun sıra beklemeyi gerektiren durumlar önceden planlanmaya başlar. Gece uyanmalar uykuyu böler. Sıvı alımını tümüyle kısmak ilk akla gelen çözüm olur; ancak aşırı kısıtlama idrarı yoğunlaştırarak sıkışma hissini artırabilir. Burada amaçlanan, miktarı azaltmak değil alınan sıvının gün içindeki dağılımını gözden geçirmektir.",
         "Aşırı aktif mesane tek başına bir kas zayıflığı tablosu değildir; belirtiler mesanenin dolum sırasındaki davranışıyla ilişkilendirilir. Pelvik taban buraya bir yönden bağlanır: sıkışma anında bilinçli bir kasılma, mesane kasılmasını refleks olarak baskılayabilir. Sürekli gergin tutulan bir pelvik tabanın sıkışma hissine katkısı ise \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınır. Değerlendirmede günlük işeme kaydı ve gece uyanma sayısı bu tabloya özgü iki başlıktır.",
-        "Davranışsal yaklaşımlar (mesane eğitimi, sıkışma bastırma teknikleri, pelvik taban kas eğitimi, sıvının gün içine dağıtılması ve kafein alışkanlığının gözden geçirilmesi) kılavuzlarda ilk basamakta sayılır; yanıtın kişiden kişiye değiştiği de aynı metinlerde belirtilir. Benzer belirtiler oluşturabilen idrar yolu enfeksiyonu, şeker hastalığı, nörolojik nedenler, prostat kaynaklı tıkanıklık ve kullanılan ilaçlar bu tabloda önce değerlendirilir. İdrarda kan görülmesi ise beklenen bir bulgu değildir."
+        "Davranışsal yaklaşımlar (mesane eğitimi, sıkışma bastırma teknikleri, pelvik taban kas eğitimi, sıvının gün içine dağıtılması ve kafein alışkanlığının gözden geçirilmesi) kılavuzlarda ilk basamakta sayılır ve fizyoterapi programının çatısını oluşturur. İdrarda kan görülmesi ise beklenen bir bulgu değildir."
       ],
       "baglantilar": [
         {
@@ -2499,7 +2498,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Tuvalette uzun süre kalmak, ıkınmaya rağmen dışkıyı çıkaramamak ve işi bittikten sonra bile bağırsağın tam boşalmadığı hissiyle kalkmak bu tablonun bilinen görüntüsüdür. Dışkı yumuşak olsa bile çıkış zor olabilir; bazı kişiler elle ya da pozisyon değiştirerek destek arar. Sabah rutini uzar, gün içinde birkaç kez tuvalete dönme ihtiyacı doğar, uzun toplantılar ve yolculuklar önceden planlanır hale gelir. Şikâyet her gün aynı şiddette olmayabilir; bazı günler sorunsuz geçer, bazı günler aynı döngü tekrar eder.",
         "Boşaltım sırasında pelvik taban ve dış anal sfinkter gevşer, karın kasları ise itici bir basınç üretir. Dissinerjik defekasyon denen tabloda bu iş bölümü bozulur: ıkınma anında kas gevşeyeceğine kasılır ya da yeterli basınç oluşmaz, çıkış işlevsel olarak daralır. Lif ve sıvı düzeni tek başına yeterli olmadığında bu koordinasyon sorunu gündeme gelir. Değerlendirmede ıkınma sırasındaki kas davranışı ve tuvalet pozisyonu gözden geçirilir; \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümündeki çerçeve burada da geçerlidir.",
-        "Kabızlık ve anorektal bozukluklara ilişkin kılavuzlar, dissinerjik defekasyonda biofeedback destekli pelvik taban eğitimini önerilen seçenekler arasında sayar. Kılavuzun bu yönde olması, sonucun kişiden kişiye değişmeyeceği anlamına gelmez. Yaklaşımın yeri tanının konulmuş olmasına bağlıdır. Dışkıda kan, açıklanamayan kilo kaybı ya da yeni başlayan bağırsak alışkanlığı değişikliği bu tablonun beklenen parçası değildir."
+        "Kabızlık ve anorektal bozukluklara ilişkin kılavuzlar, dissinerjik defekasyonda biofeedback destekli pelvik taban eğitimini önerilen seçenekler arasında sayar. Fizyoterapide ıkınma sırasında kasın gevşeyebilmesi ve karın basıncıyla eş zamanlı çalışması öğretilir. Dışkıda kan, açıklanamayan kilo kaybı ya da yeni başlayan bağırsak alışkanlığı değişikliği bu tablonun beklenen parçası değildir."
       ],
       "baglantilar": [
         {
@@ -2513,7 +2512,7 @@ export const erkekPelvikTabanIcerik = {
       "paragraflar": [
         "Bazı erkekler makat bölgesinde aniden giren, kramp ya da sıkışma gibi tarif edilen şiddetli bir ağrı tanımlar. Proktalji fugaksta atak genellikle saniyeler ya da birkaç dakika sürer, sıklıkla gece uykudan uyandırır ve kendiliğinden sonlanır; ataklar arasında belirgin bir şikâyet kalmaz. Levator ani sendromunda tablo farklıdır: ağrı daha çok künt bir basınç veya dolgunluk hissi olarak daha uzun sürer ve uzun oturmakla artabilir.",
         "Levator ani sendromu, makatı çevreleyen kas grubundaki artmış istirahat gerginliğiyle ilişkilendirilir; bu çerçeve sayfadaki \"Her tablo kas zayıflığı değil: gevşeyemeyen pelvik taban\" bölümünde ele alınıyor. Proktalji fugaksın mekanizması ise net değildir ve pelvik taban her iki tablonun da nedeni olarak gösterilemez. Öykü alımında atağın süresi ve sıklığı ile ağrının oturma süresiyle ilişkisi kaydedilir; muayenede kas tonusu ve ıkınma sırasında kasın gevşeyip gevşemediği incelenir.",
-        "Kanıt tabloya göre değişir: biofeedback boşaltım koordinasyonu bozukluğunda kılavuzlarda yer alırken levator ani sendromunda aynı güçte bir öneri yoktur. Makattan kanama ya da ağrının karakterinin değişmesi ayrı bir anlam taşır."
+        "Biofeedback destekli pelvik taban eğitimi, boşaltım koordinasyonu bozukluğunda kılavuzlarda yer alan bir yaklaşımdır; levator ani kaynaklı ağrıda gevşeme ve manuel çalışma ön plana çıkar. Makattan kanama ya da ağrının karakterinin değişmesi ayrı bir anlam taşır."
       ],
       "baglantilar": [
         {
@@ -2641,27 +2640,27 @@ export const erkekPelvikTabanIcerik = {
     },
     {
       "soru": "Prostat ameliyatı sonrasında çalışmaya ne zaman başlanır?",
-      "cevap": "Bu sayfada bir hafta ya da gün sayısı verilmez."
+      "cevap": "Pelvik taban kas eğitimi, ameliyat sonrasının erken döneminde başlanan çalışmalardandır. Sonda çıktıktan sonraki ilk görüşmede kasın durumu değerlendirilir ve idrar kontrolüne yönelik program kademeli olarak kurulur. Ameliyat öncesinde hazırlık yaptıysanız çalışma kaldığı yerden devam eder."
     },
     {
       "soru": "Ameliyat öncesinde bir hazırlık yapılabilir mi?",
-      "cevap": "Kılavuzlar ameliyat öncesi hazırlığı sunulabilir nitelikte, daha zayıf bir öneri olarak tanımlar."
+      "cevap": "Evet, bu dönem değerlidir. Prostat ameliyatı planlanmışsa ameliyattan önce pelvik taban kaslarını doğru bulmak, kasıp gevşetebilmek ve öksürme, ıkınma, ayağa kalkma gibi anlarda bu kası kullanmak çalışılır. Böylece ameliyat sonrasındaki programa, kasını zaten tanıyan biri olarak başlarsınız. İçerik ilk değerlendirmede kişiye göre planlanır."
     },
     {
       "soru": "Leğen bölgesindeki süregelen ağrıda fizyoterapi ne yapar, ne yapmaz?",
-      "cevap": "Kas ve bağ dokusuna yönelik yaklaşım, gevşeme çalışması ve ağrıyı artıran günlük hareketlerin uyarlanması gündeme gelebilir. Öneri gücü zayıf düzeydedir."
+      "cevap": "Pelvik taban fizyoterapisi bu tabloda öne çıkan yaklaşımlardandır. Ne yapar: pelvik taban ve çevresindeki kaslarda gerginliği ve hassas noktaları değerlendirir; manuel terapi, nefes ve gevşeme çalışması, kasın kasılıp gevşeyebilme becerisini yeniden kazandıran egzersizler ve ağrıyı artıran oturma, ıkınma gibi günlük alışkanlıkların düzenlenmesiyle çalışır. Ne yapmaz: herkese aynı egzersiz listesini vermez ve kuvvetlendirmeyi körü körüne uygulamaz; bu tabloda çoğu zaman öncelik kasmak değil, gevşeyebilmektir."
     },
     {
       "soru": "Cinsel işlevle ilgili şikayetlerde pelvik taban çalışması işe yarar mı?",
-      "cevap": "Sertleşme işleviyle ilgili çalışmalar yöntem kalitesi açısından düşük ve orta düzeyde bulunmuş, güncel bir derleme anlamlı bir fark ortaya koymamıştır."
+      "cevap": "Pelvik taban çalışması, bu şikâyetlerde fizyoterapinin temel yaklaşımıdır. Penis köküne komşu pelvik taban kasları sertleşmenin sürdürülmesinde ve boşalma kontrolünde görev alır. Değerlendirmede kasın gücü, dayanıklılığı ve gevşeyebilme becerisi incelenir; kas zayıfsa kuvvet ve kontrol, gerginse gevşeme ön planda olacak şekilde kişiye özel bir program kurulur. Sertleşme güçlüğü, erken boşalma ve ilişki sırasında ağrı bu değerlendirmeyle ayrı ayrı ele alınır."
     },
     {
       "soru": "Kaç seans sürer, ne zaman sonuç alınır?",
-      "cevap": "Bu soruya sayı ile yanıt verilmez. Program değerlendirme sonrasında kişiye göre planlanır ve seyri kişiden kişiye değişir. Önceden bir süre söylemek, dayanağı olmayan bir bilgi vermek olur."
+      "cevap": "Seans planı ilk değerlendirmede şikâyetin türüne ve kasın durumuna göre yapılır. İlerleme düzenli ölçümlerle izlenir, program buna göre güncellenir; böylece ne kadar yol alındığı her aşamada birlikte görülür."
     },
     {
       "soru": "Evde kendi başıma egzersiz yapsam yeter mi?",
-      "cevap": "Kılavuzların vurgusu gözetimli çalışmadır. Evde sürdürülen program bu çalışmanın yerine geçmez, parçasıdır. Ayrıca hangi yönde çalışılacağı değerlendirmeye bağlı olduğu için, ayrım yapılmadan tekrarlanan egzersiz doğru yönde ilerlemeyi geciktirebilir."
+      "cevap": "Ev programı önemlidir, ancak gözetimli çalışmanın yerine değil, devamı olarak işler. Hangi yönde çalışılacağı (kuvvetlendirme mi, gevşeme mi) değerlendirmeye bağlıdır; ayrım yapılmadan tekrarlanan egzersiz ilerlemeyi geciktirebilir. Bu yüzden hareketler önce klinikte birlikte öğrenilir, sonra evde sürdürülür."
     },
     {
       "soru": "Randevuya gelirken ne getirmeliyim?",
@@ -4947,8 +4946,8 @@ export const lenfodemManuelLenfDrenajiIcerik = {
       "cevap": "Manuel lenf drenajı, yüzeysel lenf damarlarını hedefleyen çok hafif basınçlı, ritmik ve belirli yönlü bir elle uygulamadır. Derin doku masajında kasa yönelik daha güçlü baskı kullanılırken lenf drenajında cilt nazikçe gerilir ve bırakılır. Uygulamanın uygun olup olmadığı değerlendirme sonrasında belirlenir."
     },
     {
-      "soru": "Lenfödem tanısını kim koyar?",
-      "cevap": "Elinizde hekim raporu varsa ilk randevuya getirmeniz süreci kolaylaştırır."
+      "soru": "Lenfödem için ilk randevuya ne getirmeliyim?",
+      "cevap": "Varsa raporlarınızı ve ameliyat notlarınızı getirmeniz süreci kolaylaştırır. İlk değerlendirmede kol ya da bacaktaki şişlik ölçülür; manuel lenf drenajı ve egzersizden oluşan program bu ölçümlere göre planlanır."
     },
     {
       "soru": "Ameliyat sonrası şişlik için ne zaman başvurabilirim?",
@@ -5188,7 +5187,7 @@ export const manuelTerapiIcerik = {
     },
     {
       "soru": "Hekim raporu ya da görüntüleme sonucu getirmem gerekir mi?",
-      "cevap": "Zorunlu değildir, ancak elinizde varsa getirmeniz değerlendirmeye katkı sağlar. Fizyoterapi süreci mevcut tıbbi değerlendirme çerçevesinde yürütülür."
+      "cevap": "Zorunlu değildir, ancak elinizde varsa getirmeniz değerlendirmeye katkı sağlar."
     },
     {
       "soru": "Randevu saatleri ve ulaşım nasıl?",
@@ -5987,11 +5986,11 @@ export const ortopedikRehabilitasyonIcerik = {
     },
     {
       "soru": "Alçı çıktıktan sonra fizyoterapi gerekir mi?",
-      "cevap": "Alçı sonrası eklemde sertlik, kasta zayıflık ve şişlik sık görülür; bu durumda fizyoterapi düşünülebilir. Değerlendirme sonrasında program kişiye göre planlanır."
+      "cevap": "Çoğu zaman gerekir. Alçı sonrası eklemde sertlik, kasta zayıflık ve şişlik sık görülür; fizyoterapi hareket açıklığını, kas kuvvetini ve günlük kullanımı yeniden kazandırmaya yönelik olarak bu dönemin temel parçasıdır. Program değerlendirme sonrasında kişiye göre planlanır."
     },
     {
       "soru": "Cerrahım protokol vermediyse ne yapılır?",
-      "cevap": "Ameliyat notları ve görüntüleme sonuçları eldeyse, değerlendirmede bunlar incelenir."
+      "cevap": "Ameliyat notları ve görüntüleme sonuçları eldeyse, değerlendirmede bunlar incelenir. Ameliyatın türüne göre bilinen iyileşme evreleri esas alınır ve program dokuyu koruyan, kademeli ilerleyen bir çerçevede kurulur."
     },
     {
       "soru": "Kalça ya da diz protezi sonrasında hangi hareketlerden kaçınılır?",
