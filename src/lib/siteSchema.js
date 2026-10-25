@@ -95,7 +95,10 @@ export function klinikTamKaydi(kategoriler) {
     },
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Kozyatağı Mah. Gülbahar Sk., Ege Yıldız Sitesi, No:15',
+      // Google Haritalar'ın gösterdiği biçim (25.10.2026): "Kozyatağı, Gülbahar Sk. Ege Yıldız
+      // Sitesi No:15, 34742 Kadıköy/İstanbul". Standart: fark varsa görünen biçim esas alınır.
+      // Sitedeki görünür adres (NAP) GBP'ye girilen satırlarla aynı kalır.
+      streetAddress: 'Kozyatağı, Gülbahar Sk. Ege Yıldız Sitesi No:15',
       addressLocality: LOCATION.district,
       addressRegion: LOCATION.city,
       postalCode: '34742',
@@ -110,7 +113,8 @@ export function klinikTamKaydi(kategoriler) {
         containedInPlace: { '@type': 'City', name: LOCATION.city },
       },
     ],
-    sameAs: ['https://x.com/fztonuryalcin'],
+    // Haritalar kaydı ve GBP'deki sosyal profiller (url_twitter, url_instagram).
+    sameAs: [GBP_MAP_URL, 'https://www.instagram.com/fztonuryalcin/', 'https://x.com/fztonuryalcin'],
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
