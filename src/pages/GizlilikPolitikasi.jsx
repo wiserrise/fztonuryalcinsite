@@ -71,7 +71,7 @@ const bolumler = [
       'Sitede aşağıdaki üçüncü taraf hizmetleri kullanılmaktadır. Bu hizmetler kendi çerezlerini yerleştirebilir ve verileri kendi gizlilik politikaları çerçevesinde işler.',
     ],
     liste: [
-      'Google Ads etiketi (gtag.js): reklamların hangi ziyaretçi eylemleriyle sonuçlandığını ölçmek için kullanılır. Ölçülen eylemler; WhatsApp bağlantısına tıklama, telefon numarasına tıklama ve iletişim formunun gönderilmesidir.',
+      'Google Ads etiketi (gtag.js): reklamların hangi ziyaretçi eylemleriyle sonuçlandığını ölçmek için kullanılır. Ölçülen eylemler; WhatsApp bağlantısına tıklama, telefon numarasına tıklama ve iletişim formunun gönderilmesidir. Randevu formu gönderildiğinde formda yazdığınız telefon numarası Google\'a açık metin olarak değil, geri çevrilemeyen şifrelenmiş (özetlenmiş) biçimde iletilir ve yalnız reklamlardan gelen taleplerin ölçülmesi için eşleştirmede kullanılır.',
       'Google Haritalar: iletişim sayfasındaki ve alt bilgideki harita, Google sunucularından yüklenir.',
       'FormSubmit: iletişim formunun gönderimini e-postaya ileten üçüncü taraf hizmettir. Form gönderdiğinizde girdiğiniz bilgiler bu hizmet üzerinden iletilir ve hizmetin sunucuları yurt dışında bulunur.',
     ],
