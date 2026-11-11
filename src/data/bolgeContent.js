@@ -69,7 +69,7 @@ export const kozyatagiIcerik = {
       ],
       "baglantilar": [
         {
-          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "metin": "Fizik tedavi uzmanı değerlendirmesi",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
         }
       ]
@@ -312,7 +312,7 @@ export const sahrayiceditIcerik = {
       ],
       "baglantilar": [
         {
-          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "metin": "Fizik tedavi uzmanı değerlendirmesi",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
         }
       ]
@@ -498,7 +498,7 @@ export const erenkoyIcerik = {
       ],
       "baglantilar": [
         {
-          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "metin": "Fizik tedavi uzmanı değerlendirmesi",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
         }
       ]
@@ -739,7 +739,7 @@ export const suadiyeIcerik = {
       ],
       "baglantilar": [
         {
-          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "metin": "Fizik tedavi uzmanı değerlendirmesi",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
         }
       ]

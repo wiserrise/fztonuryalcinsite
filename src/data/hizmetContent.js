@@ -70,7 +70,7 @@ export const belFitigiIcerik = {
       ],
       "baglantilar": [
         {
-          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "metin": "Fizik tedavi uzmanı değerlendirmesi",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
         }
       ]
@@ -319,7 +319,7 @@ export const boyunFitigiIcerik = {
       ],
       "baglantilar": [
         {
-          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "metin": "Fizik tedavi uzmanı değerlendirmesi",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
         }
       ]
@@ -1384,7 +1384,7 @@ export const sporYaralanmalariIcerik = {
       ],
       "baglantilar": [
         {
-          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "metin": "Fizik tedavi uzmanı değerlendirmesi",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
         }
       ]
@@ -2709,7 +2709,7 @@ export const visseralTerapiIcerik = {
       ],
       "baglantilar": [
         {
-          "metin": "Manuel terapi ve fizyoterapi değerlendirmesi",
+          "metin": "Fizik tedavi uzmanı değerlendirmesi",
           "yol": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani"
         }
       ]

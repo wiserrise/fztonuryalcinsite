@@ -511,7 +511,7 @@ export const landings = [
       "konumMetni": "Gülbahar Sokak, Ege Yıldız Sitesi No:15, Kozyatağı, Kadıköy, İstanbul. Kozyatağı metro istasyonuna yürüme mesafesinde. Randevu saatleri Pazartesi ile Cumartesi arası 09:00-21:00. Telefon: 0507 294 99 00.",
       "ilgiliBaglantilar": [
           {
-              "to": "/tedavi-yaklasimlarimiz/fizik-tedavi-uzmani",
+              "to": "/manuel-terapi-kadikoy",
               "label": "Manuel terapi ve visseral manipülasyon"
           },
           {
